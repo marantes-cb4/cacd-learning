@@ -11,14 +11,14 @@
 | **Ciclo atual** | Ciclo 0 — Fundação |
 | **Semana do ciclo** | 1 |
 | **Data de início** | Maio 2026 |
-| **Próxima meta** | Contratar curso + iniciar leituras estruturantes |
+| **Próxima meta** | Contratar curso + iniciar leituras estruturantes (meta: 200+ pts) |
 | **Score simulado mais recente** | 122.75 (TPS 2026 — Fase 1 real) |
 
 ---
 
 ## Progresso por Matéria
 
-### Direito ⚠️ PRIORIDADE MÁXIMA
+### Direito 🔴 PRIORIDADE MÁXIMA
 - **Baseline TPS 2026:** 33% (8/24 corretas)
 - **Meta Fase 1 2027:** 75%+
 - **Curso contratado:** _(preencher)_
@@ -39,7 +39,7 @@
 
 ---
 
-### História do Brasil ⚠️ ALTA PRIORIDADE
+### História do Brasil 🟠 PRIORIDADE INTERMEDIÁRIA
 - **Baseline TPS 2026:** 46% (12/26 corretas)
 - **Meta Fase 1 2027:** 75%+
 - **Curso contratado:** _(preencher)_
@@ -64,7 +64,7 @@
 
 ---
 
-### Economia 🔶 REVISÃO + PRÁTICA
+### Economia 🔴 PRIORIDADE MÁXIMA
 - **Baseline TPS 2026:** 58% (14/24 corretas)
 - **Meta Fase 1 2027:** 75%+
 - **Curso/plataforma:** _(preencher — sugestão: Estratégia/Celso Natale)_
