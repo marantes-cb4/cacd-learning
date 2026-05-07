@@ -23,15 +23,15 @@
 
 | Matéria | Opção 1 | Opção 2 | Preço estimado | Por que escolher |
 |---------|---------|---------|---------------|-----------------|
-| **Direito** | Curso CEI | Guilherme Bystronski (autônomo) | R$ 150–400/módulo (CEI) / verificar | CEI: correção individual de dissertações; Bystronski: avaliado especificamente para CACD |
-| **Economia** | Marcello Bolzan (autônomo) | Curso CEI | verificar / R$ 150–400/módulo | Bolzan: referência específica para CACD; CEI: correção de dissertações |
+| **Direito** | Guilherme Bystronski (autônomo) | Aziz Saliba (autônomo) | verificar direto | Bystronski: avaliado especificamente para CACD; Saliba: mais citado para DIP |
+| **Economia** | Marcello Bolzan (autônomo) | Eliezer Lopes (autônomo) | verificar direto | Bolzan: referência específica para CACD; Lopes: bem avaliado no Nabuco |
 | **História do Brasil** | Luigi Bonafé (autônomo) | Rodrigo Goyena (autônomo) | verificar direto | Consenso absoluto na comunidade para HB no CACD |
 | **Língua Inglesa** | Recursos gratuitos | — | gratuito | Com 67%, leitura diária supera qualquer curso pago |
 | **Política Internacional** | Bruno Rezende (autônomo) | Thomaz Napoleão (IDEG) | verificar direto | Rezende: consenso no Reddit; Napoleão: bem avaliado no IDEG |
 | **História Mundial** | Hobsbawm (leitura direta) | Questões CACD antigas | gratuito | HM pode ser resolvida com leituras + questões |
 | **Geografia** | Thiago Rocha (IDEG) | Evandro Costa (autônomo) | verificar direto | Avaliações 100 na comunidade; recorte CACD |
 | **Língua Portuguesa** | Luis Ladeira (IDEG) | Cláudia Simionato (autônoma) | verificar direto | Com 84%, só para Fase 2 — correção de dissertações |
-| **Espanhol** | Professor autônomo CACD-específico | Curso CEI (módulo Espanhol) | verificar direto | Foco em escrita dissertativa formal para Fase 2 |
+| **Espanhol** | Professor autônomo CACD-específico | — | verificar direto | Foco em escrita dissertativa formal para Fase 2 |
 
 ---
 
@@ -40,22 +40,13 @@
 ### O que o CACD cobra
 Fase 1: Constitucional, Administrativo, Internacional. Fase 2: dissertativa com foco pesado em **Direito Internacional Público** — tratados, CIJ, costumes, fontes do DI.
 
-### Cursos CACD-Especializados
-
-#### Curso CEI
-- **Professores:** Douglas Vargas (Constitucional), equipe de DI
-- **Formato:** gravado + turmas com correção individual de dissertações
-- **Preço:** ~R$ 150–400/módulo ou ~R$ 1.200–2.000/ano
-- **Pros:** correção individual de dissertações é o diferencial; forte para Fase 2 de Direito
-- **Veredito:** ✅ Principal opção CACD-específica para Direito
-
 ### Professores indicados pela comunidade CACD
 
 | # | Professor | Fonte | Observações |
 |---|-----------|-------|-------------|
 | 1 | **Guilherme Bystronski** | Sites especializados | Bem avaliado especificamente para CACD |
-| 2 | **Pedro Sloboda** | IDEG / reviews | Referência para DI Público |
-| 3 | **Aziz Saliba** | Aprovados | Mais citado para DIP; pesquise a oferta atual |
+| 2 | **Aziz Saliba** | Aprovados | Mais citado para DIP; pesquise a oferta atual |
+| 3 | **Pedro Sloboda** | IDEG / reviews | Referência para DI Público |
 | 4 | **Ricardo Macau** | Reddit + Nabuco | Mencionado com frequência na comunidade |
 
 ### Recursos Gratuitos
@@ -65,7 +56,7 @@ Fase 1: Constitucional, Administrativo, Internacional. Fase 2: dissertativa com 
 - **Canal YouTube STF**: jurisprudência constitucional atualizada
 
 ### O que aprovados dizem
-Celso Mello é a bíblia do DIP para o CACD. Para a Fase 2, **correção de dissertações é indispensável** — CEI é o nome mais citado para isso.
+Celso Mello é a bíblia do DIP para o CACD. Para a Fase 2, **correção de dissertações é indispensável** — priorize professores autônomos com histórico comprovado no CACD.
 
 ---
 
@@ -73,14 +64,6 @@ Celso Mello é a bíblia do DIP para o CACD. Para a Fase 2, **correção de diss
 
 ### O que o CACD cobra
 Micro, macro, história econômica do Brasil, comércio internacional. Fase 2 exige dissertação técnica com gráficos (IS-LM, Mundell-Fleming), análise de política econômica, domínio conceitual.
-
-### Cursos CACD-Especializados
-
-#### Curso CEI
-- **Formato:** módulos gravados + correção de dissertações de Economia
-- **Preço:** ~R$ 150–400/módulo
-- **Pros:** correção individual para Fase 2; conteúdo calibrado para CACD
-- **Veredito:** ✅ Principal opção estruturada para Economia
 
 ### Professores indicados pela comunidade CACD
 
@@ -142,7 +125,7 @@ Fase 1 e Fase 2. A banca cobra **historiografia** — correntes, autores, debate
 Fase 1: leitura e compreensão de textos complexos (artigos acadêmicos, documentos diplomáticos). Formato certo/errado. Nível C1.
 
 ### Estratégia
-Com 67%, leitura extensiva diária supera qualquer curso pago. Não há curso CACD-específico para inglês que justifique o custo dado seu nível — o investimento é em exposição a textos do exato nível e estilo da prova.
+Com 67%, leitura extensiva diária supera qualquer curso pago. Não há professor autônomo CACD-específico para inglês que justifique o custo dado seu nível — o investimento é em exposição a textos do exato nível e estilo da prova.
 
 ### Recursos (mais eficazes que curso pago)
 - **The Economist** (economist.com): textos no exato nível e estilo do CACD — leitura obrigatória
@@ -182,7 +165,7 @@ Fase 1 e Fase 2. Teoria das RI, conjuntura internacional, OIs, PEB, ordem mundia
 - Publicações FUNAG: série Política Externa Brasileira
 
 ### O que aprovados dizem
-Xadrez Verbal é onipresente nos relatos de aprovados. Publicações da FUNAG são leitura obrigatória. Bruno Rezende é o professor pago mais frequentemente citado para PI.
+Xadrez Verbal é onipresente nos relatos de aprovados. Publicações da FUNAG são leitura obrigatória. Bruno Rezende é o professor mais frequentemente citado para PI.
 
 ---
 
@@ -239,12 +222,6 @@ Fase 1: compreensão de textos complexos + gramática contextual. Fase 2: disser
 | 2 | **Cláudia Simionato** | Reddit | Bem avaliada pela comunidade |
 | 3 | **Ivo Yonamine** | Nabuco | Mencionado nos reviews |
 
-### Cursos CACD-Especializados
-
-#### Curso CEI
-- Para Fase 2 de LP: módulos com correção de dissertações
-- **Veredito:** quando chegar à Fase 2, correção individual é indispensável. Por ora (Fase 1 84%), manutenção via leitura.
-
 ### Recursos Gratuitos
 - **Leitura de literatura brasileira**: Machado de Assis, Clarice Lispector, Guimarães Rosa — ler boa literatura melhora a escrita mais do que qualquer curso
 
@@ -258,15 +235,9 @@ Para Fase 2: **só melhora quem escreve muito e recebe feedback qualificado**. C
 ### O que o CACD cobra
 Fase 2: produção escrita dissertativa formal. Nível C1. A banca avalia estrutura argumentativa, precisão gramatical, vocabulário e registro.
 
-### Cursos CACD-Especializados
-
-#### Curso CEI
-- Módulo de Espanhol com foco em escrita para CACD
-- **Veredito:** verificar disponibilidade e avaliações atuais
-
-#### Professores autônomos
+### Professores autônomos
 - Pesquise "redação espanhol CACD" — há professores com experiência comprovada na banca
-- Priorize quem tem histórico com aprovados no CACD
+- Priorize quem tem histórico com aprovados no CACD e oferece correção de dissertações
 
 ### Recursos Gratuitos
 - **El País** (elpais.com) ⭐: leitura diária de espanhol culto de alto nível; indispensável para vocabulário e estilo formal
@@ -291,7 +262,6 @@ Fase 2: produção escrita dissertativa formal. Nível C1. A banca avalia estrut
 - **Reddit r/concursospublicos** e grupos Telegram CACD: candidatos compartilham materiais e questões comentadas
 
 ### Simulados
-- **Curso CEI**: simulados e correções
 - **Simulados internos**: use as provas TPS dos últimos 5 anos como simulados cronometrados — é o recurso mais fiel ao exame real
 
 ### Gabaritos e Comentários Oficiais
@@ -309,18 +279,14 @@ Fase 2: produção escrita dissertativa formal. Nível C1. A banca avalia estrut
 
 ## Estratégia de Contratação Recomendada
 
-### Opção A — Por prioridade (recomendado)
-- **Direito:** Curso CEI módulo + professor autônomo para DIP (Bystronski ou Aziz Saliba) (~R$ 400–800)
-- **Economia:** Marcello Bolzan ou Eliezer Lopes (autônomos) + Curso CEI dissertações (~R$ 300–600)
-- **HB:** Luigi Bonafé ou Rodrigo Goyena (autônomos) (~R$ 300–500)
+### Por prioridade
+- **Direito:** Guilherme Bystronski ou Aziz Saliba (autônomos) — DIP é o core da Fase 2
+- **Economia:** Marcello Bolzan ou Eliezer Lopes (autônomos)
+- **HB:** Luigi Bonafé ou Rodrigo Goyena (autônomos)
 - **PI:** Bruno Rezende (autônomo)
+- **Geo:** Thiago Rocha (IDEG) ou Evandro Costa
+- **LP / Espanhol Fase 2:** professor autônomo CACD com correção de dissertações
 - **Demais:** recursos gratuitos (FUNAG, CPDOC, Xadrez Verbal, El País, The Economist)
-- **Custo estimado:** R$ 1.200–2.500
-
-### Opção B — Curso CEI assinatura anual
-- Cobre múltiplas matérias com correção de dissertações em uma só plataforma
-- **Custo estimado:** ~R$ 1.200–2.000/ano
-- **Complementar:** professores autônomos para Direito e Economia (prioridades máximas)
 
 ### Gratuitos inegociáveis (independente da opção)
 - Podcast **Xadrez Verbal** (PI + HM + conjuntura)
@@ -333,4 +299,4 @@ Fase 2: produção escrita dissertativa formal. Nível C1. A banca avalia estrut
 
 ---
 
-> **Contatos diretos:** cursocei.com | funag.gov.br | cpdoc.fgv.br | itamaraty.gov.br (provas anteriores) | qconcursos.com | tecconcursos.com.br
+> **Referências:** funag.gov.br | cpdoc.fgv.br | itamaraty.gov.br (provas anteriores) | qconcursos.com | tecconcursos.com.br
