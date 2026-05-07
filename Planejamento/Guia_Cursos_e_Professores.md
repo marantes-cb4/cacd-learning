@@ -73,6 +73,14 @@ Fase 1: Direito Constitucional, Administrativo, Internacional. Fase 2: prova dis
 - **Contras:** DI não é o ponto forte; professores não são diplomatas; Fase 2 precisa de complementação
 - **Veredito:** útil só para Fase 1 de Direito Constitucional/Administrativo
 
+### Professores indicados pela comunidade CACD
+
+| # | Professor | Fonte | Observações |
+|---|-----------|-------|-------------|
+| 1 | **Guilherme Bystronski** | Sites especializados | Bem avaliado especificamente para CACD |
+| 2 | **Pedro Sloboda** | IDEG / reviews | Referência para DI Público |
+| 3 | **Ricardo Macau** | Reddit + Nabuco | Mencionado com frequência na comunidade |
+
 ### Professor-chave para DI Público
 - **Prof. Aziz Saliba** (FUMEC/IEB): um dos nomes mais citados por aprovados especificamente para Direito Internacional Público. Ministra cursos em diversas plataformas — pesquise a oferta atual.
 
@@ -111,6 +119,14 @@ Fase 1 e Fase 2. A banca cobra **historiografia** (correntes, autores, debates),
 - **Pros:** didático, bom para revisão
 - **Contras:** não tem o recorte historiográfico específico do CACD
 - **Veredito:** mesmo que o Gran — complemento para Fase 1
+
+### Professores indicados pela comunidade CACD
+
+| # | Professor | Fonte | Observações |
+|---|-----------|-------|-------------|
+| 1 | **Luigi Bonafé** | Sites especializados + Reddit | "Vale MUUUITO a pena, apesar de ser super cansativo" — consenso no Reddit |
+| 2 | **Rodrigo Goyena** | Reddit + reviews | Bem avaliado pela comunidade |
+| 3 | **João Daniel** | Reddit + Nabuco | Mencionado com frequência |
 
 ### Recursos Gratuitos
 - **CPDOC/FGV** (cpdoc.fgv.br): acervo digitalizado, verbetes de história brasileira, entrevistas históricas — gratuito e de altíssima qualidade; indispensável para PEB e história republicana
@@ -154,6 +170,15 @@ Micro, macro, história econômica do Brasil, comércio internacional. Fase 2 ex
 - **Pros:** nível acadêmico elevado; base sólida
 - **Contras:** tempo e custo elevados; não CACD-específico
 - **Veredito:** opcional para quem quer aprofundamento acadêmico
+
+### Professores indicados pela comunidade CACD
+
+| # | Professor | Fonte | Observações |
+|---|-----------|-------|-------------|
+| 1 | **Marcello Bolzan** | Sites especializados | Referência em Economia para CACD |
+| 2 | **Eliezer Lopes** | Nabuco / reviews | Bem avaliado |
+| 3 | **Michelle Miltons** | Reddit | Aparece na comunidade; poucos reviews detalhados — pesquisar mais antes de contratar |
+| 4 | **Armstrong** | Reddit | Idem — presente na comunidade mas sem avaliações aprofundadas disponíveis |
 
 ### Recursos Gratuitos
 - **Podcast "Café com Macro"** (XP/Itaú): análise macroeconômica aplicada; excelente para economia brasileira contemporânea
@@ -229,6 +254,14 @@ Fase 1 e Fase 2. Teoria das RI (realismo, liberalismo, construtivismo, teoria cr
 - **Pros:** bom para Fase 1; cobre teorias de RI de forma estruturada
 - **Contras:** não tem a profundidade analítica da Fase 2 do CACD
 - **Veredito:** complemento para Fase 1
+
+### Professores indicados pela comunidade CACD
+
+| # | Professor | Fonte | Observações |
+|---|-----------|-------|-------------|
+| 1 | **Bruno Rezende** | Reddit + sites especializados | Consenso absoluto na comunidade para PI/RI |
+| 2 | **Paulo Velasco** | Nabuco | Bem avaliado |
+| 3 | **Thomaz Napoleão** | IDEG | Mencionado nos reviews |
 
 ### Recursos Gratuitos (altamente eficazes)
 - **Podcast "Xadrez Verbal"** ⭐: recurso gratuito mais citado por aprovados; análise geopolítica com profundidade analítica real; desenvolve "vocabulário geopolítico"
@@ -309,6 +342,14 @@ Geopolítica, geografia econômica, recursos naturais, questões ambientais, fro
 - Integra Geografia com Geopolítica e PI
 - **Veredito:** se já tem o pacote, é o mais alinhado ao CACD
 
+### Professores indicados pela comunidade CACD
+
+| # | Professor | Fonte | Observações |
+|---|-----------|-------|-------------|
+| 1 | **Thiago Rocha** | IDEG / reviews | Referência em Geografia para CACD |
+| 2 | **Evandro Costa** | Nabuco | Nota 100 nos reviews |
+| 3 | **João Felipe** | Reddit | Mencionado pela comunidade |
+
 ### Recursos Gratuitos
 - **IBGE** (ibge.gov.br): dados e publicações sobre geografia do Brasil — indispensável
 - **YouTube "Geobrasil"**: geografia do Brasil para concursos
@@ -339,6 +380,14 @@ Fase 1: compreensão de textos complexos (literários, filosóficos, técnicos) 
 #### Curso CEI / Diplomata Edu
 - Para Fase 2 de LP: módulos com correção de dissertações
 - **Veredito:** quando chegar na preparação para Fase 2, a correção individual é indispensável
+
+### Professores indicados pela comunidade CACD
+
+| # | Professor | Fonte | Observações |
+|---|-----------|-------|-------------|
+| 1 | **Luis Ladeira** | IDEG | Referência para LP no CACD |
+| 2 | **Cláudia Simionato** | Reddit | Bem avaliada pela comunidade |
+| 3 | **Ivo Yonamine** | Nabuco | Mencionado nos reviews |
 
 ### Recursos Gratuitos
 - **YouTube "Prof. Noslen"** ⭐: muito didático e visual; excelente para perfil interativo
