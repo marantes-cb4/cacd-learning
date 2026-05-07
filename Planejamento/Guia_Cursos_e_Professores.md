@@ -23,15 +23,15 @@
 
 | Matéria | Opção 1 | Opção 2 | Preço estimado | Por que escolher |
 |---------|---------|---------|---------------|-----------------|
-| **Direito** | Diplomata Edu | Curso CEI | R$ 3–5k (Dip.) / R$ 150–400/módulo (CEI) | Dip. Edu: 100% CACD, mentorias ao vivo. CEI: correção individual de dissertações |
-| **Economia** | Diplomata Edu | Marcello Bolzan (autônomo) | incluso no pacote / verificar | Dip. Edu: contexto CACD. Bolzan: referência específica para CACD |
+| **Direito** | Curso CEI | Guilherme Bystronski (autônomo) | R$ 150–400/módulo (CEI) / verificar | CEI: correção individual de dissertações; Bystronski: avaliado especificamente para CACD |
+| **Economia** | Marcello Bolzan (autônomo) | Curso CEI | verificar / R$ 150–400/módulo | Bolzan: referência específica para CACD; CEI: correção de dissertações |
 | **História do Brasil** | Luigi Bonafé (autônomo) | Rodrigo Goyena (autônomo) | verificar direto | Consenso absoluto na comunidade para HB no CACD |
 | **Língua Inglesa** | Recursos gratuitos | — | gratuito | Com 67%, leitura diária supera qualquer curso pago |
-| **Política Internacional** | Diplomata Edu (Marcelo Alvim) | Bruno Rezende (autônomo) | incluso no pacote / verificar | Alvim: diplomata de carreira; Rezende: consenso no Reddit |
-| **História Mundial** | Diplomata Edu | Hobsbawm (leitura direta) | incluso no pacote / gratuito | HM pode ser resolvida com leituras + questões CACD |
+| **Política Internacional** | Bruno Rezende (autônomo) | Thomaz Napoleão (IDEG) | verificar direto | Rezende: consenso no Reddit; Napoleão: bem avaliado no IDEG |
+| **História Mundial** | Hobsbawm (leitura direta) | Questões CACD antigas | gratuito | HM pode ser resolvida com leituras + questões |
 | **Geografia** | Thiago Rocha (IDEG) | Evandro Costa (autônomo) | verificar direto | Avaliações 100 na comunidade; recorte CACD |
 | **Língua Portuguesa** | Luis Ladeira (IDEG) | Cláudia Simionato (autônoma) | verificar direto | Com 84%, só para Fase 2 — correção de dissertações |
-| **Espanhol** | Diplomata Edu | Professor autônomo CACD-específico | incluso no pacote / verificar | Foco em escrita dissertativa formal para Fase 2 |
+| **Espanhol** | Professor autônomo CACD-específico | Curso CEI (módulo Espanhol) | verificar direto | Foco em escrita dissertativa formal para Fase 2 |
 
 ---
 
@@ -42,18 +42,12 @@ Fase 1: Constitucional, Administrativo, Internacional. Fase 2: dissertativa com 
 
 ### Cursos CACD-Especializados
 
-#### Diplomata Edu
-- **Formato:** videoaulas + mentorias ao vivo + simulados com correção
-- **Preço estimado:** incluso no pacote completo (~R$ 3.000–5.000/ano)
-- **Pros:** conteúdo 100% CACD; mentorias ao vivo ideais para perfil interativo; DIP com profundidade; correção de dissertações
-- **Veredito:** ✅ Melhor opção para pacote completo
-
 #### Curso CEI
 - **Professores:** Douglas Vargas (Constitucional), equipe de DI
 - **Formato:** gravado + turmas com correção individual de dissertações
 - **Preço:** ~R$ 150–400/módulo ou ~R$ 1.200–2.000/ano
 - **Pros:** correção individual de dissertações é o diferencial; forte para Fase 2 de Direito
-- **Veredito:** ✅ Excelente para Fase 2 de Direito; complemento CACD-específico
+- **Veredito:** ✅ Principal opção CACD-específica para Direito
 
 ### Professores indicados pela comunidade CACD
 
@@ -71,7 +65,7 @@ Fase 1: Constitucional, Administrativo, Internacional. Fase 2: dissertativa com 
 - **Canal YouTube STF**: jurisprudência constitucional atualizada
 
 ### O que aprovados dizem
-Celso Mello é a bíblia do DIP para o CACD. Para a Fase 2, **correção de dissertações é indispensável** — CEI e Diplomata Edu são os nomes mais citados.
+Celso Mello é a bíblia do DIP para o CACD. Para a Fase 2, **correção de dissertações é indispensável** — CEI é o nome mais citado para isso.
 
 ---
 
@@ -82,15 +76,11 @@ Micro, macro, história econômica do Brasil, comércio internacional. Fase 2 ex
 
 ### Cursos CACD-Especializados
 
-#### Diplomata Edu
-- **Diferencial:** Economia internacional integrada ao contexto CACD; resolução de provas antigas
-- **Pros:** conteúdo calibrado para o nível da Fase 2; mentorias ao vivo
-- **Veredito:** ✅ Melhor opção dentro de um pacote completo
-
 #### Curso CEI
 - **Formato:** módulos gravados + correção de dissertações de Economia
-- **Pros:** correção individual para Fase 2
-- **Veredito:** ✅ Complemento forte para Fase 2
+- **Preço:** ~R$ 150–400/módulo
+- **Pros:** correção individual para Fase 2; conteúdo calibrado para CACD
+- **Veredito:** ✅ Principal opção estruturada para Economia
 
 ### Professores indicados pela comunidade CACD
 
@@ -121,13 +111,6 @@ Micro, macro, história econômica do Brasil, comércio internacional. Fase 2 ex
 
 ### O que o CACD cobra
 Fase 1 e Fase 2. A banca cobra **historiografia** — correntes, autores, debates, não só fatos. PEB é eixo transversal. Períodos mais frequentes: Colônia, Segundo Reinado, República Velha, Era Vargas, Ditadura, Redemocratização.
-
-### Cursos CACD-Especializados
-
-#### Diplomata Edu
-- **Diferencial:** integra HB com PEB — exatamente o recorte do CACD
-- **Formato:** videoaulas + leituras guiadas + mentorias ao vivo
-- **Veredito:** ✅ Melhor opção se contratar o pacote
 
 ### Professores indicados pela comunidade CACD
 
@@ -177,14 +160,6 @@ Consenso: **leitura extensiva diária supera qualquer curso**. Candidatos com n�
 ### O que o CACD cobra
 Fase 1 e Fase 2. Teoria das RI, conjuntura internacional, OIs, PEB, ordem mundial. Fase 2 exige relacionar teoria com eventos concretos.
 
-### Cursos CACD-Especializados
-
-#### Diplomata Edu — Marcelo Alvim
-- **Professor:** Marcelo Alvim — diplomata de carreira, professor mais influente do ecossistema CACD
-- **Formato:** videoaulas + leituras guiadas + discussões ao vivo + tutoria
-- **Pros:** conhece a banca por dentro; abordagem teoria-conjuntura integrada; mentorias ao vivo
-- **Veredito:** ✅ Referência absoluta para PI/RI no CACD
-
 ### Professores indicados pela comunidade CACD
 
 | # | Professor | Fonte | Observações |
@@ -207,7 +182,7 @@ Fase 1 e Fase 2. Teoria das RI, conjuntura internacional, OIs, PEB, ordem mundia
 - Publicações FUNAG: série Política Externa Brasileira
 
 ### O que aprovados dizem
-Xadrez Verbal é onipresente nos relatos de aprovados. Publicações da FUNAG são leitura obrigatória. Marcelo Alvim é o professor pago mais frequentemente citado.
+Xadrez Verbal é onipresente nos relatos de aprovados. Publicações da FUNAG são leitura obrigatória. Bruno Rezende é o professor pago mais frequentemente citado para PI.
 
 ---
 
@@ -216,15 +191,10 @@ Xadrez Verbal é onipresente nos relatos de aprovados. Publicações da FUNAG s�
 ### O que o CACD cobra
 Ênfase no século XX e nas dinâmicas que moldaram a ordem internacional. Conexão constante com PI. Período mais cobrado: 1870–presente.
 
-### Cursos CACD-Especializados
-
-#### Diplomata Edu
-- Integra HM com PI na narrativa do curso
-- **Pros:** contextualização geopolítica; entende o recorte CACD
-- **Veredito:** se já contratou o pacote, aproveite
+### Estratégia
+HM pode ser resolvida quase inteiramente com leituras estruturantes + questões CACD antigas. Não há professor autônomo com destaque específico para HM no CACD — o investimento vai para Hobsbawm e resolução de provas.
 
 ### Recursos Gratuitos
-- **Hobsbawm** (leitura direta — ver leituras obrigatórias abaixo)
 - **Podcast "Revoluções"** (Mike Duncan, inglês): excelente para séc. XIX e XX
 - **Khan Academy** (história mundial): visual e interativo — bom para revisão ativa
 
@@ -246,12 +216,6 @@ Geopolítica, geografia econômica, recursos naturais, questões ambientais, fro
 | 1 | **Thiago Rocha** | IDEG / reviews | Referência em Geografia para CACD |
 | 2 | **Evandro Costa** | Nabuco | Nota 100 nos reviews |
 | 3 | **João Felipe** | Reddit | Mencionado pela comunidade |
-
-### Cursos CACD-Especializados
-
-#### Diplomata Edu
-- Integra Geografia com Geopolítica e PI
-- **Veredito:** mais alinhado ao CACD; se já tem o pacote, use
 
 ### Recursos Gratuitos
 - **IBGE** (ibge.gov.br): dados e publicações sobre geografia do Brasil — indispensável
@@ -277,7 +241,7 @@ Fase 1: compreensão de textos complexos + gramática contextual. Fase 2: disser
 
 ### Cursos CACD-Especializados
 
-#### Diplomata Edu / Curso CEI
+#### Curso CEI
 - Para Fase 2 de LP: módulos com correção de dissertações
 - **Veredito:** quando chegar à Fase 2, correção individual é indispensável. Por ora (Fase 1 84%), manutenção via leitura.
 
@@ -296,10 +260,9 @@ Fase 2: produção escrita dissertativa formal. Nível C1. A banca avalia estrut
 
 ### Cursos CACD-Especializados
 
-#### Diplomata Edu
-- Módulo de Espanhol com foco em escrita dissertativa para o CACD
-- **Pros:** entende o formato; trabalha com os tipos de texto cobrados
-- **Veredito:** ✅ Melhor opção CACD-específica
+#### Curso CEI
+- Módulo de Espanhol com foco em escrita para CACD
+- **Veredito:** verificar disponibilidade e avaliações atuais
 
 #### Professores autônomos
 - Pesquise "redação espanhol CACD" — há professores com experiência comprovada na banca
@@ -318,23 +281,22 @@ Fase 2: produção escrita dissertativa formal. Nível C1. A banca avalia estrut
 ## Recursos para Questões, Provas Antigas e Exercícios
 
 ### Provas Oficiais
-- **CEBRASPE / CESPE** — banca organizadora do CACD. Provas anteriores disponíveis em: cespe.unb.br (histórico) e no site do **Itamaraty** (itamaraty.gov.br — seção Concursos)
+- **CEBRASPE / CESPE**: provas anteriores em cespe.unb.br (histórico) e no site do **Itamaraty** (itamaraty.gov.br → Concursos → CACD)
 - **FUNAG** publicações: cobre temas recorrentes do CACD
 
 ### Plataformas de Questões
 - **QConcursos** (qconcursos.com): questões CACD organizadas por matéria e ano — boa cobertura histórica
 - **Tec Concursos** (tecconcursos.com.br): banco de questões CACD + filtro por banca/matéria
-- **Apostila Diplomacia** / comunidades no Reddit r/concursospublicos e grupos Telegram CACD: candidatos compartilham materiais e questões comentadas
 - **Estratégia Questões** (estrategiaquestoes.com.br): banco amplo com questões CACD
+- **Reddit r/concursospublicos** e grupos Telegram CACD: candidatos compartilham materiais e questões comentadas
 
 ### Simulados
-- **Diplomata Edu**: simulados calibrados para CACD (acesso com matrícula)
 - **Curso CEI**: simulados e correções
 - **Simulados internos**: use as provas TPS dos últimos 5 anos como simulados cronometrados — é o recurso mais fiel ao exame real
 
 ### Gabaritos e Comentários Oficiais
 - CEBRASPE publica gabaritos preliminar e definitivo + justificativas das anulações — sempre salvar após cada prova
-- Grupos Telegram e fóruns CACD: candidatos fazem análise coletiva das provas logo após a aplicação
+- Grupos Telegram e fóruns CACD: análise coletiva das provas logo após a aplicação
 
 ### Cadernos de Provas Anteriores
 | Ano | Onde encontrar |
@@ -347,17 +309,18 @@ Fase 2: produção escrita dissertativa formal. Nível C1. A banca avalia estrut
 
 ## Estratégia de Contratação Recomendada
 
-### Opção A — Pacote completo (menor fricção)
-- **Diplomata Edu** (pacote anual): cobre todas as matérias com foco CACD + mentorias ao vivo + simulados
-- **Custo estimado:** R$ 3.500–5.500
-
-### Opção B — Modular por prioridade
-- **Direito:** Diplomata Edu módulo ou Curso CEI (~R$ 400–800)
-- **Economia:** Diplomata Edu módulo ou Marcello Bolzan autônomo (~R$ 300–600)
+### Opção A — Por prioridade (recomendado)
+- **Direito:** Curso CEI módulo + professor autônomo para DIP (Bystronski ou Aziz Saliba) (~R$ 400–800)
+- **Economia:** Marcello Bolzan ou Eliezer Lopes (autônomos) + Curso CEI dissertações (~R$ 300–600)
 - **HB:** Luigi Bonafé ou Rodrigo Goyena (autônomos) (~R$ 300–500)
-- **PI:** incluso no módulo Diplomata Edu ou Bruno Rezende autônomo
+- **PI:** Bruno Rezende (autônomo)
 - **Demais:** recursos gratuitos (FUNAG, CPDOC, Xadrez Verbal, El País, The Economist)
-- **Custo estimado:** R$ 1.500–3.500
+- **Custo estimado:** R$ 1.200–2.500
+
+### Opção B — Curso CEI assinatura anual
+- Cobre múltiplas matérias com correção de dissertações em uma só plataforma
+- **Custo estimado:** ~R$ 1.200–2.000/ano
+- **Complementar:** professores autônomos para Direito e Economia (prioridades máximas)
 
 ### Gratuitos inegociáveis (independente da opção)
 - Podcast **Xadrez Verbal** (PI + HM + conjuntura)
@@ -370,4 +333,4 @@ Fase 2: produção escrita dissertativa formal. Nível C1. A banca avalia estrut
 
 ---
 
-> **Contatos diretos:** diplomataedu.com.br | cursocei.com | funag.gov.br | cpdoc.fgv.br | itamaraty.gov.br (provas anteriores)
+> **Contatos diretos:** cursocei.com | funag.gov.br | cpdoc.fgv.br | itamaraty.gov.br (provas anteriores) | qconcursos.com | tecconcursos.com.br
