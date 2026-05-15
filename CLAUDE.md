@@ -21,7 +21,7 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 **Gatilho:** quando eu pedir para processar um conteúdo do edital.
 
 **O que fazer:**
-1. Ler o documento de lista de temas em /Users/isabelamarantes/Desktop/CACD/
+1. Ler a lista de conteúdos em /Editais/Conteudo_Programatico.md do próprio repo
 2. Identificar o conteúdo solicitado e a matéria à qual pertence
 3. Buscar nos PDFs em /Users/isabelamarantes/Desktop/CACD/ os capítulos relevantes
 4. Gerar flash cards objetivos sobre aquele conteúdo
@@ -30,10 +30,10 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 5. Exportar como .apkg cujo nome = <conteudo>_<materia>
    - Exemplo: demanda_agregada_economia.apkg
 6. Salvar em /anki/decks/
-7. Atualizar /Editais/Conteudo_Programatico.md indicando:
-   - Quais capítulos cobrem aquele conteúdo
-   - Quais livros foram usados
-   - Se o conteúdo foi coberto parcialmente ou totalmente
+7. Atualizar /Editais/Conteudo_Programatico.md adicionando ao lado de cada conteúdo processado:
+   - Livro(s) utilizado(s)
+   - Capítulo(s) onde o conteúdo foi encontrado
+   - Status: ✅ coberto totalmente | ⚠️ coberto parcialmente | ❌ não encontrado nos PDFs
 8. Fazer commit e push com a mensagem: "cards: <conteudo> (<materia>) — <N> cards"
 
 ## Padrão dos flash cards
