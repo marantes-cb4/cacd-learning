@@ -308,14 +308,14 @@
 - Curva de demanda
 - Elasticidade-preço e elasticidade-renda
 > 📚 **Fontes:** Manual do Candidato de Economia (Baumann & Gonçalves, FUNAG 2016), Cap. 1.1 (p. 22–30) | Microeconomia (Miltons), Caps. 2–4
-> 🗃️ **Deck:** `demanda_consumidor_economia.apkg` — 15 cards
+> 🗃️ **Deck:** `economia/demanda_consumidor_economia.apkg` — 15 cards
 
 #### 1.2 Oferta do Produtor — ✅ coberto totalmente
 - Fatores de produção
 - Função de produção
 - Elasticidade-preço da oferta
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 1.2 (p. 31–42) | Microeconomia (Miltons), Caps. 5–6
-> 🗃️ **Deck:** `oferta_produtor_economia.apkg` — 12 cards
+> 🗃️ **Deck:** `economia/oferta_produtor_economia.apkg` — 12 cards
 
 #### 1.3 Tipos de mercados e de bens — ✅ coberto totalmente
 - Concorrência perfeita, monopólio e oligopólio
@@ -323,7 +323,7 @@
 - Tipos de bens; bens públicos; bens rivais; recursos comuns e bens comuns
 - Externalidades
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 1.3 (p. 43–52) | Microeconomia (Miltons), Caps. 7–10
-> 🗃️ **Deck:** `tipos_mercados_bens_economia.apkg` — 14 cards
+> 🗃️ **Deck:** `economia/tipos_mercados_bens_economia.apkg` — 14 cards
 
 ### 2. Macroeconomia
 
@@ -333,14 +333,14 @@
 - Oferta e demanda agregadas
 - Agregados macroeconômicos: identidades básicas das contas nacionais
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 2.1.4 (p. 65–76) | Mankiw, Princípios de Macroeconomia, Caps. 10 e 20
-> 🗃️ **Deck:** `contabilidade_nacional_economia.apkg` — 12 cards
+> 🗃️ **Deck:** `economia/contabilidade_nacional_economia.apkg` — 12 cards
 
 #### 2.2 Contas externas — ✅ coberto totalmente
 - Conceitos de déficit e superávit nas contas externas
 - Balanço de pagamentos: conta de transações correntes, conta de capital e financeira
 - Indicadores de liquidez externa e de solvência externa
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 2.1.5 (p. 77–92) | Mankiw, Princípios de Macroeconomia, Cap. 18
-> 🗃️ **Deck:** `contas_externas_economia.apkg` — 11 cards
+> 🗃️ **Deck:** `economia/contas_externas_economia.apkg` — 11 cards
 
 #### 2.3 Economia do Setor Público e Política Fiscal — ✅ coberto totalmente
 - Gastos e receitas do governo
@@ -352,11 +352,11 @@
 - Efeitos fiscais sobre a política monetária
 - Consumo, investimento, poupança e gasto do governo
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 2.3.1–2.3.3 (p. 121–125) | Mankiw, Princípios de Macroeconomia, Caps. 13 e 21
-> 🗃️ **Deck:** `setor_publico_politica_fiscal_economia.apkg` — 12 cards
+> 🗃️ **Deck:** `economia/setor_publico_politica_fiscal_economia.apkg` — 12 cards
 
 #### 2.4 Modelo IS-LM-BP ⭐ — ✅ coberto totalmente
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 2.3.7–2.3.8 (p. 131–157) — cobertura completa do modelo IS-LM-BP com todos os cenários de câmbio e mobilidade de capital
-> 🗃️ **Deck:** `modelo_is_lm_bp_economia.apkg` — 15 cards
+> 🗃️ **Deck:** `economia/modelo_is_lm_bp_economia.apkg` — 15 cards
 
 #### 2.5 Teoria Monetária — ✅ coberto totalmente
 - Funções da moeda
@@ -367,7 +367,7 @@
 - Moeda e preços no longo prazo
 - Teoria Quantitativa da Moeda
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 2.1.6 (p. 93–102) | Mankiw, Princípios de Macroeconomia, Caps. 16–17
-> 🗃️ **Deck:** `teoria_monetaria_economia.apkg` — 12 cards
+> 🗃️ **Deck:** `economia/teoria_monetaria_economia.apkg` — 12 cards
 
 #### 2.6 Política Monetária — ✅ coberto totalmente
 - Papel do Banco Central
@@ -376,13 +376,13 @@
 - Política Monetária Não Convencional
 - Regulação e supervisão do sistema bancário, financeiro e do mercado de capitais
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 2.3.4–2.3.6 (p. 126–129) | Mankiw, Princípios de Macroeconomia, Caps. 21–22
-> 🗃️ **Deck:** `politica_monetaria_economia.apkg` — 12 cards
+> 🗃️ **Deck:** `economia/politica_monetaria_economia.apkg` — 12 cards
 
 #### 2.7 Crescimento e Desenvolvimento Econômico — ✅ coberto totalmente
 - Teorias de crescimento econômico
 - Papel da inovação: modelos Solow e Schumpeteriano
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 2.2.4 (p. 119–121) | Mankiw, Princípios de Macroeconomia, Cap. 12
-> 🗃️ **Deck:** `crescimento_desenvolvimento_economia.apkg` — 12 cards
+> 🗃️ **Deck:** `economia/crescimento_desenvolvimento_economia.apkg` — 12 cards
 
 #### 2.8 Emprego e renda — ✅ coberto totalmente
 - Conceito e tipos de desemprego
@@ -390,7 +390,7 @@
 - Indicadores do mercado de trabalho
 - Lei de Okun
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 2.2.2 (p. 104–109) | Mankiw, Princípios de Macroeconomia, Cap. 15
-> 🗃️ **Deck:** `emprego_renda_economia.apkg` — 12 cards
+> 🗃️ **Deck:** `economia/emprego_renda_economia.apkg` — 12 cards
 
 ### 3. Economia internacional
 
@@ -401,7 +401,7 @@
 - Crítica de Prebisch e da CEPAL
 - Deterioração dos termos de troca
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 3.1–3.2 (p. 164–179)
-> 🗃️ **Deck:** `teorias_comercio_economia.apkg` — 12 cards
+> 🗃️ **Deck:** `economia/teorias_comercio_economia.apkg` — 12 cards
 
 #### 3.2 Macroeconomia aberta ⭐ — ✅ coberto totalmente
 - Fluxos internacionais de bens, capitais e serviços
@@ -411,12 +411,12 @@
 - Relação poupança externa–crescimento econômico
 - Relação câmbio–juros–inflação
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 3.3 (p. 180–190) | Mankiw, Princípios de Macroeconomia, Caps. 18–19
-> 🗃️ **Deck:** `macroeconomia_aberta_economia.apkg` — 15 cards
+> 🗃️ **Deck:** `economia/macroeconomia_aberta_economia.apkg` — 15 cards
 
 #### 3.3 Política comercial — ✅ coberto totalmente
 - Efeitos de tarifas, quotas, subsídios e outros instrumentos de política comercial
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 3.4 (p. 191–198)
-> 🗃️ **Deck:** `politica_comercial_economia.apkg` — 11 cards
+> 🗃️ **Deck:** `economia/politica_comercial_economia.apkg` — 11 cards
 
 ### 4. História econômica brasileira
 
@@ -426,55 +426,55 @@
 - Crescimento industrial
 - Políticas de valorização do café
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 4.1–4.2 (p. 233–260) | Formação Econômica do Brasil (Celso Furtado), Cap. XV e ss.
-> 🗃️ **Deck:** `historia_economica_sec19_republica_economia.apkg` — 11 cards
+> 🗃️ **Deck:** `economia/historia_economica_sec19_republica_economia.apkg` — 11 cards
 
 #### 4.3 Industrialização 1930–1945 — ✅ coberto totalmente
 - Modelo de Industrialização por Substituição de Importações (ISI)
 - Falhas e críticas ao ISI
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 4.4–4.5 (p. 264–272) | Formação Econômica do Brasil (Celso Furtado), caps. sobre industrialização
-> 🗃️ **Deck:** `industrializacao_isi_1930_economia.apkg` — 10 cards
+> 🗃️ **Deck:** `economia/industrializacao_isi_1930_economia.apkg` — 10 cards
 
 #### 4.4 Década de 1950 — ✅ coberto totalmente
 - Plano SALTE
 - Plano de Metas
 - Pós-guerra e nova fase de industrialização
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 4.6–4.7 (p. 273–289)
-> 🗃️ **Deck:** `decada_1950_plano_metas_economia.apkg` — 10 cards
+> 🗃️ **Deck:** `economia/decada_1950_plano_metas_economia.apkg` — 10 cards
 
 #### 4.5 Período 1962–1967 — ✅ coberto totalmente
 - Desaceleração do crescimento
 - Plano Trienal
 - Reformas do PAEG e importância para a retomada em 1968
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 4.8–4.9 (p. 290–298)
-> 🗃️ **Deck:** `periodo_1962_1967_paeg_economia.apkg` — 9 cards
+> 🗃️ **Deck:** `economia/periodo_1962_1967_paeg_economia.apkg` — 9 cards
 
 #### 4.6 Retomada 1968–1973 — ✅ coberto totalmente
 - Causas do "Milagre Econômico"
 - I PND
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 4.10 (p. 299–304)
-> 🗃️ **Deck:** `milagre_economico_1968_1973_economia.apkg` — 8 cards
+> 🗃️ **Deck:** `economia/milagre_economico_1968_1973_economia.apkg` — 8 cards
 
 #### 4.7 Desaceleração e II PND — ✅ coberto totalmente
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 4.11 (p. 305–310)
-> 🗃️ **Deck:** `desaceleracao_ii_pnd_economia.apkg` — 8 cards
+> 🗃️ **Deck:** `economia/desaceleracao_ii_pnd_economia.apkg` — 8 cards
 
 #### 4.8 Crise dos anos 1980 — ✅ coberto totalmente
 - Interrupção do financiamento externo e políticas de ajuste
 - Aceleração inflacionária e planos de combate à inflação
 - Debate sobre a natureza da inflação no Brasil
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 4.12–4.14 (p. 311–337)
-> 🗃️ **Deck:** `crise_1980_inflacao_economia.apkg` — 11 cards
+> 🗃️ **Deck:** `economia/crise_1980_inflacao_economia.apkg` — 11 cards
 
 #### 4.9 Anos 1990 — ✅ coberto totalmente
 - Abertura comercial e financeira parcial
 - Plano Real
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 4.15–4.16 (p. 338–350)
-> 🗃️ **Deck:** `anos_1990_plano_real_economia.apkg` — 10 cards
+> 🗃️ **Deck:** `economia/anos_1990_plano_real_economia.apkg` — 10 cards
 
 ### 5. Século XXI — ✅ coberto totalmente
 - Bancos digitais, meios de pagamento e transição do "dinheiro de plástico" para o "dinheiro digital"
 > 📚 **Fontes:** Manual do Candidato de Economia, Cap. 5 (p. 407ss.) — complementado por conhecimento atualizado sobre PIX, Open Finance e Drex
-> 🗃️ **Deck:** `seculo_xxi_moeda_digital_economia.apkg` — 10 cards
+> 🗃️ **Deck:** `economia/seculo_xxi_moeda_digital_economia.apkg` — 10 cards
 
 ---
 
