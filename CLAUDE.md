@@ -1,0 +1,49 @@
+## Materiais de referência (só local, nunca commitar)
+PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
+
+## ─── TAREFA 1: Notas de aula → Flash cards ───
+
+**Gatilho:** quando eu passar um arquivo .md com notas de aula.
+
+**O que fazer:**
+1. Ler o arquivo .md
+2. Identificar o macro tema (Economia, Direito, História, etc.)
+3. Gerar flash cards objetivos sobre os conceitos presentes nas notas
+   - Frente: pergunta direta sobre o conceito
+   - Verso: resposta concisa, sem rodeios
+4. Exportar como .apkg cujo nome = título do documento .md
+5. Salvar o .apkg em /anki/decks/
+6. Mover o arquivo .md de notas para /notas/<macro-tema>/ (em minúsculas)
+7. Fazer commit e push com a mensagem: "notas: <título do documento> + <N> cards gerados"
+
+## ─── TAREFA 2: PDFs → Flash cards por conteúdo programático ───
+
+**Gatilho:** quando eu pedir para processar um conteúdo do edital.
+
+**O que fazer:**
+1. Ler o documento de lista de temas em /Users/isabelamarantes/Desktop/CACD/
+2. Identificar o conteúdo solicitado e a matéria à qual pertence
+3. Buscar nos PDFs em /Users/isabelamarantes/Desktop/CACD/ os capítulos relevantes
+4. Gerar flash cards objetivos sobre aquele conteúdo
+   - Frente: pergunta direta
+   - Verso: resposta concisa com referência ao livro/capítulo fonte
+5. Exportar como .apkg cujo nome = <conteudo>_<materia>
+   - Exemplo: demanda_agregada_economia.apkg
+6. Salvar em /anki/decks/
+7. Atualizar /Editais/Conteudo_Programatico.md indicando:
+   - Quais capítulos cobrem aquele conteúdo
+   - Quais livros foram usados
+   - Se o conteúdo foi coberto parcialmente ou totalmente
+8. Fazer commit e push com a mensagem: "cards: <conteudo> (<materia>) — <N> cards"
+
+## Padrão dos flash cards
+- Sempre em português
+- Objetivos e diretos — sem enrolação
+- Máximo 2 linhas no verso
+- Nunca criar cards sem identificar a fonte (livro + capítulo)
+- Verificar duplicatas antes de criar novos cards para o mesmo tema
+
+## Regras gerais
+- Nunca commitar PDFs ou arquivos acima de 10MB
+- Sempre fazer push após cada tarefa concluída
+- Em caso de dúvida sobre o macro tema, perguntar antes de commitar
