@@ -47,79 +47,60 @@
 ## 3. HISTÓRIA DO BRASIL
 **Fase 1 + Fase 2**
 
-### 1. Período colonial
-- Configuração territorial da América Portuguesa
-- Dimensões econômicas e sociais da América Portuguesa
+### 1. Período colonial — ✅ coberto totalmente
+- Configuração territorial da América Portuguesa; Dimensões econômicas e sociais da América Portuguesa
+> 📚 **Fontes:** Boris Fausto — História do Brasil, Cap. 2 (pp. 29–146); Ricupero — A Diplomacia na Construção do Brasil, Parte I (pp. 39–72)
+> 🗃️ **Deck:** `historia-br/periodo_colonial_hb.apkg` — 12 cards
 
-### 2. Processo de independência
-- Movimentos emancipacionistas
-- Situação política e econômica europeia
-- Brasil sede do Estado monárquico português
-- Constitucionalismo português e independência do Brasil
-- Influência das ideias liberais no Brasil
+### 2. Processo de independência — ✅ coberto totalmente
+- Movimentos emancipacionistas; Situação política e econômica europeia; Brasil sede do Estado monárquico português; Constitucionalismo português; Influência das ideias liberais no Brasil
+> 📚 **Fontes:** Fausto, Caps. 2.24–2.26 (pp. 113–145); Cervo & Bueno — História da Política Exterior do Brasil, pp. 16–52; Ricupero, Partes I–II (pp. 39–130)
+> 🗃️ **Deck:** `historia-br/processo_independencia_hb.apkg` — 10 cards
 
-### 3. Primeiro Reinado (1822–1831)
-- Constituição de 1824
-- Quadro político interno
-- Política exterior do Primeiro Reinado
+### 3. Primeiro Reinado (1822–1831) — ✅ coberto totalmente
+- Constituição de 1824; Quadro político interno; Política exterior do Primeiro Reinado
+> 📚 **Fontes:** Fausto, Cap. 3 (pp. 147–164); Cervo & Bueno, pp. 53–132; Ricupero, pp. 130–145
+> 🗃️ **Deck:** `historia-br/primeiro_reinado_hb.apkg` — 9 cards
 
-### 4. Regência (1831–1840)
-- Centralização vs. descentralização: reformas institucionais
-- Ato Adicional de 1834 e revoltas provinciais
-- Dimensão externa
+### 4. Regência (1831–1840) — ✅ coberto totalmente
+- Centralização vs. descentralização; Ato Adicional de 1834; Revoltas provinciais; Dimensão externa
+> 📚 **Fontes:** Fausto, Cap. 4 (pp. 165–176); Cervo & Bueno, pp. 133–160
+> 🗃️ **Deck:** `historia-br/regencia_hb.apkg` — 9 cards
 
-### 5. Segundo Reinado (1840–1889)
-- Estado centralizado; instituições; partidos políticos; sistema eleitoral; unidade territorial
-- Política externa: Europa, EUA, Reino Unido, Guerra do Paraguai
-- Questão da escravidão
-- Crise do Estado Monárquico
-- Sociedade e cultura: população, estrutura social, vida acadêmica, científica e literária
-- Economia: agroexportação, expansão econômica, trabalho assalariado, políticas econômico-financeiras, política alfandegária
+### 5. Segundo Reinado (1840–1889) — ✅ coberto totalmente
+- Estado centralizado; instituições; partidos; escravidão; Guerra do Paraguai; Crise do Estado Monárquico; sociedade e cultura; economia agroexportadora
+> 📚 **Fontes:** Fausto, Cap. 5 (pp. 177–253); Cervo & Bueno, pp. 93–160; Ricupero, Partes III–V (pp. 145–253)
+> 🗃️ **Deck:** `historia-br/segundo_reinado_hb.apkg` — 11 cards
 
-### 6. Primeira República (1889–1930)
-- Proclamação da República e governos militares
-- Constituição de 1891
-- Regime oligárquico: política dos estados, coronelismo, sistema eleitoral e partidário, hegemonia SP/MG
-- Economia agroexportadora
-- Política externa: obra de Rio Branco; II Conferência de Paz da Haia (1907); Brasil na Grande Guerra; Brasil na Liga das Nações
-- Sociedade e cultura: Modernismo
-- Crise dos anos 1920: tenentismo e revoltas
-- Revolução de 1930
+### 6. Primeira República (1889–1930) — ✅ coberto totalmente
+- Proclamação; Constituição de 1891; oligarquias; coronelismo; política externa (Rio Branco, Haia, I Guerra, Liga das Nações); Modernismo; tenentismo; Revolução de 1930
+> 📚 **Fontes:** Fausto, Cap. 6 (pp. 254–345); Cervo & Bueno, pp. 163–254; Ricupero, Parte VI (pp. 253–342)
+> 🗃️ **Deck:** `historia-br/primeira_republica_hb.apkg` — 12 cards
 
-### 7. Era Vargas (1930–1945)
-- Processo político e quadro econômico-financeiro
-- Constituição de 1934
-- Constituição de 1937: Estado Novo
-- Contexto internacional dos anos 1930–1940; Brasil na Segunda Guerra Mundial
-- Industrialização e legislação trabalhista
-- Sociedade e cultura
+### 7. Era Vargas (1930–1945) — ✅ coberto totalmente
+- Processo político; Constituição de 1934; Estado Novo/1937; Brasil na II Guerra Mundial; industrialização; legislação trabalhista; sociedade e cultura
+> 📚 **Fontes:** Fausto, Cap. 7 (pp. 346–415); Cervo & Bueno, pp. 255–292
+> 🗃️ **Deck:** `historia-br/era_vargas_hb.apkg` — 11 cards
 
-### 8. República Liberal (1945–1964)
-- Nova ordem política: partidos, eleições, Constituição de 1946
-- Industrialização e urbanização
-- Política externa: relações com EUA, Guerra Fria, Operação Pan-Americana, política externa independente, Brasil na ONU, Brasil no Rio da Prata, Brasil e suspensão de Cuba na OEA
-- Sociedade e cultura
+### 8. República Liberal (1945–1964) — ✅ coberto totalmente
+- Nova ordem política; Constituição de 1946; industrialização; Operação Pan-Americana; PEI; Brasil na ONU; Cuba na OEA; Golpe de 1964
+> 📚 **Fontes:** Fausto, Cap. 8 (pp. 416–487); Cervo & Bueno, pp. 293–410; Ricupero, pp. 387–470
+> 🗃️ **Deck:** `historia-br/republica_liberal_hb.apkg` — 11 cards
 
-### 9. Regime Militar (1964–1985)
-- Constituição de 1967 e modificações de 1969
-- A economia
-- Política externa: relações com EUA, "pragmatismo responsável", relações com América Latina, África, Brasil na ONU
-- Sociedade e cultura
-- Processo de transição política
+### 9. Regime Militar (1964–1985) — ✅ coberto totalmente
+- Constituição de 1967/1969; economia; pragmatismo responsável; relações com África; transição política; Diretas Já
+> 📚 **Fontes:** Fausto, Cap. 9 (pp. 488–543); Cervo & Bueno, pp. 409–508; Ricupero, Parte IX (pp. 477–608)
+> 🗃️ **Deck:** `historia-br/regime_militar_hb.apkg` — 11 cards
 
-### 10. Processo democrático a partir de 1985
-- Constituição de 1988
-- Partidos políticos e eleições
-- Transformações econômicas
-- Impactos da globalização
-- Mudanças sociais
-- Manifestações culturais
-- Evolução da política externa
-- MERCOSUL
-- Brasil na ONU
+### 10. Processo democrático a partir de 1985 — ✅ coberto totalmente
+- Constituição de 1988; planos econômicos; impeachment Collor; Plano Real; política externa (FHC, Lula); MERCOSUL; Brasil na ONU; mudanças sociais
+> 📚 **Fontes:** Fausto, Caps. 10–12 (pp. 544–576); Cervo & Bueno, pp. 509–584; Ricupero, pp. 609–660
+> 🗃️ **Deck:** `historia-br/processo_democratico_hb.apkg` — 11 cards
 
-### 11. Século XXI
+### 11. Século XXI — ✅ coberto totalmente
 - Impactos tecnológicos e digitais nas transformações políticas e sociais do Brasil
+> 📚 **Fontes:** Cervo & Bueno, pp. 549–585; Ricupero, pp. 639–660; contexto contemporâneo (Lava Jato, Covid-19, BRICS, eleições digitais)
+> 🗃️ **Deck:** `historia-br/seculo_xxi_hb.apkg` — 9 cards
 
 ---
 
