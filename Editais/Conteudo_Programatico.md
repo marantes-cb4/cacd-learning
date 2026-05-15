@@ -107,81 +107,45 @@
 ## 4. HISTÓRIA MUNDIAL
 **Fase 1 apenas**
 
-### 1. Estruturas e ideias econômicas
-- Da Revolução Industrial ao capitalismo organizado (séc. XVIII–XX)
-- Fases do desenvolvimento capitalista (desde ~1780)
-- Principais ideias econômicas: da Fisiocracia ao Liberalismo
-- Marxismo
-- Crises e mecanismos anticrise: Crise de 1929 e New Deal
-- Prosperidade no segundo pós-guerra
-- Estado de bem-estar social (Welfare State) e sua crise
-- Pós-Fordismo e acumulação flexível
+### 1. Estruturas e ideias econômicas — ✅ coberto totalmente
+- Da Revolução Industrial ao capitalismo organizado (séc. XVIII–XX); Fisiocracia ao Liberalismo; Marxismo; Crise de 1929; New Deal; Welfare State; Pós-Fordismo e acumulação flexível
+> 📚 **Fontes:** Hobsbawm — Era das Revoluções, Caps. 2; 13 | Era do Capital, Cap. 14 | Era dos Impérios, Caps. 1–2 | Era dos Extremos, Caps. 3; 9; 14
+> 🗃️ **Deck:** `historia-mundial/estruturas_ideias_economicas_hm.apkg` — 11 cards
 
-### 2. Revoluções
-- Revolução Francesa e revoluções burguesas
-- Processos de independência na América
-- Conceitos e características das revoluções contemporâneas
-- Anarquismo
-- Socialismo
-- Revoluções no século XX: Rússia e China
-- Revoluções na América Latina: México e Cuba
+### 2. Revoluções — ✅ coberto totalmente
+- Revolução Francesa e revoluções burguesas; independência na América; anarquismo; socialismo; Rússia e China; México e Cuba
+> 📚 **Fontes:** Hobsbawm — Era das Revoluções, Caps. 3; 6 | Era do Capital, Caps. 1; 6; 14 | Era dos Extremos, Caps. 2; 15
+> 🗃️ **Deck:** `historia-mundial/revolucoes_hm.apkg` — 11 cards
 
-### 3. As relações internacionais
-- Modelos e interpretações
-- Concerto Europeu e sua crise (1815–1918)
-- Rivalidades coloniais
-- Causas da Primeira Guerra Mundial
-- Os 14 pontos de Wilson
-- Paz de Versalhes e ordem mundial resultante (1919–1939)
-- Liga das Nações
-- Causas da Segunda Guerra Mundial
-- Conferências de Moscou, Teerã, Ialta, Potsdam e São Francisco; ordem mundial decorrente
-- Bretton Woods
-- Plano Marshall
-- Organização das Nações Unidas
-- Guerra Fria: bipolaridade (de Truman a Nixon)
-- Conflitos localizados
-- Détente
-- "Segunda Guerra Fria" (Reagan-Bush)
-- Crise e desagregação do bloco soviético
+### 3. As relações internacionais — ✅ coberto totalmente
+- Concerto Europeu; causas da I e II Guerras Mundiais; 14 Pontos de Wilson; Versalhes; Liga das Nações; Conferências aliadas; Bretton Woods; Plano Marshall; ONU; Guerra Fria; Détente; Segunda Guerra Fria; queda do bloco soviético
+> 📚 **Fontes:** Hobsbawm — Era das Revoluções, Cap. 5 | Era dos Impérios, Cap. 13 | Era dos Extremos, Caps. 1; 4; 5; 8; 14; 16
+> 🗃️ **Deck:** `historia-mundial/relacoes_internacionais_hm.apkg` — 14 cards
 
-### 4. Colonialismo, imperialismo, políticas de dominação
-- Fim do colonialismo do Antigo Regime
-- Nova expansão europeia
-- Debates sobre a natureza do Imperialismo
-- Partilha da África e da Ásia
-- Dominação e reação na Índia, China e Japão
-- Descolonização
-- Conferência de Bandung
-- Não Alinhamento
-- Conceito de Terceiro Mundo
+### 4. Colonialismo, imperialismo, políticas de dominação — ✅ coberto totalmente
+- Novo Imperialismo; teorias (Hobson, Lenin); Conferência de Berlim; Índia, China, Japão; descolonização; Bandung; Não-Alinhamento; Terceiro Mundo
+> 📚 **Fontes:** Hobsbawm — Era dos Impérios, Caps. 3; 11 | Era dos Extremos, Caps. 7; 12
+> 🗃️ **Deck:** `historia-mundial/colonialismo_imperialismo_hm.apkg` — 11 cards
 
-### 5. Evolução política e econômica nas Américas
-- Expansão territorial nos EUA
-- Guerra de Secessão
-- Constituição das identidades nacionais e dos Estados na América Latina; militarismo e caudilhismo
-- Doutrina Monroe e sua aplicação; política externa dos EUA na América Latina
-- Pan-Americanismo
-- OEA e Tratado do Rio de Janeiro
-- Experiências de integração nas Américas
+### 5. Evolução política e econômica nas Américas — ✅ coberto totalmente
+- Expansão territorial dos EUA; Guerra de Secessão; identidades nacionais na AL; Doutrina Monroe; Pan-Americanismo; OEA; TIAR; integração regional
+> 📚 **Fontes:** Hobsbawm — Era do Capital, Caps. 3–5 | Era dos Extremos, Caps. 8; 15; 19
+> 🗃️ **Deck:** `historia-mundial/americas_politica_economia_hm.apkg` — 9 cards
 
-### 6. Ideias e regimes políticos
-- Grandes correntes do séc. XIX: liberalismo e nacionalismo
-- Construção dos Estados nacionais: Alemanha e Itália
-- Grandes correntes do séc. XX: democracia, fascismo, comunismo
-- Ditaduras e regimes fascistas
-- Novo nacionalismo e fundamentalismo contemporâneo
-- Liberalismo no século XX
+### 6. Ideias e regimes políticos — ✅ coberto totalmente
+- Liberalismo e nacionalismo (séc. XIX); unificações alemã e italiana; democracia, fascismo, comunismo; nazismo; social-democracia; novo nacionalismo e fundamentalismo
+> 📚 **Fontes:** Hobsbawm — Era do Capital, Cap. 5 | Era dos Impérios, Caps. 5–6 | Era dos Extremos, Caps. 2; 4; 14; 19
+> 🗃️ **Deck:** `historia-mundial/ideias_regimes_politicos_hm.apkg` — 11 cards
 
-### 7. A vida cultural
-- Movimento romântico
-- Cultura do imperialismo
-- Vanguardas europeias
-- Modernismo
-- Pós-modernidade
+### 7. A vida cultural — ✅ coberto totalmente
+- Romantismo; Realismo; cultura do imperialismo; vanguardas europeias; Modernismo; Pós-modernidade; indústria cultural; revolução cultural dos anos 1960
+> 📚 **Fontes:** Hobsbawm — Era das Revoluções, Cap. 14 | Era do Capital, Cap. 15 | Era dos Impérios, Cap. 9 | Era dos Extremos, Caps. 6; 11; 17
+> 🗃️ **Deck:** `historia-mundial/vida_cultural_hm.apkg` — 8 cards
 
-### 8. Século XXI
-- Relações internacionais frente a novos paradigmas digitais, redes sociais e ferramentas tecnológicas de comunicação
+### 8. Século XXI — ✅ coberto totalmente
+- Relações internacionais frente a novos paradigmas digitais, redes sociais e ferramentas tecnológicas
+> 📚 **Fontes:** Hobsbawm — Era dos Extremos, Cap. 19 (atualizado); contexto contemporâneo (Primavera Árabe, Covid-19, IA, multipolaridade)
+> 🗃️ **Deck:** `historia-mundial/seculo_xxi_hm.apkg` — 8 cards
 
 ---
 
