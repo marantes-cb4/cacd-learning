@@ -36,6 +36,13 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
    - Status: ✅ coberto totalmente | ⚠️ coberto parcialmente | ❌ não encontrado nos PDFs
 8. Fazer commit e push com a mensagem: "cards: <conteudo> (<materia>) — <N> cards"
 
+## Sobre os materiais de referência
+Os PDFs estão organizados por matéria em subpastas dentro de /Users/isabelamarantes/Desktop/CACD/,
+mas um livro pode ser relevante para mais de uma matéria. Ao buscar conteúdo,
+varrer todas as subpastas independentemente do conteúdo solicitado, e ao atualizar
+o Conteudo_Programatico.md, registrar o livro fonte real mesmo que esteja em
+uma pasta de matéria diferente.
+
 ## Padrão dos flash cards
 - Sempre em português
 - Objetivos e diretos — sem enrolação
