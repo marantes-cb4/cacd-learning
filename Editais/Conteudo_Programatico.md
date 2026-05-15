@@ -481,44 +481,85 @@
 ## 8. DIREITO
 **Fase 1 + Fase 2**
 
-### Direito Interno
-- Normas jurídicas
-- Personalidade jurídica
-- Constituição: conceito, classificações, primado, controle de constitucionalidade
-- Estado: elementos, soberania, formas, modelos de divisão de competência, sistemas de governo
-- Estado democrático de direito: conceito, objetivos, divisão de poderes
-- Organização e competências dos poderes no Direito Brasileiro
-- Processo legislativo brasileiro
-- Direitos e garantias fundamentais no ordenamento jurídico brasileiro
-- Administração Pública: princípios constitucionais, estrutura federal, atos administrativos, processo administrativo
-- Licitações e contratos administrativos
-- Responsabilidade civil do Estado
-- Direitos, deveres e responsabilidades do servidor público; improbidade administrativa; regime disciplinar e processo administrativo disciplinar
-- Regime Jurídico dos Servidores do Serviço Exterior Brasileiro (Lei nº 11.440/2006) ⭐
-- Finanças públicas; normas orçamentárias
+### Direito Interno — ✅ coberto totalmente
 
-### Direito Internacional Público (DIP) ⭐ — foco principal para Fase 2
-- Desenvolvimento do DIP e relação com o Direito Interno; Constituição e DI; Estados federados
-- Princípios que regem o Brasil nas relações internacionais (art. 4º CF/1988)
-- DIP e Direito Internacional Privado (Lei de Introdução às Normas do Direito Brasileiro)
-- Estado: surgimento, extinção, sucessão; direitos e deveres; soberania; reconhecimento
-- Território; formação do território brasileiro
-- Povo: nacionalidade, aquisição, perda, reaquisição; proteção a brasileiros no exterior; dupla/múltipla nacionalidade; situação jurídica do estrangeiro; extradição; apatridia; asilo
-- Jurisdição; relações diplomáticas e consulares; imunidades; responsabilidade internacional; proteção diplomática
-- Sujeitos especiais do DI
-- Fontes do DIP: tratados, costume internacional, princípios gerais, jurisprudência, doutrina, atos unilaterais, atos de OIs, analogia, equidade, jus cogens, obrigações erga omnes, soft law, acordos executivos; conflito entre fontes; incorporação ao Direito brasileiro
-- Solução pacífica de controvérsias: bons ofícios, mediação, investigação, conciliação, arbitragem, meios judiciais, CIJ, outros tribunais
-- Organizações internacionais: incorporação ao DI brasileiro; ONU, agências ONU, OEA, Carta Democrática Interamericana, outras OIs regionais; direito comparado
-- Direito da Integração Regional: MERCOSUL, relação com DI brasileiro, órgão de solução de controvérsias
-- Uso da força: segurança coletiva, direitos humanos, operações de paz, desarmamento e não proliferação, controle de armas, terrorismo
-- Direito Internacional dos Direitos Humanos: exigibilidade, tratados ratificados pelo Brasil, sistemas convencionais de petições, Conselho de DH, órgãos de tratados, Sistema Interamericano
-- Conflitos armados: Direito Internacional Humanitário; Direito Internacional dos Refugiados; refúgio no direito brasileiro
-- Direito penal internacional: tribunais penais internacionais, TPI
-- Direito do comércio internacional: OMC, acordos, órgão de solução de controvérsias
-- Direito Internacional do Meio Ambiente; Direito Internacional do Mar; TIDM
-- Direito internacional do trabalho: OIT, convenções, recomendações, supervisão normativa
-- Áreas além dos limites da jurisdição exclusiva dos Estados
-- Cooperação Jurídica Internacional: matéria penal e cível; regimes vigentes no Direito brasileiro
+- Normas jurídicas; Personalidade jurídica ✅
+> 📚 **Fontes:** Coleção Diplomata — Direito Interno, Cap. 1 (normas e ordenamento); Direito Constitucional Descomplicado, Cap. 1
+> 🗃️ **Deck:** `direito/normas_juridicas_personalidade_direito.apkg` — 12 cards
+
+- Constituição: conceito, classificações, primado, controle de constitucionalidade ✅
+> 📚 **Fontes:** Coleção Diplomata — Direito Interno, Cap. 2; Direito Constitucional Descomplicado, Caps. 1–3
+> 🗃️ **Deck:** `direito/constituicao_controle_constitucionalidade_direito.apkg` — 12 cards
+
+- Estado: elementos, soberania, formas, modelos de divisão de competência, sistemas de governo; Estado democrático de direito; Organização e competências dos poderes no Direito Brasileiro ✅
+> 📚 **Fontes:** Coleção Diplomata — Direito Interno, Cap. 3; Direito Constitucional Descomplicado, Caps. 4–7
+> 🗃️ **Deck:** `direito/estado_organizacao_poderes_direito.apkg` — 11 cards
+
+- Processo legislativo brasileiro ✅
+> 📚 **Fontes:** Coleção Diplomata — Direito Interno, Cap. 4; Direito Constitucional Descomplicado, Cap. 8
+> 🗃️ **Deck:** `direito/processo_legislativo_direito.apkg` — 10 cards
+
+- Direitos e garantias fundamentais no ordenamento jurídico brasileiro ✅
+> 📚 **Fontes:** Coleção Diplomata — Direito Interno, Cap. 5; Direito Constitucional Descomplicado, Cap. 5
+> 🗃️ **Deck:** `direito/direitos_garantias_fundamentais_direito.apkg` — 12 cards
+
+- Administração Pública: princípios constitucionais, estrutura federal, atos administrativos, processo administrativo; Licitações e contratos administrativos; Responsabilidade civil do Estado ✅
+> 📚 **Fontes:** Coleção Diplomata — Direito Interno, Caps. 6–7
+> 🗃️ **Deck:** `direito/administracao_publica_atos_direito.apkg` — 11 cards
+
+- Direitos, deveres e responsabilidades do servidor público; improbidade administrativa; regime disciplinar e processo administrativo disciplinar; Regime Jurídico dos Servidores do Serviço Exterior Brasileiro (Lei nº 11.440/2006) ⭐ ✅
+> 📚 **Fontes:** Lei nº 11.440/2006 (Regime Jurídico do Serviço Exterior Brasileiro) — arts. 1–78; Coleção Diplomata — Direito Interno, Cap. 7
+> 🗃️ **Deck:** `direito/servidor_publico_lei_11440_direito.apkg` — 11 cards
+
+- Finanças públicas; normas orçamentárias ✅
+> 📚 **Fontes:** Coleção Diplomata — Direito Interno, Cap. 7 (finanças); Direito Constitucional Descomplicado, Cap. 17
+> 🗃️ **Deck:** `direito/financas_publicas_orcamento_direito.apkg` — 8 cards
+
+### Direito Internacional Público (DIP) ⭐ — foco principal para Fase 2 — ✅ coberto totalmente
+
+- Fontes do DIP: tratados, costume internacional, princípios gerais, jurisprudência, doutrina, atos unilaterais, atos de OIs, analogia, equidade, jus cogens, obrigações erga omnes, soft law, acordos executivos; conflito entre fontes; incorporação ao Direito brasileiro; Desenvolvimento do DIP e relação com o Direito Interno; DIP e Direito Internacional Privado ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte I — Tratados (pp. 15–100)
+> 🗃️ **Deck:** `direito/fontes_dip_tratados_direito.apkg` — 13 cards
+
+- Estado: surgimento, extinção, sucessão; direitos e deveres; soberania; reconhecimento; Território; formação do território brasileiro; Princípios que regem o Brasil nas relações internacionais (art. 4º CF/1988) ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte II — O Estado (pp. 101–185)
+> 🗃️ **Deck:** `direito/estado_territorio_povo_dip_direito.apkg` — 12 cards
+
+- Povo: nacionalidade, aquisição, perda, reaquisição; proteção a brasileiros no exterior; extradição; apatridia; asilo; Jurisdição; relações diplomáticas e consulares; imunidades; responsabilidade internacional; proteção diplomática; Sujeitos especiais do DI ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte II — caps. Povo, Jurisdição e Imunidades (pp. 186–230)
+> 🗃️ **Deck:** `direito/relacoes_diplomaticas_imunidades_direito.apkg` — 10 cards
+
+- Organizações internacionais: incorporação ao DI brasileiro; ONU, agências ONU, OEA, Carta Democrática Interamericana, outras OIs regionais; direito comparado; Direito da Integração Regional: MERCOSUL ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte II — Organizações Internacionais (pp. 231–270)
+> 🗃️ **Deck:** `direito/organizacoes_internacionais_integracao_direito.apkg` — 11 cards
+
+- Solução pacífica de controvérsias: bons ofícios, mediação, investigação, conciliação, arbitragem, meios judiciais, CIJ, outros tribunais ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte IV — Solução Pacífica (pp. 307–340)
+> 🗃️ **Deck:** `direito/solucao_controversias_dip_direito.apkg` — 9 cards
+
+- Uso da força: segurança coletiva, direitos humanos, operações de paz, desarmamento e não proliferação, controle de armas, terrorismo ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte IV — Uso da Força e Segurança Coletiva (pp. 341–366)
+> 🗃️ **Deck:** `direito/uso_forca_dih_direito.apkg` — 10 cards
+
+- Direito Internacional dos Direitos Humanos: exigibilidade, tratados ratificados pelo Brasil, sistemas convencionais de petições, Conselho de DH, órgãos de tratados, Sistema Interamericano; Conflitos armados: Direito Internacional Humanitário; Direito Internacional dos Refugiados ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte II — DH e Refugiados (pp. 271–306)
+> 🗃️ **Deck:** `direito/direitos_humanos_internacionais_direito.apkg` — 10 cards
+
+- Direito penal internacional: tribunais penais internacionais, TPI ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte IV — TPI e Responsabilidade Penal Internacional (pp. 341–366)
+> 🗃️ **Deck:** `direito/direito_penal_internacional_tpi_direito.apkg` — 8 cards
+
+- Direito do comércio internacional: OMC, acordos, órgão de solução de controvérsias; Direito internacional do trabalho: OIT, convenções, recomendações ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte III — Mar, Comércio e Trabalho (pp. 271–306)
+> 🗃️ **Deck:** `direito/direito_comercio_omc_oit_direito.apkg` — 8 cards
+
+- Direito Internacional do Meio Ambiente; Direito Internacional do Mar; TIDM; Áreas além dos limites da jurisdição exclusiva dos Estados ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte III — Mar e Meio Ambiente (pp. 230–270)
+> 🗃️ **Deck:** `direito/direito_mar_meio_ambiente_direito.apkg` — 10 cards
+
+- Cooperação Jurídica Internacional: matéria penal e cível; regimes vigentes no Direito brasileiro ✅
+> 📚 **Fontes:** Rezek — Direito Internacional Público, 17ª ed., Parte I — Tratados e Cooperação (pp. 80–100)
+> 🗃️ **Deck:** `direito/cooperacao_juridica_internacional_direito.apkg` — 8 cards
 
 ---
 
