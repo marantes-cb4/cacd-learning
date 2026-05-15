@@ -29,7 +29,9 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
    - Verso: resposta concisa com referência ao livro/capítulo fonte
 5. Exportar como .apkg cujo nome = <conteudo>_<materia>
    - Exemplo: demanda_agregada_economia.apkg
-6. Salvar em /anki/decks/
+6. Salvar em /anki/decks/<materia>/ (em minúsculas, sem acentos)
+   - Exemplo: /anki/decks/economia/demanda_agregada_economia.apkg
+   - Criar a pasta da matéria se não existir
 7. Atualizar /Editais/Conteudo_Programatico.md adicionando ao lado de cada conteúdo processado:
    - Livro(s) utilizado(s)
    - Capítulo(s) onde o conteúdo foi encontrado
