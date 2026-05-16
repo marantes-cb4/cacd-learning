@@ -3,14 +3,9 @@
 
 Deck hierarchy produced:
   CACD
-  CACD::direito
-  CACD::direito::<topic>
-  CACD::economia
-  CACD::economia::<topic>
-  CACD::historia_brasil
-  CACD::historia_brasil::<topic>
-  CACD::historia_mundial
-  CACD::historia_mundial::<topic>
+  CACD::direito, CACD::economia, CACD::historia_brasil,
+  CACD::historia_mundial, CACD::politica_internacional
+  CACD::<materia>::<topic>
 """
 
 import json
@@ -31,6 +26,7 @@ FOLDER_SUBDECKS = {
     "economia": "economia",
     "historia-br": "historia_brasil",
     "historia-mundial": "historia_mundial",
+    "politica-internacional": "politica_internacional",
 }
 
 COL_CONF = json.dumps({

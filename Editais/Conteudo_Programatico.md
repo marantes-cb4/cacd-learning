@@ -152,16 +152,22 @@
 ## 5. POLÍTICA INTERNACIONAL
 **Fase 1 + Fase 2**
 
-### 1–2. Fundamentos
+### 1–2. Fundamentos — ✅ coberto totalmente
 - Relações internacionais: conceitos básicos, atores, processos, instituições, principais paradigmas teóricos
 - Política externa brasileira: evolução desde 1945, principais vertentes e linhas de ação
+> 📚 **Fontes:** Coleção Diplomata — Política Internacional I (Considera), Cap. 1 (pp. 15–53) + Cap. 2 (pp. 54–112); Teorias das RI (Nogueira & Messari)
+> 🗃️ **Decks:**
+> - `politica-internacional/fundamentos_ri_paradigmas_pi.apkg` — 12 cards
+> - `politica-internacional/politica_externa_brasileira_pi.apkg` — 11 cards
 
-### 3. Brasil e América do Sul
+### 3. Brasil e América do Sul — ✅ coberto totalmente
 - Integração na América do Sul
 - MERCOSUL: origens, objetivos, características, estágio atual
 - Iniciativas de integração física, energética, política, econômica e de defesa na América do Sul
+> 📚 **Fontes:** Coleção Diplomata — Política Internacional I (Considera), Cap. 3 (pp. 113–177)
+> 🗃️ **Deck:** `politica-internacional/brasil_america_sul_mercosul_pi.apkg` — 11 cards
 
-### 4–11. Relações bilaterais
+### 4–11. Relações bilaterais — ✅ coberto totalmente
 - Argentina: política externa e relações com o Brasil
 - Demais países do hemisfério e relações com o Brasil
 - EUA: política externa e relações com o Brasil
@@ -170,10 +176,17 @@
 - África: política externa e relações com o Brasil
 - Brasil e Ásia: China, Índia, Japão — políticas externas e relações com o Brasil
 - Brasil e Oriente Médio: questão israelopalestina; Síria, Iraque, Irã
+> 📚 **Fontes:** Coleção Diplomata — Política Internacional II (Considera), Cap. 5 (pp. 15–136) + Cap. 6 (pp. 137–151)
+> 🗃️ **Decks:**
+> - `politica-internacional/relacoes_bilaterais_americas_pi.apkg` — 10 cards (Argentina, EUA, hemisfério)
+> - `politica-internacional/uniao_europeia_pi.apkg` — 10 cards
+> - `politica-internacional/relacoes_bilaterais_sul_pi.apkg` — 10 cards (Rússia, África, Ásia, Oriente Médio)
 
-### 12. Comunidade dos Países de Língua Portuguesa
+### 12. Comunidade dos Países de Língua Portuguesa — ✅ coberto totalmente
+> 📚 **Fontes:** Coleção Diplomata — Política Internacional II (Considera), Cap. 9 (pp. 193–212)
+> 🗃️ **Deck:** `politica-internacional/cooperacao_sul_sul_cplp_pi.apkg` — 10 cards (inclui CPLP + CSS bilateral)
 
-### 13. Brasil e agenda internacional
+### 13. Brasil e agenda internacional — ✅ coberto totalmente
 - Multilateralismo: ONU, conferências internacionais, órgãos multilaterais
 - Desenvolvimento e desenvolvimento sustentável
 - Pobreza, insegurança alimentar e fome; ações de combate à fome
@@ -189,14 +202,20 @@
 - Narcotráfico, crime transnacional e crimes cibernéticos
 - Reforma das Nações Unidas
 - Operações de paz da ONU
+> 📚 **Fontes:** Coleção Diplomata — Política Internacional II (Considera), Caps. 7–8 (pp. 152–192)
+> 🗃️ **Decks:**
+> - `politica-internacional/agenda_multilateral_pi.apkg` — 11 cards (ONU, DH, meio ambiente, paz)
+> - `politica-internacional/omc_comercio_internacional_pi.apkg` — 11 cards
 
-### 14–19. Temas específicos
+### 14–19. Temas específicos — ✅ coberto totalmente
 - Sistema interamericano: OEA
 - Blocos econômicos, acordos comerciais e promoção comercial
 - Dimensão da segurança na política exterior do Brasil
 - Coalizões internacionais: G-20, IBAS, BRICS
 - Cooperação Sul-Sul
 - Cooperação e diplomacia da saúde
+> 📚 **Fontes:** Coleção Diplomata — Política Internacional I (Considera), Cap. 4 (pp. 178–224); PI-II Cap. 9
+> 🗃️ **Deck:** `politica-internacional/coalizoes_brics_ibas_g20_pi.apkg` — 11 cards
 
 ---
 
