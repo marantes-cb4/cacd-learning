@@ -24,6 +24,7 @@ OUTPUT_PATH = DECKS_DIR / "CACD.apkg"
 FOLDER_SUBDECKS = {
     "direito": "direito",
     "economia": "economia",
+    "geografia": "geografia",
     "historia-br": "historia_brasil",
     "historia-mundial": "historia_mundial",
     "politica-internacional": "politica_internacional",

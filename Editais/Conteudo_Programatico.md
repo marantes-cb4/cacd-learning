@@ -222,42 +222,56 @@
 ## 6. GEOGRAFIA
 **Fase 1 + Fase 2**
 
-### 1. História da Geografia
+### 1. História da Geografia — ✅ coberto totalmente
 - Expansão colonial e pensamento geográfico
 - A Geografia moderna e a questão nacional na Europa
 - Principais correntes teóricas da Geografia
+> 📚 **Fontes:** Moraes, A.C.R. "Geografia: Pequena História Crítica" (Caps. 1–6)
+> 🗃️ **Deck:** `geografia/historia_geo_geo.apkg` — 12 cards
 
-### 2. Geografia da população
+### 2. Geografia da população — ⚠️ coberto parcialmente
 - Distribuição espacial da população no Brasil e no mundo
 - Grandes movimentos migratórios internacionais e intranacionais
 - Dinâmica populacional e indicadores de qualidade de vida
+> 📚 **Fontes:** IBGE; Conceitos e Temas (scaneado — cards baseados em conteúdo programático)
+> 🗃️ **Deck:** `geografia/populacao_geo.apkg` — 12 cards
 
-### 3. Geografia econômica
+### 3. Geografia econômica — ✅ coberto totalmente
 - Globalização e divisão internacional do trabalho
 - Formação e estrutura dos blocos econômicos internacionais
 - Energia, logística e reordenamento territorial pós-fordista
 - Disparidades regionais e planejamento no Brasil
+> 📚 **Fontes:** Santos, M. "Por uma outra globalização" (Caps. 1–6); Conceitos e Temas
+> 🗃️ **Deck:** `geografia/economica_geo.apkg` — 12 cards
 
-### 4. Geografia Agrária
+### 4. Geografia Agrária — ✅ coberto totalmente
 - Distribuição geográfica da agricultura e pecuária mundiais
 - Agronegócio no Brasil e no mundo
 - Estrutura fundiária, uso da terra e relações de produção no campo brasileiro
+> 📚 **Fontes:** Santos, M. "Por uma outra globalização" (Cap. 5); Moraes (Lei de Terras); IBGE
+> 🗃️ **Deck:** `geografia/agraria_geo.apkg` — 11 cards
 
-### 5. Geografia Urbana
+### 5. Geografia Urbana — ⚠️ coberto parcialmente
 - Processo de urbanização e formação de redes de cidades
 - Conurbação, metropolização e cidades-mundiais
 - Dinâmica intraurbana das metrópoles brasileiras
 - Papel das cidades médias na modernização do Brasil
+> 📚 **Fontes:** IBGE REGIC; Santos & Silveira (scaneado — cards baseados em conteúdo programático)
+> 🗃️ **Deck:** `geografia/urbana_geo.apkg` — 12 cards
 
-### 6. Geografia política
+### 6. Geografia política — ✅ coberto totalmente
 - Teorias geopolíticas e poder mundial
 - Fronteiras e formas de apropriação política do espaço
 - Relações Estado e território
+> 📚 **Fontes:** Moraes, A.C.R. "Geografia: Pequena História Crítica" (Cap. 3); Raffestin
+> 🗃️ **Deck:** `geografia/politica_geo.apkg` — 11 cards
 
-### 7. Geografia e gestão ambiental
+### 7. Geografia e gestão ambiental — ✅ coberto totalmente
 - Meio ambiente nas relações internacionais: questões conceituais e institucionais
 - Macrodivisão natural do espaço brasileiro: biomas, domínios e ecossistemas
 - Política e gestão ambiental no Brasil
+> 📚 **Fontes:** MMA; PNUMA; IBGE; Lei 6.938/1981; Lei 12.651/2012
+> 🗃️ **Deck:** `geografia/ambiental_geo.apkg` — 12 cards
 
 ---
 
