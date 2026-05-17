@@ -28,6 +28,7 @@ FOLDER_SUBDECKS = {
     "historia-br": "historia_brasil",
     "historia-mundial": "historia_mundial",
     "politica-internacional": "politica_internacional",
+    "tps": "tps",
 }
 
 COL_CONF = json.dumps({

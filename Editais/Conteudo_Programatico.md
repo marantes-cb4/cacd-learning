@@ -5,6 +5,21 @@
 
 ---
 
+## Frequência de tópicos nas TPS 2015–2025
+
+> Análise completa em `/Analise_Provas/TPS_<matéria>_Analise.md`; cards em `anki/decks/tps/`.
+
+| Matéria | Tópicos mais frequentes (TPS 2015–2025) |
+|---------|----------------------------------------|
+| **PI** | PEB/princípios constitucionais (8/10), integração sul-americana MERCOSUL/UNASUL (7/10), UE/Brexit (5/10), teorias RI (4/10) |
+| **HB** | República Velha / Barão do Rio Branco (6/10), período colonial (6/10), Independência (5/10), Era Vargas (3/10) |
+| **HM** | Segunda Guerra Mundial / Nazismo (5/10), Guerra Fria (4/10), descolonização africana (4/10), Revoluções europeias (4/10) |
+| **GEO** | Pensamento geográfico / correntes (6/10), urbanização (5/10), agronegócio e território (5/10), migrações (5/10) |
+| **ECON** | Política monetária convencional e não convencional (5/10), modelos de crescimento (4/10), dívida externa/FMI (4/10), inflação/planos estabilização (4/10) |
+| **DIP** | Direito Internacional Público / tratados / CIJ (8/10), Direito Administrativo Lei 8.112 (5/10), Direitos Humanos internacionais (4/10), ONU (4/10) |
+
+---
+
 ## 1. LÍNGUA PORTUGUESA
 **Fase 1 + Fase 2**
 
