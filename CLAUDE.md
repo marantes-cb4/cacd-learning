@@ -38,6 +38,28 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
    - Status: ✅ coberto totalmente | ⚠️ coberto parcialmente | ❌ não encontrado nos PDFs
 8. Fazer commit e push com a mensagem: "cards: <conteudo> (<materia>) — <N> cards"
 
+## ─── TAREFA 3: Análise de provas anteriores ───
+
+**Gatilho:** quando eu passar provas anteriores em PDF com gabarito oficial e extraoficial.
+
+**O que fazer:**
+1. Extrair todas as questões e gabaritos
+2. Classificar cada questão por tópico do Conteudo_Programatico.md
+3. Identificar padrões de formulação, termos recorrentes e pegadinhas típicas da banca
+4. Comparar gabarito oficial vs. extraoficial e identificar padrões de anulação/alteração
+5. Atualizar /Editais/Conteudo_Programatico.md com frequência de cobrança por tópico
+6. Salvar relatório de análise em /Analise_Provas/<materia>_<anos>.md contendo:
+   - Tópicos mais cobrados
+   - Pegadinhas recorrentes da banca
+   - Padrões de formulação de questões corretas vs. incorretas
+   - Tópicos que nunca caíram
+7. Gerar cards sobre os TÓPICOS abordados nas questões — nunca reproduzir
+   as questões literalmente para preservar os TPs como simulados
+8. Commit e push com mensagem: "analise: TP <ano> — <materia>"
+
+**REGRA CRÍTICA:** Nunca criar cards com o enunciado exato ou
+alternativas das questões. Os TPs antigos são reservados como simulados.
+
 ## Sobre os materiais de referência
 Os PDFs estão organizados por matéria em subpastas dentro de /Users/isabelamarantes/Desktop/CACD/,
 mas um livro pode ser relevante para mais de uma matéria. Ao buscar conteúdo,
