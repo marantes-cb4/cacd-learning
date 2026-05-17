@@ -60,6 +60,42 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 **REGRA CRÍTICA:** Nunca criar cards com o enunciado exato ou
 alternativas das questões. Os TPs antigos são reservados como simulados.
 
+## ─── TAREFA 4: Análise de provas discursivas ───
+
+**Gatilho:** quando eu passar provas discursivas em PDF com o Guia do Candidato.
+
+**O que fazer:**
+1. Extrair todas as questões discursivas e classificar por matéria e tópico
+2. Ler as melhores respostas do Guia do Candidato como referência de qualidade —
+   não como gabarito único, mas como exemplo do que a banca valoriza
+3. Identificar padrões das melhores respostas:
+   - Estrutura de argumento (como abrem, desenvolvem e concluem)
+   - Conceitos e autores que aparecem nas respostas de referência
+   - Nível de profundidade esperado por matéria
+   - Conexões interdisciplinares que a banca valoriza
+   - Vocabulário e terminologia técnica recorrente
+4. Identificar padrões das perguntas discursivas:
+   - Verbos de comando mais usados (discuta, analise, compare, explique)
+   - Se a banca privilegia respostas cronológicas, temáticas ou argumentativas
+   - Temas transversais que conectam mais de uma matéria
+5. Salvar relatório em /Analise_Provas/discursivas/<materia>_<anos>.md contendo:
+   - Padrões de pergunta e estrutura esperada de resposta
+   - Autores e conceitos recorrentes nas melhores respostas
+   - Tópicos mais cobrados nas discursivas
+   - Conexões interdisciplinares identificadas
+6. Atualizar /Editais/Conteudo_Programatico.md com frequência de cobrança
+   nas discursivas por tópico
+7. Gerar cards sobre os TÓPICOS e AUTORES abordados — nunca reproduzir
+   as questões literalmente para preservar as provas como simulados
+8. Commit e push com mensagem: "analise: discursivas <ano> — <materia>"
+
+**REGRAS CRÍTICAS:**
+- As respostas do Guia do Candidato são referência de qualidade, não gabarito único
+- Nunca criar cards com enunciados exatos das questões
+- Ao identificar padrões, sempre considerar que boas respostas podem ter
+  abordagens diferentes das do Guia
+  
+
 ## Sobre os materiais de referência
 Os PDFs estão organizados por matéria em subpastas dentro de /Users/isabelamarantes/Desktop/CACD/,
 mas um livro pode ser relevante para mais de uma matéria. Ao buscar conteúdo,
