@@ -1,0 +1,77 @@
+**Personalidade Jurídica \- direito civil** 
+
+- Conceito (neutro, vale para direito internacional tbm)  
+  - Ter personalidade jurídica é ser sujeito de direito, capacidade de aquisição e de gozo.  
+  - ter capacidade de direito: Tem aptidão a ter direitos e obrigações  
+  - Animais, por exemplo, não são sujeitos de direito, assim não podem ter direitos e deveres  
+  - Art. 1º do Código Civil "toda pessoa é capaz de direitos e deveres na ordem civil  
+- 02 tipos de sujeitos de direito (personalidade jurídica)   
+  - Pessoas naturais (pessoas físicas, cpf) art. 2º do Código Civil  
+    - Indivíduos que nascem com vida   
+    - Teoria Natalista: Começa no nascimento com vida.   
+    - Feto (nascituro) não é sujeito de direito, mas a lei põe a salvo seus direitos	  
+      - Há expectativas de seus direitos, ele não as possui ainda mas está guardada a ele caso ele nasça com vida    
+    - Art. 6  e 7 do Código Civil- fim da personalidade jurídica   
+      - Termina com a morte factual ou morte presumida (casos onde há grande probabilidade de morte, como encerramento das buscas, final de guerra)   
+  - Pessoas jurídicas (criações jurídicas, cnpj) art 40-52 do codigo civil  
+    - Podem ser de direito público ou de direito privado  
+    - São criações do direito para atribuir personalidade jurídica a um conjunto de bens (direito privado) ou conjunto de atribuições e competências (público)   
+      - A forma de criação varia se é público ou privado   
+    - Pessoa jurídica de direito público interno ou externo  
+      - Art 40-43 do codigo civil   
+      - Art 42: Pessoa juridica de direito publico externo ou internacional   
+        - O que é sujeito internacional reconhecido pelo direito internacional publico (como Estados estrangeiros) correspondem a pessoas juridicas de direito publico externo   
+        - Nesse caso, direito interno segue o que o direito internacional publico (dip) estabelece   
+      - Art 41: Pessoa juridica de direito publico interno ou nacional   
+        - São criadas e extintas por lei   
+        - São elas:  
+          - A União   
+            - Art 21 da CF/88 compete exclusivamente a União manter relacões internacionais com Estados estrangeiros e participar de organizações internacionais  
+            - A União não é sujeito do direito internacional publico (isso seria a republica federativa do brasil), mas atua como representante do verdadeiro sujeito de DIP  
+          - Os estados, DF, municipios e os territorios (não existem hj no br)  
+          - As autarquias e associações públicas (consórcios públicos- empresas públicas)  
+          - Demais entidades de caráter publico criadas por lei   
+      - Art 52 CF/88 determina que o senado federal pode autorizar operações externas de natureza financeira de interesse da União, Estados, DF, municipios e territórios   
+        - Esses NÃO são sujeitos do DIP, são personalidade de direito publico interno, mas como operações externas financeiras não são tratados financeiras, com autorização do senado federal, podem ser realizadas   
+        - Isso porque as operações são considerados contratos ou negocios juridicos internacionais, sendo assim regidas pelo direito internacional PRIVADO.  
+        - Apenas podem celebrados tratados internacionais os sujeitos do DIP (pessoas juridicas de direito publico externo.  
+    - Pessoa jurídica de direito privado   
+      - Mediante registro no órgão competente   
+      - Art 45 do Código Civil   
+        - Quando necessário, autorização do poder executivo. Casos excepcionais   
+          - Ex: sindicatos, como não pode ter mais de um então necessário aprovação do executivo   
+          - Ex: M\&A (fusão e aquisição) no setor aereo, necessário aprovação para garantir que não haverá monopólio  
+      - Art 44: são pessoas juridicas do direito privado:  
+        - Associações   
+        - Sociedades (empresas)  
+        - Fundações  
+        - Organizações religiosas   
+        - Partidos políticos   
+      - Art 51: Para extinção, ou disulação, deve ser feito também no órgão competente   
+      - Art 50: caso de abuso da personalidade juridica, desvio de personalidade ou confusão patrimonial, pode ter a desconsideração da personalidade juridica através de ordem judicial (medida extrema). Nesse caso, os sócios e administradores responderão pela atuação irregular da pessoa juridica   
+        - Ex: empresa quebra mas donos não   
+        - Ex: Restaurante que tem um sala de poker atrás (desvio de finalidade) 
+
+**Capacidade civil** (não é igual capacidade de direito ou ser sujeito do direito) art 3 e 4 do Código Civil (capacidade de fato e capacidade de exercício) 
+
+- Capacidade civil pressupõe o discernimento da pessoa natural, ou seja, capacidade de atuar na vida civil, como celebrar um contrato ou entrando em um matrimônio   
+- Nem toda pessoa natural vai ter discernimento e assim não possuirá capacidade civil   
+- Relativamente incapazes (art 4 do Código Civil)  
+  - São aqueles que necessitam de assistência por apresentar discernimento reduzido.   
+  - Possuem capacidade civil reduzida, podem externar suas vontades para ter direitos e deveres na ordem civil desde que acompanhados de alguém que possua capacidade civil.  
+  - São esses   
+    - Entre 16-18 anos de idade  
+    - Aditos ou viciados em substâncias  
+    - Que possuem alguma doença impeditiva, permanente ou transitória   
+    - Prodigos (gastam seus bens e materiais de forma indevida)  
+  - A maioria desses exige exame pericial para certificar que os mesmos são de fato relativamente incapazes e então têm capacidade civil reduzida  
+- Absolutamente incapazes (art 3 do Código Civil)   
+  - Proteção para aqueles que não têm nenhum grau de discernimento e assim não possuem capacidade civil própria  
+  - Esses devem ter representação por meio de outra pessoa que tem capacidade civil   
+  - Hoje somente menores de 16 anos são considerados absolutamente incapazes   
+- Agentes capazes   
+  - Aqueles que gozam de capacidade civil plena, correspondem aos demais agentes (com exceção dos relativamente e absolutamente incapazes)  
+- Indigenas possuem legislação especifica acerca de sua capacidade civil  
+- Portadores de deficiencia mental não são absolutamente nem relativamente incapazes de acordo com o codigo civil  
+  - Somente a doença não é motivação suficiente, é necessário pericia para comprovar comprometimento de discernimento   
+  - Brasil é parte da convenção da ONU os direitos das pessoas com deficiência, e considera-se discriminação denominar incapacidade civil somente por doença (Isso foi incorporado ao ordenamento juridico BR em 2015, revogando as leis que estabeleciam deficiencia com causa de incapacidade civil)

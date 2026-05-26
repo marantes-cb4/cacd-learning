@@ -7,8 +7,8 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 **Gatilho:** quando eu pedir para processar uma matéria ou submatéria.
 
 **Fontes a usar (em ordem):**
-1. Minhas anotações em .md → /Users/isabelamarantes/Desktop/CACD/aulas/<materia>/<submateria>/anotações/
-2. Materiais do professor em .docx → /Users/isabelamarantes/Desktop/CACD/aulas/<materia>/<submateria>/materiais/
+1. Minhas anotações em .md → /anotações/<materia>/ (no próprio repositório)
+2. Materiais do professor em PDF → /Users/isabelamarantes/Desktop/CACD/Aulas/<materia>/Materiais/
 3. Livros de referência em PDF → /Users/isabelamarantes/Desktop/CACD/
 
 **O que fazer:**
@@ -25,8 +25,7 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
    - Usar letras maiúsculas no início de cada palavra
    - Substituir underscores por espaços no nome final
 5. Salvar em /anki/decks/<materia>/
-6. Mover anotações .md para /notas/<materia>/<submateria>/
-7. Fazer commit e push com mensagem: 
+6. Fazer commit e push com mensagem: 
    "notas+cards: <submateria> (<materia>) — <N> cards gerados"
 
 **Sobre as questões objetivas do professor:**
@@ -130,6 +129,14 @@ uma pasta de matéria diferente.
 - Máximo 2 linhas no verso
 - Nunca criar cards sem identificar a fonte (livro + capítulo)
 - Verificar duplicatas antes de criar novos cards para o mesmo tema
+
+## Estrutura de anotações no repositório
+As anotações de aula ficam versionadas no próprio repo em:
+/anotações/<materia>/<topico>.md
+
+- Sempre commitar as anotações .md junto com os decks gerados a partir delas
+- Quando receber novas anotações (arquivo .md ou conteúdo colado), salvar em /anotações/<materia>/ antes de processar
+- Nunca deixar anotações apenas no desktop — o repo é a fonte de verdade
 
 ## Regras gerais
 - Nunca commitar PDFs ou arquivos acima de 10MB
