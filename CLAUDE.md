@@ -30,9 +30,12 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
    "notas+cards: <submateria> (<materia>) — <N> cards gerados"
 
 **Sobre as questões objetivas do professor:**
-- Transformar cada questão em um card
-- Frente: o enunciado da questão
-- Verso: resposta correta 
+- Usar o arquivo "Questões objetivas" (PDF separado da rodada) como fonte principal — ele traz os enunciados limpos
+- Reproduzir o enunciado de cada item **literalmente**, sem parafrasear (não são questões oficiais do CACD)
+- Cada item (I, II, III, IV) vira um card individual
+- Frente: enunciado exato do item
+- Verso: resposta correta (C/E) + breve explicação do porquê
+- O gabarito está no mesmo PDF de questões ou no PDF principal da rodada
 
 ## ─── TAREFA 2: PDFs → Flash cards por conteúdo programático ───
 
