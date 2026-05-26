@@ -1,20 +1,38 @@
 ## Materiais de referência (só local, nunca commitar)
 PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 
-## ─── TAREFA 1: Notas de aula → Flash cards ───
 
-**Gatilho:** quando eu passar um arquivo .md com notas de aula.
+## ─── TAREFA 1: Notas de aula e materiais → Flash cards ───
+
+**Gatilho:** quando eu pedir para processar uma matéria ou submatéria.
+
+**Fontes a usar (em ordem):**
+1. Minhas anotações em .md → /Users/isabelamarantes/Desktop/CACD/aulas/<materia>/<submateria>/anotações/
+2. Materiais do professor em .docx → /Users/isabelamarantes/Desktop/CACD/aulas/<materia>/<submateria>/materiais/
+3. Livros de referência em PDF → /Users/isabelamarantes/Desktop/CACD/
 
 **O que fazer:**
-1. Ler o arquivo .md
-2. Identificar o macro tema (Economia, Direito, História, etc.)
-3. Gerar flash cards objetivos sobre os conceitos presentes nas notas
-   - Frente: pergunta direta sobre o conceito
-   - Verso: resposta concisa, sem rodeios
-4. Exportar como .apkg cujo nome = título do documento .md
-5. Salvar o .apkg em /anki/decks/
-6. Mover o arquivo .md de notas para /notas/<macro-tema>/ (em minúsculas)
-7. Fazer commit e push com a mensagem: "notas: <título do documento> + <N> cards gerados"
+1. Ler as anotações .md e os materiais .docx da submatéria solicitada
+2. Identificar o macro tema e submatéria
+3. Gerar flash cards objetivos combinando as duas fontes:
+   - Conceitos das anotações → cards de definição e explicação
+   - Questões objetivas dos materiais do professor → cards no mesmo formato
+     (frente: a pergunta; verso: resposta correta + breve explicação do porquê)
+   - Nunca reproduzir questões literalmente se forem de TPs antigos
+4. Exportar como .apkg nomeado: <materia> - <tema_da_aula>.apkg
+   onde <tema_da_aula> = nome do arquivo de anotações .md (sem a extensão)
+   - Exemplo: se o arquivo é "normas_juridicas.md" → "Direito Interno - Normas Jurídicas.apkg"
+   - Usar letras maiúsculas no início de cada palavra
+   - Substituir underscores por espaços no nome final
+5. Salvar em /anki/decks/<materia>/
+6. Mover anotações .md para /notas/<materia>/<submateria>/
+7. Fazer commit e push com mensagem: 
+   "notas+cards: <submateria> (<materia>) — <N> cards gerados"
+
+**Sobre as questões objetivas do professor:**
+- Transformar cada questão em um card
+- Frente: o enunciado da questão
+- Verso: resposta correta 
 
 ## ─── TAREFA 2: PDFs → Flash cards por conteúdo programático ───
 
