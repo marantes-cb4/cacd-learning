@@ -1,0 +1,90 @@
+Teorias que explicam a area do DIP \- fundamento e validade
+
+- Há duas correntes de pensamento que justificam o carater jurídico do direito internacional  
+  - Ambas correntes se opõem aos negadores do DIP, que falavam que o DIP não era uma area autonoma do direito (carater de existencia)  
+  - Ambas também explicam o carater juridico do DIP e estimulam o seu desenvolvimento posterior ao século 20  
+  - Elas são aplicadas de modo combinado, não se pode compreender o DIP por completo só por uma corrente de pensamento  
+  - Aqui são teorias de direito internacional clássico, se fala somente de Estados, sem considerar ainda OIs, por exemplo  
+- 01 Voluntarismo   
+  - Pressuposto principal: normas internacionais só são consideradas válidas e existentes é preciso que os Estados soberanos tenham participado ou aderido  
+    - As normas só serão vinculantes se houver VONTADE dos Estados  
+    - Isso pode ser compreendido através da participação na sua construção ou sua vinculação posterior. Só assim será obrigatória a eles.   
+    - Conscentimento criativo: para criação de uma norma deve haver consentimento pelos Estados que as adotam  
+      - CC expresso: explica o surgimento de tratados ou convenções  
+      - CC tácito: explica o surgimento do costume internacional  
+    - A teoria explica a criação das normas internacionais dispositivas  
+      - Normas de que o Estado pode dispor (se retirar) a qualquer momento. Essas só são vinculantes enquanto os Estados desejarem.  
+      - Costumes também são dispositivos, podem ser extinguidos por novos costumes ou tratados contrariantes  
+- 02 objetivismo   
+  - Existem normas internacionais que são obrigatórias independentemente da vontade dos Estados soberanos   
+  - Focam na noção de comunidade internacional, são valores e normas que se aplicam independentemente da vontade dos Estados  
+  - São valores juridicos difundidos na sociedade internacional  
+  - o objetivismo vai dizer que há certos limites ao voluntarismo, nem tudo que os Estados desejarem estabelecer como norma entre os signatários pode  
+    - Ex: Estados criam tratado sobre escravidão, permitindo-a. O objetivismo vai dizer que isso vai contra os valores e normas da sociedade internacional como um todo, que são objetivos.   
+  - As normas são vinculantes e existentes para os Estados por que representam os valores juridicos para a sociedade internacional como um todo. Nenhum Estado pode atuar em contrariedade a esses valores jurídicos objetivos  
+  - Conscentimento perceptivo: tratados e costumes criados por Estados só serão válidos se não contrariarem os valores da comunidade internacional (normas objetivas)  
+  - Resultado: a aceitação do conceito de Jus Cogens (normas imperativas). Reflete a existencia de uma ordem pública internacional baseada em valores juridicos que Estados soberanos não podem desconsiderar  
+    - Convenção de Viena sobre o direito de tratados, art 53, explicita isso. Tratados não podem violar ou conflitar com jus cogens.  
+      - Art 64: se houver uma nova jus cogens, tratados existentes que as violam são nulos
+
+**Terminologia das normas internacionais**
+
+- Normas internacionais positivas  
+  - Normas obrigatórias ou vinculantes  
+    - Pode ser imperativas (objetivismo) ou dispositivas (enquanto houver vontade) (voluntarismo)   
+- Normas internacionais codificada  
+  - Está em forma escrita, explicitada em um tratado ou resolução   
+- Normas internacionais não codificadas  
+  - Não estão em forma escrita, como são os costumes internacionais 
+
+**Relação entre direito interno e internacional**
+
+- Cabe exclusivamente ao direito interno (Estado Soberano) decidir como as normas internacionais serão aplicadas internamente.   
+  - Previsto na constituição de cada Estado  
+- Duas teorias que explicam como o interno acata o externo, elas podem coexistir, ou seja um Estado usa monismo para alguns tipos de normas e o dualismo para outras  
+  - Monismo  
+    - Existência de uma única ordem jurídica que congrega normas internas e internacionais   
+    - Participam do mesmo ordenamento jurídico  
+    - 2 características dessa corrente (ou consequências jurídicas)  
+      - 01 Não há processo de internalização das normas, ou seja, não precisa ser transformada em norma interna   
+        - Assim que a norma internacional for aceita no âmbito internacional, ela é automaticamente e imediatamente aceita no ordenamento jurídico nacional (sem nenhum procedimento de incorporação)  
+      - 02 Haverá antinomias (conflitos entre normas) entre normas internacionais e internas  
+        - Como elas coexistem no mesmo plano então vão naturalmente se opor em algum momento  
+        - Há 2 variações de como a constituição do Estado resolve essas antinomias   
+          - Monismo nacionalista   
+            - Se ocorrer conflito entre norma interna e internacional, a norma interna prevalece   
+          - Monismo internacionalista  
+            - Em caso de antinomia, norma internacional prevalence  
+          - Monismo internacionalista dialógico \-   
+            - Em matérias de proteção dos direitos humanos, prevalece a norma que mais favorece o indivíduo (pro-homine) seja interna ou internacional  
+            - Isso surge após 1945 quando o indivíduo se torna sujeito do direito internacional público   
+  - Dualismo  
+    - Existem 02 ordens jurídicas distintas e incomunicaveis: a interna e a internacional  
+    - 02 consequencias juridicas   
+      - 01 Não haverá antinomias entre ordens internas e internacionais, já que elas não estão no mesmo plano  
+        - Podem surgir antinomais entre normas internas puras (aquelas criadas no ambito interno) e transformações de norma internacional  
+        - Nesse caso, pode haver uma antinomia visto que a norma internacional foi transformada e adicionada a ordem juridica interna  
+      - 02 existe necessidade de transformação da norma internacional para ser aplicada internamente  
+        - Não tem aplicação imediata, é necessário um procedimento específico (ditado pela constituição do Estado) para que a norma internacional seja aplicada internamente  
+    - 02 variações do dualismo a partir da transformação da norma internacional para nacional  
+      - 01 Dualismo radical  
+        - Só se transforma a norma internacional em interna a partir da criação de uma lei (seguindo todo o procedimento de proposta de lei)  
+          - Proposta pelo poder legislativo, discutida, votada, aprovada, sancionada pelo executivo e promulgada)  
+      - 02 Dualismo moderado   
+        - A transformação ocorre mediante um procedimento mais simples que o processo legislativo de lei formal   
+          - ex : publicação de decreto presidencial   
+  - Caso do Brasil  
+    - Normas não codificadas são monistas nacionalista (prevalece a Constituição). São essas:  
+      - Costumes   
+      - Principios gerais do direito   
+      - Atos unilaterais de Estado (como declarações orais)  
+      - Excessão (norma codificada que segue a corrente monista nacionalista)  
+        - Resoluções do Conselho de Segurança da ONU para combater o terrorismo  
+          - Lei 13\. 810 de 2019 dita que esse caso tem aplicação imediata e automática   
+    - Normas codificadas é dualismo  
+      - Dualismo moderado  
+      - Essas são submetidas a processo de incorporação ao ordenamento juridico nacional   
+      - Tratados ou convenções internacionais   
+        - São transformadas em normas internas a partir de um processo de incorporação que resulta em um decreto presidencial   
+      - Resoluções de Organizações Internacionais em geral  
+        - Exigem somente um decreto presidencial para serem aplicadas na ordem juridica domestica.
