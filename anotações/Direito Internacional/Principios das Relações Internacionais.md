@@ -1,0 +1,48 @@
+- 
+
+**Princípios constitucionais das relações internacionais (art 4 CF/88)**
+
+- A CF/88 primeira constituição que rege a atuação do Brasil no cenário internacional  
+  - Os princípios vistos aqui já estão previstos na carta da ONU desde 1945 (art 1 e 2), Já eram normas positivas. A inclusão do Art 4 marca a reinserção do Brasil na ordem internacional   
+- Os princípios são:  
+  - Autodeterminação dos povos  
+  - Igualdade soberana  
+  - Defesa da paz   
+  - Independecia nacional  
+  - Prevalencia dos direitos humanos  
+  - Não-intervenção   
+  - Solução pacifica de conflitos   
+  - Repudio ao terrorismo  
+  - Cooperação entre os povos para progresso da humanidade  
+  - Concessão de asilo político  
+  - Paragrafo unico   
+    - Promover a integração politica, economica, social e cultural com os povos da america latina, visando formar uma comunidade latino americana  
+- Flavia Piovesan é o grande nome a ser usado para essa questão  
+- Princípios como mandamento de otimização:Robert Alexy  
+  - A aplicação de normas jurídicas se apresentam sob forma de princípios (comandos normativos abertos que exigem concretização e aplicação)  
+  - Aperfeiçoar o ordenamento jurídico.   
+  - Art 4 cf/88 indica que os principios listados servem para otimizar a atuação dos 3 poderes do brasil no ambito internacional  
+    - Não somente cabe ao executivo executar ou proteger esses princípios   
+    - Executivo: art 5 cf/88- tratados de direitos humanos que o Executivo indica (através de notificação do Congresso Nacional) passarão pela votação 2-2-⅗ para entrar como emenda constitucional  
+      - Além de claro, o executivo é responsável por celebrar os tratados internacionais   
+    - Legislativo: a partir de 2023, ADI 1625, Congresso Nacional tem a competência de resolver sobre tratados e acordos internacionais (art 49 inciso 1\) AMPLIADA  
+      - Agora, além de permitir a ratificação dos tratados pelo presidente da República, o Congresso também competência para autorizar denúncia através de um decreto legislativo  
+-  Judiciário:   
+  - Reconhecimento da supralegalidade dos tratos de direitos humanos   
+    - Segundo STF, tratados de direitos humanos que não forem incorporados como emenda constitucional terão status supralegalidade (posição acima das leis mas abaixo da constituição)  
+    - Pacto de São Jose da Costa Rica 1969 é o exemplo mais clássico porém qualquer tratado que o conteudo toque sobre direitos humanos e não foi votado como emenda terá essa posição   
+      - principal tratado internacional do Sistema Interamericano de Proteção aos Direitos Humanos   
+    - E.x. Convenções 139 da OIT, Convenção de Brasíleia (meio ambiente)  
+  - Realização do controle de convencionalidade da legislação brasileira  
+    - A compatibilidade entre as leis e os tratados internacionais de direitos humanos é realizada por juízes e tribunais brasileiros no julgamento de casos concretos.  
+    - Se houver incompatibilidade entre as leis vigentes e os tratados de DH, o juiz no caso concreto pode deixar de aplicar as leis internas (visto que os tratados de DH têm status de supralegalidade) (efeito paralisante)  
+    - STJ defende que juízes Br devem atuar como juizes interamericanos, aplicando internamente o pacto de São José  
+  - Não aplicação da imunidade de jurisdição em relação a atos de império praticados por Estados estrangeiros no BR que importem violação aos DH.   
+    - Imunidade de jurisdição: um Estado não se pode ser julgado pelo judiciario de outro estado  
+    - O STF flexibilizou a imunidade de jurisdição de Estados soberanos em atos de império (ex atos de guerra) quando o tema é a prevalência dos DH  
+    - Caso Changri-la: alemanha naufragou um barco pesqueiro em 1943, durante segunda guerra mundial  
+      - STF, aplica art 4 inciso 2 assegurando a prevalência dos DH para reconhecer os direitos dos familiares dos pescadores mortos  
+      - Direito dos familiares a receber indenização   
+    - Se o ato de império vai contro DH, o Brasil não reconhece a imunidade de jurisdição 
+
+-
