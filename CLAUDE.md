@@ -18,7 +18,9 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
    - Conceitos das anotações → cards de definição e explicação
    - Questões objetivas dos materiais do professor → cards no mesmo formato
      (frente: a pergunta; verso: resposta correta + breve explicação do porquê)
-   - Nunca reproduzir questões literalmente se forem de TPs antigos
+   - Questões de TPs oficiais que o professor incluir nos materiais de aula
+     podem e devem ser reproduzidas literalmente — o professor as escolheu
+     como material de aprendizado, não como simulado
 4. Exportar como .apkg nomeado: <materia> - <tema_da_aula>.apkg
    onde <tema_da_aula> = nome do arquivo de anotações .md (sem a extensão)
    - Exemplo: se o arquivo é "normas_juridicas.md" → "Direito Interno - Normas Jurídicas.apkg"

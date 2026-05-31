@@ -233,36 +233,100 @@ MICRO_OFERTA_DEMANDA = [
         "<i>Fonte: Slides Aula 01 – Oferta e Demanda</i>",
     ),
 
-    # ── FALHAS DE MERCADO (tópicos das questões de TPS) ───────────────────────
+    # ── FALHAS DE MERCADO (conceitos) ─────────────────────────────────────────
     (
         "Por que o monopólio é considerado uma falha de mercado?",
         "Porque um único ofertante tem <b>poder de mercado</b> — pode fixar preços acima do nível "
         "competitivo, reduzindo a quantidade produzida abaixo do ótimo social. Isso gera "
         "<b>perda de eficiência</b> (peso morto).<br>"
-        "<i>Fonte: Slides Aula 01 / TPS 2023 Q71</i>",
+        "<i>Fonte: Slides Aula 01</i>",
     ),
     (
         "O que são bens públicos e por que o mercado os subprovê?",
         "Bens <b>não-rivais</b> (consumo de um não reduz disponibilidade para outros) e "
         "<b>não-excludentes</b> (não se pode excluir ninguém do consumo). "
-        "Como não é possível cobrar por eles de forma eficiente, o setor privado os subprovê — "
+        "Como não é possível cobrar por eles eficientemente, o setor privado os subprovê — "
         "justificando intervenção governamental. Ex.: defesa nacional, iluminação pública.<br>"
-        "<i>Fonte: Slides Aula 01 / TPS 2023 Q71</i>",
+        "<i>Fonte: Slides Aula 01</i>",
     ),
     (
         "O que é informação assimétrica como falha de mercado?",
-        "Ocorre quando os agentes (compradores e vendedores) <b>não têm acesso igual à informação</b> "
-        "sobre um bem/serviço. Isso impede decisões ótimas e gera ineficiência. "
-        "Ex.: mercado de seguros (segurado sabe mais sobre seu risco que a seguradora — seleção adversa).<br>"
-        "<i>Fonte: Slides Aula 01 / TPS 2023 Q71</i>",
+        "Ocorre quando os agentes <b>não têm acesso igual à informação</b> sobre um bem/serviço, "
+        "impedindo decisões ótimas. Ex.: mercado de seguros — o segurado sabe mais sobre seu risco "
+        "do que a seguradora (seleção adversa).<br>"
+        "<i>Fonte: Slides Aula 01</i>",
+    ),
+
+    # ── TPS 2023 — QUESTÃO 71 ──────────────────────────────────────────────────
+    (
+        "[TPS 2023 Q71] 1 – O monopólio é uma falha de mercado relacionada à quantidade e à dimensão "
+        "dos agentes do lado da oferta.",
+        "<b>CERTO.</b> O monopólio é definido pela presença de um único agente vendedor — ou seja, "
+        "pela dimensão e quantidade (= 1) dos ofertantes. Essa estrutura configura falha de mercado "
+        "por gerar poder de mercado e ineficiência alocativa.<br>"
+        "<i>Fonte: TPS 2023 Q71 – Slides Aula 01 Economia</i>",
     ),
     (
-        "Num mercado em concorrência perfeita, por que nenhum vendedor tem incentivo para cobrar "
-        "abaixo do preço de equilíbrio?",
-        "Em concorrência perfeita, todos os vendedores são <b>tomadores de preço</b>: cada um já vende "
-        "toda sua produção ao preço de equilíbrio. Cobrar menos reduziria a receita sem ganho de mercado. "
-        "Cobrar mais perderia todos os clientes, pois o bem é homogêneo.<br>"
-        "<i>Fonte: Slides Aula 01 / TPS 2020 Q70</i>",
+        "[TPS 2023 Q71] 2 – Quando o preço de equilíbrio não considera custos impostos pela transação "
+        "a agentes terceiros, não envolvidos diretamente na transação em estudo, ocorre externalidade "
+        "negativa.",
+        "<b>CERTO.</b> Externalidade negativa ocorre exatamente quando custos são impostos a terceiros "
+        "não participantes da transação e não são internalizados no preço de equilíbrio "
+        "(ex.: poluição industrial que prejudica pescadores).<br>"
+        "<i>Fonte: TPS 2023 Q71 – Slides Aula 01 Economia</i>",
+    ),
+    (
+        "[TPS 2023 Q71] 3 – Bens rivais são uma falha de mercado relativa a marcas concorrentes de "
+        "um mesmo produto.",
+        "<b>ERRADO.</b> Rivalidade é uma característica de bens: um bem rival é aquele cujo consumo "
+        "por uma pessoa reduz a disponibilidade para outros. Isso não é uma falha de mercado nem tem "
+        "relação com marcas concorrentes.<br>"
+        "<i>Fonte: TPS 2023 Q71 – Slides Aula 01 Economia</i>",
+    ),
+    (
+        "[TPS 2023 Q71] 4 – Um bem público é uma falha de mercado originada pela produção do bem "
+        "pelo setor público, ou seja, pelo governo.",
+        "<b>ERRADO.</b> Bem público se define por ser <b>não-rival</b> e <b>não-excludente</b>, "
+        "independentemente de quem o produz. A falha de mercado está na subprovimento pelo setor "
+        "privado, não na origem pública da produção.<br>"
+        "<i>Fonte: TPS 2023 Q71 – Slides Aula 01 Economia</i>",
+    ),
+
+    # ── TPS 2020 — QUESTÃO 70 ──────────────────────────────────────────────────
+    (
+        "[TPS 2020 Q70] 1 – Se um novo morador migrar para o país e não houver choques exógenos de "
+        "oferta e de demanda, pagará o preço de $ 5 por quilo de maçã que adquirir.",
+        "<b>CERTO.</b> Em concorrência perfeita, o preço é único e determinado pelo mercado "
+        "(lei do preço único). A entrada de um único consumidor não altera o equilíbrio — ele será "
+        "tomador de preço e pagará os mesmos $ 5.<br>"
+        "<i>Fonte: TPS 2020 Q70 – Slides Aula 01 Economia</i>",
+    ),
+    (
+        "[TPS 2020 Q70] 2 – Uma nova mercearia que venda maçãs no pequeno país não terá incentivos "
+        "para vender as frutas por menos que $ 5 por quilo, pois obterá lucros menores do que "
+        "conseguiria caso mantivesse o preço no nível de equilíbrio.",
+        "<b>CERTO.</b> Em concorrência perfeita, o vendedor já consegue vender toda sua produção "
+        "ao preço de equilíbrio. Vender abaixo reduz a receita por unidade sem ganho de volume — "
+        "resultando em lucros menores.<br>"
+        "<i>Fonte: TPS 2020 Q70 – Slides Aula 01 Economia</i>",
+    ),
+    (
+        "[TPS 2020 Q70] 3 – Suponha que, no final do ano, haverá a festa nacional das tortas de maçã "
+        "não prevista no pequeno país; isso causará uma elevação no preço e um aumento nas quantidades "
+        "vendidas de maçãs.",
+        "<b>CERTO.</b> A festa aumenta a demanda por maçãs → curva de demanda se desloca para a "
+        "direita → novo equilíbrio com preço <b>maior</b> e quantidade <b>maior</b>.<br>"
+        "<i>Fonte: TPS 2020 Q70 – Slides Aula 01 Economia</i>",
+    ),
+    (
+        "[TPS 2020 Q70] 4 – Um mês depois da data do texto, uma epidemia assolou o país e reduziu a "
+        "população em 40%. Para evitar uma crise no setor de maçãs, o governo fixou o preço das maçãs "
+        "em $ 5 por quilo. Com isso, conclui-se que a quantidade semanal vendida de maçãs será a "
+        "mesma de antes da epidemia.",
+        "<b>ERRADO.</b> A epidemia reduz a demanda (menos compradores) → novo equilíbrio seria em "
+        "preço e quantidade menores. O preço fixado em $ 5 fica <b>acima</b> do novo equilíbrio, "
+        "criando excedente de oferta. A quantidade efetivamente vendida será <b>menor</b> que antes.<br>"
+        "<i>Fonte: TPS 2020 Q70 – Slides Aula 01 Economia</i>",
     ),
 ]
 
