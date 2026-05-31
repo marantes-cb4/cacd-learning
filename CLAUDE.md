@@ -26,6 +26,9 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
    - Exemplo: se o arquivo é "normas_juridicas.md" → "Direito Interno - Normas Jurídicas.apkg"
    - Usar letras maiúsculas no início de cada palavra
    - Substituir underscores por espaços no nome final
+   - O título interno do deck (usado no genanki.Deck) deve seguir o formato:
+     CACD::OWN::<materia>::<titulo das anotações>
+     Exemplo: CACD::OWN::Direito Interno::Normas Jurídicas
 5. Salvar em /anki/decks/<materia>/
 6. Fazer commit e push com mensagem: 
    "notas+cards: <submateria> (<materia>) — <N> cards gerados"
