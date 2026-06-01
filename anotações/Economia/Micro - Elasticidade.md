@@ -1,0 +1,89 @@
+**Elasticidade** 
+
+- Definição   
+  - Medida da resposta da quantidade demandada ou ofertada a variações em seus determinantes   
+    - Quanto a demanda ou oferta sofre alteração quando há mudança nos determinantes (gostos, preço de bens rivais/complementares, renda etc), medida de reatividade   
+  - Demanda:   
+    - Inelástica: pouca resposta à mudança de preço   
+      - Ex. insulina, se o preço mudar, a demanda se mantém já que é uma necessidade de sobrevivência   
+    - Elástica: se a quantidade demandada muda intensamente a variações do preço  
+      - Ex. refrigerante, se está caro, pessoas deixam de comprar   
+  - Fatores:   
+    - Necessidade vs superfluos   
+      - Necessidades tendem a ser mais inelásticas e supérfluos mais elásticos  
+    - Disponibilidade de substitutos próximos   
+      - Se há facilidade em substituir um produto, sua elasticidade aumenta   
+        - Ex manteiga e margarina  
+    - Peso no orçamento   
+      - Quanto maior o peso do bem no orçamento do consumidor, maior elasticidade   
+        - Ex. férias, carros, casa etc  
+    - Definição de bem ou mercado  
+      - Quão mais restrito for o mercado, mais elástica a demanda   
+    - Horizonte temporal   
+      - Bens tendem a ter uma demanda mais elastica a longo prazo  
+        - Ex, aumento do preco da gasolina não muda a demanda em uma semana (ninguém vende o carro ou para de usar por isso)\_, mas em um ano, consumidores podem optar não ter carro, ou mudar para elétrico  
+  - Calculando elasticidade  
+    - Variação % da qt demandada/ variação % do preço  
+      - Se a elasticidade de preço (resultado da fórmula acima) for maior que 1, a demanda é elástica  
+        - Preço aumenta \- receita total do ofertante diminui   
+      - Se for 1, é unitária   
+        - Preço aumenta \- receita total do ofertante não muda   
+      - Se for menor que 1 é inelástica   
+        - Preço aumenta \- receita total do ofertante aumenta  
+    - Problema: dependendo da direção da mudança (aumento ou diminuição do preço), a elasticidade do preço da demanda pode mudar.   
+      - Para isso o método do ponto médio   
+  - Casos extremos   
+    - Demanda perfeitamente inelastica   
+      - Independentemente do preço, a demanda não muda nada   
+    - Demanda perfeitamente elástica  
+      - O consumidor só aceita um preço, qualquer outro valor, a curva desaparece.   
+        - Linha perfeitamente reta paralela ao x-axis  
+  - Relação entre receita total (RT) e elasticidade   
+    - RT=P x Qd  
+    - Se Qd é inelastica, preço aumento e RT aumenta  
+    - Se Qd é elastica, preço aumenta e RT diminui  
+  - Elasticidade Renda da Demanda  
+    - Como a renda altera a qt demandada   
+    - Variação % na qt demandada/ variação percentual de renda   
+      - O crescimento da qt demandada com o crescimento da renda  
+    - Tipo de bem   
+      - Se elasticidade de renda é maior que zero o bem é normal  
+      - Se elasticidade de renda é menor 0 que o bem é inferior  
+    - Participação no orçamento   
+      - Valor gasto com o bem/ renda do consumidor   
+        - Bem de luxo  
+          - Quando elasticidade de renda é maior que 1, significa que quando renda aumenta, a participação desse bem no orçamento também aumenta  
+          - Só se compra bem de luxo, quando se pode, ou seja, ele só vai ter peso no orçamento quando a renda aumenta   
+        - Bem essencial   
+          - Quando elasticidade é menor que 1, Quando renda aumenta, participação no orçamento diminui e vice versa   
+          - Significa que o consumidor consome o bem independente da renda, então o peso do bem no orçamento se torna menor quando a renda aumenta  
+    - Bem de giffen   
+      - Bem inferior e essencial com grande participação do orçamento.   
+      - Quando o preço aumenta, o consumo aumenta e vice versa  
+        - Isso acontece porque ele é tido como essencial e básico (ou inferior), com aumento de preço, se entende um aumento de preço generalizado, então há preferencia pelo consumo dele.  
+        - Sua curva de demanda é invertida (positiva, parece curva de oferta)  
+        - Caso hiper especifico, não acontece muito no mundo real  
+        - Ex. Arroz, aumentou o preço significa que o preço de tudo aumentou, então vou comprar mais arroz e deixar de comprar coisas como massa, já que não fico sem arroz   
+    - Elasticidade preço cruzada da demanda   
+      - Elasticidade preço cruzada da demanda do bem 1 em relação ao bem 2   
+      - Calculo   
+        - Variação % na qt demandada do bem 1/ variação % do preço do bem 2   
+      - Se for menor que 0, bem 1 é complemento do bem 2  
+        - Aumento do preço do bem 2 faz cair significativamente a demanda pelo bem 1   
+          - Ex, preco do arroz sobre, demanda por feijão cai  
+      - Se for maios que 0, bem 1 é substituto do bem 2   
+        - Aumento do preço do bem 2 faz subir significativamente a demanda pelo bem 1   
+      - Se for \= a 0, bem 1 é independente do bem 2  
+        - Se não afeta a demanda do bem 1 com alteração do preço do bem 2   
+    - Elasticidade preço oferta  
+      - Sensibilidade da qt ofertada a mudança de preço  
+      - Horizonte de analise   
+        - Elasticidade de oferta é maior quando o horizonte de analise for maior   
+        - Ex. no curto prazo, uma fabrica não consegue aumentar sua produção significativamente, mesmo que o preço aumente  
+      - Especificade dos fatores de produção   
+        - Quanto menos especificos os fatores de produção, mais elastica é a oferta   
+          - A dificuldade de obter os fatores de produção (insumos especificos) faz com que não seja possível grandes mudanças na qt ofertada (elasticidade)  
+      - Definição do produto  
+        - Quanto mais especifica a definição do produto, mais elasticidade preço da oferta  
+    - Em casos de demanda com elasticidade baixa, a redução de qt ofertada pode gerar mais receita para o produtor, isso porque o preço aumenta mais que a qt demanda diminui  
+    - Imposto vai ser maior arcado pela curva mais inelastica (seja oferta ou demanda)
