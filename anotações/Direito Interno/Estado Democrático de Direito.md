@@ -1,0 +1,83 @@
+**Estado Democrático de Direito**
+
+- Conceito   
+  - Previsto no art. 1º caput da CF/88 como uma das características da República Federativa Fundante.   
+  - José Afonso da Silva: Conceito inovador da CF/88 que supera a adição dos conceitos de democracia e legalidade.   
+    - Não pode ser compreendido como a fusão dos conceitos de Estado de Direito e Estado democrático  
+  - O Estado democrático de direito tem como traço estrutural o compromisso em proteger o indivíduo, independentemente do indivíduo integrar a maioria ou a minoria de grupos que compõem a sociedade.	  
+    - Ele proporciona a ampla participação dos cidadãos nas decisões políticas   
+    - O Estado de mera legalidade é uma organização estatal fundada para observar e cumprir as leis e atos legais, não é o caso do Estado democrático de direito.   
+- Democracia semidireta art 1 par unico CF/88  
+  - Expressa que o povo excerce seu poder, no ambito da org do Estado brasileiro de 2 modos   
+    - Democracia indireta ou representativa   
+      - Povo participa do processo democrático a partir da atuação de representantes políticos eleitos por tempo determinado (e limitado)  
+      - Ha 2 instrumentos principais para concretização da democracia indireta   
+        - Realização de eleições periódicas  
+          - Garante alternância do poder por parte dos eleitos    
+        - Mandatos políticos por tempo determinado   
+          - Viabiliza a responsabilização política dos representantes eleitos que durante o exercício do mandato não atenderam às expectativas, ocorre por meio da não renovação do mandato   
+            - Não foi um bom representante, não é reeleito   
+    - Democracia direta ou participativa   
+      -  Onde o povo governa diretamente, sem representantes  
+      - Pode-se identificar 04 instrumentos típicos da democracia direta  
+        - Plebiscito   
+          - Consulta popular prévia, que pode ser convocada pelo Congresso Nacional para elaboração de leis ou tomada de decisões políticas da adm pública   
+        - Referendo   
+          - Consulta popular retardada ou posterior que pode ser autorizada pelo congresso nacional em relação a elaboração de leis e decisões politicos   
+          - Referendo e plebiscito só se distinguem pelo momento de sua existência (antes é plebiscito, após e referendo).   
+            - Só o Congresso Nacional pode convocar o plebiscito ou autorizar o referendo (art 49, inciso 15 da cf/88)  
+        - Ação popular (art 5 inciso 73 CF/88)  
+          - Ação judicial que apenas o cidadão (eleitor) pode ajuizar para defender o patrimônio público, visa anular ato lesivo a patrimônio público ou entidade que o Estado participe   
+        - Iniciativa popular de projeto de lei   
+          - Exercida por cidadãos que se organizam e apresentam junto ao poder legislativo projetos de lei de sua autoria.   
+            - A cf/88 preve em 03 dispositivos a iniciativa popular de projetos de lei  
+              - Art 61 par 2 CF/88  
+                - Preve a iniciativa popular no âmbito federal, necessitando de 1% do eleitorado nacional, distribuídos em 5 estados, cada estado com 3/10%  pode fazer apresentação de PL  
+              - Art 29 inciso 13 CF/88  
+                - Iniciativa popular no âmbito municipal exige no mínimo 5% do eleitorado   
+              - Art 27 par 4 CF/88  
+                - Âmbito Estadual estabelece que cada estado deve estabelecer normas próprias, não há parametro na CF/88
+
+**Princípios fundamentais Art 1-4 da CF/88**
+
+- O termo refere-se a previsões estabelecidas na CF/88 no art 1,2,3,4.  
+- Não há maior hierarquia em relação ao resto da CF/88 (não existe hierarquia entre normas constitucionais   
+- 03 subspecies de normas   
+  - Fundamento da República Federativa do Brasil (art. 1\)  
+    - Soberania  
+    - Cidadania   
+    - Dignidade da pessoa humana   
+    - Valores sociais do trabalho e da livre iniciativa  
+    - Pluralismo politico  
+      - Garante que indivíduos adotem posições políticas divergentes  
+      - NÃO é pluripartidarismo: previsto no art 17 caput e previne a criação de um partido único nas eleições, precisa de diversos partidos   
+        - Pluripartidarismo não é Principio fundamental, pluralismo politico sim   
+  - Objetivos fundamentais da República Federativa do Brasil (art. 3\)  
+    - Normas pragmáticas que fixam metas e objetivos governamentais   
+    - 05 verbos no infinitivo   
+      - Construir sociedade livre e justa  
+      - Garantir desenvolvimento nacional  
+      - Erradicar pobreza   
+      - Reduzir desigualdades sociais  
+      - Promover o bem de todos   
+  - Princípios das relações internacionais (art. 4\)  
+    - 10 princípios que regem a atuação do BR nas relações internacionais  
+    - Conde Preso Não Reina, coopera igual  
+      - Concessão de asilo político   
+      - Defesa da paz  
+      - Prevalencia dos direitos humanos   
+      - Solução pacifica de conflitos   
+      - Não intervenção  
+      - Repudio ao terrorismo e racismo  
+      - Independencia nacional  
+      - Autodeterminação dos povos   
+      - Cooperação entre povos para progresso da humanidade  
+      - Igualdade entre Estados   
+    - Art 4 parágrafo único prevê a integração econômica, social, cultural e política com os povos da América Latina, visando à criação de uma comunidade latino-americana de nações.  
+    - Interpretação   
+      - STF determinou que o parágrafo único é norma pragmática, ou seja, os 3 poderes têm o dever de atuar constantemente para alcançar esse objetivo  
+      - As 4 frentes de tal integração são: econômica, social, política e cultural   
+        - Não tem previsão de integração militar ou monetária  
+      - Refere-se EXCLUSIVAMENTE à América Latina, não América em sua integridade  
+- Art 2 prevê a separação dos poderes, não é um fundamento, nem objetivo fundamental, nem princípio das RI. É somente um princípio fundamental  
+  
