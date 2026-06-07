@@ -1,0 +1,92 @@
+**Conceito Território**
+
+- Convenção de montevideo 1933 art 1  
+  - Território é um dos elementos constitutivos do Estado (para formação de um novo Estado), junto de governo, população, capacidade de ter relações internacionais   
+- Território DETERMINADO, conceito jurídico, não geográfico   
+  - 02 características determinam um território determinado  
+    - Delimitado  
+      - Reflete o espaço jurídico no qual incide a soberania do Estado   
+- Estabilidade  
+  - Não há mudanças constantes nos limites territoriais em necessidade de promover a segurança jurídica  
+  - Decorre da necessidade de fixação dos seus limites fronteiriços por princípios jurídicos e critérios adotados pelos Estados (desde que exista consenso entre os Estados envolvidos)  
+    - Considerada condição hábil a evitar guerras e conflitos internacionais    
+- Território é um conceito jurídico, considerado o espaço terrestre, marítimo e aéreo, onde o Estado pode aplicar suas normas jurídicas nacionais   
+  - Precisa ser dotado de estabilidade e delimitação
+
+**Critérios adotados para a delimitação do território brasileiro**
+
+- Realizada por emprego de critérios que permitem conferir segurança jurídica e dependem da vontade dos Estados envolvidos.   
+- Como é um processo bilateral (ou multilateral) não há critérios no direito internacional aplicados a todos, cabe aos Estados envolvidos chegarem a um acordo   
+- Análise dos critérios adotados pelo Brasil    
+  - Rios contiguos (rios que servem de fronteira natural) \- 02 critérios   
+    - Linha meridiana   
+      - Linha no meio do rio, equidistante entre as duas margens  
+      - Geralmente empregado em rios que mantêm volume de água constante (não passam por secas e enchentes sazonais)  
+    - Talvegue ou "thalweg”  
+      - Significa caminho do vale, aplicado para rios com mudanças constantes no volume da água   
+      - Delimita uma linha no meio do canal navegável  
+        - Garante a comunidades ribeirinhas o mesmo proveito econômico do rio   
+  - Brasil não adota critérios de condomínio   
+    - O criterio de condomínio estabelece que o rio pertence em comum aos dois Estados  
+      - Permite realizar indistintamente a lei dos dois Estado envolvidos em todo Rio  
+  - No caso de Montanhas, há dois critérios   
+    - Linha de cumeeiras   
+      - Linha que une os cumes mais altos das cadeias de montanhas   
+      - Caso com Argentina e Paraguai   
+    - Linha do divisor de águas   
+      - Local em que se dividem as bacias hidrográficas   
+      - Caso com as Guianas, Venezuela, e Colombia   
+    - BR não adota o critério de linha do sopé   
+      - Usa as bases das montanhas como fator limitador das fronteiras
+
+**Disciplina jurídica da estabilidade de território**
+
+- Proibição de mudanças unilaterais e constantes das delimitações do território   
+- Convenção de Montevidéu de 1933 art 11  
+  - Expressamente proibe do reconhecimento de territórios adquiridos por meio do uso da força   
+- Convenção de Viena sobre sucessão de Estados em matéria de tratados de 1978  
+  - Art 11 e 12 estabelecem regras observadas sobre preservação de tratados que definem fronteiras e uso de território em caso de sucessão de estado.   
+  - Ou seja, Estado sucessor tem a obrigação de respeitar convenções, acordos e tratados adotados pelo Estado sucedido acerca da delimitação de fronteiras e concessão do direito de uso do território   
+    - Ex. autorização de uso de portos, reconhecimento de direito de passagem  
+    - Teoria de tabula rasa ( clean slate) não se aplica no caso de estabilidade de território   
+- Principio “uti possidetis”  
+  - Origem no direito romano e busca assegurar a manutenção do "status quo ante”  
+    - Impedir mudanças em situações já existentes   
+  - Definição   
+    - Quem usa de fato, deve possuir o direito   
+    - Há 2 grandes tipos:  
+      - Uti possidetis de facto  
+        - Território pertence a quem tiver posse efetiva e real no momento da independência   
+        - Se mantém a integralidade do território como está sendo usado  
+        - Adotado no Brasil quando obteve sua independência   
+      - Uti possidetis juris  
+        - Adotada na América espanhola no século 19 e em países africanos e asiáticos no século 20   
+        - Divisão administrativa feita anteriormente a independência pela METRÓPOLE (ou Estado colonizador)  
+          - Manter as divisões coloniais após a independência   
+          - O objetivo é manter a estabilidade territorial e geopolítica   
+- Primeiro visto no direito internacional em 1750 no Tratado de Madrid  
+  - Tratado que define o limite entre América Portuguesa e América Espanhola   
+  - Alexandre Gusmão que defendeu a utilização desse princípio  
+- O emprego desse princípio no direito internacional está atrelado a:  
+  - decolonização da América no século 19  
+  - Decolonização da África e Ásia século 20   
+  - Desmembramento da União Soviética e Iugoslávia em 1990  
+- Reconhecido como princípio geral do direito pela Corte Internacional de Justiça (CIJ)  
+  - Não é mais tão aplicado por maioria dos limites territoriais agora serem definidos por tratados celebrados por ambos Estados envolvidos   
+  - Ainda pode e deve ser aplicado na ausência de normas convencionais específicas para definição de Estado   
+- Há situações onde o uti possidetis não é suficiente para garantir estabilidade. Nesses casos a CIJ adota outros mecanismos para solução desse tipo de controvérsia   
+  - 01 Celebração de tratados internacionais que fixam critérios especificos para a delimitação do território  
+    - Solução diplomática onde a negociação permite a confecção de um tratado  
+  - 02 Princípio do controle efetivo   
+    - Quando não há verificação do uti possidetis de facto ou uti possidetis juris e quando não há acordo ou tratado entre os Estados envolvidos   
+    - Considerar titular do território aquele que exercia os atos inerentes à soberania, como:  
+      - Defesa externa   
+      - Disponibilização de serviços à população  
+    - Tribunal Permanente de Arbitragem 1928: caso Ilha das Palmas  
+      - EUA v. Holanda. EUA firmaram tratado com a Espanha para ter controle sobre a Ilha. Contudo, a Holanda era quem tinha controle efetivo da ilha (exercendo controle contínuo e pacífico de autoridade), assim, o arbitro julgou a favor da Holanda.    
+  - 03 aplicação de equidade (ex aequo et bono)  
+    - Origem no jusnaturalismo, segundo o correto e bom  
+    - Definido como uma solução justa e adequada para todas as partes envolvidas na controvérsia   
+      - Onde a resolução não trará prejuízo para nenhuma das partes  
+    - Art 38 do estatudo da CIJ  
+      - Equidade só pode ser empregada pela Corte de Haia se houver concordância expressa dos Estados afetados
