@@ -14,10 +14,16 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 **O que fazer:**
 1. Ler as anotações .md e os materiais .docx da submatéria solicitada
 2. Identificar o macro tema e submatéria
-3. Gerar flash cards objetivos combinando as duas fontes:
-   - Conceitos das anotações → cards de definição e explicação
-   - Questões objetivas dos materiais do professor → cards no mesmo formato
-     (frente: a pergunta; verso: resposta correta + breve explicação do porquê)
+3. Gerar flash cards no **estilo TPS** combinando as duas fontes:
+   - **Formato padrão para conteúdo das anotações:**
+     - Frente: afirmação sobre o tema (não pergunta direta)
+       Ex: "No equilíbrio de longo prazo de um mercado competitivo, o lucro econômico é zero."
+     - Verso: CERTO ou ERRADO + explicação breve do porquê
+   - **Foco em tópicos abrangentes** — evitar cards granulares do tipo "liste as N características de X";
+     preferir afirmações que testem compreensão de mecanismos, relações causais e exceções
+   - **Volume: ~10 cards de conteúdo por aula** (qualidade > quantidade)
+   - Questões objetivas dos materiais do professor → reproduzir literalmente cada item
+     (frente: enunciado exato; verso: CERTO/ERRADO + explicação do porquê)
    - Questões de TPs oficiais que o professor incluir nos materiais de aula
      podem e devem ser reproduzidas literalmente — o professor as escolheu
      como material de aprendizado, não como simulado
@@ -130,9 +136,11 @@ uma pasta de matéria diferente.
 
 ## Padrão dos flash cards
 - Sempre em português
-- Objetivos e diretos — sem enrolação
-- Máximo 2 linhas no verso
-- Nunca criar cards sem identificar a fonte (livro + capítulo)
+- **Estilo TPS:** frente é uma afirmação (não pergunta); verso é CERTO/ERRADO + explicação curta
+- **Tópicos abrangentes:** testar mecanismos, relações causais, exceções — não listas de características
+- **~10 cards de conteúdo por aula** (excluindo exercícios do professor, que são todos incluídos)
+- Máximo 2–3 linhas no verso
+- Nunca criar cards sem identificar a fonte (livro + capítulo ou "Anotações da aula")
 - Verificar duplicatas antes de criar novos cards para o mesmo tema
 
 ## Estrutura de anotações no repositório
