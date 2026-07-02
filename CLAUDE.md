@@ -21,7 +21,7 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
      - Verso: CERTO ou ERRADO + explicação breve do porquê
    - **Foco em tópicos abrangentes** — evitar cards granulares do tipo "liste as N características de X";
      preferir afirmações que testem compreensão de mecanismos, relações causais e exceções
-   - **Volume: ~10 cards de conteúdo por aula** (qualidade > quantidade)
+   - **Volume: ~10 cards de conteúdo por aula para temas densos; menos para temas mais simples** (qualidade > quantidade)
    - Questões objetivas dos materiais do professor → reproduzir literalmente cada item
      (frente: enunciado exato; verso: CERTO/ERRADO + explicação do porquê)
    - Questões de TPs oficiais que o professor incluir nos materiais de aula
@@ -33,8 +33,8 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
    - Usar letras maiúsculas no início de cada palavra
    - Substituir underscores por espaços no nome final
    - O título interno do deck (usado no genanki.Deck) deve seguir o formato:
-     CACD::OWN::<materia>::<titulo das anotações>
-     Exemplo: CACD::OWN::Direito Interno::Normas Jurídicas
+     CACD::REVIEW::<materia>::<titulo das anotações>
+     Exemplo: CACD::REVIEW::Direito Interno::Normas Jurídicas
 5. Salvar em /anki/decks/<materia>/
 6. Fazer commit e push com mensagem: 
    "notas+cards: <submateria> (<materia>) — <N> cards gerados"
