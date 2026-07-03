@@ -16,17 +16,21 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 2. Identificar o macro tema e submatéria
 3. Gerar flash cards no **estilo TPS** combinando as duas fontes:
    - **Formato padrão para conteúdo das anotações:**
-     - Frente: afirmação sobre o tema (não pergunta direta)
-       Ex: "No equilíbrio de longo prazo de um mercado competitivo, o lucro econômico é zero."
-     - Verso: CERTO ou ERRADO + explicação breve do porquê
+     - Frente: afirmação sobre o tema (não pergunta direta), calibrada à dificuldade real do TPS CACD
+     - Verso: CERTO ou ERRADO + explicação **completa** (3–5 linhas): o porquê, a regra geral, a exceção ou o erro típico da banca
+   - **Dificuldade calibrada ao TPS real:**
+     - **O conteúdo dos cards vem EXCLUSIVAMENTE das anotações .md e dos materiais do professor** — nunca das análises de TPS (`/Analise_Provas/`) nem de outras fontes externas
+     - As análises de TPS servem apenas para calibrar o **estilo e a dificuldade** das afirmações (tipo de pegadinha, nível de detalhe), nunca como fonte de conteúdo
+     - Priorizar afirmações que testem distinções sutis, exceções e nuances presentes nas próprias anotações
+     - Incluir números precisos, prazos e exceções que constem explicitamente no material da aula
+     - Evitar afirmações óbvias demais — se qualquer iniciante acertaria, o card não serve
+     - Usar o padrão CEBRASPE: a afirmação parece verdadeira mas tem um detalhe errado, ou vice-versa
    - **Foco em tópicos abrangentes** — evitar cards granulares do tipo "liste as N características de X";
-     preferir afirmações que testem compreensão de mecanismos, relações causais e exceções
+     preferir afirmações que testem mecanismos, relações causais, distinções críticas e exceções
    - **Volume: ~10 cards de conteúdo por aula para temas densos; menos para temas mais simples** (qualidade > quantidade)
-   - Questões objetivas dos materiais do professor → reproduzir literalmente cada item
+   - Exercícios encontrados nos materiais do professor (PDFs, PPTs, questões objetivas) → se o exercício for bom (testa distinção relevante, pegadinha real ou conteúdo denso), criar um card reproduzindo o enunciado literalmente
      (frente: enunciado exato; verso: CERTO/ERRADO + explicação do porquê)
-   - Questões de TPs oficiais que o professor incluir nos materiais de aula
-     podem e devem ser reproduzidas literalmente — o professor as escolheu
-     como material de aprendizado, não como simulado
+   - Questões de TPs oficiais que o professor incluir nos materiais de aula → reproduzir **sempre** e literalmente, sem alteração
 4. Exportar como .apkg nomeado: <materia> - <tema_da_aula>.apkg
    onde <tema_da_aula> = nome do arquivo de anotações .md (sem a extensão)
    - Exemplo: se o arquivo é "normas_juridicas.md" → "Direito Interno - Normas Jurídicas.apkg"
@@ -39,13 +43,15 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 6. Fazer commit e push com mensagem: 
    "notas+cards: <submateria> (<materia>) — <N> cards gerados"
 
-**Sobre as questões objetivas do professor:**
-- Usar o arquivo "Questões objetivas" (PDF separado da rodada) como fonte principal — ele traz os enunciados limpos
-- Reproduzir o enunciado de cada item **literalmente**, sem parafrasear (não são questões oficiais do CACD)
+**Sobre exercícios dos materiais do professor:**
+- Buscar exercícios em todos os arquivos da aula: PDF principal, PDF de "Questões objetivas", PPT, etc.
+- Reproduzir o enunciado de cada item **literalmente**, sem parafrasear
 - Cada item (I, II, III, IV) vira um card individual
 - Frente: enunciado exato do item
 - Verso: resposta correta (C/E) + breve explicação do porquê
 - O gabarito está no mesmo PDF de questões ou no PDF principal da rodada
+- Usar critério de qualidade: incluir exercícios que testem conteúdo relevante ou pegadinhas reais; pular questões muito simples ou repetitivas em relação a cards de conteúdo já criados
+- Questões de TPs oficiais presentes nos materiais: incluir sempre e literalmente, sem alteração
 
 ## ─── TAREFA 2: PDFs → Flash cards por conteúdo programático ───
 
@@ -136,10 +142,11 @@ uma pasta de matéria diferente.
 
 ## Padrão dos flash cards
 - Sempre em português
-- **Estilo TPS:** frente é uma afirmação (não pergunta); verso é CERTO/ERRADO + explicação curta
-- **Tópicos abrangentes:** testar mecanismos, relações causais, exceções — não listas de características
+- **Estilo TPS:** frente é uma afirmação (não pergunta); verso é CERTO/ERRADO + explicação completa
+- **Dificuldade calibrada ao TPS CACD real (CEBRASPE):** afirmações com pegadinhas sutis, exceções, números precisos e distinções entre conceitos próximos — nunca afirmações óbvias
+- **Tópicos abrangentes:** testar mecanismos, relações causais, distinções críticas e exceções — não listas de características
 - **~10 cards de conteúdo por aula** (excluindo exercícios do professor, que são todos incluídos)
-- Máximo 2–3 linhas no verso
+- **Verso: 3–5 linhas** — explicar o erro ou acerto, citar a regra geral, mencionar a exceção ou a armadilha típica da banca
 - Nunca criar cards sem identificar a fonte (livro + capítulo ou "Anotações da aula")
 - Verificar duplicatas antes de criar novos cards para o mesmo tema
 
