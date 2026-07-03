@@ -46,12 +46,12 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 
 **Sobre exercícios dos materiais do professor:**
 - Buscar exercícios em todos os arquivos da aula: PDF principal, PDF de "Questões objetivas", PPT, etc.
-- Reproduzir o enunciado de cada item **literalmente**, sem parafrasear
-- Cada item (I, II, III, IV) vira um card individual
-- Frente: enunciado exato do item
-- Verso: resposta correta (C/E) + breve explicação do porquê
+- Usar os exercícios como ponto de partida, não como obrigação de reprodução literal
+- Se o exercício cobre bem um conceito importante e está no modelo TPS ideal → reproduzir literalmente (frente: enunciado exato; verso: C/E + explicação)
+- Se o exercício cobre um tema importante mas está mal formulado, é simples demais ou não tem a pegadinha certa → **editar ou reescrever** o card no estilo TPS calibrado
+- Se algum tema importante das anotações não foi coberto pelos exercícios → **criar cards próprios** para preencher a lacuna
 - O gabarito está no mesmo PDF de questões ou no PDF principal da rodada
-- Usar critério de qualidade: incluir exercícios que testem conteúdo relevante ou pegadinhas reais; pular questões muito simples ou repetitivas em relação a cards de conteúdo já criados
+- Usar critério de qualidade: pular exercícios muito simples ou redundantes; nunca incluir só por completude
 - Questões de TPs oficiais presentes nos materiais: incluir sempre e literalmente, sem alteração
 
 ## ─── TAREFA 2: PDFs → Flash cards por conteúdo programático ───
