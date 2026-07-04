@@ -27,7 +27,7 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
      - Usar o padrão CEBRASPE: a afirmação parece verdadeira mas tem um detalhe errado, ou vice-versa
    - **Foco em tópicos abrangentes** — evitar cards granulares do tipo "liste as N características de X";
      preferir afirmações que testem mecanismos, relações causais, distinções críticas e exceções
-   - **Volume total por aula: máximo 15 cards, idealmente 10 — contando conteúdo + exercícios + TPs juntos**
+   - **Volume total por aula: até 15 cards — contando conteúdo + exercícios + TPs juntos**
    - Exercícios e TPs podem substituir cards de conteúdo se cobrirem os conceitos mais importantes; usar só exercícios é válido se eles fizerem o trabalho de imitar o TPS e focar nos pontos críticos
    - Exercícios encontrados nos materiais do professor (PDFs, PPTs, questões objetivas) → se o exercício for bom (testa distinção relevante, pegadinha real ou conteúdo denso), criar um card reproduzindo o enunciado literalmente
      (frente: enunciado exato; verso: CERTO/ERRADO + explicação do porquê)
