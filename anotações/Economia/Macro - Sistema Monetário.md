@@ -117,3 +117,83 @@ Os bancos comerciais influenciam a oferta monetária (M1) por meio do processo d
 ### Corrida aos Bancos
 
 Fenômeno em que, por perda de confiança, muitas pessoas tentam sacar simultaneamente — impossível porque a moeda escritural supera a moeda em espécie disponível. Justifica o BC como **emprestador de última instância**.
+
+---
+
+## Instrumentos de Política Monetária do BC
+
+O BC dispõe de 3 instrumentos clássicos para regular a oferta de moeda:
+
+### 1. Operações de Mercado Aberto
+- BC **compra** títulos → injeta dinheiro → **expande** base monetária e M1
+- BC **vende** títulos → recolhe dinheiro → **contrai** base monetária e M1
+- No Brasil: operações realizadas no **Sistema Especial de Liquidação e Custódia (Selic)** → daí o nome da taxa básica de juros
+
+### 2. Alíquota de Recolhimento Compulsório
+- BC determina o nível mínimo de reservas (r) como proporção dos depósitos
+- BC **reduz** alíquota → eleva o multiplicador → **expande** M1
+- BC **aumenta** alíquota → diminui o multiplicador → **contrai** M1
+
+### 3. Operações de Redesconto
+- BC atua como emprestador de última instância: empresta liquidez aos bancos com reservas abaixo do exigido
+- Mecanismo: BC compra títulos dos bancos com **deságio** (paga menos que o valor de face); a diferença = **taxa de redesconto**
+  - Ex.: título de R$ 1.000 comprado por R$ 900 → taxa de redesconto = 10%
+- BC **aumenta** taxa de redesconto → bancos tomam menos empréstimos → mantêm mais reservas voluntárias → **contrai** M1
+- BC **reduz** taxa de redesconto → bancos tomam mais → **expande** M1
+- Funcionam como "cheque especial" do BC para bancos
+
+### Limites do Controle do BC
+
+O controle do BC sobre a oferta de moeda não é absoluto:
+- O BC **não controla** m = PMPP/D (fração que o público retém em espécie) — variável comportamental estável, altera-se apenas no longo prazo (ex.: Pix reduziu uso de cédulas)
+- O BC **não controla** a fração que os bancos emprestam vs. mantêm como reserva voluntária
+
+---
+
+## Teoria Quantitativa da Moeda (Modelo Clássico)
+
+**Equação quantitativa:** M × V = P × Y
+
+| Variável | Significado |
+|----------|------------|
+| M | Oferta de moeda (M1) |
+| V | Velocidade de circulação (nº de vezes que cada unidade monetária circula por ano) |
+| P | Nível de preços (deflator do PIB) |
+| Y | Produto real (PIB real) |
+
+- **Hipótese clássica:** V é constante e estável
+
+### Neutralidade da Moeda e Dicotomia Clássica
+
+- **Variáveis nominais** (preços, salários nominais) → influenciadas pelo sistema monetário
+- **Variáveis reais** (Y, taxa real de juros, salário real) → determinadas por fatores reais; **irrelevantes** em relação ao sistema monetário
+- **Neutralidade monetária:** variações em M afetam apenas variáveis nominais (P), não reais (Y)
+
+**Conclusão:** Inflação = crescimento de M − crescimento de Y
+- Ex.: M cresce 5%, Y cresce 3% → inflação ≈ 2%
+- Com Y constante: aumento em M → aumento proporcional em P
+
+---
+
+## Exercícios do Professor — TPs Oficiais CACD
+
+### CACD 2018 – Questão 69
+
+*O Banco Central do Brasil (BCB) teve um longo processo de maturação até a sua criação. Mesmo antes do início do século XX, já se tinha a consciência, no Brasil, da necessidade de se criar um "banco dos bancos" com poderes de emitir papel-moeda com exclusividade, além de exercer o papel de banqueiro do Estado.*
+
+*A partir do fragmento de texto precedente, que enumera algumas funções de um banco central, julgue (C ou E) os itens a seguir, acerca das funções típicas dos bancos centrais e, em particular, do BCB.*
+
+- 1. As funções precípuas do BCB incluem a de banqueiro do governo, que está relacionada, em suas origens, ao direito de emissão do dinheiro brasileiro. Atualmente o BCB ainda é o principal banqueiro do governo, porque detém suas contas mais importantes, participa ativamente do manejo do seu fluxo de fundos e é o depositário e administrador das reservas internacionais do país. **CERTA**
+- 2. A estabilidade, a eficiência e o desenvolvimento do sistema financeiro requerem esquemas de normas e procedimentos apropriados e a sua observância. Nesse caso, a supervisão das instituições financeiras cabe tanto ao BCB quanto a organismos independentes, podendo estes últimos exercer a fiscalização de forma exógena ao BCB, pautados em normas próprias de suas áreas de competência. **ERRADA**
+- 3. Como guardião da moeda, o banco central de um país é a instituição à qual se confia o dever de regular o volume de dinheiro e de crédito da economia. Em que pesem as diferenças entre bancos centrais, essa atribuição geralmente está associada ao objetivo de assegurar a estabilidade do poder de compra da moeda nacional. **CERTA**
+- 4. A política monetária influencia a evolução dos meios de pagamento e controla o processo de criação da moeda e do crédito. Na função de executor da política monetária, o BCB, para regular os meios de pagamentos, pode utilizar instrumentos clássicos, como encaixe legal, recolhimentos compulsórios, redesconto, excetuando-se as operações de mercado aberto. **ERRADA**
+
+### CACD 2013 – Questão 61
+
+*Com relação ao conceito de meios de pagamento (M1), que corresponde ao estoque de moeda disponível para uso da coletividade, assinale a opção correta.*
+
+- O valor do multiplicador da base monetária varia na razão inversa da taxa de reservas dos bancos comerciais e na razão direta da taxa de retenção da moeda pelo público. **ERRADA**
+- O saldo de M1 é composto pelo saldo da moeda em poder do público somado ao saldo dos depósitos à vista e aos depósitos de poupança. **ERRADA**
+- Em processos inflacionários, tende a diminuir a razão entre o volume de moeda em poder do público e o volume de moeda bancária. **ERRADA**
+- O resgate de um empréstimo bancário representa destruição de moeda. **CERTA**
+- As emissões de papel moeda pelo Tesouro Nacional são instrumento de política monetária à disposição do Ministério da Fazenda. **ERRADA**
