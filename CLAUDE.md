@@ -41,7 +41,8 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
      REVIEW::<materia>::<titulo das anotações>
      Exemplo: REVIEW::Direito Interno::Normas Jurídicas
 5. Salvar em /anki/decks/<materia>/
-6. Fazer commit e push com mensagem: 
+6. Atualizar /Planejamento/PROGRESS_CHECK.md: achar a(s) linha(s) do item do edital coberto(s) pela submatéria processada e marcar completo/parcial, citando o(s) arquivo(s) de anotação — ver regras completas na seção "Progress Check" deste arquivo
+7. Fazer commit e push (incluindo a anotação .md, o deck .apkg, o script gerador e o PROGRESS_CHECK.md atualizado) com mensagem:
    "notas+cards: <submateria> (<materia>) — <N> cards gerados"
 
 **Sobre exercícios dos materiais do professor:**
@@ -164,7 +165,7 @@ Rastreia o progresso real de aulas/anotações próprias contra os itens oficiai
 
 - Só existe tabela para matérias que já têm pasta em `/anotações/<materia>/`
 - **Quando a primeira anotação de uma matéria nova for processada** (matéria ainda sem tabela nesta página), criar a tabela dela em `PROGRESS_CHECK.md` nesse mesmo commit, seguindo o mesmo formato das existentes (itens exatos do edital, extraídos de `Editais/Edital CACD 2026.pdf`)
-- Ao processar qualquer nova anotação (TAREFA 1), atualizar a linha correspondente na tabela da matéria: marcar completo/parcial e citar o(s) arquivo(s) de anotação
+- **Obrigatório a cada execução da TAREFA 1** (toda vez que eu processar uma aula/submatéria nova): atualizar a linha correspondente na tabela da matéria, marcando completo/parcial e citando o(s) arquivo(s) de anotação — nunca pular esse passo, mesmo que a mudança de status seja pequena (ver passo 6 da TAREFA 1)
 - Status aqui reflete SOMENTE anotação de aula própria — nunca marcar completo/parcial com base apenas em deck gerado de livro de referência (isso fica só no `Conteudo_Programatico.md`)
 - Commitar a atualização da tabela junto com a anotação/deck da tarefa que a gerou
 
