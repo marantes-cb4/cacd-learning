@@ -159,6 +159,15 @@ As anotações de aula ficam versionadas no próprio repo em:
 - Quando receber novas anotações (arquivo .md ou conteúdo colado), salvar em /anotações/<materia>/ antes de processar
 - Nunca deixar anotações apenas no desktop — o repo é a fonte de verdade
 
+## Progress Check (/Planejamento/PROGRESS_CHECK.md)
+Rastreia o progresso real de aulas/anotações próprias contra os itens oficiais do edital — uma tabela por matéria, uma linha por ponto do edital, com status (✅ completo / 🟡 parcial / em branco) e as anotações que cobrem cada ponto.
+
+- Só existe tabela para matérias que já têm pasta em `/anotações/<materia>/`
+- **Quando a primeira anotação de uma matéria nova for processada** (matéria ainda sem tabela nesta página), criar a tabela dela em `PROGRESS_CHECK.md` nesse mesmo commit, seguindo o mesmo formato das existentes (itens exatos do edital, extraídos de `Editais/Edital CACD 2026.pdf`)
+- Ao processar qualquer nova anotação (TAREFA 1), atualizar a linha correspondente na tabela da matéria: marcar completo/parcial e citar o(s) arquivo(s) de anotação
+- Status aqui reflete SOMENTE anotação de aula própria — nunca marcar completo/parcial com base apenas em deck gerado de livro de referência (isso fica só no `Conteudo_Programatico.md`)
+- Commitar a atualização da tabela junto com a anotação/deck da tarefa que a gerou
+
 ## Regras gerais
 - Nunca commitar PDFs ou arquivos acima de 10MB
 - Sempre fazer push após cada tarefa concluída
