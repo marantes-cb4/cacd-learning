@@ -75,7 +75,7 @@
 | 2.7 | Crescimento e Desenvolvimento Econômico | ✅ Completo | Macro - Modelo de Solow.md, Macro - Modelos de Crescimento.md | — |
 | 2.8 | Emprego e renda | 🟡 Parcial | Macro - Modelo Clássico.md | Só a determinação clássica do emprego; faltam indicadores do mercado de trabalho e Lei de Okun |
 | 3.1 | Teorias de Comércio | 🟡 Parcial | Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md, Macro - Modelos de Crescimento.md | Só menção breve ao pensamento cepalino; faltam teorias clássicas/neoclássicas, comércio intrafirma/intrassetorial, economias de escala e deterioração dos termos de troca |
-| 3.2 | Macroeconomia aberta | | | Sem anotação de aula ainda |
+| 3.2 | Macroeconomia aberta | ✅ Completo | Macro - Conceitos Básicos de Economias Abertas.md | Cobre fluxos internacionais de bens/capitais/serviços, regimes de câmbio, taxa de câmbio nominal e real, determinantes da política cambial (PPC, paridade de juros), relação poupança externa-crescimento (S=I+IEL) e relação câmbio-juros-inflação |
 | 3.3 | Efeitos de tarifas, quotas, subsídios e outros instrumentos de política comercial | ✅ Completo | Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md | — |
 | 4.1 | Economia brasileira no século XIX (economia cafeeira) | | | Sem anotação de aula ainda |
 | 4.2 | Primeira República | | | Sem anotação de aula ainda |
@@ -96,4 +96,4 @@
 |---------|----------|---------|-----------|-----------------|
 | Direito Interno | 4 | 6 | 4 | 14 |
 | Direito Internacional | 6 | 9 | 6 | 21 |
-| Economia | 5 | 6 | 12 | 23 |
+| Economia | 6 | 6 | 11 | 23 |
