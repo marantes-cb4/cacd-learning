@@ -24,7 +24,7 @@
 | 8 | Direitos e garantias fundamentais no ordenamento jurídico brasileiro | 🟡 Parcial | Direitos e Garantias Fundamentais.md | Cobre bem os remédios constitucionais (HC, HD, MS, MI, ação popular); falta o conteúdo substantivo dos direitos fundamentais (gerações, rol do art. 5º, direitos sociais/políticos) |
 | 9 | Administração Pública no Brasil: princípios constitucionais, estrutura federal, atos administrativos, processo e procedimento administrativo | 🟡 Parcial | Princípios da Administração Pública.md, Estrutura da Administração Pública Federal.md, Atos Administrativos.md | Falta processo/procedimento administrativo (Lei 9.784/99) |
 | 10 | Licitações e contratos administrativos | 🟡 Parcial | Licitações e Contratos Administrativos.md | Licitação (Lei 14.133/2021) coberta a fundo; falta a parte de contratos administrativos (cláusulas exorbitantes, execução, rescisão, sanções) apesar do título |
-| 11 | Responsabilidade civil do Estado | | | Sem anotação de aula ainda |
+| 11 | Responsabilidade civil do Estado | ✅ Completo | Responsabilidade Civil do Estado.md | Cobre histórico das teorias, risco administrativo, causas excludentes/minorante, ação de regresso, risco integral, hipóteses de responsabilidade subjetiva e responsabilidade por atos judiciais |
 | 12 | Direitos, deveres e responsabilidades do servidor público. Improbidade administrativa. Regime disciplinar e PAD | | | Sem anotação de aula ainda |
 | 13 | Regime Jurídico dos Servidores do Serviço Exterior Brasileiro (Lei nº 11.440/2006) | | | Sem anotação de aula ainda |
 | 14 | Finanças públicas. Normas orçamentárias | | | Sem anotação de aula ainda |
@@ -94,6 +94,6 @@
 
 | Matéria | Completo | Parcial | Em branco | Total de itens |
 |---------|----------|---------|-----------|-----------------|
-| Direito Interno | 4 | 6 | 4 | 14 |
+| Direito Interno | 5 | 6 | 3 | 14 |
 | Direito Internacional | 7 | 9 | 5 | 21 |
 | Economia | 6 | 6 | 11 | 23 |
