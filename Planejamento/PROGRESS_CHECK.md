@@ -69,7 +69,7 @@
 | 2.1 | Contabilidade Nacional | 🟡 Parcial | Macro - Contabilidade Nacional, Renda e Produto.md, Macro - Modelo Clássico.md | Falta a ótica keynesiana de determinação da renda (multiplicador, função consumo, demanda efetiva) |
 | 2.2 | Contas externas | | | Sem anotação de aula ainda |
 | 2.3 | Economia do Setor Público e Política Fiscal | 🟡 Parcial | Macro - Poupança, Investimento e o Sistema Financeiro.md, Macro - Modelo Clássico.md | Falta Abordagem Ricardiana da Dívida Pública, endividamento/responsabilidade fiscal e efeitos fiscais sobre política monetária |
-| 2.4 | O modelo IS-LM-BP | | | Sem anotação de aula ainda |
+| 2.4 | O modelo IS-LM-BP | ✅ Completo | Macro - Modelo IS-LM-BP.md | Cobre curvas IS/LM/BP em economia aberta, casos-limite de inclinação da BP, eficácia de políticas fiscal/monetária sob câmbio fixo x flutuante, trindade impossível e efeitos de choques externos |
 | 2.5 | Teoria da Moeda | 🟡 Parcial | Macro - Sistema Monetário.md, Macro - Modelo Clássico.md | Falta teoria da procura de moeda (preferência pela liquidez) e tipos de inflação |
 | 2.6 | Política Monetária | 🟡 Parcial | Macro - Sistema Monetário.md | Falta política monetária não convencional (QE etc.) e regulação do mercado de capitais |
 | 2.7 | Crescimento e Desenvolvimento Econômico | ✅ Completo | Macro - Modelo de Solow.md, Macro - Modelos de Crescimento.md | — |
@@ -96,4 +96,4 @@
 |---------|----------|---------|-----------|-----------------|
 | Direito Interno | 5 | 6 | 3 | 14 |
 | Direito Internacional | 7 | 10 | 4 | 21 |
-| Economia | 6 | 6 | 11 | 23 |
+| Economia | 7 | 6 | 10 | 23 |
