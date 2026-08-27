@@ -66,12 +66,12 @@
 | 1.1 | Demanda do Consumidor | ✅ Completo | Micro - Teoria do Consumidor e Política Econômica.md, Micro - Intro Oferta e Demanda.md, Micro - Elasticidade.md | — |
 | 1.2 | Oferta do Produtor | ✅ Completo | Micro - Teoria da Firma.md, Micro - Elasticidade.md, Micro - Intro Oferta e Demanda.md | — |
 | 1.3 | Tipos de Mercados e de bens | ✅ Completo | Micro - Mercados Perfeitamente Competitivos.md, Micro - Monopólio.md, Micro - Oligopólio e Concorrência Monopolística.md, Micro - Intro Oferta e Demanda.md, Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md | — |
-| 2.1 | Contabilidade Nacional | 🟡 Parcial | Macro - Contabilidade Nacional, Renda e Produto.md, Macro - Modelo Clássico.md | Falta a ótica keynesiana de determinação da renda (multiplicador, função consumo, demanda efetiva) |
+| 2.1 | Contabilidade Nacional | ✅ Completo | Macro - Contabilidade Nacional, Renda e Produto.md, Macro - Modelo Clássico.md, Macro - Modelo IS-LM (Keynesiano Generalizado).md | Ótica keynesiana de determinação da renda (multiplicador, função consumo, demanda efetiva) agora coberta pelo IS-LM |
 | 2.2 | Contas externas | | | Sem anotação de aula ainda |
 | 2.3 | Economia do Setor Público e Política Fiscal | 🟡 Parcial | Macro - Poupança, Investimento e o Sistema Financeiro.md, Macro - Modelo Clássico.md | Falta Abordagem Ricardiana da Dívida Pública, endividamento/responsabilidade fiscal e efeitos fiscais sobre política monetária |
 | 2.4 | O modelo IS-LM-BP | ✅ Completo | Macro - Modelo IS-LM-BP.md | Cobre curvas IS/LM/BP em economia aberta, casos-limite de inclinação da BP, eficácia de políticas fiscal/monetária sob câmbio fixo x flutuante, trindade impossível e efeitos de choques externos |
-| 2.5 | Teoria da Moeda | 🟡 Parcial | Macro - Sistema Monetário.md, Macro - Modelo Clássico.md | Falta teoria da procura de moeda (preferência pela liquidez) e tipos de inflação |
-| 2.6 | Política Monetária | 🟡 Parcial | Macro - Sistema Monetário.md | Falta política monetária não convencional (QE etc.) e regulação do mercado de capitais |
+| 2.5 | Teoria da Moeda | 🟡 Parcial | Macro - Sistema Monetário.md, Macro - Modelo Clássico.md, Macro - Modelo IS-LM (Keynesiano Generalizado).md | Teoria da procura de moeda (transacional/precaucional/especulativa, preferência pela liquidez, teoria dos ativos de Keynes) agora coberta; falta tipos de inflação |
+| 2.6 | Política Monetária | 🟡 Parcial | Macro - Sistema Monetário.md, Macro - Modelo IS-LM (Keynesiano Generalizado).md | Política monetária não convencional (QE, crédito direto, Operation Twist, forward guidance) agora coberta; falta regulação do mercado de capitais |
 | 2.7 | Crescimento e Desenvolvimento Econômico | ✅ Completo | Macro - Modelo de Solow.md, Macro - Modelos de Crescimento.md | — |
 | 2.8 | Emprego e renda | 🟡 Parcial | Macro - Modelo Clássico.md | Só a determinação clássica do emprego; faltam indicadores do mercado de trabalho e Lei de Okun |
 | 3.1 | Teorias de Comércio | 🟡 Parcial | Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md, Macro - Modelos de Crescimento.md | Só menção breve ao pensamento cepalino; faltam teorias clássicas/neoclássicas, comércio intrafirma/intrassetorial, economias de escala e deterioração dos termos de troca |
@@ -96,4 +96,4 @@
 |---------|----------|---------|-----------|-----------------|
 | Direito Interno | 5 | 6 | 3 | 14 |
 | Direito Internacional | 7 | 10 | 4 | 21 |
-| Economia | 7 | 6 | 10 | 23 |
+| Economia | 8 | 5 | 10 | 23 |
