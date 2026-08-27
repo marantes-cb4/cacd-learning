@@ -48,7 +48,7 @@
 | 25 | Organizações internacionais. Incorporação ao direito brasileiro. ONU e agências. OEA. Carta Democrática Interamericana. Outras OIs regionais. Direito comparado | 🟡 Parcial | Organizações Internacionais.md | ONU, agências e incorporação ao direito brasileiro cobertos; OEA, Carta Democrática Interamericana, outras OIs regionais e direito comparado ausentes |
 | 26 | Direito da Integração Regional. MERCOSUL. Relação com o Direito brasileiro. Órgão de Solução de Controvérsias. Jurisprudência | ✅ Completo | Mercosul - Sistema de Solução de Controvérsias.md | Cobre as 4 etapas de solução entre Estados, competência consultiva do TPR, reclamação de particulares ao GMC, medidas compensatórias e a relação com o direito brasileiro (Regimento Interno do STF, art. 354-H) |
 | 27 | Uso da força. Prática diplomática brasileira. Segurança coletiva. Uso da força e DH. Operações de paz. Desarmamento e não proliferação. Controle de armas. Terrorismo | 🟡 Parcial | Proibição do Uso da Força.md | Uso da força, legítima defesa, segurança coletiva, operações de paz e prática diplomática brasileira cobertos a fundo; falta desarmamento/não proliferação, controle de armas e terrorismo |
-| 28 | Direito internacional dos direitos humanos. Exigibilidade. Tratados ratificados pelo Brasil. Sistemas convencionais. Conselho de DH. Órgãos de tratados. Sistema Interamericano | | | Sem anotação de aula dedicada — DH aparece só incidentalmente em outras notas |
+| 28 | Direito internacional dos direitos humanos. Exigibilidade. Tratados ratificados pelo Brasil. Sistemas convencionais. Conselho de DH. Órgãos de tratados. Sistema Interamericano | 🟡 Parcial | Sistema Interamericano de Direitos Humanos.md | Sistema Interamericano coberto a fundo (Comissão, Corte, subsidiariedade, competências consultiva/litigiosa, casos Gomes Lund e Maria da Penha); faltam exigibilidade geral, lista de tratados ratificados pelo Brasil, sistemas convencionais de petições da ONU, Conselho de DH e órgãos de tratados |
 | 29 | Conflitos armados. Direito Internacional Humanitário. Direito Internacional dos Refugiados. Instituto do refúgio no direito brasileiro | 🟡 Parcial | Asilo.md, Proibição do Uso da Força.md | Refúgio (Lei 9.474/97, CONARE) coberto a fundo; DIH só tangenciado (jus in bello); "conflitos armados" não é tópico próprio |
 | 30 | Direito penal internacional. Tribunais internacionais penais. TPI | 🟡 Parcial | Sujeitos Especiais do DIP.md, Organizações Internacionais.md | TPI e tribunais ad hoc mencionados; falta jurisdição do TPI, complementaridade e crimes tipificados |
 | 31 | Direito do comércio internacional. OMC. Acordos. Órgão de Solução de Controvérsias | | | Sem anotação de aula ainda |
@@ -95,5 +95,5 @@
 | Matéria | Completo | Parcial | Em branco | Total de itens |
 |---------|----------|---------|-----------|-----------------|
 | Direito Interno | 5 | 6 | 3 | 14 |
-| Direito Internacional | 7 | 9 | 5 | 21 |
+| Direito Internacional | 7 | 10 | 4 | 21 |
 | Economia | 6 | 6 | 11 | 23 |
