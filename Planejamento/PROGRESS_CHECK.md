@@ -25,7 +25,7 @@
 | 9 | Administração Pública no Brasil: princípios constitucionais, estrutura federal, atos administrativos, processo e procedimento administrativo | 🟡 Parcial | Princípios da Administração Pública.md, Estrutura da Administração Pública Federal.md, Atos Administrativos.md | Falta processo/procedimento administrativo (Lei 9.784/99) |
 | 10 | Licitações e contratos administrativos | 🟡 Parcial | Licitações e Contratos Administrativos.md, Licitações e Contratos Administrativos - Parte 2.md | Licitação coberta a fundo (competência, princípios, fases, margem de preferência, modalidades — pregão/concorrência/concurso/leilão/diálogo competitivo —, inexigibilidade e dispensa); falta a parte de contratos administrativos propriamente dita (cláusulas exorbitantes, execução, alteração, rescisão, sanções) |
 | 11 | Responsabilidade civil do Estado | ✅ Completo | Responsabilidade Civil do Estado.md | Cobre histórico das teorias, risco administrativo, causas excludentes/minorante, ação de regresso, risco integral, hipóteses de responsabilidade subjetiva e responsabilidade por atos judiciais |
-| 12 | Direitos, deveres e responsabilidades do servidor público. Improbidade administrativa. Regime disciplinar e PAD | | | Sem anotação de aula ainda |
+| 12 | Direitos, deveres e responsabilidades do servidor público. Improbidade administrativa. Regime disciplinar e PAD | 🟡 Parcial | Direitos, Deveres e Responsabilidades dos Servidores.md | Cobre a fundo responsabilidade civil/penal/administrativa do servidor (independência e exceções dos arts. 125-126), deveres funcionais, sindicância x PAD, comissão processante e competência para aplicar penalidades; falta o conteúdo substantivo da Lei de Improbidade Administrativa (Lei 8.429/92 — atos de improbidade, sanções, prescrição) |
 | 13 | Regime Jurídico dos Servidores do Serviço Exterior Brasileiro (Lei nº 11.440/2006) | | | Sem anotação de aula ainda |
 | 14 | Finanças públicas. Normas orçamentárias | | | Sem anotação de aula ainda |
 
@@ -94,6 +94,6 @@
 
 | Matéria | Completo | Parcial | Em branco | Total de itens |
 |---------|----------|---------|-----------|-----------------|
-| Direito Interno | 5 | 6 | 3 | 14 |
+| Direito Interno | 5 | 7 | 2 | 14 |
 | Direito Internacional | 8 | 9 | 4 | 21 |
 | Economia | 8 | 5 | 10 | 23 |
