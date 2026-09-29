@@ -4,7 +4,7 @@ import genanki
 import random
 import os
 
-os.makedirs("/Users/isabelamarantes/Desktop/cacd-learning/anki/decks", exist_ok=True)
+os.makedirs("/Users/marantes.isabela/Desktop/cacd-learning/anki/decks", exist_ok=True)
 
 def make_deck(deck_title, file_path, cards):
     model = genanki.Model(
@@ -24,7 +24,7 @@ def make_deck(deck_title, file_path, cards):
     print(f"✅ {os.path.basename(file_path)} — {len(cards)} cards")
     return len(cards)
 
-BASE = "/Users/isabelamarantes/Desktop/cacd-learning/anki/decks"
+BASE = "/Users/marantes.isabela/Desktop/cacd-learning/anki/decks"
 
 # ─────────────────────────────────────────────────────────────
 # 1.1 DEMANDA DO CONSUMIDOR

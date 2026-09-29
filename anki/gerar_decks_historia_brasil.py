@@ -2,7 +2,7 @@ import genanki
 import random
 import os
 
-BASE = "/Users/isabelamarantes/Desktop/cacd-learning/anki/decks/historia-br"
+BASE = "/Users/marantes.isabela/Desktop/cacd-learning/anki/decks/historia-br"
 os.makedirs(BASE, exist_ok=True)
 
 def make_deck(deck_title, file_path, cards):

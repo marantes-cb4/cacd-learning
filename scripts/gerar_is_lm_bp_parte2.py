@@ -14,7 +14,7 @@ import genanki
 import random
 import os
 
-DECK_DIR = "/Users/isabelreichelt/Desktop/cacd-learning/anki/decks/economia"
+DECK_DIR = "/Users/marantes.isabela/Desktop/cacd-learning/anki/decks/economia"
 os.makedirs(DECK_DIR, exist_ok=True)
 
 

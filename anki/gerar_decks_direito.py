@@ -2,9 +2,9 @@
 """Gera todos os decks de Anki para Direito do CACD."""
 import genanki, random, os
 
-os.makedirs("/Users/isabelamarantes/Desktop/cacd-learning/anki/decks/direito", exist_ok=True)
+os.makedirs("/Users/marantes.isabela/Desktop/cacd-learning/anki/decks/direito", exist_ok=True)
 
-BASE = "/Users/isabelamarantes/Desktop/cacd-learning/anki/decks/direito"
+BASE = "/Users/marantes.isabela/Desktop/cacd-learning/anki/decks/direito"
 
 def make_deck(deck_title, file_name, cards):
     model = genanki.Model(

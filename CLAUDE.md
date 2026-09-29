@@ -1,5 +1,5 @@
 ## Materiais de referência (só local, nunca commitar)
-PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
+PDFs e lista de temas ficam em: /Users/marantes.isabela/Desktop/CACD/
 
 
 ## ─── TAREFA 1: Notas de aula e materiais → Flash cards ───
@@ -8,8 +8,8 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 
 **Fontes a usar (em ordem):**
 1. Minhas anotações em .md → /anotações/<materia>/ (no próprio repositório)
-2. Materiais do professor em PDF → /Users/isabelamarantes/Desktop/CACD/Aulas/<materia>/Materiais/
-3. Livros de referência em PDF → /Users/isabelamarantes/Desktop/CACD/
+2. Materiais do professor em PDF → /Users/marantes.isabela/Desktop/CACD/Aulas/<materia>/Materiais/
+3. Livros de referência em PDF → /Users/marantes.isabela/Desktop/CACD/
 
 **O que fazer:**
 1. Ler as anotações .md e os materiais .docx da submatéria solicitada
@@ -62,7 +62,7 @@ PDFs e lista de temas ficam em: /Users/isabelamarantes/Desktop/CACD/
 **O que fazer:**
 1. Ler a lista de conteúdos em /Editais/Conteudo_Programatico.md do próprio repo
 2. Identificar o conteúdo solicitado e a matéria à qual pertence
-3. Buscar nos PDFs em /Users/isabelamarantes/Desktop/CACD/ os capítulos relevantes
+3. Buscar nos PDFs em /Users/marantes.isabela/Desktop/CACD/ os capítulos relevantes
 4. Gerar flash cards objetivos sobre aquele conteúdo
    - Frente: pergunta direta
    - Verso: resposta concisa com referência ao livro/capítulo fonte
@@ -136,7 +136,7 @@ alternativas das questões. Os TPs antigos são reservados como simulados.
   
 
 ## Sobre os materiais de referência
-Os PDFs estão organizados por matéria em subpastas dentro de /Users/isabelamarantes/Desktop/CACD/,
+Os PDFs estão organizados por matéria em subpastas dentro de /Users/marantes.isabela/Desktop/CACD/,
 mas um livro pode ser relevante para mais de uma matéria. Ao buscar conteúdo,
 varrer todas as subpastas independentemente do conteúdo solicitado, e ao atualizar
 o Conteudo_Programatico.md, registrar o livro fonte real mesmo que esteja em

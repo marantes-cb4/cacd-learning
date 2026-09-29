@@ -13,7 +13,7 @@ import genanki
 import random
 import os
 
-DECK_DIR = "/Users/isabelamarantes/Desktop/cacd-learning/anki/decks/direito"
+DECK_DIR = "/Users/marantes.isabela/Desktop/cacd-learning/anki/decks/direito"
 os.makedirs(DECK_DIR, exist_ok=True)
 
 
