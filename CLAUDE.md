@@ -174,7 +174,7 @@ Rastreia o progresso real de aulas/anotações próprias contra os itens oficiai
 Mapa mental interativo (HTML único, sem dependências) com os 14 itens do edital → leis → artigos/incisos. Os dados ficam inline no próprio HTML, no bloco `<script>` com chamadas `T.push(tema(...))` / `n(título, descrição, [filhos])`.
 - **Todo conteúdo novo de Direito Interno** (TAREFA 1 de qualquer submatéria de Direito Interno, ou qualquer nova anotação da matéria) **deve também ser incorporado ao mapa mental** no mesmo commit: acrescentar/atualizar leis, artigos, incisos e pegadinhas no ramo do item do edital correspondente
 - Atualizar o status do item (`"ok"` completo / `"part"` parcial) e a lista de anotações do ramo, de acordo com o `PROGRESS_CHECK.md`
-- Blocos baseados só em conhecimento geral (fora das anotações) levam "conteúdo geral" ou "ainda sem anotação" no título/descrição — ficam tracejados; ao processar a anotação correspondente, trocar pelo conteúdo da aula e remover a marca
+- **Fontes permitidas: SOMENTE as anotações (`/anotações/Direito Interno/`) e os materiais do professor (`Aulas/Direito Interno/Materiais`: rodadas, textos de lei anexados, exercícios).** Nunca incluir no mapa conteúdo de conhecimento geral, de outras fontes ou de livros — se um ponto do edital ainda não tem material, o ramo fica enxuto (a lacuna é indicada pelo status "parcial")
 - Commitar o mapa junto com a anotação, o deck e o `PROGRESS_CHECK.md`
 
 ## Regras gerais
