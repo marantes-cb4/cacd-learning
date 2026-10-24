@@ -44,6 +44,7 @@ PDFs e lista de temas ficam em: /Users/marantes.isabela/Desktop/CACD/
 6. Atualizar /Planejamento/PROGRESS_CHECK.md: achar a(s) linha(s) do item do edital coberto(s) pela submatéria processada e marcar completo/parcial, citando o(s) arquivo(s) de anotação — ver regras completas na seção "Progress Check" deste arquivo
 7. Fazer commit e push (incluindo a anotação .md, o deck .apkg, o script gerador e o PROGRESS_CHECK.md atualizado) com mensagem:
    "notas+cards: <submateria> (<materia>) — <N> cards gerados"
+   (se a matéria for Direito Interno, incluir também o mapa mental atualizado — ver seção "Mapa mental de Direito Interno")
 
 **Sobre exercícios dos materiais do professor:**
 - Buscar exercícios em todos os arquivos da aula: PDF principal, PDF de "Questões objetivas", PPT, etc.
@@ -168,6 +169,13 @@ Rastreia o progresso real de aulas/anotações próprias contra os itens oficiai
 - **Obrigatório a cada execução da TAREFA 1** (toda vez que eu processar uma aula/submatéria nova): atualizar a linha correspondente na tabela da matéria, marcando completo/parcial e citando o(s) arquivo(s) de anotação — nunca pular esse passo, mesmo que a mudança de status seja pequena (ver passo 6 da TAREFA 1)
 - Status aqui reflete SOMENTE anotação de aula própria — nunca marcar completo/parcial com base apenas em deck gerado de livro de referência (isso fica só no `Conteudo_Programatico.md`)
 - Commitar a atualização da tabela junto com a anotação/deck da tarefa que a gerou
+
+## Mapa mental de Direito Interno (/mapas mentais/direito-interno.html)
+Mapa mental interativo (HTML único, sem dependências) com os 14 itens do edital → leis → artigos/incisos. Os dados ficam inline no próprio HTML, no bloco `<script>` com chamadas `T.push(tema(...))` / `n(título, descrição, [filhos])`.
+- **Todo conteúdo novo de Direito Interno** (TAREFA 1 de qualquer submatéria de Direito Interno, ou qualquer nova anotação da matéria) **deve também ser incorporado ao mapa mental** no mesmo commit: acrescentar/atualizar leis, artigos, incisos e pegadinhas no ramo do item do edital correspondente
+- Atualizar o status do item (`"ok"` completo / `"part"` parcial) e a lista de anotações do ramo, de acordo com o `PROGRESS_CHECK.md`
+- Blocos baseados só em conhecimento geral (fora das anotações) levam "conteúdo geral" ou "ainda sem anotação" no título/descrição — ficam tracejados; ao processar a anotação correspondente, trocar pelo conteúdo da aula e remover a marca
+- Commitar o mapa junto com a anotação, o deck e o `PROGRESS_CHECK.md`
 
 ## Regras gerais
 - Nunca commitar PDFs ou arquivos acima de 10MB

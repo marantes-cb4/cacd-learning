@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa Mental — Direito Interno</title>
+<style>
+:root{
+  --bg:#f6f5f1; --panel:#ffffff; --ink:#1f2328; --muted:#5f6670; --line:#b9b6ac;
+  --node-bg:hsl(var(--h,220) 60% 95%); --node-bd:hsl(var(--h,220) 40% 62%); --node-hover:hsl(var(--h,220) 60% 90%);
+  --root-bg:#1f2328; --root-ink:#fff; --warn:#a4470a; --mark:#ffe28a; --ok:#2e8b57; --part:#d99a00;
+  --shadow:0 1px 2px rgba(0,0,0,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15171a; --panel:#1d2024; --ink:#e8e8e6; --muted:#9aa1a9; --line:#4a4e55;
+    --node-bg:hsl(var(--h,220) 28% 19%); --node-bd:hsl(var(--h,220) 35% 42%); --node-hover:hsl(var(--h,220) 30% 24%);
+    --root-bg:#e8e8e6; --root-ink:#15171a; --warn:#f0a46a; --mark:#6b5a10; --ok:#4cc38a; --part:#f1bf3a;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15171a; --panel:#1d2024; --ink:#e8e8e6; --muted:#9aa1a9; --line:#4a4e55;
+  --node-bg:hsl(var(--h,220) 28% 19%); --node-bd:hsl(var(--h,220) 35% 42%); --node-hover:hsl(var(--h,220) 30% 24%);
+  --root-bg:#e8e8e6; --root-ink:#15171a; --warn:#f0a46a; --mark:#6b5a10; --ok:#4cc38a; --part:#f1bf3a; --shadow:none;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;display:flex;flex-direction:column}
+header{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+h1{font-size:16px;margin:0;font-weight:650;letter-spacing:.2px}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-left:auto}
+input[type=search]{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);min-width:210px}
+button{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);cursor:pointer}
+button:hover{background:var(--node-hover)}
+label.chk{display:flex;gap:6px;align-items:center;color:var(--muted);cursor:pointer;user-select:none}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;padding:6px 16px;color:var(--muted);font-size:12px;border-bottom:1px solid var(--line);background:var(--panel)}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.dot.ok{background:var(--ok)}.dot.part{background:var(--part)}
+.dash{width:16px;height:10px;border:1.5px dashed var(--muted);border-radius:3px;display:inline-block}
+main{flex:1;overflow:auto;padding:22px 18px 80px}
+.tree{display:inline-block;min-width:100%}
+.branch{display:flex;align-items:center;position:relative}
+.kids{display:flex;flex-direction:column;margin-left:28px;position:relative}
+.kids::before{content:"";position:absolute;left:-28px;top:50%;width:28px;border-top:1.5px solid var(--line)}
+.kids>.branch{padding:5px 0 5px 28px;position:relative}
+.kids>.branch::before{content:"";position:absolute;left:0;top:50%;width:28px;border-top:1.5px solid var(--line)}
+.kids>.branch::after{content:"";position:absolute;left:0;top:0;bottom:0;border-left:1.5px solid var(--line)}
+.kids>.branch:first-child::after{top:50%}
+.kids>.branch:last-child::after{bottom:50%}
+.kids>.branch:only-child::after{display:none}
+.node{width:max-content;max-width:min(420px,78vw);min-width:130px;background:var(--node-bg);border:1.5px solid var(--node-bd);border-radius:10px;padding:7px 10px 7px 11px;box-shadow:var(--shadow);position:relative;text-align:left}
+.node.has-kids{cursor:pointer;padding-right:34px}
+.node.has-kids:hover{background:var(--node-hover)}
+.node:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.node.gap{border-style:dashed}
+.node .ttl{font-weight:600;display:flex;gap:6px;align-items:flex-start}
+.node .desc{margin-top:3px;color:var(--ink);opacity:.9;font-size:12.5px;white-space:normal}
+.node .desc .warn{color:var(--warn);font-weight:600}
+.node .meta{margin-top:4px;font-size:11.5px;color:var(--muted);font-style:italic}
+.chev{position:absolute;right:7px;top:7px;min-width:22px;height:22px;border-radius:11px;background:var(--panel);border:1px solid var(--node-bd);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--muted)}
+.node.open .chev{background:var(--node-bd);color:#fff}
+.root{background:var(--root-bg);color:var(--root-ink);border-color:var(--root-bg);font-size:17px;font-weight:700;padding:12px 38px 12px 16px;border-radius:14px}
+.root:hover{background:var(--root-bg)}
+.root .chev{background:transparent;border-color:rgba(127,127,127,.6);color:inherit}
+.tema>.node{font-size:14.5px}
+.hide-desc .desc{display:none}
+mark{background:var(--mark);color:inherit;border-radius:3px;padding:0 1px}
+.empty{padding:40px;color:var(--muted)}
+footer{padding:8px 16px;font-size:11.5px;color:var(--muted);border-top:1px solid var(--line);background:var(--panel)}
+@media (max-width:700px){
+  .branch{display:block}
+  .kids{margin-left:12px;border-left:1.5px solid var(--line);padding-left:10px}
+  .kids::before,.kids>.branch::before,.kids>.branch::after{display:none}
+  .kids>.branch{padding:5px 0}
+  .node{max-width:100%;width:auto}
+  .tools{margin-left:0;width:100%}input[type=search]{flex:1 1 100%;min-width:0}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>🧭 Direito Interno — mapa mental</h1>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Buscar (ex.: art. 62, veto, ADPF)…" aria-label="Buscar">
+    <button id="b1" title="Mostrar só os 14 itens do edital">Itens do edital</button>
+    <button id="b2" title="Abrir até o nível das leis">Leis</button>
+    <button id="bAll">Expandir tudo</button>
+    <button id="bNone">Recolher</button>
+    <label class="chk"><input type="checkbox" id="det" checked> Detalhes</label>
+  </div>
+</header>
+<div class="legend">
+  <span><i class="dot ok"></i> edital coberto por anotações próprias</span>
+  <span><i class="dot part"></i> cobertura parcial</span>
+  <span><i class="dash"></i> tracejado = conteúdo geral, ainda fora das suas anotações</span>
+  <span><b style="color:var(--warn)">⚠</b> pegadinha / exceção</span>
+  <span>Clique num bloco com <b>número</b> para abrir os filhos</span>
+</div>
+<main id="main"><div class="tree" id="tree"></div></main>
+<footer>Fontes: suas anotações em <code>anotações/Direito Interno</code> e as rodadas do professor (<code>Aulas/Direito Interno/Materiais</code>). Blocos tracejados vêm de conhecimento geral — confira o texto da lei, e valores atualizáveis (ex.: dispensa de licitação), antes de decorar.</footer>
+<script>
+const T=[];
+const n=(t,d,k)=>({t:t,d:d||"",k:k||[]});
+const tema=(num,t,st,aulas,k)=>({num:num,t:t,st:st,aulas:aulas,k:k,d:""});
+T.push(tema(1,"Normas jurídicas","part",["Normas Jurídicas.md"],[
+ n("Poder constituinte (teoria)","Dupla finalidade: criar a Constituição (originário, 1º grau) ou aperfeiçoá-la (derivado, 2º grau).",[
+  n("Teoria de Sieyès","Obra “Que é o Terceiro Estado?”, França séc. XVIII, pré-Revolução. Titularidade do poder constituinte é do povo e é inalienável; o povo tem direito de revolução (criar nova Constituição a qualquer tempo); poder constituinte ≠ poderes constituídos (Executivo, Legislativo, Judiciário)."),
+  n("Originário (1º grau)","Cria a Constituição de um Estado soberano. 2 subespécies: HISTÓRICO (cria a 1ª Constituição do país — no Brasil, a de 1824) e REVOLUCIONÁRIO (cria as demais — ex.: CF/88).",[
+   n("6 características","1) político/não jurídico · 2) inicial (inaugura nova ordem; direito pré-constitucional só é recepcionado se compatível) · 3) juridicamente ILIMITADO (há limites metajurídicos: históricos, culturais, religiosos) · 4) autônomo (sem procedimento prévio) · 5) incondicionado (sem momento fixo) · 6) permanente (fica em latência; não se esgota). ⚠ NÃO é temporário: o poder é permanente."),
+   n("Art. 5º, XXXVI, CF","“A LEI não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada” — limita o legislador (poder constituído), NÃO o constituinte originário. Nova Constituição pode desconstituir direito adquirido. ⚠ Brasil é positivista: direito natural não limita o originário."),
+   n("Controle de constitucionalidade","Normas constitucionais ORIGINÁRIAS não podem ser declaradas inconstitucionais (STF rechaça a teoria das normas constitucionais inconstitucionais, de Otto Bachof).")
+  ]),
+  n("Derivado (2º grau)","5 características: jurídico, NÃO inicial, juridicamente limitado, NÃO autônomo (CF dita o procedimento) e condicionado (não age em certos momentos). Subordinado ao originário. 3 subespécies: reformador, decorrente e revisor.",[
+   n("Reformador — art. 60, CF","Cria emendas constitucionais (EC). Regra 2-2-3/5: 2 turnos, nas 2 Casas, 3/5 dos membros de cada Casa.",[
+    n("Art. 60, I a III — iniciativa","1/3, no mínimo, dos membros da Câmara ou do Senado · Presidente da República · mais da metade das Assembleias Legislativas, cada uma por maioria relativa de seus membros."),
+    n("Art. 60, §1º — limite circunstancial","Não pode haver emenda na vigência de intervenção federal, estado de defesa ou estado de sítio."),
+    n("Art. 60, §2º — votação","Discutida e votada em cada Casa, em 2 turnos; aprovada se obtiver, em ambos, 3/5 dos votos dos respectivos membros."),
+    n("Art. 60, §3º — promulgação","Pelas Mesas da Câmara e do Senado, com número de ordem (NÃO há sanção/veto do Presidente)."),
+    n("Art. 60, §4º — cláusulas pétreas (limite material)","Não será objeto de deliberação proposta tendente a abolir: I forma federativa de Estado · II voto direto, secreto, universal e periódico · III separação dos Poderes · IV direitos e garantias individuais. ⚠ Pétrea = não pode ser ABOLIDA; pode ser aperfeiçoada. Pétrea implícita reconhecida pelo STF: rigidez constitucional (as regras do art. 60). Teoria da dupla revisão (Portugal) NÃO é aplicada no Brasil."),
+    n("Art. 60, §5º — limite formal","Matéria de PEC rejeitada ou prejudicada não pode ser objeto de nova proposta na MESMA SESSÃO LEGISLATIVA (ano parlamentar, 2/fev a 22/dez) — não na mesma legislatura (4 anos).")
+   ]),
+   n("Decorrente — art. 11 ADCT","Elabora as Constituições estaduais (Assembleias Legislativas com poderes constituintes, observados os princípios da CF). Decorre da forma federativa. ⚠ Câmaras municipais NÃO exercem poder constituinte decorrente (Lei Orgânica não é Constituição). Processo legislativo da CF é de observância obrigatória (simetria); STF: Estado não pode exigir 4/5 para emendar a Constituição estadual (ADI 486)."),
+   n("Revisor — art. 3º ADCT","Revisão constitucional 5 anos após a promulgação, por maioria absoluta do CN em sessão unicameral (1-1-½). Usado em 1993/94 e JÁ EXAURIDO — não pode mais ser usado.")
+  ]),
+  n("Difuso (mutação constitucional)","Processo INFORMAL de alteração: muda o SIGNIFICADO da norma sem alterar o texto (emenda = processo formal). Reconhecida pelo Judiciário em casos concretos, mas exercida pelo “poder constituinte difuso” (o povo, que provoca o Judiciário).",[
+   n("Art. 5º, caput","Texto: brasileiros e estrangeiros RESIDENTES. Mutação: STF reconheceu universalidade dos direitos fundamentais (estrangeiro não residente também é titular)."),
+   n("Art. 5º, XI","Texto: “casa” é asilo inviolável. Mutação: protege a INTIMIDADE — vale para quarto de hotel, motorhome, escritório de advocacia, consultório."),
+   n("Art. 226, §3º","Texto: união estável entre homem e mulher. Mutação: STF reconheceu uniões homoafetivas como entidade familiar.")
+  ])
+ ]),
+ n("LINDB — Decreto-Lei 4.657/1942","Lei de Introdução às Normas do Direito Brasileiro (conteúdo geral — teoria geral da norma; ponto ainda não coberto nas suas anotações).",[
+  n("Art. 1º — vigência","Salvo disposição contrária, a lei começa a vigorar em todo o País 45 dias depois de oficialmente publicada. Nos Estados estrangeiros, a obrigatoriedade (quando admitida) começa 3 meses depois (§1º). Correção de texto antes da vigência reinicia o prazo (§3º); correção após a vigência = lei nova (§4º)."),
+  n("Art. 2º — continuidade e revogação","Lei sem vigência temporária vigora até que outra a modifique ou revogue. Revogação expressa ou tácita (incompatível / regula inteiramente a matéria — §1º). Leis gerais NOVAS a par das especiais não revogam nem modificam estas (§2º). Sem repristinação, salvo disposição expressa (§3º)."),
+  n("Art. 3º","Ninguém se escusa de cumprir a lei alegando que não a conhece."),
+  n("Art. 4º e 5º — integração e interpretação","Lei omissa: juiz decide por analogia, costumes e princípios gerais de direito. Na aplicação, atende-se aos fins sociais e às exigências do bem comum."),
+  n("Art. 6º — direito intertemporal","Lei em vigor tem efeito imediato e geral, respeitados o ato jurídico perfeito, o direito adquirido e a coisa julgada (§§1º a 3º)."),
+  n("Arts. 20 a 30 (Lei 13.655/2018)","Segurança jurídica na aplicação do direito público: art. 20 (vedado decidir com base em valores jurídicos abstratos sem considerar as consequências práticas) · art. 22 (considerar obstáculos e dificuldades reais do gestor) · art. 23 (regime de transição) · art. 26 (compromisso) · art. 28 (agente público responde pessoalmente por decisões ou opiniões técnicas só em caso de DOLO ou ERRO GROSSEIRO).")
+ ]),
+ n("Hierarquia e espécies normativas","Visão geral (aprofundada em Processo Legislativo).",[
+  n("Art. 59, CF — rol","Emendas à Constituição · leis complementares · leis ordinárias · leis delegadas · medidas provisórias · decretos legislativos · resoluções. Entre lei ordinária e lei complementar NÃO há hierarquia (diferem por matéria reservada e quórum)."),
+  n("Tratados de direitos humanos — art. 5º, §3º","Aprovados em cada Casa, em 2 turnos, por 3/5 dos membros = equivalentes a emendas constitucionais (bloco de constitucionalidade). Os demais tratados de DH têm status supralegal (RE 466.343, STF).")
+ ])
+]));
+
+T.push(tema(2,"Personalidade jurídica","ok",["Personalidade Jurídica.md"],[
+ n("Conceito","Ter personalidade jurídica = ser sujeito de direito, com aptidão para direitos e obrigações (capacidade de direito/de gozo). Animais não são sujeitos de direito. Conceito neutro, vale também para o direito internacional."),
+ n("Código Civil — Lei 10.406/2002","Duas espécies de sujeito de direito: pessoas naturais e pessoas jurídicas.",[
+  n("Art. 1º","Toda pessoa é capaz de direitos e deveres na ordem civil."),
+  n("Pessoa natural","Teoria natalista adotada.",[
+   n("Art. 2º — início","A personalidade civil começa do nascimento com vida; a lei põe a salvo, desde a concepção, os direitos do nascituro (nascituro tem expectativa de direito, não personalidade)."),
+   n("Arts. 6º e 7º — fim","Termina com a morte (real) ou presumida. Art. 6º: morte presumida dos ausentes quando a lei autoriza a sucessão definitiva. Art. 7º: morte presumida SEM ausência — I) perigo de vida extremamente provável; II) desaparecido em campanha ou prisioneiro não encontrado até 2 anos após o fim da guerra (só após esgotadas as buscas; sentença fixa a data provável)."),
+  ]),
+  n("Capacidade civil (de fato / de exercício)","Pressupõe discernimento. ≠ capacidade de direito.",[
+   n("Art. 3º — absolutamente incapazes","Hoje SOMENTE os menores de 16 anos (precisam de representação)."),
+   n("Art. 4º — relativamente incapazes","Precisam de assistência: I) maiores de 16 e menores de 18; II) ébrios habituais e viciados em tóxico; III) quem, por causa transitória ou permanente, não puder exprimir vontade; IV) pródigos. Parágrafo único: capacidade dos indígenas regulada por legislação especial. ⚠ Deficiência NÃO gera, por si só, incapacidade (Lei 13.146/2015 — Estatuto da Pessoa com Deficiência / Convenção da ONU).")
+  ])
+ ]),
+ n("Pessoa jurídica — arts. 40 a 52 CC","Criação do direito para atribuir personalidade a um conjunto de bens (privado) ou de atribuições/competências (público).",[
+  n("Art. 40","Pessoas jurídicas são de direito público (interno ou externo) e de direito privado."),
+  n("Art. 41 — público interno","União · Estados, DF e Territórios · Municípios · autarquias (inclusive associações públicas) · demais entidades de caráter público criadas por lei. Criadas e extintas por lei. ⚠ A União age como representante da República Federativa do Brasil — esta é o sujeito de DIP (art. 21, I, CF)."),
+  n("Art. 42 — público externo","Estados estrangeiros e todas as pessoas regidas pelo direito internacional público (organizações internacionais). Só elas celebram tratados."),
+  n("Art. 43 — responsabilidade","PJ de direito público interno respondem por atos dos agentes que nessa qualidade causem dano a terceiros, com direito de regresso contra o causador em caso de culpa ou dolo (ver Responsabilidade Civil do Estado)."),
+  n("Art. 44 — privado","Associações · sociedades · fundações · organizações religiosas · partidos políticos."),
+  n("Art. 45 — início da existência legal","Com a inscrição do ato constitutivo no registro, precedida, quando necessário, de autorização do Poder Executivo (ex.: setor aéreo, para evitar monopólio). Decai em 3 anos o direito de anular a constituição por defeito do ato (parágrafo único)."),
+  n("Art. 49-A","A pessoa jurídica não se confunde com seus sócios, associados, instituidores ou administradores."),
+  n("Art. 50 — desconsideração","Em caso de abuso da personalidade (DESVIO DE FINALIDADE ou CONFUSÃO PATRIMONIAL), o juiz — a requerimento da parte ou do MP — estende os efeitos de certas obrigações aos bens de sócios/administradores beneficiados. Medida extrema; mera existência de grupo econômico não basta (§4º)."),
+  n("Art. 51","Extinção/dissolução também exige registro no órgão competente.")
+ ]),
+ n("Constituição Federal","",[
+  n("Art. 21, I","Compete à União manter relações com Estados estrangeiros e participar de organizações internacionais."),
+  n("Art. 52, V","Senado autoriza operações externas de natureza financeira de interesse da União, Estados, DF, Territórios e Municípios. ⚠ São contratos regidos pelo DI PRIVADO — entes internos não são sujeitos de DIP e não celebram tratados."),
+  n("Art. 17, §2º","Partidos políticos adquirem personalidade na forma da lei civil e registram estatutos no TSE.")
+ ])
+]));
+
+T.push(tema(3,"Constituição: conceito, classificações, primado e controle de constitucionalidade","ok",["Conceito e Classificação da Constituição.md","Controle de Constitucionalidade.md (partes 1 a 4)"],[
+ n("Conceito e supremacia","Constituição = documento jurídico de maior hierarquia, elaborado por representantes do povo; organiza os poderes do Estado e LIMITA o poder estatal (EUA 1787 e França 1791 consagraram o conceito).",[
+  n("Supremacia formal","Todas as normas constitucionais — inclusive as sem conteúdo típico — têm máxima hierarquia, garantida pelo processo de elaboração e alteração (rigidez)."),
+ ]),
+ n("Classificação da CF/88","7 critérios.",[
+  n("Alterabilidade → RÍGIDA","Exige processo dificultoso (art. 60: 2-2-3/5). Flexível: alterável por lei ordinária. Semirrígida: parte por emenda, parte por lei (Constituição do Império, 1824)."),
+  n("Origem → PROMULGADA (democrática)","Participação indireta do povo (assembleia constituinte eleita). Outorgada: sem participação do povo. Cesarista: povo só ratifica por plebiscito."),
+  n("Forma → ESCRITA (codificada)","Normas num único documento. Não escrita/costumeira: ex. Inglaterra. ⚠ Há quem sustente que o bloco de constitucionalidade (tratados de DH equivalentes a EC) a torna não codificada."),
+  n("Modo de elaboração → DOGMÁTICA","Baseada em dogmas da ciência política do momento (ex.: freios e contrapesos). Histórica: sedimentada no tempo."),
+  n("Conteúdo → FORMAL","Tem normas materialmente constitucionais (organização/limitação do poder, ex. art. 2º) e normas só formalmente constitucionais (ex.: art. 242 — Colégio Pedro II)."),
+  n("Extensão → ANALÍTICA","Extensa. Sintética: enxuta (EUA: 7 artigos)."),
+  n("Finalidade → DIRIGENTE","Fixa metas sociais de longo prazo (saúde, educação, moradia — direitos de 2ª geração). Garantia: voltada ao Estado liberal.")
+ ]),
+ n("Pressupostos do controle","Só há controle onde há (1) supremacia e (2) rigidez constitucional.",[
+  n("Objeto","Leis e atos normativos do rol do art. 59 (EC, LC, LO, lei delegada, MP, decreto legislativo, resolução). Atos entre particulares não são objeto. Parâmetro: Constituição ou BLOCO DE CONSTITUCIONALIDADE."),
+  n("Normas constitucionais originárias","IMUNES ao controle. Derivadas se submetem: emenda constitucional, Constituições estaduais, emendas de revisão."),
+  n("Efeitos temporais — art. 27, Lei 9.868/1999","Regra: sentença declaratória, efeito EX TUNC (nulidade). Modulação (EX NUNC ou PRO FUTURO) exige: segurança jurídica ou excepcional interesse social + quórum de 2/3 dos ministros do STF (8 de 11). ⚠ Mesmo juízes de 1ª instância podem modular no controle difuso (jurisprudência STF 2004).")
+ ]),
+ n("Tipologia das inconstitucionalidades","",[
+  n("Por AÇÃO x por OMISSÃO","Omissão: legislador deixa de criar norma exigida pela CF. Instrumentos: ADO (art. 103, §2º, concentrado) e mandado de injunção (art. 5º, LXXI, concreto)."),
+  n("Material (nomostática)","Conteúdo viola a CF — ex.: pena de morte em tempo de paz (art. 5º, XLVII); EC tendente a abolir cláusula pétrea."),
+  n("Formal (nomodinâmica)","3 subespécies: (a) vício de INICIATIVA — ex. art. 61, §1º; sanção do Presidente NÃO convalida o vício · (b) formal OBJETIVA — quórum, etapas, prazos (ex.: LC por maioria simples; art. 69 exige absoluta) · (c) formal ORGÂNICA — ente sem competência (ex.: lei municipal de direito penal, art. 22, I).")
+ ]),
+ n("Quanto ao momento","",[
+  n("Preventivo","Antes da promulgação; objeto = projeto de lei/PEC. Executivo: veto jurídico (art. 66, §1º) — PEC não tem veto. Legislativo: CCJ (recurso de 1/10 ao Plenário — art. 58, §2º, I) e votação em Plenário. Judiciário: SÓ mandado de segurança de PARLAMENTAR; em projeto de lei só vício formal; em PEC, formal e material (art. 60, §4º). MS 32.033/2013. ⚠ MP, lei delegada, decreto legislativo e resolução não têm controle preventivo."),
+  n("Repressivo — Legislativo","Não é ‘revogação’ (norma inconstitucional é nula). 3 instrumentos: (1) sustação de atos do Executivo que exorbitem do poder regulamentar/da delegação — art. 49, V (controle político); (2) rejeição de MP — art. 62; (3) Tribunais de Contas — Súmula 347/STF (só caso concreto, flagrante ou jurisprudência do STF, sem efeito erga omnes — MS 35.410)."),
+  n("Repressivo — Executivo (mudança STF, ago/2025)","Executivo NÃO pode mais deixar de cumprir lei por conta própria (autotutela superada) — deve ajuizar ação e pedir liminar ao Judiciário."),
+  n("Repressivo — Judiciário","Dois sistemas: difuso (concreto) e concentrado (abstrato).")
+ ]),
+ n("Controle concreto / difuso","6 sinônimos/características.",[
+  n("Norte-americano","Marbury v. Madison (1803, Suprema Corte; CF dos EUA 1787 não previa)."),
+  n("Concreto/subjetivo","Parte de um caso concreto; inconstitucionalidade pode ser suscitada pelas partes, pelo MP (custos legis) ou de ofício."),
+  n("Difuso","Qualquer órgão do Judiciário, em qualquer grau."),
+  n("Inter partes","Não retira a lei do ordenamento; efeito só entre as partes (Senado pode suspender a execução — art. 52, X)."),
+  n("Incidental / prejudicial","Questão prévia, não o pedido principal."),
+  n("Via de defesa/exceção","Qualquer ação ou recurso, exceto as 5 ações típicas do concentrado."),
+  n("Direito pré-constitucional","NÃO RECEPÇÃO (parâmetro CF/88; equivale a revogação; efeitos EX NUNC) × INCONSTITUCIONALIDADE (parâmetro = Constituição da época; EX TUNC; só no controle difuso). Regra: no concentrado, pré-constitucional vai por ADPF (não recepção)."),
+  n("Reserva de plenário — art. 97 + SV 10","Só a maioria absoluta do plenário/órgão especial do TRIBUNAL declara inconstitucionalidade; órgão fracionário instaura incidente. Juiz singular não se submete. SV 10: viola o art. 97 afastar a lei sem declarar. ⚠ Exceções: cascateamento (decisão prévia do plenário/STF), declaração de constitucionalidade e de não recepção.")
+ ]),
+ n("Controle abstrato / concentrado","6 sinônimos/características.",[
+  n("Europeu/austríaco/kelseniano","Kelsen, Constituição austríaca de 1920; Judiciário como ‘legislador negativo’; igualdade entre todos."),
+  n("Abstrato / objetivo","Sem caso concreto; só decide constitucional ou inconstitucional."),
+  n("Concentrado","STF (art. 102, I — parâmetro CF) e Tribunal de Justiça (art. 125, §2º — parâmetro Constituição estadual; vedado atribuir legitimidade a um único órgão)."),
+  n("Erga omnes e vinculante — art. 102, §2º","Alcança os DEMAIS órgãos do Judiciário e a Administração direta/indireta. ⚠ NÃO vincula o próprio STF nem o legislador (pode editar lei idêntica)."),
+  n("Principal/direto","Higidez do ordenamento é o único objeto."),
+  n("Via de ação — 5 ações típicas","ADI, ADC, ADPF, ADO e Intervenção Federal."),
+ ]),
+ n("Legitimados — arts. 103 e 36, III, CF","Não são ‘partes’; ações indisponíveis (sem desistência — ADI 387 MC).",[
+  n("Universais","Presidente da República (I) · Mesa do Senado (II) · Mesa da Câmara (III) · PGR (VI) · Conselho Federal da OAB (VII) · partido com representação no Congresso (VIII)."),
+  n("Especiais (pertinência temática)","Mesa de Assembleia Legislativa/CLDF (IV) · Governador de Estado/DF (V) · confederação sindical ou entidade de classe de âmbito nacional (IX)."),
+  n("Art. 103, §1º e §3º","PGR sempre ouvido; AGU é CURADOR da norma (defende o ato impugnado), não propõe ação — exceto se o STF já declarou a inconstitucionalidade (ADI 1.616).")
+ ]),
+ n("As 5 ações","",[
+  n("ADI — art. 102, I, a","Lei/ato FEDERAL ou ESTADUAL (nunca municipal). Lei distrital: matéria estadual → ADI; municipal → ADPF. Natureza dúplice com a ADC. Não cabe contra direito pré-constitucional."),
+  n("ADC — art. 102, I, a","Só lei/ato FEDERAL. Exige divergência judicial relevante (art. 14, III, Lei 9.868/99), comprovada por julgados de pelo menos 2 tribunais."),
+  n("ADPF — art. 102, §1º; Lei 9.882/1999","SUBSIDIÁRIA (art. 4º, §1º: não cabe havendo outro meio eficaz). Exige violação de PRECEITO FUNDAMENTAL (conceito indeterminado). Cabe contra lei MUNICIPAL e para não recepção de direito pré-constitucional. Legitimados = os da ADI (art. 2º, I)."),
+  n("ADO — art. 103, §2º","Omissão legislativa: STF dá apenas CIÊNCIA ao Poder competente; omissão administrativa: prazo de 30 DIAS."),
+  n("IF — arts. 34, VII e 36, III","Único legitimado: PGR. Hipóteses: Estado/DF recusa executar lei federal, ou viola princípio sensível (art. 34, VII: a) forma republicana, sistema representativo e regime democrático; b) direitos da pessoa humana; c) autonomia municipal; d) prestação de contas; e) mínimo constitucional em saúde e ensino). Lei 12.562/2011."),
+  n("Súmula vinculante — art. 103-A","Não pode ser objeto das 5 ações; revisão/cancelamento por via própria do STF.")
+ ])
+]));
+
+T.push(tema(4,"Estado: elementos, soberania, formas, repartição de competências e sistemas de governo","part",["Estado - Conceito e Formas.md"],[
+ n("Elementos do Estado (teoria geral)","Povo + território + governo soberano (Jellinek). ⚠ Ponto do edital ainda não coberto nas suas anotações — conteúdo geral."),
+ n("Quatro conceitos estruturais","",[
+  n("Forma de Estado → FEDERAÇÃO","Estado composto, com descentralização política em entes federados. Cláusula pétrea (art. 60, §4º, I)."),
+  n("Forma de governo → REPÚBLICA · Sistema → PRESIDENCIALISMO · Regime → DEMOCRACIA","Art. 1º, caput, CF. Plebiscito de 1993 manteve república/presidencialismo (art. 2º ADCT).")
+ ]),
+ n("CF — Arts. 1º e 18","",[
+  n("Art. 1º, caput — indissolubilidade","República Federativa do Brasil formada pela união INDISSOLÚVEL de Estados, Municípios e DF. Sem direito de secessão (a tentativa gera intervenção federal)."),
+  n("Art. 18, caput — 4 entes autônomos","União, Estados, DF e Municípios, todos AUTÔNOMOS. Não há hierarquia entre eles (STF); vale a preponderância de interesses: nacional > regional > local."),
+  n("Autonomia × soberania","Soberania é da República Federativa (personalidade de DP externo; a União só a representa — art. 21, I). Autonomia é dos entes (personalidade de DP interno), com 4 capacidades: auto-organização, autogoverno, autolegislação e autoadministração. ⚠ Lei orgânica de Município/DF é auto-organização, não autolegislação."),
+  n("Art. 18, §1º","Brasília é a Capital Federal. ⚠ DF não tem capital; Brasília é divisão administrativa, não município."),
+  n("Art. 18, §2º — Territórios","Integram a União (autarquias federais), não são entes federados; criação, transformação em Estado ou reintegração por LEI COMPLEMENTAR. Hoje não existem (Fernando de Noronha era até 1988)."),
+  n("Art. 18, §3º — Estados (divisibilidade)","Incorporação, subdivisão ou desmembramento: plebiscito com a população DIRETAMENTE INTERESSADA (STF: todo o Estado original, área nova e remanescente) + LEI COMPLEMENTAR federal (após oitiva das Assembleias Legislativas)."),
+  n("Art. 18, §4º — Municípios (4 etapas)","1) lei complementar FEDERAL fixa o período em que podem ser criados · 2) estudo de viabilidade municipal · 3) plebiscito com a população dos municípios envolvidos (na fusão, os dois) · 4) LEI ESTADUAL ordinária cria o município.")
+ ]),
+ n("Distrito Federal — art. 32","Ente autônomo sui generis.",[
+  n("Art. 32, caput","Vedada a divisão em Municípios."),
+  n("Art. 32, §1º","Competências legislativas reservadas a Estados e Municípios (acumula as duas). ⚠ NÃO cria municípios (art. 18, §4º é dos Estados)."),
+  n("Art. 21, XIII e XIV","A União organiza e mantém o Poder Judiciário e o MP do DF (XIII) e a polícia civil, a polícia militar e o corpo de bombeiros militar do DF (XIV). ⚠ NÃO inclui a Defensoria Pública. SV 39: compete à União legislar sobre vencimentos dessas carreiras (o DF presta o serviço, a União paga).")
+ ]),
+ n("Repartição de competências (arts. 21 a 25 e 30)","Modelo cooperativo com predomínio da União.",[
+  n("Art. 21 — material exclusiva da União","Ex.: I manter relações com Estados estrangeiros e participar de organizações internacionais · II declarar guerra e celebrar a paz · III defesa nacional · IV permitir forças estrangeiras · XIII-XIV Judiciário, MP e segurança do DF."),
+  n("Art. 22 — legislativa PRIVATIVA da União","I direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho · XXVII normas gerais de licitação e contratação. Parágrafo único: LC pode autorizar Estados a legislar sobre questões específicas."),
+  n("Art. 23 — material COMUM","União, Estados, DF e Municípios. Parágrafo único: LC fixa normas de cooperação."),
+  n("Art. 24 — legislativa CONCORRENTE","União fixa normas GERAIS (§1º); Estados suplementam (§2º); sem lei federal, Estados têm competência plena (§3º); lei federal superveniente SUSPENDE a estadual no que for contrária (§4º)."),
+  n("Art. 25, §1º — Estados","Competências remanescentes (o que não for vedado)."),
+  n("Art. 30 — Municípios","I assuntos de interesse local · II suplementar a legislação federal e estadual.")
+ ]),
+ n("Federação × confederação · Formação","",[
+  n("Federação","Base: Constituição escrita; entes autônomos; corte constitucional (STF); sem secessão; nacionalidade única; entes participam da União (Senado)."),
+  n("Confederação","Base: tratado internacional entre Estados soberanos; existe direito de separação; cada Estado mantém sua nacionalidade; hoje só histórica (EUA 1776-78)."),
+  n("Formação","Por agregação/centrípeto (EUA: Estados soberanos se unem) × por segregação/centrífugo (Brasil, 1891: províncias do Estado unitário viram Estados autônomos).")
+ ]),
+ n("Intervenção — arts. 34 a 36","Exceção à autonomia (ver Controle de Constitucionalidade para a IF do art. 36, III).",[
+  n("Art. 34","A União não intervirá nos Estados nem no DF, exceto para: manter a integridade nacional, repelir invasão, pôr termo a grave comprometimento da ordem pública, garantir o livre exercício dos Poderes, reorganizar finanças (dívida fundada por mais de 2 anos), prover execução de lei federal/ordem judicial e assegurar os princípios sensíveis (VII).")
+ ])
+]));
+
+T.push(tema(5,"Estado democrático de direito: conceito, objetivos e divisão de poderes","ok",["Estado Democrático de Direito.md","Organização dos Poderes - Executivo.md"],[
+ n("Conceito — art. 1º, caput","Conceito inovador (José Afonso da Silva): NÃO é a mera soma de Estado de Direito + Estado democrático. Traço estrutural: proteger o indivíduo independentemente de ser maioria ou minoria + ampla participação nas decisões. Estado de mera legalidade apenas cumpre leis."),
+ n("Art. 1º, parágrafo único — democracia semidireta","Todo o poder emana do povo, que o exerce por representantes eleitos ou diretamente.",[
+  n("Indireta/representativa","Eleições periódicas (alternância do poder) + mandatos por tempo determinado (responsabilização política pela não reeleição)."),
+  n("Direta/participativa — art. 14 e Lei 9.709/1998","4 instrumentos típicos: plebiscito, referendo, ação popular e iniciativa popular.",[
+   n("Plebiscito × referendo","Consulta popular PRÉVIA (plebiscito) × POSTERIOR (referendo). Só o Congresso Nacional convoca plebiscito e autoriza referendo (art. 49, XV)."),
+   n("Ação popular — art. 5º, LXXIII","Só o CIDADÃO (eleitor) ajuíza, para anular ato lesivo ao patrimônio público (ou de entidade de que o Estado participe), à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural; isento de custas, salvo má-fé."),
+   n("Iniciativa popular de lei","Federal: art. 61, §2º — 1% do eleitorado nacional, em pelo menos 5 Estados, com não menos de 0,3% em cada um. Municipal: art. 29, XIII — 5% do eleitorado. Estadual: art. 27, §4º — a Constituição estadual define (sem parâmetro na CF).")
+  ])
+ ]),
+ n("Título I — Princípios fundamentais (arts. 1º a 4º)","Sem hierarquia entre si nem sobre o resto da CF.",[
+  n("Art. 1º — fundamentos (SCDVP)","Soberania · Cidadania · Dignidade da pessoa humana · Valores sociais do trabalho e da livre iniciativa · Pluralismo político. ⚠ Pluralismo político ≠ pluripartidarismo (este é do art. 17, caput)."),
+  n("Art. 2º — separação dos Poderes","Legislativo, Executivo e Judiciário, independentes e harmônicos entre si. Cláusula pétrea (art. 60, §4º, III); freios e contrapesos. ⚠ É princípio fundamental, mas não é fundamento nem objetivo."),
+  n("Art. 3º — objetivos (verbos no infinitivo)","I construir sociedade livre, justa e solidária · II garantir o desenvolvimento nacional · III erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais · IV promover o bem de todos, sem preconceitos."),
+  n("Art. 4º — relações internacionais (10 princípios)","I independência nacional · II prevalência dos direitos humanos · III autodeterminação dos povos · IV não intervenção · V igualdade entre os Estados · VI defesa da paz · VII solução pacífica dos conflitos · VIII repúdio ao terrorismo e ao racismo · IX cooperação entre os povos · X concessão de asilo político. Parágrafo único: integração econômica, política, social e cultural dos povos da América LATINA (STF: norma programática; sem integração militar ou monetária).")
+ ]),
+ n("Divisão de Poderes","Funções típicas e atípicas — cada Poder exerce as três funções (típica preponderante).",[
+  n("Executivo","Típica: administrativa. Atípicas: legislativa (MP, lei delegada) e jurisdicional (recursos administrativos — ex. art. 29 da Lei 9.474/97 contra decisão do CONARE)."),
+  n("Legislativo","Típicas: legislar e fiscalizar. Atípicas: administrativa e jurisdicional (Senado julga crimes de responsabilidade)."),
+  n("Judiciário","Típica: julgar. Atípicas: administrativa e legislativa (regimento interno dos tribunais).")
+ ])
+]));
+
+T.push(tema(6,"Organização e competências dos Poderes","ok",["Organização dos Poderes - Executivo.md","Organização dos Poderes - Legislativo.md","Poder Judiciário.md"],[
+ n("Poder Legislativo — arts. 44 a 75","Bicameral: Câmara + Senado = Congresso Nacional.",[
+  n("Art. 44 — legislatura","Poder Legislativo exercido pelo Congresso Nacional. Legislatura = 4 anos (parágrafo único)."),
+  n("Art. 45 — Câmara","Representa o POVO; sistema PROPORCIONAL; mínimo 8 e máximo 70 deputados por Estado/DF; mandato 4 anos."),
+  n("Art. 46 — Senado","Representa Estados e DF; sistema MAJORITÁRIO; 3 senadores por ente (sem hierarquia); mandato 8 anos; renovação de 1/3 e 2/3 alternadamente a cada 4 anos."),
+  n("Art. 47","Salvo disposição em contrário, deliberações por maioria dos votos, presente a maioria absoluta dos membros."),
+  n("Art. 49 — competência exclusiva do CN (decreto legislativo)","I resolver sobre tratados que acarretem encargos gravosos (STF ADC 39/2023: inclui denúncia) · II autorizar o Presidente a declarar guerra, celebrar a paz e permitir forças estrangeiras · III autorizar ausência do Presidente/Vice do País por mais de 15 dias (art. 83: sem licença = perda do cargo) · V sustar atos normativos do Executivo que exorbitem o poder regulamentar · XV autorizar referendo e convocar plebiscito."),
+  n("Art. 51 — privativa da Câmara","I autorizar, por 2/3, a instauração de processo contra o Presidente, o Vice e os Ministros de Estado · tomar as contas do Presidente não apresentadas em 60 dias. ⚠ Nenhuma competência em relações internacionais (Câmara = 0, Senado = 2, resto = Congresso)."),
+  n("Art. 52 — privativa do Senado","I processar e julgar Presidente/Vice e, nos crimes conexos, Ministros de Estado e Comandantes das Forças Armadas · II julgar Ministros do STF, membros do CNJ e CNMP, PGR e AGU nos crimes de responsabilidade · III aprovar previamente magistrados e outras autoridades · IV aprovar chefes de missão diplomática permanente (voto SECRETO) · V autorizar operações externas de natureza financeira · X suspender a execução de lei declarada inconstitucional pelo STF. Parágrafo único: condenação por 2/3, perda do cargo com inabilitação por 8 anos; sessão presidida pelo Presidente do STF."),
+  n("Art. 53 e 55","Imunidades parlamentares (material e formal) e hipóteses de perda de mandato."),
+  n("Art. 57 — sessão legislativa","2 de fevereiro a 17 de julho e 1º de agosto a 22 de dezembro (recesso 18/jul–31/jul). 1 legislatura = 4 sessões."),
+  n("Art. 58, §3º — CPI","Criada por requerimento de 1/3 dos membros da Casa (direito da minoria, sem votação do Plenário), para fato DETERMINADO e prazo certo.",[
+   n("Pode","Intimar investigados e testemunhas; conduzir coercitivamente TESTEMUNHAS (investigado tem direito ao silêncio); perícias; prisão em flagrante; quebrar sigilo bancário, fiscal e de dados telefônicos (registros) sem ordem judicial."),
+   n("NÃO pode (reserva de jurisdição)","Condenar; bloquear bens; decretar prisão preventiva/provisória; busca e apreensão domiciliar; interceptação (grampo) de comunicações telefônicas.")
+  ]),
+  n("Arts. 70 a 75 — controle externo","Exercido pelo CN com auxílio do Tribunal de Contas da União (art. 71). Súmula 347/STF.")
+ ]),
+ n("Poder Executivo — arts. 76 a 91","Unipessoal: Presidente da República é Chefe de ESTADO (plano internacional, soberania) e Chefe de GOVERNO (plano nacional, autonomia).",[
+  n("Art. 76","Exercido pelo Presidente, auxiliado pelos Ministros de Estado."),
+  n("Art. 77 e 82","Eleição simultânea Presidente/Vice, 1º domingo de outubro (2º turno: último domingo). Mandato de 4 anos, com posse em 5 de janeiro (EC 111/2021); reeleição por um período (art. 14, §5º)."),
+  n("Art. 79 — Vice","Substitui (impedimento) ou sucede (vacância)."),
+  n("Art. 80 — duplo impedimento","Sucessivamente: Presidente da Câmara → do Senado → do STF (interinos)."),
+  n("Art. 81 — dupla vacância","Nos 2 primeiros anos: eleição DIRETA em 90 dias. Nos 2 últimos: eleição INDIRETA pelo Congresso em 30 dias. Em ambos, mandato-tampão."),
+  n("Art. 84 — competências privativas","II direção superior da administração · III iniciar o processo legislativo · IV sancionar, promulgar leis e expedir decretos e regulamentos para fiel execução · V vetar · VI decreto AUTÔNOMO (organização e funcionamento sem aumento de despesa/criação ou extinção de órgãos; extinguir cargos e funções VAGOS) · VII relações com Estados estrangeiros e credenciar representantes diplomáticos · VIII celebrar tratados, sujeitos a referendo do CN · XII indulto e comutação · XIII comando supremo das Forças Armadas · XIV nomear Ministros do STF e dos Tribunais Superiores, PGR, diretores do Banco Central (após Senado) · XIX declarar guerra e XX celebrar a paz (autorizado/referendado pelo CN) · XXII permitir forças estrangeiras (por LC) · XXV prover cargos.",[
+   n("Decretos regulamentares (IV) × autônomos (VI)","Regulamentar: ato SECUNDÁRIO (fundamento é a lei), controle de legalidade, pode ser sustado pelo CN (art. 49, V). Autônomo: ato PRIMÁRIO (fundamento na CF)."),
+   n("Art. 84, parágrafo único — só 3 delegáveis","Decreto autônomo (VI), indulto/comutação (XII, 1ª parte) e prover cargos (XXV, 1ª parte) — a Ministros de Estado, PGR ou AGU.")
+  ]),
+  n("Arts. 85 e 86 — responsabilização","Crimes de responsabilidade: definidos em lei (art. 85; ex. descumprir lei orçamentária — VI). Admissibilidade por 2/3 da Câmara; julgamento: infrações PENAIS COMUNS no STF; crimes de RESPONSABILIDADE no Senado. Afastamento por até 180 dias (§§1º-2º).",[
+   n("Art. 86, §3º — imunidade à prisão","Antes de sentença penal condenatória, o Presidente não está sujeito a prisão."),
+   n("Art. 86, §4º — imunidade ao processo","Na vigência do mandato, não pode ser responsabilizado por atos estranhos ao exercício das funções. ⚠ Só vale para o Presidente (não para governadores/prefeitos).")
+  ]),
+  n("Arts. 87 e 88 — Ministros","Escolhidos entre brasileiros maiores de 21 anos no exercício dos direitos políticos. Criação e extinção de Ministérios por LEI.")
+ ]),
+ n("Poder Judiciário — arts. 92 a 126","Órgãos: STF, CNJ, STJ, TST, TRFs/Juízes Federais, Tribunais e Juízes do Trabalho, Eleitorais, Militares e dos Estados/DF (art. 92). EC 45/2004 foi a Reforma do Judiciário (CNJ, súmula vinculante, repercussão geral).",[
+  n("Art. 95 — garantias","Vitaliciedade, inamovibilidade e irredutibilidade de subsídio."),
+  n("Art. 101 — STF","11 Ministros, entre 35 e 70 anos, de notável saber jurídico e reputação ilibada, nomeados pelo Presidente após aprovação por maioria ABSOLUTA do Senado."),
+  n("Art. 102 — STF (guarda da Constituição)","I (originária): a) ADI e ADC · b) infrações penais comuns do Presidente, Vice, parlamentares federais, Ministros e PGR · c) infrações penais comuns e crimes de responsabilidade de Ministros de Estado e Comandantes (ressalvado art. 52, I), membros dos Tribunais Superiores e do TCU e CHEFES DE MISSÃO DIPLOMÁTICA PERMANENTE · e) litígio entre Estado estrangeiro/organismo internacional e União, Estado, DF ou Território · g) extradição solicitada por Estado estrangeiro. III: recurso extraordinário (§3º repercussão geral — recusa por 2/3). §1º ADPF · §2º eficácia erga omnes e efeito vinculante."),
+  n("Art. 103-A — Súmula Vinculante (EC 45/2004)","Só o STF, só matéria constitucional, após REITERADAS decisões, de ofício ou por provocação, por 2/3 dos Ministros (8 de 11). Súmula comum: qualquer tribunal, sem efeito vinculante.",[
+   n("Quem pode provocar","Legitimados do art. 103 · Defensor Público-Geral da União · qualquer tribunal · Município (só incidentalmente, em processo de que seja parte, sem suspendê-lo)."),
+   n("Vincula / não vincula","VINCULA: demais órgãos do Judiciário e Administração direta e indireta (federal, estadual, municipal). NÃO vincula: o próprio STF (pode rever/cancelar) nem o legislador (pode editar lei contrária)."),
+   n("Reclamação ao STF","Ação autônoma (não é recurso) contra ato administrativo ou decisão judicial que contrarie a súmula: o ato é anulado / a decisão cassada, devendo ser refeita.")
+  ]),
+  n("Art. 103-B — CNJ (EC 45/2004)","Órgão do Judiciário (art. 92, I-A), NÃO exerce jurisdição, sede na capital federal. 15 membros, mandato de 2 anos (1 recondução), presidido pelo Presidente do STF. Controle interno (com as Corregedorias); controle externo é do Congresso + TCU.",[
+   n("Art. 103-B, §4º","Controle da atuação administrativa e financeira do Judiciário e dos deveres funcionais dos juízes. ⚠ Sem competência sobre o STF (cúpula). Inc. V: revê processos disciplinares de juízes e membros de tribunais julgados há MENOS DE 1 ANO; STF: pode atuar antes, durante ou depois da Corregedoria.")
+  ]),
+  n("Funções e reserva de jurisdição","Típica: julgar. Atípicas: administrativa e legislativa (regimento interno). Executivo e Legislativo não podem praticar atos sob RESERVA DE JURISDIÇÃO: busca e apreensão domiciliar (art. 5º, XI) e interceptação telefônica (art. 5º, XII)."),
+  n("Art. 105 — STJ","Mínimo 33 Ministros. I, i): homologação de decisões estrangeiras e concessão de exequatur às cartas rogatórias (EC 45 tirou do STF)."),
+  n("Art. 109 — Justiça Federal","I causas em que União, autarquia ou empresa pública federal forem interessadas (exceto falência, acidentes de trabalho e Justiça Eleitoral/do Trabalho) · II Estado estrangeiro ou organismo internacional × Município ou pessoa domiciliada no País (recurso ordinário ao STJ) · III causas fundadas em tratado da União com Estado estrangeiro ou organismo internacional · V crime previsto em tratado, com execução iniciada no País e resultado no exterior (ou vice-versa) · X execução de carta rogatória após exequatur, sentença estrangeira após homologação, nacionalidade e naturalização. §5º — IDC (mnemônico TDH + PGR + STJ): PGR pede ao STJ o deslocamento de caso da Justiça estadual para a federal, para cumprir tratados de direitos humanos, em qualquer fase do inquérito ou processo, havendo risco de inércia/omissão. ⚠ Entrega ao TPI (surrender) é julgada pelo juiz federal (art. 109, III: causa fundada em tratado) e não se confunde com extradição.")
+ ])
+]));
+
+T.push(tema(7,"Processo legislativo brasileiro","ok",["Processo Legislativo.md","Processo Legislativo - Parte 2.md"],[
+ n("Art. 59, CF — 7 espécies normativas (arts. 59 a 69)","1) emendas à Constituição (art. 60) · 2) leis complementares · 3) leis ordinárias · 4) leis delegadas (art. 68) · 5) medidas provisórias (art. 62) · 6) decretos legislativos · 7) resoluções. Decretos legislativos e resoluções têm as regras nos Regimentos Internos."),
+ n("Emenda constitucional — art. 60","Ver Normas Jurídicas (poder constituinte reformador). Particularidades no confronto com LO/LC: “regra dos 6 NÃO TEM”.",[
+  n("1) Sem iniciativa popular","Legitimados: Presidente · 1/3 da Câmara ou do Senado · mais da metade das Assembleias Legislativas (maioria relativa de cada uma). STF: Estados podem prever iniciativa popular para emendar a Constituição ESTADUAL."),
+  n("2) Sem iniciativa privativa","O art. 60 não reserva tema ao Presidente."),
+  n("3) Sem sanção e veto","Presidente apenas propõe."),
+  n("4) Promulgação pelas Mesas","Art. 60, §3º: Mesas da Câmara e do Senado, com número de ordem."),
+  n("5) Reapresentação","Art. 60, §5º: PEC rejeitada/prejudicada só na próxima sessão legislativa — regra inflexível (para LO/LC há exceção, art. 67)."),
+  n("6) Sem Casa iniciadora ou revisora","Pode ser apresentada em qualquer Casa; só vai a votação havendo consenso entre as duas.")
+ ]),
+ n("Lei ordinária × lei complementar","SÓ 2 diferenças: matéria (cláusula de reserva de LC) e quórum. Mesmo processo legislativo, mesmos legitimados, SEM hierarquia entre elas.",[
+  n("Art. 69 × art. 47 — quórum","LC: maioria ABSOLUTA (mais da metade de TODOS os membros). LO: maioria SIMPLES (mais da metade dos presentes), presente a maioria absoluta. Quórum de VOTAÇÃO (para iniciar) é sempre maioria absoluta."),
+  n("Jurisprudência STF","LO sobre matéria reservada à LC = inconstitucionalidade FORMAL. LC sobre matéria de LO = sem inconstitucionalidade (o quórum da LO está contido no da LC); fica apenas com status de LO. Ex. de reserva de LC: art. 18, §2º (Territórios).")
+ ]),
+ n("Fases do processo legislativo ordinário","Iniciativa → deliberação → votação e aprovação → sanção/veto → promulgação → publicação.",[
+  n("Art. 61, caput — iniciativa geral","Qualquer membro ou Comissão da Câmara, do Senado ou do CN · Presidente · STF · Tribunais Superiores · PGR · cidadãos."),
+  n("Art. 61, §1º — iniciativa PRIVATIVA do Presidente (rol taxativo)","Efetivos das Forças Armadas · criação de cargos, empregos e funções na administração direta e autárquica e aumento de remuneração · servidores públicos da União e Territórios (regime jurídico, provimento, estabilidade, aposentadoria) · organização administrativa e judiciária, matéria tributária e orçamentária dos TERRITÓRIOS · criação e extinção de Ministérios e órgãos da administração · e outras. ⚠ Matéria tributária da União NÃO é privativa (iniciativa concorrente). Simetria: nos Estados/Municípios a reserva é do Governador/Prefeito. Vício de iniciativa NÃO é sanado pela sanção; solução: vetar e reapresentar."),
+  n("Art. 61, §2º — iniciativa popular","Projeto de lei (não PEC) à Câmara, 1% do eleitorado nacional, em pelo menos 5 Estados, com mais de 3/10 de 1% de cada. Art. 29, XIII (Município: 5%) · Art. 27, §4º (Estado)."),
+  n("Arts. 64 e 65 — Casa iniciadora e revisora","Regra: Câmara inicia, Senado revisa (inclusive projetos do Presidente, popular, STF, PGR). Exceção: projeto de Senador ou de Comissão do Senado → Senado inicia. Art. 65, parágrafo único: emenda da revisora volta à iniciadora (prevalece a vontade desta). Art. 64: urgência constitucional (45 dias por Casa)."),
+  n("Art. 66 — sanção e veto","Presidente tem 15 DIAS ÚTEIS; silêncio = sanção TÁCITA (§3º). Veto expresso e motivado, comunicado em 48h ao Presidente do Senado.",[
+   n("Tipos de veto (§1º)","JURÍDICO (inconstitucionalidade, formal ou material — é controle preventivo) × POLÍTICO (contrário ao interesse público)."),
+   n("Veto parcial (§2º)","Só sobre texto integral de artigo, parágrafo, inciso ou alínea — nunca palavra ou frase."),
+   n("Apreciação (§4º)","Sessão conjunta, em 30 dias; derrubada por maioria ABSOLUTA de deputados e senadores."),
+   n("Promulgação (§§5º e 7º)","Sancionada ou veto derrubado: Presidente promulga em 48h; se não o fizer, o Presidente do Senado; depois o Vice-Presidente do Senado. ⚠ O Presidente da CÂMARA não participa.")
+  ]),
+  n("Art. 67 — reapresentação","Projeto de lei rejeitado só na sessão legislativa seguinte, EXCETO por proposta da maioria absoluta de qualquer das Casas.")
+ ]),
+ n("Medida provisória — art. 62","Função atípica do Presidente; relevância e urgência; força de lei, submetida de imediato ao CN.",[
+  n("Vigência","60 dias, prorrogáveis UMA vez por 60 (máximo 120). Convertida em lei ordinária se aprovada pelas duas Casas. Sem sanção se o texto for inalterado; com alteração, exige sanção/veto."),
+  n("Tramitação","§9º comissão mista examina e emite parecer · §8º votação começa na CÂMARA (rejeição na Câmara = não vai ao Senado) · §6º após 45 dias sem apreciação, regime de urgência e sobrestamento (STF: só de projetos de lei ordinária)."),
+  n("Não conversão","§3º perde eficácia desde a edição; o CN edita decreto legislativo para as relações jurídicas · §11: sem decreto em 60 dias, os atos praticados se mantêm · §10: vedada reedição na mesma sessão legislativa. Cancelamento após a publicação é vedado (STF); revogação por nova MP é possível."),
+  n("Art. 62, §1º e art. 25, §2º — matérias vedadas","Nacionalidade, cidadania, direitos políticos, partidos, direito eleitoral · direito penal, processual penal e PROCESSUAL CIVIL · organização do Judiciário e do MP · PPA, LDO, orçamento e créditos adicionais/suplementares (exceção: crédito EXTRAORDINÁRIO, art. 167, §3º) · detenção ou sequestro de bens e poupança · matéria de LC · matéria já aprovada pelo CN e pendente de sanção/veto · gás canalizado (art. 25, §2º)."),
+  n("Governadores e Prefeitos","Governadores: se a Constituição estadual prever (simetria). Prefeitos: doutrina exige dupla previsão (Constituição estadual + Lei Orgânica).")
+ ]),
+ n("Lei delegada — art. 68","Presidente solicita ao CN, que autoriza por RESOLUÇÃO (conteúdo e termos). Excesso: sustação por decreto legislativo (art. 49, V).",[
+  n("§3º — espécies","PRÓPRIA: executada direto pelo Presidente. IMPRÓPRIA: antes, o CN aprova em votação ÚNICA, sem emendas."),
+  n("§1º — matérias vedadas","Competência exclusiva do CN (art. 49), privativa da Câmara (51) ou do Senado (52) · matéria de LC · organização do Judiciário e MP, carreira e garantias · nacionalidade, cidadania, direitos individuais, políticos e eleitorais · PPA, LDO e orçamentos.")
+ ]),
+ n("Decretos legislativos e resoluções","",[
+  n("Decreto legislativo","Matérias de competência EXCLUSIVA do CN (art. 49); sem sanção/veto; as duas Casas atuam. Matérias do art. 49 não admitem lei ordinária nem delegada."),
+  n("Resolução","Matérias privativas da Câmara (art. 51) ou do Senado (art. 52), interna corporis e autorização de lei delegada (art. 68, §2º).")
+ ])
+]));
+
+T.push(tema(8,"Direitos e garantias fundamentais","part",["Direitos e Garantias Fundamentais.md"],[
+ n("Direitos × garantias (Ruy Barbosa)","Direitos = disposições declaratórias (enunciam o bem jurídico); garantias = disposições assecuratórias (instrumentos para proteger o direito, acionados diante de violação/ameaça). A maioria das garantias são ações do art. 5º (LXVIII a LXXIII)."),
+ n("CF — Título II (arts. 5º a 17)","",[
+  n("Art. 5º, caput e §§1º a 4º","Caput: vida, liberdade, igualdade, segurança e propriedade (STF, por mutação: valem também para estrangeiros não residentes). §1º aplicação imediata · §2º cláusula de abertura (tratados) · §3º tratados de DH aprovados por 3/5 em 2 turnos = EC · §4º submissão ao Tribunal Penal Internacional.",[]),
+  n("Art. 5º, incisos principais","I igualdade entre homens e mulheres · II legalidade · III proibição de tortura · IV a IX liberdades de manifestação, consciência, crença e expressão · X intimidade, vida privada, honra e imagem · XI inviolabilidade do domicílio (flagrante, desastre, socorro ou, de dia, ordem judicial) · XII sigilo das comunicações (interceptação só por ordem judicial, para fins penais) · XVI reunião pacífica sem armas, sem autorização, com prévio aviso · XVII-XX associação · XXII-XXIV propriedade, função social, desapropriação · XXXV inafastabilidade da jurisdição · XXXVI direito adquirido, ato jurídico perfeito, coisa julgada · XXXVII-XXXVIII vedação a tribunal de exceção e júri · XXXIX-XL legalidade e irretroatividade penal · XLII racismo inafiançável e imprescritível · XLIII crimes hediondos, tortura, tráfico e terrorismo inafiançáveis · XLVII vedação de pena de morte (salvo guerra declarada), perpétua, trabalhos forçados, banimento e cruéis · LI-LII extradição (brasileiro naturalizado: crime comum anterior à naturalização ou tráfico; nunca por crime político ou de opinião) · LIV devido processo legal · LV contraditório e ampla defesa · LVI vedação de provas ilícitas · LVII presunção de inocência (trânsito em julgado) · LXI prisão só em flagrante ou por ordem escrita e fundamentada · LXVII prisão civil só do devedor voluntário de pensão alimentícia (SV 25 veda do depositário infiel) · LXXIV assistência jurídica integral e gratuita · LXXVIII duração razoável do processo.")
+ ]),
+ n("Remédios constitucionais (art. 5º, LXVIII a LXXIII)","",[
+  n("Habeas corpus — LXVIII","Liberdade de locomoção contra prisão ilegal ou abuso de poder. PREVENTIVO (salvo-conduto) ou REPRESSIVO (soltura). Não exige advogado e é gratuito (LXXVII); terceiro e até pessoa jurídica podem impetrar; cabe contra autoridade e contra particulares (ex.: hospital que retém paciente)."),
+  n("Habeas data — LXXII (Lei 9.507/1997)","Acesso (1) e retificação (2) de informações PESSOAIS do impetrante em bancos de dados governamentais ou de caráter público (SPC, Serasa). Personalíssimo (exceção: herdeiros quanto ao de cujus). Exige prévia negativa administrativa (STF). ⚠ Não serve para certidões (cabe MS) nem para vista de processo administrativo."),
+  n("Mandado de segurança individual — LXIX (Lei 12.016/2009)","Direito LÍQUIDO E CERTO (provado de plano) não amparado por HC ou HD; contra ato ilegal/abusivo de agente público ou particular no exercício de função pública. Subsidiário. Prazo decadencial de 120 dias (art. 23 da lei)."),
+  n("Mandado de segurança coletivo — LXX","Legitimados: partido com representação no CN (basta 1 parlamentar federal); organização sindical, entidade de classe ou associação. Requisito de 1 ano vale para associações (STF: não para sindicatos e entidades de classe). ⚠ MP NÃO tem legitimidade."),
+  n("Mandado de injunção — LXXI (Lei 13.300/2016)","Falta de norma regulamentadora que inviabilize direitos e liberdades constitucionais e prerrogativas ligadas à nacionalidade, soberania e cidadania. Impróprio se a norma é autoaplicável. Efeitos inter partes (individual) ou ultra partes (coletivo). Ex.: greve do servidor — aplicou-se analogicamente a lei de greve privada. MI coletivo (art. 12): partido, sindicato/entidade de classe, associação de 1 ano, MINISTÉRIO PÚBLICO e DEFENSORIA PÚBLICA."),
+  n("Ação popular — LXXIII (Lei 4.717/1965)","Só o CIDADÃO (eleitor): estrangeiro, menor e quem tem direitos políticos suspensos não ajuízam. Objeto: ato lesivo ao patrimônio público (ou de entidade de que o Estado participe), à moralidade administrativa, ao meio ambiente e ao patrimônio histórico-cultural. Texto constitucional: isento de custas e do ônus da sucumbência, salvo comprovada má-fé. MP não propõe, mas assume o polo ativo se o autor abandonar.")
+ ]),
+ n("Outras garantias","",[
+  n("Direito de petição — art. 5º, XXXIV","Não é ação judicial; qualquer pessoa, brasileira ou estrangeira, residente ou não, sem pagar taxa, contra ilegalidade ou abuso de poder."),
+  n("Ação civil pública — art. 129, III","Promovida pelo MP (e outros legitimados) para proteger patrimônio público e social, meio ambiente e outros interesses difusos e coletivos (Lei 7.347/1985)."),
+  n("Gratuidade — art. 5º, LXXVII","HC e HD são gratuitos de forma incondicional; demais atos necessários ao exercício da cidadania, na forma da lei.")
+ ]),
+ n("Nacionalidade e direitos políticos (conteúdo geral, ainda sem anotação)","",[
+  n("Art. 12 — nacionalidade","Natos: I, a) nascidos no Brasil, ainda que de pais estrangeiros, desde que estes não estejam a serviço de seu país; b) nascidos no exterior de pai ou mãe brasileiro a serviço do Brasil; c) nascidos no exterior de pai ou mãe brasileiro, registrados em repartição brasileira competente ou que venham residir no Brasil e optem, a qualquer tempo, depois de atingida a maioridade. Naturalizados: art. 12, II. §3º cargos privativos de brasileiro nato (Presidente e Vice, Presidentes da Câmara e do Senado, Ministro do STF, carreira diplomática, oficial das Forças Armadas, Ministro da Defesa)."),
+  n("Art. 14 — direitos políticos","Soberania popular: sufrágio universal e voto direto e secreto, plebiscito, referendo e iniciativa popular. Voto obrigatório de 18 a 70 anos; facultativo para analfabetos, maiores de 70 e entre 16 e 18. Art. 15: perda e suspensão dos direitos políticos (vedada a cassação)."),
+  n("Art. 17","Partidos políticos: livre criação, soberania nacional, regime democrático, pluripartidarismo; registro dos estatutos no TSE.")
+ ])
+]));
+
+T.push(tema(9,"Administração Pública: princípios, estrutura federal, atos, processo e procedimento administrativo","part",["Princípios da Administração Pública.md","Estrutura da Administração Pública Federal.md","Atos Administrativos.md"],[
+ n("CF — art. 37 e princípios","Direito administrativo é NÃO codificado: os princípios dão coesão ao ramo. Princípios têm alto grau de abstração e se aplicam por ponderação (Alexy); regras, no tudo ou nada (Dworkin).",[
+  n("Art. 37, caput — LIMPE","Obrigatórios para administração direta e indireta, de qualquer dos Poderes e de todos os entes.",[
+   n("Legalidade","Administração só faz o que a lei autoriza (art. 5º, II: o particular faz tudo, exceto o que a lei proíbe). Juridicidade: ‘lei’ = qualquer espécie do art. 59. Reserva legal: exige lei FORMAL (ex.: greve, art. 37, VII)."),
+   n("Impessoalidade","Sem privilégios nem perseguições; §1º: publicidade só informativa/educativa, sem nomes, símbolos ou imagens de agentes (vedada autopromoção)."),
+   n("Moralidade","Padrões éticos. SV 13 veda o nepotismo (moralidade + impessoalidade)."),
+   n("Publicidade","Regra; exceção do sigilo imprescindível à segurança da sociedade e do Estado (art. 5º, XXXIII)."),
+   n("Eficiência","Incluído pela EC 19/1998; desburocratização; máximo de resultado com mínimo de recursos.")
+  ]),
+  n("Princípios implícitos","Mesma força dos explícitos; extraídos da jurisprudência ou de leis (ex.: art. 2º da Lei 9.784/99).",[
+   n("Autotutela","Administração anula atos ilegais e revoga os inconvenientes sem precisar do Judiciário (Súmulas 346 e 473 STF)."),
+   n("Supremacia do interesse público","Prevalece o interesse público PRIMÁRIO (da coletividade); o secundário (da Administração como pessoa jurídica) NÃO tem supremacia."),
+   n("Razoabilidade e proporcionalidade","Razoabilidade = padrão de comportamento esperado (não surpresa). Proporcionalidade = meios adequados aos fins (interditar restaurante, não demoli-lo)."),
+   n("Continuidade do serviço público","Serviços essenciais não podem ser totalmente paralisados; dificulta a greve (art. 37, VII). Outros: indisponibilidade do interesse público, motivação, boa-fé, segurança jurídica.")
+  ]),
+  n("Art. 37 — outros dispositivos","I cargos acessíveis a brasileiros e estrangeiros na forma da lei · II concurso público (ressalvadas as nomeações para cargo em comissão) · III validade do concurso de até 2 anos, prorrogável UMA vez por igual período · V funções de confiança só para servidores efetivos; cargos em comissão preencher nos casos e condições da lei · VII greve nos termos de lei específica · VIII reserva de vagas para pessoas com deficiência · XI teto = subsídio dos Ministros do STF · XIII vedada vinculação de espécies remuneratórias · XVI vedada acumulação remunerada, salvo exceções · XIX/XX criação de entidades · XXI licitação · §4º improbidade · §5º prescrição, ressalvado o ressarcimento · §6º responsabilidade civil do Estado.")
+ ]),
+ n("Estrutura da Administração Federal","",[
+  n("Decreto-Lei 200/1967 (arts. 4º a 6º)","Administração DIRETA (Presidência e Ministérios) e INDIRETA (autarquias, empresas públicas, sociedades de economia mista, fundações públicas). Princípios: planejamento, coordenação, descentralização, delegação de competência e controle. Organização básica: Lei 13.844/2019."),
+  n("Desconcentração × descentralização","DESCONCENTRAÇÃO: cria ÓRGÃOS dentro do mesmo ente (sem personalidade; hierarquia; responde o ente). Organiza a administração DIRETA (ministérios, secretarias, embaixadas e consulados). DESCENTRALIZAÇÃO: cria ENTIDADES com personalidade própria (sem hierarquia; controle FINALÍSTICO/tutela; responde a entidade). Organiza a administração INDIRETA.",[]),
+  n("Órgãos — criação e extinção","Só por LEI de iniciativa privativa do Presidente (art. 61, §1º, II, e) — nunca por decreto; simetria para Governadores e Prefeitos. Art. 84, VI (decreto autônomo): organizar a administração sem aumento de despesa e sem criar/extinguir órgãos (ex.: transferir competências); extinguir cargos e funções vagos."),
+  n("Entidades de direito PÚBLICO","Autarquias (lei; sem atividade econômica; agentes estatutários — IBAMA, INSS) e fundações públicas de direito público (IBGE, FUNAI; criadas por lei ordinária)."),
+  n("Entidades de direito PRIVADO","Empresa pública (capital 100% público; qualquer forma societária — Caixa, Correios). Sociedade de economia mista (capital misto, maioria estatal; EXCLUSIVAMENTE S.A. — Banco do Brasil, Petrobras). Criação por AUTORIZAÇÃO LEGAL + registro; extinção por lei autorizativa + dissolução. Regidas pela Lei 13.303/2016."),
+  n("Art. 37, XIX e XX — decisões do STF","Lei ORDINÁRIA cria autarquias e autoriza as demais; lei COMPLEMENTAR apenas define as áreas de atuação das fundações. Fundação pode ser de direito privado (exceção; agentes celetistas). Subsidiárias: basta autorização legislativa genérica. Estatais podem prestar serviço público essencial, sem concorrência e sem lucro (ex.: Casa da Moeda)."),
+  n("Autarquias em regime especial","Isentas de controle finalístico: dirigentes indicados pelo Executivo e aprovados pelo Senado (art. 52, III), com mandato fixo — Banco Central, agências reguladoras, universidades públicas. ⚠ Sociedades de economia mista NÃO são pessoas de direito público nem têm dirigentes com mandato fixo.")
+ ]),
+ n("Atos administrativos","Declaração de vontade da Administração e de seus agentes, nos termos da legalidade; nenhum ato escapa do controle jurisdicional (art. 5º, XXXV).",[
+  n("Vinculado × discricionário","VINCULADO: lei fixa forma e conteúdo; preenchidos os requisitos, há direito subjetivo (refúgio, CNH). DISCRICIONÁRIO: conveniência e oportunidade dentro da lei (asilo político, deportação)."),
+  n("Anulação","Atinge ato ILEGAL; Judiciário OU Administração (autotutela); efeitos EX TUNC."),
+  n("Revogação","Atinge ato VÁLIDO inconveniente; só a Administração (Judiciário nunca revoga); efeitos EX NUNC. Não se revogam: atos vinculados, exauridos, que geraram direito adquirido, que integram procedimento ou de rotina."),
+  n("Controle judicial","Ato vinculado: controle amplo. Ato discricionário: apenas a legalidade, com 2 exceções em que o Judiciário ANULA: DESVIO DE FINALIDADE (ex.: desapropriar fazenda de adversário político) e teoria dos MOTIVOS DETERMINANTES (motivo falso ou inexistente invalida o ato, ex.: remoção por carência de pessoal inexistente)."),
+  n("Lei 4.717/1965, art. 2º — vícios (ação popular)","Incompetência · vício de forma · ilegalidade do objeto · inexistência dos motivos · desvio de finalidade. Competência e forma são sempre vinculadas. ⚠ Vício de competência permite convalidação, não revogação.")
+ ]),
+ n("Processo administrativo — Lei 9.784/1999 (ainda sem anotação)","Conteúdo geral — falta cobrir na sua trilha.",[
+  n("Art. 2º — princípios","Legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência."),
+  n("Arts. 48 e 49 — dever de decidir","Administração tem o dever de decidir; prazo de 30 dias após a conclusão da instrução, prorrogável por igual período motivado."),
+  n("Arts. 53 a 55 — anulação, revogação e convalidação","Anula atos ilegais e revoga por conveniência, respeitados direitos adquiridos. Art. 54: decai em 5 ANOS o direito de anular atos de que decorram efeitos favoráveis aos destinatários, salvo má-fé. Art. 55: convalidação de defeitos sanáveis, sem lesão ao interesse público nem prejuízo a terceiros."),
+  n("Arts. 56 a 64 — recurso","Recurso das decisões por razões de legalidade e de mérito; prazo de 10 dias; até 3 instâncias administrativas; sem caução, salvo lei. Art. 64, parágrafo único: se puder haver gravame, o recorrente deve ser cientificado para se manifestar (reformatio in peius condicionada).")
+ ])
+]));
+
+T.push(tema(10,"Licitações e contratos administrativos","part",["Licitações e Contratos Administrativos.md","Licitações e Contratos Administrativos - Parte 2.md"],[
+ n("Fundamento constitucional","",[
+  n("Art. 37, XXI, CF","Obras, serviços, compras e alienações são contratados mediante licitação pública que assegure igualdade de condições a todos, ressalvados os casos especificados na legislação (contratação direta)."),
+  n("Art. 22, XXVII, CF","Competência PRIVATIVA da União para NORMAS GERAIS (alcança direta, autarquias, fundações e estatais). Na privativa, a omissão da União NÃO dá competência plena aos Estados (diferente do art. 24, §3º); editadas as normas gerais, Estados/DF/Municípios suplementam. ⚠ Só lei federal pode criar hipóteses de dispensa/inexigibilidade (STF).")
+ ]),
+ n("Lei 14.133/2021 — Nova Lei de Licitações","Revogou a Lei 8.666/1993, a Lei 10.520/2002 (pregão) e o RDC em 30/12/2023.",[
+  n("Art. 1º — âmbito de aplicação","Administração direta, autárquica e fundacional de todos os Poderes e entes, e fundos especiais.",[
+   n("Fora da lei","Empresas públicas, sociedades de economia mista e subsidiárias → Lei 13.303/2016 (exceção: os crimes licitatórios do art. 178 valem para todas) · gestão de reservas internacionais (art. 1º, §5º, ato do BACEN)."),
+   n("§2º — repartições no exterior","Observam peculiaridades locais, os princípios básicos da lei e regulamentação específica editada por Ministro de Estado (⚠ não pelo Senado; não necessariamente o MRE)."),
+   n("§3º — recursos de agências estrangeiras / OIs","Podem seguir regras próprias: tratados referendados pelo CN e ratificados pelo Presidente, ou normas da agência/organismo, desde que não conflitem com os princípios constitucionais e constem do contrato de empréstimo/doação.")
+  ]),
+  n("Art. 5º — princípios","Legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade, igualdade, planejamento, transparência, eficácia, SEGREGAÇÃO DE FUNÇÕES, motivação, VINCULAÇÃO AO EDITAL, JULGAMENTO OBJETIVO, segurança jurídica, razoabilidade, competitividade, proporcionalidade, celeridade, economicidade e DESENVOLVIMENTO NACIONAL SUSTENTÁVEL.",[
+   n("Segregação de funções","Fases conduzidas por agentes diferentes (mecanismo anticorrupção)."),
+   n("Vinculação ao edital × julgamento objetivo","Vinculação: Administração e licitantes subordinados ao edital. Julgamento objetivo: critérios objetivos de avaliação das propostas."),
+   n("Desenvolvimento nacional sustentável","É PRINCÍPIO (art. 5º) e OBJETIVO (art. 11); fundamento da margem de preferência."),
+   n("Igualdade","Admite tratamento desigual com justificativa razoável (igualdade material).")
+  ]),
+  n("Art. 11 — objetivos","I selecionar a proposta que gere o resultado de contratação mais vantajoso · II tratamento isonômico e justa competição · III evitar contratações com sobrepreço, preços inexequíveis ou superfaturamento · IV incentivar a inovação e o desenvolvimento nacional sustentável."),
+  n("Art. 6º, XXXV e art. 52 — licitação internacional","Em território nacional com participantes estrangeiros (cotação em moeda estrangeira) ou executada total/parcialmente no exterior. Se estrangeiros cotam em moeda estrangeira, brasileiros também podem; o brasileiro vencedor recebe em REAIS."),
+  n("Art. 17 — 7 fases","1) preparatória · 2) divulgação do edital · 3) apresentação de propostas e lances · 4) JULGAMENTO · 5) HABILITAÇÃO · 6) recursal · 7) homologação (mnemônico ‘Pedro Disse: Por Julho Há Recompensa Hoje’). §1º: por ato motivado, o edital pode antecipar a habilitação. Autoridade superior adjudica e homologa."),
+  n("Art. 20 — bens de consumo","Só itens de qualidade COMUM; vedados os de luxo. §1º: cada Poder define em regulamento os limites entre comum e luxo."),
+  n("Art. 25, §9º — vulnerabilidade social","O edital PODE exigir percentual mínimo de mão de obra de mulheres vítimas de violência doméstica e de presos ou egressos do sistema prisional."),
+  n("Art. 26 — margem de preferência","Até 10%: bens manufaturados e serviços nacionais que cumpram normas técnicas brasileiras; bens recicláveis/biodegradáveis (só NACIONAIS); bens e serviços de Estados-partes do Mercosul (com reciprocidade em tratado referendado). Até 20%: bens e serviços nacionais resultantes de desenvolvimento e inovação tecnológica realizados no Brasil.")
+ ]),
+ n("Modalidades — art. 28","5 modalidades: pregão, concorrência, concurso, leilão e diálogo competitivo. Tomada de preços e convite foram EXTINTOS. §2º: é vedado à Administração criar novas modalidades ou combiná-las (não vale para o legislador).",[
+  n("Pregão — art. 6º, XLI e art. 29","OBRIGATÓRIO para bens e serviços COMUNS (padrões de desempenho e qualidade objetivamente definíveis por especificações usuais do mercado). Só 2 critérios: menor preço ou maior desconto. Vedado para serviços técnicos intelectuais e obras/serviços de engenharia, exceto o serviço COMUM de engenharia (art. 6º, XXI, a)."),
+  n("Concorrência — art. 29","Por exclusão: o que não é pregão, concurso, leilão ou diálogo. Obrigatória para serviços técnicos especializados intelectuais e obras/serviços de engenharia. Critérios: menor preço, melhor técnica ou conteúdo artístico, técnica e preço, maior retorno econômico, maior desconto."),
+  n("Concurso — art. 6º, XXXIX e art. 30","Trabalho técnico, científico ou artístico; melhor técnica ou conteúdo artístico; prêmio ou remuneração. Direitos patrimoniais cedidos à Administração; o vencedor NÃO pode exigir a execução do projeto."),
+  n("Leilão — art. 6º, XL e art. 31","Alienação de imóveis e de móveis inservíveis ou legalmente apreendidos. Único critério: MAIOR LANCE. Leiloeiro oficial (credenciamento ou pregão, com critério de maior desconto na comissão) ou servidor designado."),
+  n("Diálogo competitivo — art. 6º, XLII e art. 32","Novidade da 14.133. Para objetos de inovação, soluções inexistentes ou especificações não definíveis. 3 etapas: pré-seleção por critérios objetivos → diálogo com pré-selecionados → competição entre eles.")
+ ]),
+ n("Contratação direta — art. 37, XXI CF e arts. 72 a 75","Exige processo administrativo (parecer, razão da escolha, justificativa de preço). Art. 73: contratação indevida com dolo, fraude ou erro grosseiro → contratado e agente respondem SOLIDARIAMENTE pelo dano.",[
+  n("Inexigibilidade — art. 74","Inviabilidade de competição; rol EXEMPLIFICATIVO. I produtor, empresa ou representante exclusivo · II profissional do setor artístico consagrado pela crítica ou opinião pública · III serviços técnicos especializados de natureza predominantemente intelectual com profissionais/empresas de notória especialização · IV objetos por credenciamento · V imóvel cujas características de instalação e localização tornem necessária sua escolha."),
+  n("Dispensa — art. 75","Há competição possível, mas razão de interesse público autoriza (discricionário). Rol TAXATIVO.",[
+   n("Valor","I obras e serviços de engenharia (e manutenção de veículos) até R$ 100 mil · II demais serviços e compras até R$ 50 mil (valores atualizados por decreto)."),
+   n("III — licitação deserta ou fracassada","Deserta = sem interessados; fracassada = sem proposta válida. Opção: nova licitação ou dispensa mantendo TODAS as condições do edital, no prazo de 1 ano."),
+   n("Outras hipóteses relevantes","Bens produzidos no País que envolvam, cumulativamente, defesa nacional e alta complexidade tecnológica · materiais das Forças Armadas (exceto de uso pessoal/administrativo) · contingentes militares em operações de paz no exterior · guerra, estado de defesa, intervenção federal ou grave perturbação da ordem · emergência ou calamidade pública.")
+  ])
+ ]),
+ n("Contratos administrativos (ainda sem anotação)","Conteúdo geral da Lei 14.133 — falta cobrir na sua trilha.",[
+  n("Art. 104 — prerrogativas (cláusulas exorbitantes)","Modificar unilateralmente para atender ao interesse público · extinguir unilateralmente · fiscalizar · aplicar sanções · ocupar provisoriamente bens e serviços."),
+  n("Arts. 105 a 107 — duração","Regra: vigência limitada aos créditos orçamentários. Serviços e fornecimentos contínuos: até 5 anos, prorrogáveis até 10."),
+  n("Arts. 124 a 136 — alteração","Unilateral (art. 124, I) ou consensual; limite de acréscimos/supressões de 25% do valor inicial atualizado (50% em reforma de edifício ou equipamento) — art. 125. Equilíbrio econômico-financeiro garantido."),
+  n("Arts. 137 a 139 — extinção","Rescisão por inexecução, por interesse público (unilateral), consensual ou por decisão judicial/arbitral."),
+  n("Arts. 155 a 163 — infrações e sanções","Advertência · multa · impedimento de licitar e contratar (até 3 anos) · declaração de inidoneidade (3 a 6 anos). Art. 178 e CP arts. 337-E a 337-P: crimes em licitações e contratos.")
+ ])
+]));
+
+T.push(tema(11,"Responsabilidade civil do Estado","ok",["Responsabilidade Civil do Estado.md"],[
+ n("Evolução histórica","Surge com o Estado organizado por Constituição (séc. XVIII).",[
+  n("1) Irresponsabilidade","Idade Média até séc. XVIII; Estado absolutista = rei, que ‘não erra’."),
+  n("2) Civilista","Pós-Revolução Francesa até fim do séc. XIX; aplica ao Estado a responsabilidade do direito civil (culpa); dificuldade: prerrogativas de poder de império."),
+  n("3) Publicista","Caso Blanco (França, 1873, Tribunal de Conflitos; menina atropelada por vagonete de empresa estatal de tabaco): regras próprias, responsabilidade OBJETIVA; nasce a teoria do risco administrativo."),
+  n("No Brasil","1824-1946: teorias civilistas. Desde a Constituição de 1946: risco administrativo.")
+ ]),
+ n("Art. 37, §6º, CF — risco administrativo (regra)","As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, NESSA QUALIDADE, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",[
+  n("3 elementos (responsabilidade objetiva)","1) fato/ato administrativo (lícito ou ilícito) · 2) dano material ou moral — a vítima pode ser usuária OU não usuária do serviço · 3) nexo de causalidade."),
+  n("Excludentes (rompem o nexo)","Caso fortuito/força maior · culpa EXCLUSIVA da vítima (ex.: suicídio na linha do metrô) · culpa EXCLUSIVA de terceiro (ex.: assalto no pátio de pedágio)."),
+  n("Minorante","Culpa CONCORRENTE da vítima reduz a indenização proporcionalmente."),
+  n("Ação de regresso","Contra o agente, só depois de condenado o Poder Público, e exige culpa ou dolo do agente (responsabilidade do agente é SUBJETIVA). Pressupostos: condenação na ação principal + culpa/dolo. STF (RE 1.027.633): a vítima NÃO pode processar diretamente o agente; só o Estado/concessionária que pagou move o regresso. Art. 43 do CC: mesmo comando para as PJ de direito público.")
+ ]),
+ n("Risco integral (exceção)","Estado garantidor universal (responde também por atos de particulares) e SEM excludentes nem minorante. Só 2 situações:",[
+  n("Dano nuclear — art. 21, XXIII, d, CF","Responsabilidade civil por danos nucleares independe de culpa."),
+  n("Atentados terroristas / atos de guerra contra aeronaves civis","Lei 10.309/2001 e Lei 10.744/2003 (União assume responsabilidade por danos a terceiros no solo causados por atentados terroristas, atos de guerra ou eventos correlatos contra aeronaves brasileiras operadas por empresas aéreas brasileiras).")
+ ]),
+ n("Responsabilidade SUBJETIVA do Estado (4 hipóteses)","Quando o Estado não atua tecnicamente na prestação de serviço público: a vítima prova culpa ou dolo.",[
+  n("1) Omissão reiterada (negligência)","Ex.: enchentes reiteradas sem medidas. ⚠ Exceção (STF): havendo DEVER DE ATUAÇÃO (ex.: custódia de presos), a omissão gera responsabilidade OBJETIVA."),
+  n("2) Ato de multidão","Se o Estado não adotou medidas para conter (negligência) ou agentes estimularam o dano (dolo)."),
+  n("3) Atividade econômica em concorrência","Empresas públicas e sociedades de economia mista que exploram atividade econômica respondem como as privadas."),
+  n("4) Atos legislativos","Exige antes a declaração de inconstitucionalidade da lei e prova de culpa/dolo do legislador.")
+ ]),
+ n("Atos judiciais — art. 5º, LXXV, CF","O Estado responde (objetivamente) apenas em 2 hipóteses: ERRO JUDICIÁRIO e prisão além do tempo fixado na sentença."),
+ n("Prescrição","Decreto 20.910/1932: 5 anos contra a Fazenda Pública (conteúdo geral).")
+]));
+
+T.push(tema(12,"Servidor público: direitos, deveres, responsabilidades, improbidade e regime disciplinar (PAD)","ok",["Direitos, Deveres e Responsabilidades dos Servidores.md","Improbidade Administrativa.md","Processo Administrativo Disciplinar.md"],[
+ n("Lei 8.112/1990 — Regime Jurídico Único da União","Servidores ESTATUTÁRIOS (cargo efetivo) da União, autarquias e fundações federais — inclusive diplomatas. Não alcança empregados públicos (CLT).",[
+  n("Art. 121 — responsabilidade em 3 esferas","O servidor responde civil, penal e administrativamente pelo exercício IRREGULAR de suas atribuições. Sempre SUBJETIVA (culpa ou dolo).",[
+   n("Art. 122 — civil","Ato omissivo ou comissivo, doloso ou culposo, com prejuízo ao erário ou a terceiros. Dano a terceiros: ação regressiva da Fazenda. §3º: obrigação de reparar estende-se aos sucessores, até o limite da herança."),
+   n("Art. 123 — penal","Exige conduta tipificada como crime."),
+   n("Art. 124 — administrativa","Infração funcional (descumprimento de dever do cargo); apurada por sindicância ou PAD."),
+   n("Arts. 125 e 126 — comunicabilidade","Regra: sanções civil, penal e administrativa são INDEPENDENTES e cumuláveis. Exceção: absolvição criminal por NEGATIVA DO FATO ou DA AUTORIA afasta a responsabilidade administrativa (e a civil — art. 935 CC). ⚠ Absolvição por falta/insuficiência de provas NÃO afasta.")
+  ]),
+  n("Art. 116 — deveres","Ex.: IV cumprir ordens superiores, exceto se MANIFESTAMENTE ilegais · XII representar contra ilegalidade, omissão ou abuso de poder."),
+  n("Art. 127 — penalidades","Advertência · suspensão · demissão · cassação de aposentadoria ou disponibilidade · destituição de cargo em comissão · destituição de função comissionada."),
+  n("Art. 128","Considera natureza e gravidade da infração, danos, agravantes/atenuantes e antecedentes; o ato sempre cita o fundamento legal e a causa."),
+  n("Art. 141 — competência","Demissão e cassação: Presidente da República (ou chefes dos demais Poderes/PGR) — art. 84, XXV, CF, delegável (parágrafo único) · suspensão superior a 30 dias: autoridade de hierarquia imediatamente inferior · advertência e suspensão até 30 dias: chefe da repartição · destituição de cargo em comissão: autoridade que nomeou."),
+  n("Art. 142 — prescrição (conteúdo geral)","5 anos (demissão, cassação, destituição) · 2 anos (suspensão) · 180 dias (advertência); contados do conhecimento do fato; infrações também crime usam os prazos da lei penal.")
+ ]),
+ n("Estabilidade — art. 41 CF","Só servidor EFETIVO (concurso, vínculo estatutário). Não têm: empregados públicos, temporários (art. 37, IX) e ocupantes de cargo em comissão.",[
+  n("Aquisição (2 requisitos cumulativos)","3 anos de EFETIVO EXERCÍCIO (estágio probatório; licenças em regra não contam) + aprovação em avaliação especial de desempenho por comissão (§4º)."),
+  n("§1º — perda do cargo","Sentença judicial transitada em julgado · PAD com ampla defesa · avaliação periódica de desempenho (LC) com ampla defesa."),
+  n("§2º — reintegração","Demissão invalidada por sentença: quem ocupa a vaga, se estável, é reconduzido ao cargo de origem sem indenização, aproveitado em outro ou posto em disponibilidade; se não estável, perde o cargo."),
+  n("§3º — extinção do cargo","Servidor estável fica em DISPONIBILIDADE com remuneração proporcional ao tempo de serviço, até ser aproveitado. Não estável: perde o cargo."),
+  n("Art. 169 — limites de despesa com pessoal","LC (LRF — LC 101/2000) fixa limites. Ultrapassados: §3º 1) reduzir ≥20% de cargos em comissão e funções de confiança · 2) exonerar não estáveis · 3) só então exonerar estáveis (§4º), com indenização de 1 mês de remuneração por ano de serviço."),
+  n("Art. 39 e ADI 2135","EC 19/1998 suprimiu o regime jurídico único; STF reconheceu a constitucionalidade da nova redação — permite estatutários OU empregados públicos. Empregado público sem estabilidade, mas a exoneração exige motivação.")
+ ]),
+ n("PAD e sindicância — arts. 143 a 182, Lei 8.112","Instaurado de ofício sempre que houver provas de infração (poder disciplinar; só servidores).",[
+  n("Art. 143","Autoridade que souber de irregularidade é obrigada a apurar imediatamente, por sindicância ou PAD, com ampla defesa. Sindicância PRÉVIA é facultativa. Súmula 611 STJ: denúncia anônima autoriza PAD, se motivada e amparada em investigação/sindicância."),
+  n("Art. 145 — 2 espécies de sindicância","1) PREPARATÓRIA (colhe provas; sem contraditório, que fica diferido para o PAD) · 2) SUMÁRIA/punitiva: pode aplicar advertência ou suspensão até 30 DIAS, com contraditório e ampla defesa. Prazo: 30 dias, prorrogável por igual período."),
+  n("Art. 146","Penalidade mais grave exige PAD."),
+  n("Art. 149 — comissão processante","3 servidores ESTÁVEIS; presidente de cargo efetivo igual ou superior ao do indiciado (ou escolaridade igual/superior). Não julga: recomenda."),
+  n("Art. 151 — fases","1) instauração · 2) inquérito administrativo (instrução, defesa e relatório — contraditório obrigatório) · 3) julgamento."),
+  n("Art. 168 — julgamento","A autoridade acata o relatório; exceção: se contrário às provas dos autos, pode, MOTIVADAMENTE, agravar, abrandar ou isentar."),
+  n("Súmula Vinculante 5","Falta de defesa técnica por advogado no PAD NÃO ofende a Constituição (autodefesa basta); mas a comissão não pode impedir advogado constituído.")
+ ]),
+ n("Improbidade — Lei 8.429/1992 (alterada pela Lei 14.230/2021)","Regulamenta o art. 37, §4º, CF. Ação CIVIL (sem prisão); independente das esferas penal e administrativa.",[
+  n("Art. 37, §§4º e 5º, CF","Suspensão dos direitos políticos, perda da função, indisponibilidade de bens e ressarcimento ao erário (na forma e gradação da lei), sem prejuízo da ação penal. ⚠ Suspensão ≠ perda ≠ cassação (art. 15 veda a cassação). §5º: prazos de prescrição, ressalvado o ressarcimento. STF: ressarcimento por ato DOLOSO de improbidade é imprescritível."),
+  n("Art. 1º — só atos DOLOSOS","Culposos não configuram. Dolo = vontade livre e consciente, ESPECÍFICO (§2º). Mero exercício de função sem dolo de fim ilícito afasta a responsabilidade (§3º). §6º: aplica-se a entidades privadas que recebam subvenção, incentivo ou benefício público."),
+  n("Art. 2º — agente público","Conceito amplo: agente político, servidor e quem exerce função pública, ainda que transitória ou sem remuneração (ex.: mesário). ⚠ Presidente da República não responde por improbidade: o ato é crime de responsabilidade (art. 85, V)."),
+  n("Art. 3º","Particular só responde se induziu ou concorreu dolosamente com agente público."),
+  n("Arts. 9º, 10 e 11 — atos e sanções (art. 12)","Art. 9º ENRIQUECIMENTO ILÍCITO: perda de bens e função, suspensão de direitos políticos até 14 anos, multa até o valor do acréscimo, proibição de contratar até 14 anos. Art. 10 DANO AO ERÁRIO: suspensão até 12 anos, multa até o valor do dano, proibição até 12 anos. Art. 11 PRINCÍPIOS: sem perda de bens/função nem suspensão de direitos políticos; multa de até 24 vezes a remuneração e proibição de contratar até 4 anos."),
+  n("Art. 11 — violação de princípios (rol taxativo)","Ação ou omissão DOLOSA que viole honestidade, imparcialidade e legalidade: III revelar segredo funcional · IV negar publicidade a atos oficiais · V frustrar o caráter concorrencial de concurso, chamamento ou licitação · VI deixar de prestar contas para ocultar irregularidades · VII revelar medida política/econômica antes da divulgação · VIII descumprir normas de parcerias com entidades privadas · XI nomear cônjuge ou parente (até 3º grau) para cargo em comissão/confiança, inclusive por designações recíprocas · XII publicidade com enaltecimento pessoal (art. 37, §1º, CF). §1º: exige comprovar o FIM de obter proveito ou benefício indevido."),
+  n("Art. 7º e 8º","Autoridade que souber de indícios representa ao MINISTÉRIO PÚBLICO. Sucessor/herdeiro responde até o limite da herança."),
+  n("Art. 13","Posse e exercício condicionados a declaração de imposto de renda, atualizada anualmente e ao deixar o cargo; omitir ou fraudar → demissão."),
+  n("Art. 17 e 17-B — legitimidade e ANPC","STF: legitimidade CONCORRENTE e disjuntiva do MP e da entidade lesada (Fazenda). ACORDO DE NÃO PERSECUÇÃO CIVIL (novidade): proposto pelo MP ou pela entidade lesada (nunca pelo réu); exige ressarcimento INTEGRAL do dano + reversão da vantagem indevida; homologação judicial."),
+  n("Art. 17-D","Ação de improbidade é repressiva e pessoal; vedado usá-la como ACP para controle de políticas públicas ou proteção de interesses difusos."),
+  n("Art. 23 — prescrição","8 anos, contados do fato ou da cessação da permanência. (Prescrição intercorrente: metade do prazo.)"),
+  n("Irretroatividade (STF)","A extinção da modalidade culposa NÃO beneficia quem já tinha sentença transitada em julgado: ação é civil, sem retroatividade da lei penal mais benéfica (art. 5º, XL).")
+ ])
+]));
+
+T.push(tema(13,"Regime jurídico dos servidores do Serviço Exterior Brasileiro — Lei 11.440/2006","ok",["Lei do Serviço Exterior Brasileiro.md"],[
+ n("Composição — arts. 2º a 5º","3 carreiras de servidores efetivos: DIPLOMATA (art. 3º: atividades diplomáticas e consulares), OFICIAL DE CHANCELARIA (art. 4º: nível superior; análise técnica e gestão administrativa da política externa) e ASSISTENTE DE CHANCELARIA (art. 5º: nível médio; apoio técnico e administrativo). ⚠ Só a carreira de DIPLOMATA é privativa de brasileiro NATO (art. 12, §3º, V, CF)."),
+ n("Relação com a Lei 8.112/1990 — art. 1º, parágrafo único","Lei 11.440 é ESPECIAL; a 8.112 (geral) aplica-se subsidiariamente no que for compatível. Art. 26: conduta tratada pela Corregedoria do Serviço Exterior (aplicando também a 8.112). Art. 11: servidores atuam na Secretaria de Estado (Itamaraty, em Brasília) e em postos no exterior."),
+ n("Direitos e prerrogativas — arts. 15 e 16","",[
+  n("Matrícula em remoção ex officio","Servidor estudante removido ex officio de posto no EXTERIOR para o Brasil é matriculado em estabelecimento oficial de ensino, mesmo sem vaga; estende-se a cônjuge, filhos, enteados e quem esteja sob guarda/tutela que já estudava no exterior. STF (servidores em geral): exige congeneridade; TRF1 (SEB, lei especial): NÃO exige."),
+  n("Títulos e passaporte diplomático","O uso dos títulos do cargo/função e o passaporte diplomático se estendem aos INATIVOS."),
+  n("Citação","Em processo civil ou penal, o servidor em serviço no exterior é citado por intermédio do MRE (e não por carta rogatória).")
+ ]),
+ n("Deveres e PAD — arts. 31 a 34","",[
+  n("Art. 31","PAD de integrante do SEB é instaurado pela Corregedoria do Serviço Exterior, que designa comissão de 3 membros efetivos."),
+  n("Art. 32","A Corregedoria pode afastar o indiciado, mas o afastamento NÃO suspende vencimentos e vantagens."),
+  n("Arts. 33 e 34 — casamento","Exige autorização do Ministro das Relações Exteriores para casar com pessoa de nacionalidade estrangeira, ou empregada de governo estrangeiro (ou que dele receba comissão/pensão), mesmo brasileira; aplica-se também a quem já é casado ao tomar posse (pedido no ingresso do curso de formação). Descumprir pode levar à demissão.")
+ ]),
+ n("Chefes de missão diplomática permanente — arts. 40, 41 e 46","Art. 40: chefe de missão é a autoridade brasileira de maior hierarquia no país onde está acreditado.",[
+  n("Art. 41, caput — regra","Escolhido entre Ministros de 1ª Classe e de 2ª Classe."),
+  n("Art. 41, parágrafo único — exceção 1","Qualquer brasileiro NATO, maior de 35 anos, de reconhecido mérito e relevantes serviços (ex.: Itamar Franco, em Roma)."),
+  n("Art. 46, §2º — exceção 2","Conselheiro pode ser comissionado chefe de missão apenas em postos do GRUPO D."),
+  n("Art. 13 — grupos de postos","Postos classificados em grupos A, B, C e D por ATO do Ministro das Relações Exteriores (não exige lei).")
+ ]),
+ n("Auxiliares locais — arts. 56 e 57","Não ocupam cargos efetivos do SEB.",[
+  n("Art. 56","Brasileiro ou estrangeiro para serviços de apoio que exijam familiaridade com costumes locais; domínio do idioma LOCAL é exigido; português é só desempate."),
+  n("Art. 57 e §1º","Relações trabalhistas e previdenciárias pela legislação LOCAL. Exceção: auxiliar BRASILEIRO que, por proibição da lei local, não possa filiar-se ao sistema previdenciário local pode ser segurado da previdência brasileira (2 requisitos cumulativos).")
+ ])
+]));
+
+T.push(tema(14,"Finanças públicas e normas orçamentárias","ok",["Finanças Públicas e Normas Orçamentárias.md"],[
+ n("Conceito e exclusividade — art. 165, §8º, CF","Direito financeiro: arrecadar, orçar e gastar. A LOA só pode prever receitas e fixar despesas; permitidos autorização para créditos suplementares e operações de crédito (inclusive por antecipação de receita). Violação = orçamento ‘rabilongo’/ ‘jabuti’ (cauda orçamentária). Orçamento é peça essencial das políticas públicas e dos direitos sociais (2ª geração)."),
+ n("Leis orçamentárias — art. 165, I a III","PPA, LDO e LOA; processo legislativo ESPECIAL (arts. 165 a 167), mais célere. Iniciativa PRIVATIVA do Presidente (⚠ chefes do Legislativo e Judiciário enviam apenas PROPOSTAS — art. 99; o Presidente consolida).",[
+  n("PPA — §1º","Diretrizes, Objetivos e Metas (DOM) da administração federal para despesas de capital e programas de duração continuada. Vigência de 4 anos."),
+  n("LDO — §2º","Metas e Prioridades (MP) da administração, orienta a LOA e dispõe sobre alterações na legislação tributária."),
+  n("LOA — §5º e §8º","Orçamentos fiscal, de investimento das estatais e da seguridade social; só receita e despesa (exclusividade)."),
+  n("§9º","Lei complementar disciplina exercício financeiro, vigência, prazos, elaboração e organização.")
+ ]),
+ n("Processo legislativo especial — art. 166","",[
+  n("§1º — Comissão mista permanente","Examina e emite parecer único antes do Plenário de cada Casa."),
+  n("§3º — emendas parlamentares à LOA","Compatíveis com PPA e LDO; devem indicar os recursos, admitida apenas a ANULAÇÃO de despesa."),
+  n("§5º — emendas do Presidente","Até o início da votação, na comissão mista, da parte cuja alteração é proposta.")
+ ]),
+ n("Controle de constitucionalidade das leis orçamentárias","Antes: lei de efeitos concretos → só controle difuso. Hoje (mudança do STF): PPA, LDO e LOA podem ser objeto de controle ABSTRATO (ADI, ADPF, ADO) e concreto."),
+ n("Art. 167 — vedações","",[
+  n("I","Iniciar programas ou projetos não incluídos na LOA (art. 85, VI: descumprir a lei orçamentária é crime de responsabilidade)."),
+  n("II e III (regra de ouro)","II despesas ou obrigações diretas que excedam os créditos orçamentários ou adicionais · III operações de crédito superiores às despesas de capital, salvo créditos suplementares ou especiais com finalidade precisa aprovados por maioria absoluta."),
+  n("IV","Vinculação de receita de impostos a órgão, fundo ou despesa, salvo as exceções constitucionais (saúde, ensino, administração tributária etc.)."),
+  n("V, VII","Crédito suplementar ou especial sem autorização legislativa e indicação de recursos · créditos ilimitados."),
+  n("VI","Remanejar, transpor ou transferir recursos de uma categoria de programação para outra, ou de um órgão para outro, sem autorização em lei (ex.: do Itamaraty para o Ministério da Justiça)."),
+  n("IX","Instituir fundos sem prévia autorização legislativa (ex.: FUNDEB cria obrigações permanentes)."),
+  n("X","Transferências voluntárias da União/Estados para pagar despesa com pessoal ativo, inativo e pensionista (inclui empréstimos de bancos ESTATAIS; bancos PRIVADOS podem emprestar — STF)."),
+  n("§3º — crédito extraordinário","Única hipótese em que MP pode tratar de matéria orçamentária: despesas imprevisíveis e urgentes (guerra, comoção interna, calamidade pública). Art. 62, §1º, I, d veda MP sobre PPA, LDO, LOA e créditos suplementares.")
+ ]),
+ n("Lei 4.320/1964 e LC 101/2000 (conteúdo geral)","Normas gerais de direito financeiro e Lei de Responsabilidade Fiscal.",[
+  n("Lei 4.320/1964","Princípios orçamentários (unidade, universalidade, anualidade). Exercício financeiro = ano civil (art. 34). Créditos adicionais (art. 40): SUPLEMENTARES (reforço de dotação), ESPECIAIS (despesa sem dotação específica) e EXTRAORDINÁRIOS (urgentes e imprevisíveis)."),
+  n("LC 101/2000 (LRF) — limites de pessoal","Art. 19: despesa com pessoal ≤ 50% da receita corrente líquida (União) e 60% (Estados e Municípios). Art. 20: repartição entre Poderes. Art. 23: excedente eliminado nos 2 quadrimestres seguintes (1/3 no primeiro). Art. 42: vedação de obrigações nos últimos 2 quadrimestres do mandato que não possam ser cumpridas no mandato.")
+ ])
+]));
+
+</script>
+<script>
+(function(){
+const root={t:"Direito Interno",d:"",k:T,root:true};
+const HUES=[212,262,172,28,332,98,200,12,285,150,46,235,350,70];
+let q="", showDesc=true;
+const main=document.getElementById("main"), tree=document.getElementById("tree");
+const norm=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const esc=s=>s.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const STORE="mm-direito-interno-open";
+
+let count=0;
+(function prep(n,depth,id,hue){
+  n.depth=depth; n.id=id; n.open=false; n.hue=hue; count++;
+  const gapRe=/ainda sem anota|conte[úu]do geral/i;
+  n.gap=!n.root&&(gapRe.test(n.t)||/^Conteúdo geral/.test(n.d)||/\(conteúdo geral/.test(n.d));
+  if(n.num){
+    n.search=norm(n.t+" "+(n.aulas||[]).join(" "));
+    n.d="Anotações: "+(n.aulas||[]).join(" · ");
+  }
+  n.k.forEach((c,i)=>prep(c,depth+1,id+"."+i,depth===0?HUES[i%HUES.length]:hue));
+})(root,0,"r",212);
+root.open=true;
+try{const s=JSON.parse(localStorage.getItem(STORE)||"null");if(s&&Array.isArray(s)){const set=new Set(s);(function w(n){if(set.has(n.id))n.open=true;n.k.forEach(w)})(root);}}catch(e){}
+function save(){try{const a=[];(function w(n){if(n.open&&!n.root)a.push(n.id);n.k.forEach(w)})(root);localStorage.setItem(STORE,JSON.stringify(a));}catch(e){}}
+
+const ACC={a:"aáàâãä",e:"eéèêë",i:"iíìîï",o:"oóòôõö",u:"uúùûü",c:"cç"};
+function hlRegex(){
+  if(!q) return null;
+  const src=[...norm(q).trim()].map(ch=>ACC[ch]?"["+ACC[ch]+"]":ch.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("");
+  return src?new RegExp(src,"gi"):null;
+}
+let HL=null;
+function fmt(text){
+  let h=esc(text);
+  if(HL) h=h.replace(HL,m=>"<mark>"+m+"</mark>");
+  return h;
+}
+function descHtml(d){
+  const parts=d.split("⚠");
+  let h=fmt(parts[0]);
+  for(let i=1;i<parts.length;i++) h+='<span class="warn">⚠'+fmt(parts[i])+'</span>';
+  return h;
+}
+function matches(n){ if(!q) return false; if(n._m===undefined) n._m=(n._s||(n._s=norm(n.t+" "+n.d))).includes(norm(q).trim()); return n._m; }
+function sub(n){ // subtree matches
+  if(!q) return true;
+  if(n._sub!==undefined) return n._sub;
+  let r=matches(n); for(const c of n.k) if(sub(c)) r=true;
+  return (n._sub=r);
+}
+function reset(){(function w(n){n._m=undefined;n._sub=undefined;n.k.forEach(w)})(root);}
+function isOpen(n){ if(n.root) return true; if(q) return n.k.some(sub)&&(n.open||true)&&n.k.some(sub); return n.open; }
+
+function build(n){
+  const br=document.createElement("div");
+  br.className="branch"+(n.num?" tema":"");
+  if(n.hue!==undefined) br.style.setProperty("--h",n.hue);
+  const box=document.createElement("div");
+  box.className="node"+(n.root?" root":"")+(n.gap?" gap":"")+(n.k.length?" has-kids":"");
+  box.dataset.id=n.id;
+  const open=isOpen(n);
+  if(open&&n.k.length) box.classList.add("open");
+  let h='<div class="ttl">';
+  if(n.num){ h+='<i class="dot '+(n.st==="ok"?"ok":"part")+'" style="margin-top:6px" title="'+(n.st==="ok"?"completo":"parcial")+'"></i>'; h+='<span>'+n.num+'. '+fmt(n.t)+'</span>'; }
+  else h+='<span>'+fmt(n.t)+'</span>';
+  h+='</div>';
+  if(n.d) h+='<div class="desc'+(n.num?" meta":"")+'">'+(n.num?esc(n.d):descHtml(n.d))+'</div>';
+  if(n.k.length) h+='<span class="chev" aria-hidden="true">'+(open?"−":n.k.length)+'</span>';
+  box.innerHTML=h;
+  if(n.num){ const d=box.querySelector(".desc"); d.classList.remove("desc"); d.classList.add("meta"); }
+  if(n.k.length){
+    box.tabIndex=0; box.setAttribute("role","button"); box.setAttribute("aria-expanded",open);
+    const toggle=()=>{ if(q) return; n.open=!n.open; save(); const nb=build(n); br.replaceWith(nb); nb.querySelector(".node").focus({preventScroll:true}); };
+    box.addEventListener("click",toggle);
+    box.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle();}});
+  }
+  br.appendChild(box);
+  if(open&&n.k.length){
+    const kids=document.createElement("div"); kids.className="kids";
+    n.k.forEach(c=>{ if(!q||sub(c)) kids.appendChild(build(c)); });
+    br.appendChild(kids);
+  }
+  return br;
+}
+function render(){
+  reset(); HL=hlRegex();
+  tree.innerHTML="";
+  if(q&&!sub(root)){ tree.innerHTML='<div class="empty">Nada encontrado para “'+esc(q)+'”.</div>'; return; }
+  tree.appendChild(build(root));
+}
+function setOpen(fn){ (function w(n){ if(!n.root) n.open=fn(n); n.k.forEach(w); })(root); save(); render(); }
+document.getElementById("bAll").onclick=()=>{q="";qi.value="";setOpen(()=>true)};
+document.getElementById("bNone").onclick=()=>{q="";qi.value="";setOpen(()=>false)};
+document.getElementById("b1").onclick=()=>{q="";qi.value="";setOpen(()=>false)};
+document.getElementById("b2").onclick=()=>{q="";qi.value="";setOpen(n=>n.depth<=1)};
+document.getElementById("det").onchange=e=>{showDesc=e.target.checked;document.body.classList.toggle("hide-desc",!showDesc)};
+const qi=document.getElementById("q");
+let tm; qi.addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(()=>{q=qi.value.trim();render();},120)});
+render();
+window.__mm={root,count};
+})();
+</script>
+</body>
+</html>
