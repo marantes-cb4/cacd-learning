@@ -40,7 +40,7 @@
 | 17 | DIP e direito internacional privado (LINDB) | ✅ Completo | DIPrivado.md | — |
 | 18 | Estado. Surgimento e extinção de Estados. Sucessão de Estados. Direitos e Deveres. Soberania. Reconhecimento de Estado e Governo | 🟡 Parcial | Reconhecimento de Estado e Governo.md, Sujeitos Especiais do DIP.md | Reconhecimento de Estado/governo coberto a fundo; "sucessão de Estados" e "direitos e deveres" só tangenciados |
 | 19 | Território. Formação do território brasileiro | ✅ Completo | Território e Formação BR.md | — |
-| 20 | Povo. Nacionalidade. Aquisição/perda/reaquisição. Proteção a brasileiros no exterior. Situação jurídica do estrangeiro. Extradição. Apatridia e polipatria. Asilo | 🟡 Parcial | Nacionalidade.md, Condição Jurídica do Estrangeiro.md, Asilo.md | Falta "proteção a brasileiros no exterior" e "direitos/deveres de nacionais no exterior"; extradição só tangenciada |
+| 20 | Povo. Nacionalidade. Aquisição/perda/reaquisição. Proteção a brasileiros no exterior. Situação jurídica do estrangeiro. Extradição. Apatridia e polipatria. Asilo | 🟡 Parcial | Nacionalidade.md, Condição Jurídica do Estrangeiro.md, Asilo.md, Extradição e Cooperação Penal.md | Falta "proteção a brasileiros no exterior" e "direitos/deveres de nacionais no exterior"; extradição agora coberta (hipóteses, vedações, sistema belga, 3 etapas, Súmula 421) |
 | 21 | Jurisdição. Relações diplomáticas e consulares. Imunidades. Responsabilidade internacional do Estado. Proteção diplomática | 🟡 Parcial | Jurisdição e Imunidade.md, Relações Diplomáticas e Relações Consulares.md, Nacionalidade.md | Jurisdição/imunidades/relações diplomáticas bem cobertas; falta responsabilidade internacional do Estado como tópico próprio; proteção diplomática só via Caso Nottebohm |
 | 22 | Sujeitos especiais do Direito Internacional | ✅ Completo | Sujeitos Especiais do DIP.md | — |
 | 23 | Fontes do DIP (tratados, costume, princípios gerais, jurisprudência/doutrina, atos unilaterais, atos de OIs, analogia/equidade, jus cogens, erga omnes, soft law, acordos executivos, conflito entre fontes, incorporação de fontes extraconvencionais) | ✅ Completo | Fontes do DIP.md, Fontes Extraconvencionais do DIP.md, Tratados Internacionais e Incorporação no Brasil.md, Fundamentos DIP.md | — |
@@ -55,7 +55,7 @@
 | 32 | Direito Internacional do Meio Ambiente. Direito Internacional do Mar. TIDM | 🟡 Parcial | Direito Internacional do Mar.md, Tribunal Internacional do Mar.md | Direito do Mar e TIDM cobertos (espaços marítimos, passagem inocente, CLPC, AIFM, acordos complementares/BBNJ, sistema de solução de controvérsias da CNUDM, Câmara de Controvérsias dos Fundos Marinhos); falta Direito Internacional do Meio Ambiente |
 | 33 | Direito internacional do trabalho. OIT | | | Sem anotação de aula ainda |
 | 34 | Áreas além dos limites da jurisdição exclusiva dos Estados | | | Sem anotação de aula ainda |
-| 35 | Cooperação Jurídica internacional. Matéria penal e cível | 🟡 Parcial | DIPrivado.md, Condição Jurídica do Estrangeiro.md | Homologação de sentença estrangeira e extradição tangenciam o tema; falta tratamento dedicado (carta rogatória, auxílio direto, MLATs) |
+| 35 | Cooperação Jurídica internacional. Matéria penal e cível | 🟡 Parcial | DIPrivado.md, Condição Jurídica do Estrangeiro.md, Extradição e Cooperação Penal.md | Matéria penal coberta (extradição, transferência de execução de pena e de pessoa condenada); falta cooperação em matéria cível (carta rogatória, auxílio direto, MLATs) |
 
 ---
 
