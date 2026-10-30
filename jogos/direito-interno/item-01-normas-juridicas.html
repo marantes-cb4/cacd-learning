@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Palavras Cruzadas — Item 1 · Normas jurídicas (parcial)</title>
+<style>
+:root{
+  --bg:#f3f4f1; --panel:#ffffff; --ink:#1d2327; --muted:#5b666c; --line:#c9cfcf;
+  --accent:#1f5f6b; --cell:#ffffff; --word:#d9eaee; --cur:#f2c75c; --cur-ink:#1d2327;
+  --ok:#2e7d4f; --bad:#b3261e; --shadow:0 1px 2px rgba(0,0,0,.08); --cs:32px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14181a; --panel:#1b2023; --ink:#e6e9ea; --muted:#9aa5aa; --line:#3a4448;
+    --accent:#6fb7c4; --cell:#222a2e; --word:#2a4047; --cur:#8a6a1c; --cur-ink:#fff;
+    --ok:#5fcf8b; --bad:#ff8a80; --shadow:none; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14181a; --panel:#1b2023; --ink:#e6e9ea; --muted:#9aa5aa; --line:#3a4448;
+  --accent:#6fb7c4; --cell:#222a2e; --word:#2a4047; --cur:#8a6a1c; --cur-ink:#fff;
+  --ok:#5fcf8b; --bad:#ff8a80; --shadow:none; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--panel);border-bottom:1px solid var(--line);padding:12px max(16px,env(safe-area-inset-left,0px)) 12px max(16px,env(safe-area-inset-right,0px));display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+h1{font-size:17px;margin:0;font-weight:700;letter-spacing:.1px}
+.sub{color:var(--muted);font-size:13px}
+.tools{margin-left:auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button{font:inherit;font-size:14px;padding:7px 11px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);cursor:pointer}
+button:hover{border-color:var(--accent)}
+button:focus-visible,.cell:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.progress{font-weight:650;font-variant-numeric:tabular-nums}
+#bar{position:sticky;top:0;z-index:5;background:var(--accent);color:#fff;padding:9px max(16px,env(safe-area-inset-left,0px)) 9px max(16px,env(safe-area-inset-right,0px));min-height:56px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) #bar{color:#0f1517}}
+:root[data-theme="dark"] #bar{color:#0f1517}
+#bar b{font-variant-numeric:tabular-nums}
+#bar .src{display:block;font-size:12px;opacity:.85;margin-top:2px}
+main{display:grid;grid-template-columns:minmax(0,auto) minmax(0,1fr);gap:20px;padding:18px max(16px,env(safe-area-inset-left,0px)) 60px max(16px,env(safe-area-inset-right,0px));align-items:start}
+.gridwrap{overflow:auto;max-width:100%;padding:2px}
+#grid{display:grid;gap:2px;width:max-content}
+.cell{width:var(--cs);height:var(--cs);position:relative;background:var(--cell);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:calc(var(--cs)*.52);text-transform:uppercase;cursor:pointer;user-select:none;-webkit-user-select:none}
+.cell.blank{background:transparent;border-color:transparent;cursor:default}
+.cell.inword{background:var(--word)}
+.cell.cur{background:var(--cur);color:var(--cur-ink)}
+.cell.bad{color:var(--bad);text-decoration:line-through}
+.cell.done{color:var(--ok)}
+.cell i{position:absolute;top:1px;left:2px;font-style:normal;font-weight:600;font-size:calc(var(--cs)*.3);line-height:1;color:var(--muted)}
+.cell.cur i{color:var(--cur-ink)}
+.clues{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px 22px;min-width:0}
+.clues h2{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.clues ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.clues li{display:flex;gap:8px;padding:5px 7px;border-radius:6px;cursor:pointer;font-size:13.5px}
+.clues li b{min-width:1.6em;font-variant-numeric:tabular-nums;color:var(--accent)}
+.clues li:hover{background:var(--word)}
+.clues li.act{background:var(--word);outline:1px solid var(--accent)}
+.clues li.done{color:var(--muted)}
+.clues li.done span{text-decoration:line-through}
+.clues li.done::after{content:"✓";margin-left:auto;color:var(--ok);font-weight:700}
+.clues li .len{color:var(--muted);white-space:nowrap}
+#kb{position:fixed;left:0;bottom:0;width:1px;height:1px;opacity:0;border:0;padding:0}
+#msg{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:var(--panel);border:1px solid var(--accent);color:var(--ink);padding:10px 16px;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.25);max-width:min(92vw,420px);text-align:center;display:none;z-index:20}
+@media (max-width:820px){
+  main{grid-template-columns:minmax(0,1fr);padding-top:12px}
+  :root{--cs:28px}
+  .tools{margin-left:0;width:100%}
+}
+@media (prefers-reduced-motion: no-preference){.cell{transition:background .12s}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Palavras Cruzadas — Item 1 · Normas jurídicas (parcial)</h1>
+    <div class="sub">Poder constituinte originário, derivado e difuso (mutação constitucional). Dicas só das suas anotações, do mapa mental e do material do professor.</div>
+  </div>
+  <div class="tools">
+    <span class="progress" id="prog" aria-live="polite"></span>
+    <button id="bCheck">Verificar</button>
+    <button id="bLetter">Revelar letra</button>
+    <button id="bWord">Revelar palavra</button>
+    <button id="bClear">Recomeçar</button>
+  </div>
+</header>
+<div id="bar" aria-live="polite">Toque numa casa para começar.</div>
+<noscript><p style="padding:16px">Este jogo precisa de JavaScript. Abra o arquivo no navegador do computador ou do celular (Chrome ou Safari).</p></noscript>
+<main>
+  <div class="gridwrap"><div id="grid" role="grid" aria-label="Grade de palavras cruzadas"></div></div>
+  <div class="clues">
+    <section><h2>Horizontais</h2><ol id="cA"></ol></section>
+    <section><h2>Verticais</h2><ol id="cD"></ol></section>
+  </div>
+</main>
+<input id="kb" type="text" autocapitalize="characters" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="Digite as letras">
+<div id="msg" role="status"></div>
+<script>
+const DATA={"h": 19, "w": 19, "words": [{"a": "REVOLUCIONARIO", "q": "Poder constituinte originário ___: cria as demais Constituições, como a CF/88.", "f": "Normas Jurídicas.md", "r": 7, "c": 3, "d": "A", "n": 12, "t": 0}, {"a": "CLERO", "q": "Primeiro estado, na França pré-revolucionária: o alto ___.", "f": "Normas Jurídicas.md", "r": 7, "c": 9, "d": "D", "n": 13, "t": 0}, {"a": "INCONDICIONADO", "q": "Poder ___: não há momento específico para que o originário seja invocado.", "f": "Normas Jurídicas.md", "r": 11, "c": 0, "d": "A", "n": 17, "t": 0}, {"a": "PREVIO", "q": "Direito ___ à Constituição só é recepcionado se compatível com a nova ordem.", "f": "Normas Jurídicas.md", "r": 6, "c": 3, "d": "D", "n": 10, "t": 0}, {"a": "POLITICO", "q": "Característica do poder constituinte originário: poder de natureza ___, não jurídica.", "f": "Normas Jurídicas.md", "r": 6, "c": 6, "d": "D", "n": 11, "t": 0}, {"a": "SIEYES", "q": "Autor de “Que é o Terceiro Estado?”, obra que atribui ao povo a titularidade do poder constituinte.", "f": "Normas Jurídicas.md", "r": 9, "c": 5, "d": "A", "n": 14, "t": 0}, {"a": "ORIGINARIO", "q": "Poder constituinte juridicamente ilimitado, que cria a Constituição (1º grau).", "f": "Normas Jurídicas.md", "r": 13, "c": 6, "d": "A", "n": 20, "t": 0}, {"a": "ILIMITADO", "q": "O poder constituinte originário é juridicamente ___.", "f": "Normas Jurídicas.md", "r": 5, "c": 15, "d": "D", "n": 9, "t": 0}, {"a": "INICIAL", "q": "Característica do poder constituinte originário: inaugura uma nova ordem jurídica — poder ___.", "f": "Normas Jurídicas.md", "r": 11, "c": 8, "d": "D", "n": 19, "t": 0}, {"a": "NOBREZA", "q": "Segundo estado, na França pré-revolucionária.", "f": "Normas Jurídicas.md", "r": 10, "c": 13, "d": "D", "n": 16, "t": 0}, {"a": "MATERIAIS", "q": "Limites ___ ao poder de reforma: as cláusulas pétreas.", "f": "Normas Jurídicas.md", "r": 16, "c": 7, "d": "A", "n": 22, "t": 0}, {"a": "METAJURIDICOS", "q": "Limites ___ ao originário: históricos, sociais, culturais e até religiosos.", "f": "Normas Jurídicas.md", "r": 4, "c": 0, "d": "D", "n": 7, "t": 0}, {"a": "MUNICIPAIS", "q": "Câmaras ___ não exercem poder constituinte decorrente.", "f": "Normas Jurídicas.md", "r": 4, "c": 0, "d": "A", "n": 7, "t": 0}, {"a": "SESSAO", "q": "PEC rejeitada não pode ser reapresentada na mesma ___ legislativa.", "f": "Normas Jurídicas.md", "r": 16, "c": 0, "d": "A", "n": 21, "t": 0}, {"a": "NATURAIS", "q": "Direitos ___: não são limite ao poder constituinte originário no Brasil.", "f": "Normas Jurídicas.md", "r": 11, "c": 4, "d": "D", "n": 18, "t": 0}, {"a": "FORMAIS", "q": "Limites ___ ao poder de reforma: quem propõe, votação em 2 turnos e vedação de reapresentação.", "f": "Normas Jurídicas.md", "r": 5, "c": 10, "d": "A", "n": 8, "t": 0}, {"a": "SAMBA", "q": "Exemplo de limite metajurídico: proibir o ___, central para o povo brasileiro.", "f": "Normas Jurídicas.md", "r": 3, "c": 13, "d": "D", "n": 6, "t": 0}, {"a": "AUTONOMO", "q": "Poder ___: sem procedimento formal prévio para criar a nova Constituição.", "f": "Normas Jurídicas.md", "r": 0, "c": 11, "d": "D", "n": 2, "t": 0}, {"a": "HOMOAFETIVAS", "q": "Mutação do art. 226, §3º: o STF reconheceu uniões ___ como entidade familiar.", "f": "Normas Jurídicas.md", "r": 0, "c": 1, "d": "A", "n": 1, "t": 0}, {"a": "PERMANENTE", "q": "Poder ___: nunca se perde, apenas adormece até nova revolução constitucional.", "f": "Normas Jurídicas.md", "r": 2, "c": 3, "d": "A", "n": 5, "t": 0}, {"a": "REVISOR", "q": "Poder constituinte derivado do art. 3º do ADCT, usado em 1993 e já exaurido.", "f": "Normas Jurídicas.md", "r": 18, "c": 0, "d": "A", "n": 23, "t": 0}, {"a": "TURNOS", "q": "Emendas são votadas em dois ___ nas duas Casas, com 3/5 dos membros.", "f": "Normas Jurídicas.md", "r": 0, "c": 16, "d": "D", "n": 3, "t": 0}, {"a": "SITIO", "q": "Estado de ___: durante ele, a Constituição não pode ser emendada.", "f": "Normas Jurídicas.md", "r": 9, "c": 14, "d": "A", "n": 15, "t": 0}, {"a": "REFORMADOR", "q": "Poder constituinte derivado que cria emendas, pela regra 2-2-3/5 (art. 60).", "f": "Normas Jurídicas.md", "r": 1, "c": 18, "d": "D", "n": 4, "t": 0}]};
+const TEMAS={1:"Normas jurídicas",2:"Personalidade jurídica",3:"Constituição e controle de constitucionalidade",4:"Estado",5:"Estado democrático de direito",6:"Organização dos Poderes",7:"Processo legislativo",8:"Direitos e garantias fundamentais",9:"Administração Pública",10:"Licitações e contratos",11:"Responsabilidade civil do Estado",12:"Servidor público, improbidade e PAD",13:"Serviço Exterior Brasileiro",14:"Finanças públicas"};
+(function(){
+const H=DATA.h,W=DATA.w,words=DATA.words;
+const norm=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toUpperCase();
+const grid=document.getElementById("grid"),bar=document.getElementById("bar"),kb=document.getElementById("kb"),msg=document.getElementById("msg");
+grid.style.gridTemplateColumns="repeat("+W+",var(--cs))";
+const key=(r,c)=>r+","+c;
+const cells=new Map(); // key -> {r,c,ans,words:[idx],num,el,val}
+words.forEach((w,i)=>{
+  for(let k=0;k<w.a.length;k++){
+    const r=w.d==="A"?w.r:w.r+k, c=w.d==="A"?w.c+k:w.c;
+    let o=cells.get(key(r,c));
+    if(!o){o={r,c,ans:w.a[k],words:[],num:0,el:null,val:""};cells.set(key(r,c),o);}
+    o.words.push(i);
+    if(k===0)o.num=w.n;
+  }
+});
+const STORE="cw-di-di01-normas-juridicas-v1";
+let wrong=new Set(), done=new Set(), cur=null, act=0;
+try{const s=JSON.parse(localStorage.getItem(STORE)||"null");if(s&&s.v){for(const k in s.v){const o=cells.get(k);if(o)o.val=s.v[k];}}}catch(e){}
+function save(){try{const v={};cells.forEach((o,k)=>{if(o.val)v[k]=o.val;});localStorage.setItem(STORE,JSON.stringify({v}));}catch(e){}}
+const cellsOf=i=>{const w=words[i],a=[];for(let k=0;k<w.a.length;k++)a.push(cells.get(key(w.d==="A"?w.r:w.r+k,w.d==="A"?w.c+k:w.c)));return a;};
+// build grid
+for(let r=0;r<H;r++)for(let c=0;c<W;c++){
+  const o=cells.get(key(r,c));
+  const el=document.createElement("div");
+  if(!o){el.className="cell blank";grid.appendChild(el);continue;}
+  el.className="cell";el.tabIndex=-1;el.setAttribute("role","gridcell");
+  el.addEventListener("click",()=>pick(o));
+  o.el=el;grid.appendChild(el);
+}
+// clues
+const lists={A:document.getElementById("cA"),D:document.getElementById("cD")};
+const order=words.map((w,i)=>i).sort((a,b)=>words[a].n-words[b].n);
+order.forEach(i=>{
+  const w=words[i],li=document.createElement("li");
+  li.innerHTML="<b>"+w.n+"</b><span>"+w.q.replace(/&/g,"&amp;").replace(/</g,"&lt;")+" <em class=\"len\">("+w.a.length+")</em></span>";
+  li.addEventListener("click",()=>{act=i;cur=firstEmpty(i);render();focusKb();});
+  w.li=li;lists[w.d].appendChild(li);
+});
+function firstEmpty(i){const cs=cellsOf(i);return cs.find(o=>!o.val)||cs[0];}
+function pick(o){
+  if(!o)return;
+  const aw=words[act];
+  if(cur===o&&o.words.length>1){act=o.words.find(i=>i!==act);}
+  else if(!o.words.includes(act)){act=o.words.find(i=>words[i].d===aw.d)??o.words[0];}
+  cur=o;render();focusKb();
+}
+function focusKb(){try{kb.focus({preventScroll:true});}catch(e){kb.focus();}}
+function isDone(i){return cellsOf(i).every(o=>o.val===o.ans);}
+function render(){
+  done=new Set();words.forEach((w,i)=>{if(isDone(i))done.add(i);});
+  const inw=new Set(cellsOf(act));
+  cells.forEach(o=>{
+    const el=o.el;
+    el.className="cell"+(inw.has(o)?" inword":"")+(o===cur?" cur":"")+(wrong.has(o)?" bad":"")+(o.words.some(i=>done.has(i))?" done":"");
+    el.innerHTML=(o.num?"<i>"+o.num+"</i>":"")+(o.val||"");
+  });
+  words.forEach((w,i)=>{w.li.className=(i===act?"act ":"")+(done.has(i)?"done":"");});
+  const w=words[act];
+  bar.innerHTML="<b>"+w.n+(w.d==="A"?" horizontal":" vertical")+"</b> · "+w.q.replace(/&/g,"&amp;").replace(/</g,"&lt;")+" ("+w.a.length+")"+(done.has(act)?"<span class=\"src\">✓ Fonte: "+(w.f||("Tema "+w.t+" — "+TEMAS[w.t])).replace(/&/g,"&amp;").replace(/</g,"&lt;")+"</span>":"");
+  document.getElementById("prog").textContent=done.size+" de "+words.length+" palavras";
+  if(done.size===words.length)say("Parabéns! Você completou a grade.",6000);
+}
+let tm;function say(t,ms){msg.textContent=t;msg.style.display="block";clearTimeout(tm);tm=setTimeout(()=>msg.style.display="none",ms||2500);}
+function next(o,back){
+  const cs=cellsOf(act),i=cs.indexOf(o),j=Math.max(0,Math.min(cs.length-1,i+(back?-1:1)));
+  cur=cs[j];
+}
+function typeChar(ch){
+  if(!cur)return;
+  cur.val=ch;wrong.delete(cur);
+  const cs=cellsOf(act),i=cs.indexOf(cur);
+  if(i<cs.length-1)cur=cs[i+1];
+  save();render();
+}
+function backspace(){
+  if(!cur)return;
+  if(cur.val){cur.val="";wrong.delete(cur);}
+  else{next(cur,true);cur.val="";wrong.delete(cur);}
+  save();render();
+}
+function move(dr,dc){
+  if(!cur)return;
+  let r=cur.r,c=cur.c;
+  for(let n=0;n<Math.max(H,W);n++){
+    r+=dr;c+=dc;
+    if(r<0||c<0||r>=H||c>=W)return;
+    const o=cells.get(key(r,c));
+    if(o){const aw=words[act];cur=o;if(!o.words.includes(act))act=o.words.find(i=>words[i].d===(dc?"A":"D"))??o.words[0];render();return;}
+  }
+}
+function wordStep(d){
+  const idx=order.indexOf(act),n=order.length;
+  act=order[(idx+d+n)%n];cur=firstEmpty(act);render();
+}
+kb.addEventListener("input",()=>{
+  const v=norm(kb.value).replace(/[^A-Z]/g,"");kb.value="";
+  if(v)typeChar(v[v.length-1]);
+});
+kb.addEventListener("keydown",e=>{
+  const k=e.key;
+  if(k==="Backspace"){e.preventDefault();backspace();}
+  else if(k==="ArrowRight"){e.preventDefault();move(0,1);}
+  else if(k==="ArrowLeft"){e.preventDefault();move(0,-1);}
+  else if(k==="ArrowDown"){e.preventDefault();move(1,0);}
+  else if(k==="ArrowUp"){e.preventDefault();move(-1,0);}
+  else if(k==="Tab"){e.preventDefault();wordStep(e.shiftKey?-1:1);}
+  else if(k==="Enter"||k===" "){e.preventDefault();if(cur&&cur.words.length>1){act=cur.words.find(i=>i!==act);render();}}
+});
+document.getElementById("bCheck").onclick=()=>{
+  wrong=new Set();let n=0;
+  cells.forEach(o=>{if(o.val&&o.val!==o.ans){wrong.add(o);n++;}});
+  render();say(n?n+(n>1?" letras erradas":" letra errada")+" marcada"+(n>1?"s":"")+" em vermelho.":"Nenhuma letra errada até agora.");
+};
+document.getElementById("bLetter").onclick=()=>{
+  if(!cur){cur=firstEmpty(act);}
+  cur.val=cur.ans;wrong.delete(cur);save();render();
+};
+document.getElementById("bWord").onclick=()=>{
+  cellsOf(act).forEach(o=>{o.val=o.ans;wrong.delete(o);});save();render();
+};
+document.getElementById("bClear").onclick=()=>{
+  if(!confirmClear){confirmClear=true;say("Toque de novo em Recomeçar para apagar tudo.",3000);setTimeout(()=>confirmClear=false,3000);return;}
+  confirmClear=false;cells.forEach(o=>o.val="");wrong=new Set();save();cur=firstEmpty(act);render();say("Grade limpa.");
+};
+let confirmClear=false;
+// começa na palavra de número 1, horizontal se existir
+act=order.find(i=>words[i].d==="A")??order[0];cur=firstEmpty(act);render();
+})();
+</script>
+</body>
+</html>

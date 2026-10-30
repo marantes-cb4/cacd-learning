@@ -1,0 +1,194 @@
+{
+ "chave": "di07-processo-legislativo-brasileiro",
+ "materia": "Direito Interno",
+ "item": "7",
+ "status": "completo",
+ "titulo": "Item 7 · Processo legislativo brasileiro",
+ "descricao": "Espécies normativas, medida provisória, lei delegada, veto e quórum.",
+ "notas": [
+  "Processo Legislativo.md",
+  "Processo Legislativo - Parte 2.md"
+ ],
+ "palavras": [
+  [
+   "VETO",
+   "Pode ser jurídico ou político e é apreciado em sessão conjunta (art. 66, §4º).",
+   "Processo Legislativo.md"
+  ],
+  [
+   "SANCAO",
+   "Concordância do Presidente com o projeto; o silêncio por mais de 15 dias a configura.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "PROMULGACAO",
+   "Nas emendas, é feita pelas Mesas da Câmara e do Senado.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "INICIATIVA",
+   "Fase em que o projeto é proposto; a do art. 61, §1º é privativa do Presidente.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "PROVISORIA",
+   "Medida ___: vale 60 dias, prorrogáveis uma vez por mais 60 (art. 62).",
+   "Processo Legislativo.md"
+  ],
+  [
+   "DELEGADA",
+   "Lei ___: exige resolução do Congresso (art. 68).",
+   "Processo Legislativo.md"
+  ],
+  [
+   "RESOLUCAO",
+   "Espécie normativa que autoriza a lei delegada e trata de matéria privativa da Câmara ou do Senado.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "DECRETO",
+   "Espécie usada para matérias de competência exclusiva do CN: ___ legislativo.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "COMPLEMENTAR",
+   "Lei ___: exige maioria absoluta (art. 69).",
+   "Processo Legislativo.md"
+  ],
+  [
+   "ABSOLUTA",
+   "Quórum de aprovação da lei complementar: maioria ___.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "MISTA",
+   "Comissão ___ de deputados e senadores examina as medidas provisórias (art. 62, §9º).",
+   "Processo Legislativo.md"
+  ],
+  [
+   "CASA",
+   "___ iniciadora: regra é a Câmara; o Senado só inicia projeto de senador ou de comissão do Senado.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "EMENDA",
+   "Espécie normativa sem sanção, veto, iniciativa popular ou Casa iniciadora.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "REEDICAO",
+   "É vedada, na mesma sessão legislativa, a ___ de medida provisória rejeitada (art. 62, §10).",
+   "Processo Legislativo.md"
+  ],
+  [
+   "URGENCIA",
+   "Regime de ___: após 45 dias sem apreciação, a MP sobresta as demais deliberações.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "CONVERSAO",
+   "Aprovação da medida provisória pelas duas Casas: ___ em lei.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "IMPROPRIA",
+   "Lei delegada ___: o CN aprova em votação única, sem emendas, antes da execução.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "PRIVATIVA",
+   "Iniciativa ___ do Presidente da República: rol taxativo do art. 61, §1º.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "QUORUM",
+   "Mínimo de membros para votar ou aprovar: ___ de votação e de aprovação.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "SIMPLES",
+   "Maioria ___ (relativa): quórum de aprovação da lei ordinária.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "CONJUNTA",
+   "O veto é apreciado em sessão ___ do Congresso (art. 66, §4º).",
+   "Processo Legislativo.md"
+  ],
+  [
+   "ORDINARIA",
+   "Lei ___: quórum de aprovação é a maioria simples; não há hierarquia com a lei complementar.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "REVISORA",
+   "Casa ___: em regra o Senado, que reexamina o projeto aprovado pela Câmara.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "INICIADORA",
+   "Casa ___: em regra a Câmara; as alterações da revisora voltam a ela.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "SIMETRIA",
+   "Princípio pelo qual, nos Estados e Municípios, a iniciativa privativa é do Governador ou do Prefeito.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "TRIBUTARIA",
+   "Matéria ___ da União: a iniciativa não é privativa do Presidente; a dos Territórios é.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "CONVALIDA",
+   "A sanção do Presidente não ___ o vício de iniciativa do projeto.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "POPULAR",
+   "Iniciativa ___: exige 1% do eleitorado em cinco Estados e não existe para emenda.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "GOVERNADORES",
+   "Podem editar medidas provisórias se a Constituição estadual prever, observada a simetria.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "SOBRESTAMENTO",
+   "Efeito do regime de urgência: ___ das demais deliberações da Casa (STF: só projetos de lei ordinária).",
+   "Processo Legislativo.md"
+  ],
+  [
+   "CANCELAMENTO",
+   "É vedado o ___ da medida provisória após a publicação; admite-se revogação por nova MP.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "PARLAMENTAR",
+   "Único legitimado a impetrar mandado de segurança contra processo legislativo viciado.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "PROPRIA",
+   "Lei delegada ___: executada diretamente pelo Presidente, sem nova aprovação do CN.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "DELIBERACAO",
+   "Fase do processo legislativo em que o projeto é discutido.",
+   "Processo Legislativo.md"
+  ],
+  [
+   "ESTADUAL",
+   "Iniciativa popular ___: a lei de cada Estado define as regras (art. 27, §4º).",
+   "Processo Legislativo.md"
+  ],
+  [
+   "ELEITORADO",
+   "A iniciativa popular municipal exige 5% do ___ local (art. 29, XIII).",
+   "Processo Legislativo.md"
+  ]
+ ]
+}

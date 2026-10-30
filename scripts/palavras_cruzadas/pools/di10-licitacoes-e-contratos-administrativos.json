@@ -1,0 +1,244 @@
+{
+ "chave": "di10-licitacoes-e-contratos-administrativos",
+ "materia": "Direito Interno",
+ "item": "10",
+ "status": "parcial",
+ "titulo": "Item 10 · Licitações e contratos (parcial)",
+ "descricao": "Lei 14.133/2021: princípios, modalidades, fases, inexigibilidade e dispensa.",
+ "notas": [
+  "Licitações e Contratos Administrativos.md",
+  "Licitações e Contratos Administrativos - Parte 2.md"
+ ],
+ "palavras": [
+  [
+   "PREGAO",
+   "Modalidade obrigatória para bens e serviços comuns (critérios: menor preço ou maior desconto).",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "CONCORRENCIA",
+   "Modalidade usada por exclusão; obrigatória para obras e serviços técnicos intelectuais.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "CONCURSO",
+   "Modalidade para escolha de trabalho técnico, científico ou artístico.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "LEILAO",
+   "Modalidade para alienar bens; único critério de julgamento: maior lance.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "DIALOGO",
+   "Modalidade nova da Lei 14.133: ___ competitivo, em 3 etapas.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "INEXIGIBILIDADE",
+   "Contratação direta por inviabilidade de competição (art. 74).",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "DISPENSA",
+   "Contratação direta discricionária, de rol taxativo (art. 75).",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "DESERTA",
+   "Licitação em que ninguém apresentou proposta.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "FRACASSADA",
+   "Licitação com propostas, mas nenhuma válida.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "HABILITACAO",
+   "Fase que vem depois do julgamento na ordem padrão do art. 17.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "HOMOLOGACAO",
+   "Última fase do art. 17; a autoridade superior adjudica e faz a ___.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "ADJUDICA",
+   "Verbo: a autoridade superior ___ o objeto ao vencedor.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "EDITAL",
+   "Documento a que a Administração e os licitantes ficam vinculados.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "SEGREGACAO",
+   "Princípio de ___ de funções: cada fase conduzida por um agente diferente.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "CREDENCIAMENTO",
+   "Forma de selecionar leiloeiro oficial, ao lado do pregão (art. 31, §1º).",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "LUXO",
+   "O art. 20 proíbe a compra de itens de ___.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "MARGEM",
+   "___ de preferência: até 10% (ou 20% para inovação) — art. 26.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "NOTORIA",
+   "Inexigibilidade para serviços técnicos de empresas de ___ especialização.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "CONVITE",
+   "Modalidade extinta pela Lei 14.133, junto com a tomada de preços.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "SOBREPRECO",
+   "Art. 11: a licitação deve evitar contratações com ___ ou superfaturamento.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "SUPERFATURAMENTO",
+   "Art. 11, III: evitar contratações com sobrepreço, preços inexequíveis ou ___.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "INOVACAO",
+   "Art. 11, IV: incentivar a ___ e o desenvolvimento nacional sustentável.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "ISONOMIA",
+   "Tratamento ___ entre licitantes: objetivo do art. 11, II.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "PLANEJAMENTO",
+   "Princípio do art. 5º, ao lado de transparência e economicidade.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "TRANSPARENCIA",
+   "Princípio do art. 5º, ao lado de planejamento e economicidade.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "ECONOMICIDADE",
+   "Princípio do art. 5º, ao lado de celeridade e razoabilidade.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "PROBIDADE",
+   "Princípio do art. 5º: ___ administrativa.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "JULGAMENTO",
+   "Fase 4 do art. 17, que vem antes da habilitação.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "PROPOSTAS",
+   "Fase 3 do art. 17: apresentação de ___ e lances.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "LANCE",
+   "Critério único do leilão: maior ___.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "MERCOSUL",
+   "Margem de preferência de até 10% para bens de Estados-partes do ___, com reciprocidade em tratado.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "RECICLAVEIS",
+   "Bens ___ e biodegradáveis nacionais têm margem de preferência de até 10%.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "PRESOS",
+   "Art. 25, §9: o edital pode exigir mão de obra de ___ ou egressos do sistema prisional.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "VULNERABILIDADE",
+   "Art. 25, §9: mão de obra em situação de ___ social.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "REAIS",
+   "O licitante brasileiro vencedor com cotação em moeda estrangeira recebe em ___.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "ENGENHARIA",
+   "Serviço comum de ___ pode ser contratado por pregão (art. 6º, XXI, a).",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "ESTATAIS",
+   "Lei 13.303/2016: Lei das ___; empresas públicas e sociedades de economia mista não seguem a 14.133.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "BACEN",
+   "A gestão das reservas internacionais do Brasil é disciplinada por ato do ___ (art. 1º, §5º).",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "MINISTRO",
+   "Repartições públicas no exterior: regulamentação editada por ___ de Estado (art. 1º, §2º).",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "ARTISTICO",
+   "Inexigibilidade para profissional do setor ___ consagrado pela crítica ou pela opinião pública.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "EMERGENCIA",
+   "Dispensa por ___ ou calamidade pública (art. 75, VIII).",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "PAZ",
+   "Dispensa para contingentes militares em operações de ___ no exterior.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "SOLIDARIA",
+   "Contratação direta indevida com dolo, fraude ou erro grosseiro: responsabilidade ___ (art. 73).",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "FRAUDE",
+   "Art. 73: dolo, ___ ou erro grosseiro geram responsabilidade solidária.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "PARECER",
+   "Art. 72: a contratação direta exige ___ jurídico e, se for o caso, técnicos.",
+   "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "PRECO",
+   "Art. 72, VII: justificativa de ___.",
+   "Licitações e Contratos Administrativos.md"
+  ]
+ ]
+}

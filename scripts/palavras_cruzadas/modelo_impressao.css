@@ -1,0 +1,27 @@
+<style>
+@page{size:A4;margin:12mm}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#000;font:11pt/1.35 "Helvetica Neue",Arial,sans-serif}
+.page{max-width:190mm;margin:0 auto;padding:10mm 8mm}
+h1{font-size:17pt;margin:0 0 2mm}
+.sub{font-size:9.5pt;color:#333;margin:0 0 5mm}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0 0 4mm;font-size:9.5pt}
+.bar span{border-bottom:1px solid #000;min-width:55mm;display:inline-block;height:5mm}
+table.grid{border-collapse:collapse;margin:0 auto}
+table.grid td{width:9mm;height:9mm;padding:0;text-align:center;vertical-align:middle;font-weight:700;font-size:12pt}
+table.grid td.c{border:.35mm solid #000;position:relative}
+table.grid td.b{border:none}
+table.grid td i{position:absolute;top:.3mm;left:.6mm;font-style:normal;font-weight:600;font-size:6.5pt;line-height:1}
+.clues{columns:2;column-gap:9mm}
+.clues h2{font-size:11pt;margin:0 0 2mm;text-transform:uppercase;letter-spacing:.06em;column-span:none;break-after:avoid}
+.clues ol{list-style:none;margin:0 0 5mm;padding:0}
+.clues li{font-size:9.6pt;margin:0 0 1.6mm;break-inside:avoid}
+.clues li b{display:inline-block;min-width:6mm}
+.clues li span{color:#444}
+.col{break-inside:avoid-column}
+.pb{break-before:page}
+.print-btn{position:fixed;right:12px;top:12px;font:inherit;padding:8px 14px;border:1px solid #000;border-radius:6px;background:#fff;cursor:pointer}
+.foot{font-size:8.5pt;color:#444;margin-top:5mm}
+@media print{.print-btn{display:none}.page{padding:0;max-width:none}}
+@media (max-width:700px){table.grid td{width:6.2mm;height:6.2mm;font-size:8pt}.clues{columns:1}}
+</style>

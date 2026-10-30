@@ -1,0 +1,186 @@
+{
+ "chave": "ec2-3-setor-publico-e-politica-fiscal",
+ "materia": "Economia",
+ "item": "2.3",
+ "status": "parcial",
+ "titulo": "Item 2.3 · Economia do setor público e política fiscal (parcial)",
+ "descricao": "Fundos emprestáveis, déficit, multiplicadores, efeito deslocamento, estabilizadores, Laffer e equivalência ricardiana.",
+ "notas": [
+  "Macro - Poupança, Investimento e o Sistema Financeiro.md",
+  "Macro - Modelo Clássico.md",
+  "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md",
+  "Macro - Curva de Phillips - Parte 2.md"
+ ],
+ "palavras": [
+  [
+   "FUNDOS",
+   "Mercado de ___ emprestáveis: poupadores ofertam e tomadores demandam; o preço é a taxa real de juros.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "POUPADORES",
+   "No mercado de fundos emprestáveis, são os ofertantes.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "TOMADORES",
+   "No mercado de fundos emprestáveis, são os demandantes de recursos.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "SPREAD",
+   "Diferença entre a taxa cobrada dos tomadores e a paga aos poupadores pelos bancos.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "DIVIDENDOS",
+   "Parte dos lucros a que tem direito o detentor de uma ação.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "TITULOS",
+   "Mercado de ___: certificados de dívida com prazo, risco e taxa de remuneração.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "DEFICIT",
+   "___ público (G > T): reduz a poupança nacional e desloca a oferta de fundos para a esquerda.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "CROWDING",
+   "Efeito ___ out: o déficit contrai o investimento privado e eleva os juros.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "INCENTIVO",
+   "___ fiscal ao investimento: desloca a demanda por fundos para a direita.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "TABELAMENTO",
+   "Teto de juros abaixo do equilíbrio não aumenta o investimento, segundo o exercício do professor.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "MULTIPLICADOR",
+   "Efeito pelo qual o gasto do governo gera impacto maior que o valor injetado.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "PROPENSAO",
+   "Quanto maior a ___ marginal a consumir, maior o multiplicador.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "IMPORTAR",
+   "Na economia aberta, o multiplicador é menor porque parte da renda vaza pela propensão a ___.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "DESLOCAMENTO",
+   "Efeito ___ (crowding out): juros mais altos reduzem o investimento e o multiplicador.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "TEMPORARIA",
+   "Redução de impostos ___ tem menor impacto na demanda agregada que a permanente.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "PERMANENTE",
+   "Redução de impostos percebida como ___ tem maior impacto na DA.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "DEFASAGENS",
+   "Argumento contra a política ativa: as ___ da política monetária e da fiscal.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "ESTABILIZADORES",
+   "___ automáticos: ajustes fiscais que estimulam a DA na recessão sem ação deliberada.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "EQUILIBRADO",
+   "Multiplicador do orçamento ___: ΔG = ΔT, com multiplicador igual a 1.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "TRIBUTACAO",
+   "Multiplicador da ___: negativo, pois aumento de impostos reduz o produto.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "LAFFER",
+   "Curva de ___: depois de certo ponto, aumentar o imposto reduz a arrecadação.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "RICARDIANA",
+   "Equivalência ___ (Barro-Ricardo): financiar por dívida equivale a financiar por impostos.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "FRIEDMAN",
+   "Milton ___: teoria da renda permanente, que suaviza o consumo.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "SUAVIZACAO",
+   "___ do consumo: o consumidor mantém o consumo estável apesar de variações temporárias da renda.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "KEYNES",
+   "Segundo ele, ondas de pessimismo e otimismo deslocam a DA e justificam a estabilização.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "SELIC",
+   "Taxa básica de juros, também nome do sistema em que o BC faz operações de mercado aberto.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "DIVIDA",
+   "A política fiscal do novo consenso deve reduzir a ___ pública, o risco soberano e os juros.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "SOBERANO",
+   "Risco ___: reduzido pela política fiscal do novo consenso.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "GERACAO",
+   "Regras fiscais de 2ª ___: dão flexibilidade no curto prazo e correção no longo prazo.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "PEQUENO",
+   "No novo consenso, o multiplicador fiscal de curto prazo é ___ por causa do crowding out.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "CLASSICO",
+   "No modelo ___, o aumento de gastos públicos eleva os juros e reduz o investimento sem alterar o produto.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "COMPOSICAO",
+   "Na política fiscal clássica muda apenas a ___ da demanda: mais G, menos I e C privados.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "PRIVADA",
+   "Poupança ___ = Y - T - C.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ],
+  [
+   "GOVERNO",
+   "Poupança do ___ = T - G.",
+   "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+  ]
+ ]
+}

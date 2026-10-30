@@ -1,0 +1,252 @@
+{
+ "chave": "di03-constituicao-e-controle-de-constitucionalidade",
+ "materia": "Direito Interno",
+ "item": "3",
+ "status": "completo",
+ "titulo": "Item 3 · Constituição, primado e controle de constitucionalidade",
+ "descricao": "Classificação da CF/88, supremacia, controle difuso e concentrado.",
+ "notas": [
+  "Conceito e Classificação da Constituição.md",
+  "Controle de Constitucionalidade.md",
+  "Controle de Constitucionalidade - Parte 2.md",
+  "Controle de Constitucionalidade - Parte 3.md",
+  "Controle de Constitucionalidade - Parte 4.md"
+ ],
+ "palavras": [
+  [
+   "RIGIDA",
+   "Classificação da CF/88 quanto à alterabilidade.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "PROMULGADA",
+   "Quanto à origem, a CF/88 é ___ (democrática).",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "ANALITICA",
+   "Quanto à extensão, a CF/88 é ___ (extensa).",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "DOGMATICA",
+   "Quanto ao modo de elaboração, a CF/88 é ___.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "DIRIGENTE",
+   "Quanto à finalidade, a CF/88 é ___: fixa metas sociais de longo prazo.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "MARBURY",
+   "Caso de 1803 que originou o controle difuso: ___ v. Madison.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "KELSEN",
+   "Idealizador do controle abstrato, adotado na Constituição austríaca de 1920.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "CASCATEAMENTO",
+   "Exceção à reserva de plenário: órgão fracionário aplica decisão prévia do plenário ou do STF.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "PLENARIO",
+   "Reserva de ___ (art. 97): só a maioria absoluta do tribunal ou do órgão especial declara a inconstitucionalidade.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "RECEPCAO",
+   "Direito pré-constitucional incompatível com a CF/88 sofre declaração de não ___ (efeito ex nunc).",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "ADPF",
+   "Ação subsidiária que cabe contra lei municipal e para declarar a não recepção.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "ADO",
+   "Ação contra a omissão: se administrativa, o STF fixa prazo de 30 dias.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "ADC",
+   "Ação que exige divergência judicial relevante e só vale para lei federal.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "ADI",
+   "Não cabe contra lei municipal nem contra direito pré-constitucional.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "SUBSIDIARIEDADE",
+   "Princípio que limita a ADPF: não cabe havendo outro meio eficaz (art. 4º, §1º da Lei 9.882/99).",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "PGR",
+   "Único legitimado para a intervenção federal do art. 36, III.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "MODULACAO",
+   "Técnica do art. 27 da Lei 9.868/99 que exige 2/3 dos ministros do STF.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "ABSTRATO",
+   "Controle ___: sem caso concreto, o Judiciário atua como legislador negativo.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "CONCENTRADO",
+   "Controle de competência altamente especializada, exercido só pelo STF e pelos Tribunais de Justiça.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "CCJ",
+   "Comissão de Constituição e Justiça: faz controle preventivo no Legislativo.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "TRIBUNAIS",
+   "Súmula 347: os ___ de Contas podem apreciar a constitucionalidade de leis no caso concreto.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "PREVENTIVO",
+   "Controle ___: antes da promulgação; objeto é o projeto de lei ou a PEC.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "REPRESSIVO",
+   "Controle ___: após a promulgação, sobre a lei ou o ato normativo já integrante do ordenamento.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "INCIDENTAL",
+   "Controle ___ (ou prejudicial): a inconstitucionalidade é questão prévia, não o pedido principal.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "UNIVERSAIS",
+   "Legitimados ___ não precisam provar pertinência temática (ex.: Presidente e PGR).",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "PERTINENCIA",
+   "___ temática: exigida dos legitimados especiais, como Governador e confederação sindical.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "AGU",
+   "Curador da norma impugnada na ADI (art. 103, §3º), salvo tese já declarada inconstitucional pelo STF.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "FORMAL",
+   "Inconstitucionalidade ___ (nomodinâmica): vício no processo legislativo.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "MATERIAL",
+   "Inconstitucionalidade ___ (nomostática): o conteúdo da lei viola a CF.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "ORGANICA",
+   "Inconstitucionalidade formal ___: ente federado sem competência para legislar sobre o tema.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "SUMULA",
+   "___ Vinculante 10: viola o art. 97 afastar a lei sem declarar sua inconstitucionalidade.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "OMISSAO",
+   "Inconstitucionalidade por ___: o legislador deixa de criar norma exigida pela CF.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "INTERVENCAO",
+   "___ federal: ação típica cujo único legitimado é o PGR.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "NEGATIVO",
+   "Para Kelsen, no controle abstrato o Judiciário atua como legislador ___.",
+   "Controle de Constitucionalidade.md e Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "SUPREMACIA",
+   "Princípio pressuposto do controle: toda lei deve ser compatível com a Constituição.",
+   "Controle de Constitucionalidade.md"
+  ],
+  [
+   "NULIDADE",
+   "Efeito da declaração de inconstitucionalidade: a lei é ___, nunca foi válida.",
+   "Controle de Constitucionalidade.md"
+  ],
+  [
+   "DIFUSO",
+   "Controle ___: qualquer órgão do Judiciário, em qualquer grau, pode declarar a inconstitucionalidade.",
+   "Controle de Constitucionalidade.md"
+  ],
+  [
+   "SUBJETIVO",
+   "Controle concreto ou ___: parte de um caso concreto com sujeitos definidos.",
+   "Controle de Constitucionalidade.md"
+  ],
+  [
+   "FORMA",
+   "Quanto à ___, a CF/88 é escrita (codificada).",
+   "Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "CESARISTA",
+   "Constituição ___: povo só ratifica, por plebiscito, texto já pronto.",
+   "Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "OUTORGADA",
+   "Constituição ___: imposta sem participação do povo.",
+   "Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "SINTETICA",
+   "Constituição enxuta, como a dos EUA com 7 artigos.",
+   "Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "FLEXIVEL",
+   "Constituição alterável por lei ordinária ou complementar.",
+   "Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "SEMIRRIGIDA",
+   "Constituição do Império (1824): parte por emenda, parte por lei.",
+   "Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "MATERIAIS",
+   "Normas ___ constitucionais: organizam e limitam o poder estatal (ex.: art. 2º).",
+   "Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "COLEGIO",
+   "Art. 242: manutenção do ___ Pedro II, exemplo de norma só formalmente constitucional.",
+   "Conceito e Classificação da Constituição.md"
+  ],
+  [
+   "BLOCO",
+   "___ de constitucionalidade: Constituição mais tratados de direitos humanos equivalentes a emenda.",
+   "Controle de Constitucionalidade.md"
+  ]
+ ]
+}

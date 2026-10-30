@@ -1,0 +1,229 @@
+{
+ "chave": "ec2-7-crescimento-e-desenvolvimento-economico",
+ "materia": "Economia",
+ "item": "2.7",
+ "status": "completo",
+ "titulo": "Item 2.7 · Crescimento e desenvolvimento econômico",
+ "descricao": "Solow, regra de ouro, convergência, Harrod-Domar, crescimento endógeno e Schumpeter.",
+ "notas": [
+  "Macro - Modelo de Solow.md",
+  "Macro - Modelos de Crescimento.md"
+ ],
+ "palavras": [
+  [
+   "SOLOW",
+   "Robert ___: Nobel, autor do modelo de crescimento exógeno dos anos 1950-60.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "RETORNOS",
+   "___ constantes de escala: multiplicar todos os fatores multiplica o produto na mesma proporção.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "DECRESCENTE",
+   "Produtividade marginal ___ do capital e do trabalho: a primeira máquina rende mais que a décima.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "EXAUSTAO",
+   "Teorema de ___: Y = rK + wL, toda a renda é distribuída entre capital e trabalho.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "PROPENSAO",
+   "S = sY: s é a ___ a poupar, constante.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "PERCAPITA",
+   "Função de produção ___: y = f(k), côncava.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "CONCAVA",
+   "A função de produção per capita é ___ por causa da PMg decrescente do capital.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "ESTACIONARIO",
+   "Estado ___ (steady state): k̇ = 0.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "BALANCEADO",
+   "Crescimento ___ (balanced growth path): K, L e Y crescem à mesma taxa n.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "DEPRECIACAO",
+   "Investimento necessário: repor a ___ e equipar novos trabalhadores.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "TEMPORARIO",
+   "Aumento da taxa de poupança acelera o crescimento apenas de forma ___.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "POPULACIONAL",
+   "Países com maior crescimento ___ tendem a ter menor renda per capita.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "COBB",
+   "Função ___-Douglas: Y = K^α L^(1-α), usada na solução do steady state.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "OURO",
+   "Regra de ___: nível de capital que maximiza o consumo per capita no steady state.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "INEFICIENCIA",
+   "___ dinâmica: poupança tão alta que o consumo per capita é menor que o possível.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "SUBACUMULACAO",
+   "Quando k* é menor que o k da regra de ouro, elevar s aumenta o consumo: ___.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "ABSOLUTA",
+   "Convergência ___: países iguais convergem para a mesma renda per capita.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "CONDICIONAL",
+   "Convergência ___: cada país converge ao seu próprio steady state; a evidência empírica a favorece.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "TECNOLOGICO",
+   "Progresso ___: A cresce à taxa g no modelo de Solow ampliado.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "EFETIVO",
+   "Trabalho ___ = A × L: estoque de trabalho multiplicado pela produtividade.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "EXOGENO",
+   "Solow é modelo de crescimento ___: g não é explicado pelo modelo.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "RESIDUO",
+   "___ de Solow: parte do crescimento não explicada por capital e trabalho (PTF).",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "PTF",
+   "Produtividade total dos fatores: o resíduo de Solow.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "DENNISON",
+   "Edward ___ chamou o resíduo de ‘medida da nossa ignorância’.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "PUBLICO",
+   "Tecnologia como bem ___: sem rivalidade nem exclusão no modelo de Solow.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "HARROD",
+   "Modelo de ___-Domar: anterior a Solow, inspirado em Keynes.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "DOMAR",
+   "Harrod-___: modelo em que Y = σK.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "NAVALHA",
+   "Equilíbrio de fio de ___: instável, sem mecanismo de autocorreção.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "INSTAVEL",
+   "Em Harrod-Domar o equilíbrio de longo prazo é ___.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "CONSTANTE",
+   "Em Harrod-Domar o produto marginal do capital é ___.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "ESTAVEL",
+   "Em Solow o steady state é ___.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "ROMER",
+   "Modelo de ___ (1990): endogeneíza o progresso tecnológico por meio do setor de P&D.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "IDEIAS",
+   "Setor produtor de ___: P&D, no modelo de Romer.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "PATENTES",
+   "Direitos de propriedade intelectual que dão competição imperfeita no modelo de Romer.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "CRESCENTES",
+   "No modelo de Romer a função de produção tem retornos ___ de escala.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "SCHUMPETER",
+   "Autor da Teoria do Desenvolvimento Econômico (1912).",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "EMPRESARIO",
+   "___ inovador: agente que introduz inovações e busca criar um ‘império’.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "INOVACOES",
+   "Cinco tipos: novo produto, novo método, novo mercado, nova matéria-prima e reorganização da indústria.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "CREDITO",
+   "Para Schumpeter, o ___ bancário cria poder de compra novo e financia o empresário inovador.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "DESTRUICAO",
+   "___ criadora: velhas empresas vão à falência antes que as inovações produzam seus efeitos plenos.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "FORDISMO",
+   "Exemplo de novo método de produção.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "QUALITATIVA",
+   "Para Schumpeter, o desenvolvimento envolve mudança ___, não só quantitativa.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "CEPAL",
+   "Conceito de ‘subdesenvolvimento’ surgiu na ___ na América Latina.",
+   "Macro - Modelos de Crescimento.md"
+  ]
+ ]
+}

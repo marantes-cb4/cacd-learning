@@ -1,0 +1,184 @@
+{
+ "chave": "ec2-4-modelo-is-lm-bp",
+ "materia": "Economia",
+ "item": "2.4",
+ "status": "completo",
+ "titulo": "Item 2.4 · O modelo IS-LM-BP",
+ "descricao": "Mundell-Fleming: mobilidade de capitais, regimes cambiais, eficácia das políticas e trindade impossível.",
+ "notas": [
+  "Macro - Modelo IS-LM-BP.md",
+  "Macro - Modelo IS-LM-BP - Parte 2.md"
+ ],
+ "palavras": [
+  [
+   "MUNDELL",
+   "Modelo ___-Fleming: IS-LM para economia aberta.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "EXPORTACOES",
+   "X = f(Y*, E): dependem da renda externa e da taxa de câmbio nominal.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "IMPORTACOES",
+   "M = f(Y, E): dependem da renda doméstica e do câmbio.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "HORIZONTAL",
+   "Com perfeita mobilidade de capitais, a BP é totalmente ___ na taxa de juros internacional.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "VERTICAL",
+   "Sem mobilidade de capitais, a BP é totalmente ___ na renda de equilíbrio comercial.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "PARIDADE",
+   "___ de juros: i = i* na versão descoberta.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "DEFICIT",
+   "À direita da BP, a renda é maior e há ___ comercial.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "SUPERAVIT",
+   "À esquerda da BP, a renda é menor e há ___ comercial.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "FLUTUANTE",
+   "Regime cambial em que o BC não atua e deixa a moeda apreciar ou depreciar.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "FIXO",
+   "Regime em que o BC compra ou vende reservas para segurar o câmbio.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "ENDOGENA",
+   "Com câmbio fixo e perfeita mobilidade, a oferta de moeda é ___.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "CROWDING",
+   "Na fiscal com câmbio fixo e perfeita mobilidade não há ___ out.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "COMPRA",
+   "Se há tendência de apreciação com câmbio fixo, o BC ___ reservas.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "VENDE",
+   "Se há tendência de depreciação com câmbio fixo, o BC ___ reservas.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "EFICAZ",
+   "Fiscal sob câmbio fixo e perfeita mobilidade é ___, sem crowding out.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "INEFICAZ",
+   "Fiscal sob câmbio flutuante e perfeita mobilidade: neutralizada pelo câmbio, portanto ___.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "TRINDADE",
+   "___ impossível: câmbio fixo, livre mobilidade e autonomia monetária não coexistem.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "OURO",
+   "Padrão-___: câmbio fixo e livre mobilidade, sem autonomia monetária.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "BRETTON",
+   "___ Woods: câmbio fixo e autonomia monetária, sem livre mobilidade de capitais.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "AUTONOMIA",
+   "Na atualidade há ___ monetária e livre mobilidade, sem câmbio fixo.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "CHOQUES",
+   "___ externos: variações em i*, expectativa de depreciação ou risco-país.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "AMORTECEDOR",
+   "Câmbio flutuante funciona como ___ de choques externos.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "RESERVAS",
+   "Monetária expansionista com câmbio fixo faz o país perder ___ internacionais.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "ABERTURA",
+   "Quanto maior a ___ comercial, menor o multiplicador e o impacto da fiscal.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "MOBILIDADE",
+   "Grau de ___ de capitais: perfeita, forte, fraca ou nula.",
+   "Macro - Modelo IS-LM-BP - Parte 2.md"
+  ],
+  [
+   "FRACA",
+   "Mobilidade ___: BP mais inclinada, mais vertical que a LM.",
+   "Macro - Modelo IS-LM-BP - Parte 2.md"
+  ],
+  [
+   "FORTE",
+   "Mobilidade ___: BP menos inclinada, mais horizontal que a LM.",
+   "Macro - Modelo IS-LM-BP - Parte 2.md"
+  ],
+  [
+   "NULA",
+   "Sem mobilidade (___), com câmbio fixo, fiscal e monetária são ineficazes.",
+   "Macro - Modelo IS-LM-BP - Parte 2.md"
+  ],
+  [
+   "ENDOGENO",
+   "Regra geral: com câmbio fixo a LM se torna ___ e a monetária é sempre ineficaz.",
+   "Macro - Modelo IS-LM-BP - Parte 2.md"
+  ],
+  [
+   "VAZAMENTO",
+   "As importações geram ___ da demanda para fora.",
+   "Macro - Modelo IS-LM-BP - Parte 2.md"
+  ],
+  [
+   "PRECOS",
+   "No modelo, o nível de ___ é fixo no curto prazo (oferta agregada horizontal).",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "COBERTA",
+   "Paridade ___: i = i* + Ê + PR.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "RISCO",
+   "Prêmio de ___ (PR): medo de calote do país na paridade de juros coberta.",
+   "Macro - Modelo IS-LM-BP.md"
+  ],
+  [
+   "DEPRECIACAO",
+   "Câmbio depreciado eleva as exportações líquidas e desloca a IS para a direita.",
+   "Macro - Modelo IS-LM-BP.md"
+  ]
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "chave": "di09-administracao-publica-no-brasil",
+ "materia": "Direito Interno",
+ "item": "9",
+ "status": "parcial",
+ "titulo": "Item 9 · Administração Pública: princípios, estrutura e atos (parcial)",
+ "descricao": "LIMPE, princípios implícitos, desconcentração, entidades da administração indireta e atos administrativos.",
+ "notas": [
+  "Princípios da Administração Pública.md",
+  "Estrutura da Administração Pública Federal.md",
+  "Atos Administrativos.md"
+ ],
+ "palavras": [
+  [
+   "LEGALIDADE",
+   "Princípio do LIMPE segundo o qual a Administração só faz o que a lei autoriza.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "IMPESSOALIDADE",
+   "Princípio que veda a autopromoção na publicidade oficial (art. 37, §1º).",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "MORALIDADE",
+   "Princípio que, com a impessoalidade, fundamenta a Súmula Vinculante 13 (nepotismo).",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "PUBLICIDADE",
+   "Regra de transparência dos atos, com exceção para o sigilo imprescindível à segurança.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "EFICIENCIA",
+   "Princípio incluído pela EC 19/1998.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "AUTOTUTELA",
+   "Poder de anular os atos ilegais e revogar os inconvenientes sem recorrer ao Judiciário.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "AUTARQUIA",
+   "Entidade de direito público criada por lei, sem atividade econômica (ex.: INSS).",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "DESCONCENTRACAO",
+   "Criação de órgãos dentro do mesmo ente, com controle hierárquico.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "DESCENTRALIZACAO",
+   "Criação de entidades com personalidade própria, com controle finalístico.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "FUNDACAO",
+   "Entidade que pode ter personalidade de direito público ou privado; a lei complementar define suas áreas de atuação.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "ANULACAO",
+   "Atinge o ato ilegal e produz efeitos ex tunc.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "REVOGACAO",
+   "Atinge o ato válido inconveniente, com efeitos ex nunc; só a Administração a faz.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "CONVALIDACAO",
+   "Art. 55 da Lei 9.784: aproveitamento de atos com defeitos sanáveis.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "DECADENCIA",
+   "Art. 54 da Lei 9.784: prazo de 5 anos para anular atos com efeitos favoráveis, salvo má-fé.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "DISCRICIONARIO",
+   "Ato que depende de juízo de conveniência e oportunidade do agente.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "VINCULADO",
+   "Ato cujo conteúdo a lei define; gera direito subjetivo se cumpridos os requisitos.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "DESVIO",
+   "Exceção em que o Judiciário anula ato discricionário: ___ de finalidade.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "MOTIVOS",
+   "Teoria dos ___ determinantes: motivo falso invalida o ato.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "EMPRESA",
+   "___ pública: capital 100% estatal e qualquer forma societária.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "EXORBITANTES",
+   "Cláusulas ___: prerrogativas da Administração nos contratos, ligadas à supremacia do interesse público.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "LIMPE",
+   "Mnemônico dos cinco princípios explícitos do art. 37, caput.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "ALEXY",
+   "Autor ligado à ponderação: os princípios se aplicam por sopesamento.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "DWORKIN",
+   "Autor ligado ao ‘tudo ou nada’ na aplicação das regras.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "JURIDICIDADE",
+   "Princípio segundo o qual ‘lei’ abrange qualquer espécie normativa do art. 59.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "CONTINUIDADE",
+   "Princípio do serviço público que dificulta a greve de serviços essenciais.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "ESTATUTARIOS",
+   "Regime dos agentes das autarquias e das fundações públicas de direito público.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "CELETISTAS",
+   "Regime dos agentes das fundações de direito privado.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "SOCIEDADE",
+   "___ de economia mista: capital misto, exclusivamente S.A. de capital aberto.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "FINALISTICO",
+   "Controle exercido sobre as entidades da administração indireta.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "HIERARQUICO",
+   "Controle típico entre os órgãos da administração direta.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "CORREIOS",
+   "Exemplo de empresa pública, ao lado da Caixa Econômica Federal.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "PETROBRAS",
+   "Exemplo de sociedade de economia mista.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "INSS",
+   "Exemplo de autarquia, ao lado do IBAMA.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "IBGE",
+   "Exemplo de fundação pública.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "ANVISA",
+   "Exemplo de agência reguladora, autarquia em regime especial.",
+   "Administração Pública (anotações)"
+  ],
+  [
+   "MOEDA",
+   "Casa da ___: estatal que presta serviço público essencial sem concorrência e sem lucro.",
+   "Administração Pública (anotações)"
+  ]
+ ]
+}

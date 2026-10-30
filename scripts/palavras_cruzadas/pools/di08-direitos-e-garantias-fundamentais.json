@@ -1,0 +1,188 @@
+{
+ "chave": "di08-direitos-e-garantias-fundamentais",
+ "materia": "Direito Interno",
+ "item": "8",
+ "status": "parcial",
+ "titulo": "Item 8 · Direitos e garantias fundamentais (parcial)",
+ "descricao": "Direitos e garantias, habeas corpus, habeas data, mandado de segurança, injunção, ação popular e petição.",
+ "notas": [
+  "Direitos e Garantias Fundamentais.md"
+ ],
+ "palavras": [
+  [
+   "HABEAS",
+   "___ corpus: protege a liberdade de locomoção; único remédio constitucional que dispensa advogado.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "INJUNCAO",
+   "Mandado de ___: cabe por falta de norma regulamentadora (Lei 13.300/2016).",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "SEGURANCA",
+   "Mandado de ___: protege direito líquido e certo.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "PETICAO",
+   "Direito de ___: garantia que não é ação judicial (art. 5º, XXXIV).",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "LIQUIDO",
+   "Direito ___ e certo: comprovável de plano por documentos.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "DATA",
+   "Habeas ___: acesso e retificação de informações pessoais.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "GARANTIAS",
+   "Disposições assecuratórias, segundo Ruy Barbosa: as ___ fundamentais.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "PERSONALISSIMO",
+   "Natureza do habeas data: só o titular impetra.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "DEFENSORIA",
+   "___ Pública: legitimada para o mandado de injunção coletivo (Lei 13.300, art. 12, IV).",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "DECLARATORIAS",
+   "Para Ruy Barbosa, os direitos são disposições ___; as garantias, assecuratórias.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "ASSECURATORIAS",
+   "Disposições ___: as garantias, que protegem o exercício dos direitos.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "PREVENTIVO",
+   "Habeas corpus ___: diante de ameaça de prisão ilegal, gera salvo-conduto.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "REPRESSIVO",
+   "Habeas corpus ___: prisão ilegal já consumada, gera ordem de soltura.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "SALVOCONDUTO",
+   "Resultado do habeas corpus preventivo.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "ADVOGADO",
+   "O habeas corpus é o único remédio que não exige ___.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "TERCEIRO",
+   "Qualquer pessoa, até pessoa jurídica, pode impetrar habeas corpus em favor de ___.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "INFORMACOES",
+   "Habeas data: acesso e retificação de ___ pessoais em bancos de dados.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "SERASA",
+   "Exemplo de banco de dados de caráter público para o habeas data, ao lado do SPC.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "CERTIDOES",
+   "Não se usa habeas data para ___ públicas; o remédio é o mandado de segurança.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "SUBSIDIARIO",
+   "Mandado de segurança: cabe quando não couber habeas corpus ou habeas data.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "CERTO",
+   "Direito líquido e ___: comprovável de plano por documentos.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "COLETIVO",
+   "Mandado de segurança ___: partido, sindicato, entidade de classe ou associação.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "PARTIDO",
+   "Legitimado ao MS coletivo se tiver representação no Congresso.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "ASSOCIACAO",
+   "No MS coletivo, a ___ precisa estar em funcionamento há pelo menos um ano.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "MINISTERIO",
+   "O ___ Público não pode impetrar mandado de segurança coletivo.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "REGULAMENTADORA",
+   "Mandado de injunção: falta de norma ___ que inviabiliza o exercício de direitos.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "GREVE",
+   "Exemplo de mandado de injunção: direito de ___ dos servidores.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "ULTRA",
+   "MI coletivo: efeitos ___ partes (alcança todos na situação).",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "CIDADAO",
+   "Só o ___ (eleitor) propõe ação popular.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "ELEITOR",
+   "Detentor de direitos políticos, o único legitimado da ação popular.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "ABANDONO",
+   "Se o autor da ação popular a abandona, o MP pode assumir o polo ativo por ___.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "AMBIENTE",
+   "Ação popular: anular ato lesivo ao patrimônio público, ao meio ___ ou à moralidade.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "CIVIL",
+   "Ação ___ pública: promovida pelo MP, considerada garantia fundamental.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "GRATUITOS",
+   "Habeas corpus e habeas data são ___ de forma incondicional.",
+   "Direitos e Garantias Fundamentais.md"
+  ],
+  [
+   "BARBOSA",
+   "Ruy ___: distinguiu direitos de garantias.",
+   "Direitos e Garantias Fundamentais.md"
+  ]
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "chave": "ec2-2-contas-externas",
+ "materia": "Economia",
+ "item": "2.2",
+ "status": "completo",
+ "titulo": "Item 2.2 · Contas externas",
+ "descricao": "Balança de pagamentos: transações correntes, conta capital, conta financeira e ativos de reserva.",
+ "notas": [
+  "Macro - Balança de Pagamentos.md",
+  "Macro - Contas Nacionais.md",
+  "Macro - Conceitos Básicos de Economias Abertas.md"
+ ],
+ "palavras": [
+  [
+   "BALANCA",
+   "Peça contábil que registra todas as transações com o exterior (de pagamentos).",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "FMI",
+   "Organismo cujas diretrizes e metodologia o Banco Central segue na balança de pagamentos.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "RESIDENTES",
+   "Pessoas e empresas que têm o país como principal centro de interesse, independentemente da nacionalidade.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "PARTIDAS",
+   "Princípio das ___ dobradas: toda operação tem duplo registro.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "CORRENTES",
+   "Grupo 1 da balança de pagamentos: transações ___.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "COMERCIAL",
+   "Balança ___: compra e venda de mercadorias, registrada em FOB.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "FOB",
+   "Free on board: apenas o custo da mercadoria, usado na balança comercial.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "CIF",
+   "Cost, insurance and freight: inclui frete e seguro, que na BP vão para a balança de serviços.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "SERVICOS",
+   "Balança de ___: transporte, seguros, viagens e royalties.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "ROYALTIES",
+   "Exemplo de receita da balança de serviços.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "PRIMARIAS",
+   "Rendas ___: trabalho (salários) e capital (lucros, juros, dividendos).",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "SECUNDARIAS",
+   "Rendas ___: transferências unilaterais, sem contrapartida.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "DIVIDENDOS",
+   "Renda do capital derivada de uma ação comprada, registrada em rendas primárias.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "CAPITAL",
+   "Conta ___: grupo 2; transações que mexem com estoques de riqueza e direitos de propriedade.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "MARCAS",
+   "Patentes, ___ e direitos autorais: ativos não financeiros não produzidos da conta capital.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "FINANCEIRA",
+   "Conta ___: grupo 3, de ativos e passivos (investimentos diretos, carteira, derivativos...).",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "DIRETOS",
+   "Investimentos ___: empréstimos entre companhias e aquisição de ativos de capital.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "CARTEIRA",
+   "Investimentos em ___: ações, debêntures e títulos de renda fixa.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "DERIVATIVOS",
+   "Ativos cujo valor depende de outros ativos: swaps, futuros, opções.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "LIQUIDACOES",
+   "A BP registra apenas as ___ dos derivativos, como o ganho do contrato futuro.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "REGULARIZACAO",
+   "Empréstimo de ___: o governo toma empréstimo do FMI para resolver desequilíbrio externo.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "RESERVA",
+   "Ativos de ___: ativos líquidos em moeda estrangeira sob controle do Banco Central.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "OURO",
+   "Faz parte dos ativos de reserva, ao lado dos direitos especiais de saque.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "ATIVO",
+   "Aquisição de investimentos por residentes no exterior é ___ (sinal positivo).",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "PASSIVO",
+   "Aquisição de investimentos no país por não residentes é ___.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "ERROS",
+   "___ e omissões: valor de chegada que fecha a balança de pagamentos.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "SUPERAVITARIA",
+   "Balança de pagamentos com ativos de reserva positivos.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "DEFICITARIA",
+   "Balança de pagamentos com ativos de reserva negativos.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "RNB",
+   "Renda Nacional Bruta: PIB mais a renda líquida recebida do exterior (renda primária na BP).",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "TUC",
+   "Transações unilaterais correntes: correspondem à renda secundária na BP.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "ADIANTAMENTO",
+   "Exportador que recebe ___ por exportação futura aumenta o passivo.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "PARCELA",
+   "Exportador que ___ a venda aumenta o ativo (crédito comercial).",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "DEPOSITOS",
+   "Moeda e ___: contas de residentes no exterior ou de não residentes no país.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "DESENVOLVIMENTO",
+   "Resultado negativo do grupo 1 pode significar ampliação da capacidade produtiva de país em ___.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "IEL",
+   "Investimento externo líquido: igual às exportações líquidas por identidade contábil.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "PIB",
+   "Na economia aberta, Y = C + I + G + EL (produto interno bruto).",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "SAIDA",
+   "IEL positivo: capital em ___ do país; negativo: capital entrando.",
+   "Macro - Contas Nacionais.md"
+  ]
+ ]
+}

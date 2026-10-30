@@ -1,0 +1,322 @@
+{
+ "chave": "ec2-1-contabilidade-nacional",
+ "materia": "Economia",
+ "item": "2.1",
+ "status": "completo",
+ "titulo": "Item 2.1 · Contabilidade nacional",
+ "descricao": "PIB, óticas, identidades, modelo clássico, IS-LM, oferta e demanda agregada e SCN.",
+ "notas": [
+  "Macro - Contabilidade Nacional, Renda e Produto.md",
+  "Macro - Modelo Clássico.md",
+  "Macro - Modelo IS-LM (Keynesiano Generalizado).md",
+  "Macro - Modelo de Oferta e Demanda Agregada.md",
+  "Macro - Contas Nacionais.md"
+ ],
+ "palavras": [
+  [
+   "PRODUTO",
+   "Ótica que soma os bens e serviços finais produzidos na economia em um período.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "RENDA",
+   "Ótica que soma salários, juros, lucros e aluguéis: a remuneração dos fatores.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "DESPESA",
+   "Ótica que soma C + I + G + (X - M).",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "FLUXO",
+   "O PIB é um ___ (período), não um estoque.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "FINAIS",
+   "O PIB só inclui bens e serviços ___, para evitar dupla contagem.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "INVESTIMENTO",
+   "Aquisição de bens de capital para aumentar a capacidade produtiva (FBCF + estoques).",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "DEPRECIACAO",
+   "Parcela dos bens de capital consumida a cada período: IL = IB - ___.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "POUPANCA",
+   "Parcela da renda não consumida por famílias nem governo; em economia fechada, S = I.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "DEFICIT",
+   "Quando o governo gasta mais que arrecada (G > T), o setor privado poupa mais do que investe.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "DIRETOS",
+   "Impostos ___ incidem sobre a renda (IR, IPTU, ITR).",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "INDIRETOS",
+   "Impostos ___ incidem sobre a venda de bens e serviços (ICMS, IPI).",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "SUBSIDIOS",
+   "Produto a preço de mercado = custo de fatores + impostos indiretos - ___.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "INTERNO",
+   "Produto ___: renda gerada dentro das fronteiras, independentemente de quem a recebe.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "NACIONAL",
+   "Produto ___: renda de propriedade dos residentes, onde quer que seja gerada.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "RLEE",
+   "Renda líquida enviada ao exterior: Produto Nacional = Produto Interno menos ela.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "PESSOAL",
+   "Renda ___ disponível: a renda dos indivíduos depois de pagos os impostos diretos sobre as famílias.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "NEUTRALIDADE",
+   "___ da moeda: a quantidade de moeda afeta apenas o nível de preços.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "SAY",
+   "Lei de ___: a oferta cria sua própria demanda.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "VERTICAL",
+   "A oferta agregada clássica é ___ no longo prazo.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "QUANTITATIVA",
+   "Teoria ___ da moeda: MV = PY.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "CROWDING",
+   "Efeito ___ out: gasto público elevado reduz o investimento privado por alta dos juros.",
+   "Macro - Contabilidade Nacional, Renda e Produto.md"
+  ],
+  [
+   "KEYNES",
+   "Cunhou o termo ‘clássicos’ na Teoria Geral e atribuiu as recessões à demanda agregada inadequada.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "DICOTOMIA",
+   "___ clássica: o lado monetário não tem conexão com o lado real da economia.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "PMGL",
+   "Produtividade marginal do trabalho, igualada ao salário real na demanda por trabalho clássica.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "DESUTILIDADE",
+   "Trabalhar envolve ___: custo de oportunidade em lazer sacrificado.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "INVOLUNTARIO",
+   "No modelo clássico não existe desemprego ___.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "SINDICATOS",
+   "No modelo clássico, o desemprego surge por imperfeições, como ___ fixando salários acima do equilíbrio.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "HICKS",
+   "John ___ criou o IS-LM para sintetizar as ideias de Keynes.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "HANSEN",
+   "Alvin ___ ampliou o IS-LM de Hicks; o modelo ganhou o nome dos dois.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "SINTESE",
+   "O IS-LM é conhecido como ___ neoclássica.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "MULTIPLICADOR",
+   "Efeito pelo qual o impacto total do gasto na renda excede o próprio gasto.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "EFETIVA",
+   "Princípio da demanda ___: a demanda agregada determina a produção.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "TRANSACIONAL",
+   "Demanda por moeda ___: presente também na teoria clássica.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "PRECAUCIONAL",
+   "Demanda por moeda guardada para pagamentos inesperados.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "ESPECULATIVA",
+   "Demanda por moeda de Keynes que pressupõe dois ativos: moeda e títulos.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "ARMADILHA",
+   "___ de liquidez: LM horizontal, em que a política monetária é ineficaz.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "LIQUIDEZ",
+   "Prêmio de ___: atributo exclusivo da moeda na teoria dos ativos de Keynes.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "TITULOS",
+   "Expectativa de queda dos juros eleva o preço dos ___ e a demanda por eles.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "TAYLOR",
+   "Equação de ___: manejo dos juros na política monetária convencional.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "TWIST",
+   "Operation ___: Fed vende títulos de curto prazo e compra de longo prazo, em 2011.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "GUIDANCE",
+   "Forward ___: promessa de manter juros baixos por período prolongado.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "RECESSAO",
+   "Período de queda da renda real e aumento do desemprego; dois trimestres seguidos de queda do PIB.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "DEPRESSAO",
+   "Recessão muito grave.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "RIQUEZA",
+   "Efeito ___: preços menores elevam o valor real dos ativos e, com ele, o consumo.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "CAMBIO",
+   "Efeito taxa de ___: preços menores depreciam o valor real da moeda e elevam as exportações líquidas.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "NATURAL",
+   "Taxa ___ de desemprego (Friedman): a que mantém a inflação constante.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "SALARIOS",
+   "Teoria dos ___ rígidos: a mais relevante para a inclinação positiva da OA de curto prazo.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "ESTAGFLACAO",
+   "Produto menor e preços maiores ao mesmo tempo, após um choque de oferta.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "PETROLEO",
+   "Exemplo de choque de oferta: o choque do ___.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "PERCEPCOES",
+   "Teoria das ___ equivocadas: ofertantes acham que seus preços relativos caíram.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "MENU",
+   "‘___ costs’: nome em inglês dos custos de reajustar preços, base da teoria dos preços rígidos.",
+   "Macro - Modelo de Oferta e Demanda Agregada.md"
+  ],
+  [
+   "SCN",
+   "Sistema de Contas Nacionais, elaborado pela ONU.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "IBGE",
+   "Órgão que produz no Brasil a Tabela de Recursos e Usos.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "EMPRESAS",
+   "No fluxo circular, contratam fatores e vendem bens e serviços.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "FAMILIAS",
+   "No fluxo circular, são donas dos fatores de produção e consumidoras.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "RNB",
+   "Renda Nacional Bruta: PIB mais renda líquida recebida do exterior.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "RDB",
+   "Renda Disponível Bruta: RNB mais transações unilaterais correntes.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "IEL",
+   "Investimento externo líquido: positivo quando o capital sai do país.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "PATENTES",
+   "Venda de marcas e ___ compõe as transferências de capital da conta capital.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "CORRENTES",
+   "Transações ___: S - I nas contas nacionais.",
+   "Macro - Contas Nacionais.md"
+  ],
+  [
+   "RECURSOS",
+   "Tabela de ___ e Usos: mostra oferta, demanda e geração de renda.",
+   "Macro - Contas Nacionais.md"
+  ]
+ ]
+}

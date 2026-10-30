@@ -1,0 +1,192 @@
+{
+ "chave": "ec1-3-tipos-de-mercados-e-de-bens",
+ "materia": "Economia",
+ "item": "1.3",
+ "status": "completo",
+ "titulo": "Item 1.3 · Tipos de mercados e de bens",
+ "descricao": "Concorrência perfeita, monopólio, oligopólio, concorrência monopolística e tipos de bens.",
+ "notas": [
+  "Micro - Mercados Perfeitamente Competitivos.md",
+  "Micro - Monopólio.md",
+  "Micro - Oligopólio e Concorrência Monopolística.md",
+  "Micro - Intro Oferta e Demanda.md",
+  "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+ ],
+ "palavras": [
+  [
+   "TOMADOR",
+   "Na concorrência perfeita todos são ___ de preço.",
+   "Micro - Mercados Perfeitamente Competitivos.md"
+  ],
+  [
+   "HOMOGENEOS",
+   "Produtos ___: idênticos, sem diferenciação, na concorrência perfeita.",
+   "Micro - Mercados Perfeitamente Competitivos.md"
+  ],
+  [
+   "RMG",
+   "Na empresa competitiva, a receita marginal é sempre igual ao preço.",
+   "Micro - Mercados Perfeitamente Competitivos.md"
+  ],
+  [
+   "PARALISACAO",
+   "Decisão de curto prazo: não produzir temporariamente quando P < CVM.",
+   "Micro - Mercados Perfeitamente Competitivos.md"
+  ],
+  [
+   "SAIDA",
+   "Decisão de longo prazo: deixar o mercado quando P < CTM.",
+   "Micro - Mercados Perfeitamente Competitivos.md"
+  ],
+  [
+   "ENTRADA",
+   "Ingressar no mercado, no longo prazo, quando P > CTM.",
+   "Micro - Mercados Perfeitamente Competitivos.md"
+  ],
+  [
+   "HORIZONTAL",
+   "A curva de oferta de longo prazo da concorrência perfeita é ___ no nível do CTM mínimo.",
+   "Micro - Mercados Perfeitamente Competitivos.md"
+  ],
+  [
+   "MONOPOLIO",
+   "Empresa única vendedora de seu produto, sem substitutos próximos.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "BARREIRAS",
+   "Causa fundamental do monopólio: ___ à entrada.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "PATENTES",
+   "Concessão governamental que gera monopólio, ao lado dos direitos autorais.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "NATURAL",
+   "Monopólio ___: economias de escala em toda a faixa relevante; um produtor é mais eficiente.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "METRO",
+   "Exemplo de monopólio natural, ao lado da água e da ponte.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "MENOR",
+   "Para o monopolista, a receita marginal é sempre ___ que o preço.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "FORMADOR",
+   "O monopolista é ___ de preço e não tem curva de oferta.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "ANTITRUSTE",
+   "Lei ___: resposta pública que torna o mercado competitivo (ex.: proibir fusões).",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "ESTATIZACAO",
+   "Resposta pública em que o governo arca com o déficit do monopólio natural.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "DISCRIMINACAO",
+   "___ de preços: vender o mesmo bem a preços diferentes; exige poder de mercado.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "PERFEITA",
+   "Discriminação de 1º grau: ___, cobra o máximo que cada consumidor pagaria.",
+   "Micro - Monopólio.md"
+  ],
+  [
+   "OLIGOPOLIO",
+   "Poucos vendedores de produtos similares, com interdependência estratégica.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "CARTEL",
+   "Grupo de empresas agindo segundo acordo de conluio (ex.: OPEP).",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "CONLUIO",
+   "Acordo entre empresas sobre quantidades ou preços.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "NASH",
+   "Equilíbrio de ___: cada agente escolhe a melhor estratégia dadas as dos demais.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "DILEMA",
+   "___ do prisioneiro: ilustra a dificuldade de manter a cooperação.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "COURNOT",
+   "Duopólio de ___ (1838): decisão simultânea das quantidades.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "STACKELBERG",
+   "Duopólio com decisão sequencial: o líder produz mais que em Cournot.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "LIDER",
+   "No duopólio de Stackelberg, quem decide primeiro tem a vantagem de ser ___.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "MONOPOLISTICA",
+   "Concorrência ___: muitas empresas vendendo produtos similares, mas não idênticos.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "DIFERENCIACAO",
+   "Característica da concorrência monopolística: ___ de produtos.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "OCIOSA",
+   "Na concorrência monopolística há capacidade ___: produção à esquerda da escala eficiente.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "MARKUP",
+   "Na concorrência monopolística, P > CMg: há ___ sobre o custo marginal.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "CONTESTAVEIS",
+   "Mercados ___ (Baumol, 1982): entrada livre e sem custos irrecuperáveis.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "IRRECUPERAVEIS",
+   "Custos ___ (sunk costs) não existem nos mercados contestáveis.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "ESTRATEGICA",
+   "Interdependência ___: cada empresa decide considerando as reações das rivais.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "DOMINANTE",
+   "Estratégia ___: a melhor, independentemente do que o outro faça.",
+   "Micro - Oligopólio e Concorrência Monopolística.md"
+  ],
+  [
+   "PUBLICOS",
+   "Bens ___: não exclusivos nem rivais (defesa nacional, pesquisa de base).",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ]
+ ]
+}

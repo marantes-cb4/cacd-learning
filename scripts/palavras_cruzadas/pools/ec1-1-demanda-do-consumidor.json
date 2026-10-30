@@ -1,0 +1,235 @@
+{
+ "chave": "ec1-1-demanda-do-consumidor",
+ "materia": "Economia",
+ "item": "1.1",
+ "status": "completo",
+ "titulo": "Item 1.1 · Demanda do consumidor",
+ "descricao": "Oferta e demanda, equilíbrio, elasticidades, excedentes e teoria do consumidor.",
+ "notas": [
+  "Micro - Teoria do Consumidor e Política Econômica.md",
+  "Micro - Intro Oferta e Demanda.md",
+  "Micro - Elasticidade.md"
+ ],
+ "palavras": [
+  [
+   "DEMANDA",
+   "Quanto maior o preço, menor a quantidade ___ (relação inversa).",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "OFERTA",
+   "Curva em que, quanto maior o preço, maior a quantidade que os vendedores colocam no mercado.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EQUILIBRIO",
+   "Ponto em que a quantidade demandada é igual à quantidade produzida.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "ESCASSEZ",
+   "Se o preço fica abaixo do equilíbrio, a quantidade demandada excede a produzida e há ___.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EXCEDENTE",
+   "Se o preço está acima do equilíbrio, há ___: a quantidade produzida supera a demandada.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "DESLOCAMENTO",
+   "Os determinantes (menos o preço) causam ___ da curva; o preço apenas move o ponto ao longo dela.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "RENDA",
+   "Determinante da demanda: quanto maior a ___, maior a demanda por bens normais.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "INFERIOR",
+   "Bem ___: menos consumido quando a renda aumenta.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "COMPLEMENTARES",
+   "Bens ___ são usados de forma combinada: se o preço do arroz sobe, cai a demanda por feijão.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "GOSTOS",
+   "Determinante da demanda ligado às preferências pessoais (ex.: moda do whey).",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EXPECTATIVAS",
+   "Determinante da demanda: o que o consumidor espera do futuro (ex.: alta dos imóveis).",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "TRADEOFFS",
+   "Escolhas em que não se pode ter tudo e é preciso trocar uma coisa por outra.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "OPORTUNIDADE",
+   "Custo de ___: o sacrifício da opção não escolhida.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "MARGEM",
+   "Pensar na ___: o custo ou utilidade adicional de cada unidade acrescentada.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "INCENTIVOS",
+   "As pessoas reagem a ___ (um dos princípios da economia).",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "INVISIVEL",
+   "Mão ___ de Adam Smith: atores descentralizados organizam o mercado.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EQUIDADE",
+   "Distribuir a prosperidade econômica de maneira justa.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EFICIENCIA",
+   "Obter o maior resultado a partir de recursos escassos.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EXTERNALIDADE",
+   "Impacto das ações de uma pessoa sobre o bem-estar de outra que não participou da ação.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "INFLACAO",
+   "Aumento do nível geral de preços da economia.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "PRODUTIVIDADE",
+   "Quantidade de bens e serviços que um trabalhador produz por hora de trabalho.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "FRONTEIRA",
+   "___ de possibilidades de produção: pontos dentro dela têm capacidade ociosa.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "ELASTICA",
+   "Demanda ___: a quantidade muda intensamente com o preço (ex.: refrigerante).",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "INELASTICA",
+   "Demanda ___: pouca resposta ao preço (ex.: insulina).",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "SUBSTITUTOS",
+   "Quanto mais ___ próximos, mais elástica a demanda (ex.: manteiga e margarina).",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "UNITARIA",
+   "Elasticidade igual a 1: a receita total não muda com o preço.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "LUXO",
+   "Bem de ___: elasticidade-renda maior que 1.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "GIFFEN",
+   "Bem de ___: inferior e essencial, cuja demanda sobe quando o preço sobe.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "CRUZADA",
+   "Elasticidade-preço ___ da demanda: mede a reação da demanda de um bem ao preço de outro.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "HORIZONTE",
+   "Fator da elasticidade: a demanda tende a ser mais elástica quanto maior o ___ temporal.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "PREFERIVEL",
+   "Curvas de indiferença mais elevadas são ___: representam mais dos dois bens.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "INDIFERENCA",
+   "Curva de ___: combinações de bens que dão o mesmo nível de satisfação.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "CONVEXA",
+   "As curvas de indiferença são ___ em relação à origem.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "ORCAMENTARIA",
+   "Restrição ___: limite das combinações de bens que o consumidor pode comprar.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "TANGENCIA",
+   "O ponto ótimo do consumidor é onde a curva de indiferença ___ a restrição orçamentária.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "SUBSTITUICAO",
+   "Taxa marginal de ___: quanto de um bem equivale a outro.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "PESOMORTO",
+   "Triângulo remanescente que surge quando um gap reduz os excedentes combinados.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "INCIDENCIA",
+   "Impostos sobre um bem recaem sobre ofertantes e consumidores; a ___ depende das elasticidades.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "BEMESTAR",
+   "Economia do ___: estuda como a alocação de recursos afeta o bem-estar.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "MONOTONAS",
+   "As curvas de indiferença não se cruzam porque são ___.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "LIBERAL",
+   "Na teoria ___, qualquer ação do governo traz efeitos negativos ao equilíbrio de mercado.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "TETO",
+   "Preço máximo abaixo do equilíbrio causa escassez; é um controle de preço do tipo ___.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "DISPOSICAO",
+   "___ para pagar: valor máximo que o comprador aceita pagar pelo bem.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "RESTRICAO",
+   "Limite orçamentário: ___ orçamentária.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ]
+ ]
+}

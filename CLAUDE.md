@@ -44,7 +44,7 @@ PDFs e lista de temas ficam em: /Users/marantes.isabela/Desktop/CACD/
 6. Atualizar /Planejamento/PROGRESS_CHECK.md: achar a(s) linha(s) do item do edital coberto(s) pela submatéria processada e marcar completo/parcial, citando o(s) arquivo(s) de anotação — ver regras completas na seção "Progress Check" deste arquivo
 7. Fazer commit e push (incluindo a anotação .md, o deck .apkg, o script gerador e o PROGRESS_CHECK.md atualizado) com mensagem:
    "notas+cards: <submateria> (<materia>) — <N> cards gerados"
-   (se a matéria for Direito Interno, incluir também o mapa mental atualizado — ver seção "Mapa mental de Direito Interno")
+   (se a matéria for Direito Interno, incluir também o mapa mental atualizado — ver seção "Mapa mental de Direito Interno"; para qualquer matéria, incluir também o jogo de palavras cruzadas do item atualizado — ver seção "Palavras cruzadas por item do edital")
 
 **Sobre exercícios dos materiais do professor:**
 - Buscar exercícios em todos os arquivos da aula: PDF principal, PDF de "Questões objetivas", PPT, etc.
@@ -176,6 +176,13 @@ Mapa mental interativo (HTML único, sem dependências) com os 14 itens do edita
 - Atualizar o status do item (`"ok"` completo / `"part"` parcial) e a lista de anotações do ramo, de acordo com o `PROGRESS_CHECK.md`
 - **Fontes permitidas: SOMENTE as anotações (`/anotações/Direito Interno/`) e os materiais do professor (`Aulas/Direito Interno/Materiais`: rodadas, textos de lei anexados, exercícios).** Nunca incluir no mapa conteúdo de conhecimento geral, de outras fontes ou de livros — se um ponto do edital ainda não tem material, o ramo fica enxuto (a lacuna é indicada pelo status "parcial")
 - Commitar o mapa junto com a anotação, o deck e o `PROGRESS_CHECK.md`
+
+## Palavras cruzadas por item do edital (/jogos/ e /scripts/palavras_cruzadas/)
+Uma palavra cruzada (jogar no navegador + versão para imprimir) para cada item do edital que já tem anotações de aula — ✅ completo ou 🟡 parcial — em Direito Interno, Direito Internacional e Economia. Saída em `/jogos/<materia>/item-<N>-<slug>.html` e `...-impressao.html`; índice em `/jogos/index.html`; tabelas no `README.md` (seção entre os marcadores `palavras-cruzadas:inicio/fim`, gerada por script — nunca editar à mão).
+- Fonte das dicas: **SOMENTE as anotações (`/anotações/<materia>/`) e os materiais do professor** (`Aulas/<materia>/Materiais`). Nunca conteúdo externo. A dica nunca pode conter a própria resposta
+- Cada jogo vem de `scripts/palavras_cruzadas/pools/<chave>.json` (campos: `chave`, `materia`, `item`, `status` "completo"|"parcial", `titulo`, `descricao`, `notas`, `palavras` = lista de `[RESPOSTA, "dica", "arquivo de anotação"]`). Resposta em maiúsculas, sem acento, espaço ou hífen, com 3+ letras; dica como definição ou frase com `___`
+- **Quando eu adicionar conteúdo novo (nova anotação ou material) sobre um item do edital, refazer também o jogo daquele item**: (1) achar o(s) item(ns) coberto(s) pela nova anotação no `PROGRESS_CHECK.md`; (2) abrir o JSON do item e acrescentar palavras e dicas tiradas do conteúdo novo (e corrigir as que ficaram desatualizadas); (3) rodar `python3 scripts/palavras_cruzadas/gerar.py <chave>` — refaz a grade, os dois HTMLs, o índice e o README (`--todas` refaz tudo); (4) se o item passou de parcial para completo no `PROGRESS_CHECK.md`, trocar `status` para "completo" e tirar "(parcial)" do `titulo` no JSON antes de gerar; (5) se o item ainda não tem JSON, criar um seguindo os existentes (chave `diNN-slug` ou `ecN-N-slug`) e rodar `gerar.py <chave>`
+- Commitar junto com a anotação, o deck e o `PROGRESS_CHECK.md`: JSON do pool, `grades/<chave>.json`, os HTMLs em `/jogos/`, o índice e o `README.md`
 
 ## Regras gerais
 - Nunca commitar PDFs ou arquivos acima de 10MB

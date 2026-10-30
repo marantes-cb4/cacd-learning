@@ -1,0 +1,218 @@
+{
+ "chave": "di01-normas-juridicas",
+ "materia": "Direito Interno",
+ "item": "1",
+ "status": "parcial",
+ "titulo": "Item 1 · Normas jurídicas (parcial)",
+ "descricao": "Poder constituinte originário, derivado e difuso (mutação constitucional).",
+ "notas": [
+  "Normas Jurídicas.md"
+ ],
+ "palavras": [
+  [
+   "SIEYES",
+   "Autor de “Que é o Terceiro Estado?”, obra que atribui ao povo a titularidade do poder constituinte.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "ORIGINARIO",
+   "Poder constituinte juridicamente ilimitado, que cria a Constituição (1º grau).",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "DERIVADO",
+   "Poder constituinte de 2º grau, juridicamente limitado e condicionado.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "DECORRENTE",
+   "Poder constituinte derivado que elabora as Constituições estaduais (art. 11 do ADCT).",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "REVISOR",
+   "Poder constituinte derivado do art. 3º do ADCT, usado em 1993 e já exaurido.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "REFORMADOR",
+   "Poder constituinte derivado que cria emendas, pela regra 2-2-3/5 (art. 60).",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "MUTACAO",
+   "Alteração informal da Constituição que muda o significado da norma sem mudar o texto: ___ constitucional.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "PETREAS",
+   "Cláusulas ___: matérias do art. 60, §4º que emenda não pode abolir.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "RIGIDEZ",
+   "Única cláusula pétrea implícita reconhecida pelo STF: princípio da ___ constitucional.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "DIFUSO",
+   "Poder constituinte ___: o povo que provoca o Judiciário e produz a mutação constitucional.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "INICIAL",
+   "Característica do poder constituinte originário: inaugura uma nova ordem jurídica — poder ___.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "TERCEIRO",
+   "Na obra de Sieyès, o ___ Estado (o povo) é quem tem o poder constituinte.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "POLITICO",
+   "Característica do poder constituinte originário: poder de natureza ___, não jurídica.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "INCONDICIONADO",
+   "Poder ___: não há momento específico para que o originário seja invocado.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "PERMANENTE",
+   "Poder ___: nunca se perde, apenas adormece até nova revolução constitucional.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "AUTONOMO",
+   "Poder ___: sem procedimento formal prévio para criar a nova Constituição.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "ILIMITADO",
+   "O poder constituinte originário é juridicamente ___.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "METAJURIDICOS",
+   "Limites ___ ao originário: históricos, sociais, culturais e até religiosos.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "HISTORICO",
+   "Poder constituinte originário ___: cria a primeira Constituição do país (no Brasil, a de 1824).",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "REVOLUCIONARIO",
+   "Poder constituinte originário ___: cria as demais Constituições, como a CF/88.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "POSITIVISTA",
+   "O Brasil é ___: direitos naturais não limitam o poder constituinte originário.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "NATURAIS",
+   "Direitos ___: não são limite ao poder constituinte originário no Brasil.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "CIRCUNSTANCIAIS",
+   "Limites ___ ao poder de reforma: não se emenda em estado de sítio, de defesa ou intervenção federal.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "SITIO",
+   "Estado de ___: durante ele, a Constituição não pode ser emendada.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "FORMAIS",
+   "Limites ___ ao poder de reforma: quem propõe, votação em 2 turnos e vedação de reapresentação.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "MATERIAIS",
+   "Limites ___ ao poder de reforma: as cláusulas pétreas.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "TURNOS",
+   "Emendas são votadas em dois ___ nas duas Casas, com 3/5 dos membros.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "UNICAMERAL",
+   "Emendas de revisão: sessão ___ do Congresso, por maioria absoluta.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "ASSEMBLEIAS",
+   "Mais da metade das ___ Legislativas pode propor emenda constitucional.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "SESSAO",
+   "PEC rejeitada não pode ser reapresentada na mesma ___ legislativa.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "CLERO",
+   "Primeiro estado, na França pré-revolucionária: o alto ___.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "NOBREZA",
+   "Segundo estado, na França pré-revolucionária.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "POVO",
+   "Terceiro estado, titular do poder constituinte para Sieyès.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "REVOLUCAO",
+   "A teoria do poder constituinte serviu de fundamento para a ___ Francesa.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "HOMOAFETIVAS",
+   "Mutação do art. 226, §3º: o STF reconheceu uniões ___ como entidade familiar.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "INTIMIDADE",
+   "Mutação do art. 5º, XI: a casa protege a ___ (quarto de hotel, consultório).",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "ESTRANGEIROS",
+   "Mutação do art. 5º, caput: direitos fundamentais valem também para ___ não residentes.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "SAMBA",
+   "Exemplo de limite metajurídico: proibir o ___, central para o povo brasileiro.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "MUNICIPAIS",
+   "Câmaras ___ não exercem poder constituinte decorrente.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "PREVIO",
+   "Direito ___ à Constituição só é recepcionado se compatível com a nova ordem.",
+   "Normas Jurídicas.md"
+  ],
+  [
+   "ADQUIRIDO",
+   "Art. 5º, XXXVI: a lei respeita o direito ___, mas o constituinte originário não.",
+   "Normas Jurídicas.md"
+  ]
+ ]
+}

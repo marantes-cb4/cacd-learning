@@ -1,0 +1,195 @@
+{
+ "chave": "ec2-8-emprego-e-renda",
+ "materia": "Economia",
+ "item": "2.8",
+ "status": "parcial",
+ "titulo": "Item 2.8 · Emprego e renda (parcial)",
+ "descricao": "Mercado de trabalho clássico, Lei de Okun, curva de Phillips, expectativas, Volcker e grande moderação.",
+ "notas": [
+  "Macro - Modelo Clássico.md",
+  "Macro - Curva de Phillips.md",
+  "Macro - Curva de Phillips - Parte 2.md"
+ ],
+ "palavras": [
+  [
+   "PHILLIPS",
+   "Curva de ___: trade-off entre inflação e desemprego, criada nos anos 1960.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "SAMUELSON",
+   "Com Solow, batizou a curva de Phillips em 1960, a partir de dados dos EUA.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "OKUN",
+   "Lei de ___: relação inversa entre desemprego e PIB, de 1962.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "HIATO",
+   "___ do produto: produto efetivo menos potencial; proporcional ao desvio do emprego em relação à taxa natural.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "SACRIFICIO",
+   "Taxa de ___: quanto o desemprego sobe para cada ponto de queda da inflação.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "NATURAL",
+   "Taxa ___ de desemprego: aquela em torno da qual o desemprego oscila no longo prazo.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "NAIRU",
+   "Taxa de desemprego que não acelera a inflação.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "ADAPTATIVAS",
+   "Expectativas ___: a inflação esperada é função da inflação passada.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "FRIEDMAN",
+   "Introduziu as expectativas adaptativas e a taxa natural de desemprego, com Phelps.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "PHELPS",
+   "Com Friedman, criticou a curva de Phillips original.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "VERTICAL",
+   "Curva de Phillips de longo prazo: linha ___ na taxa natural de desemprego.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "ESPERADA",
+   "Inflação ___: nova variável da equação da curva de Phillips.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "ERRO",
+   "Na equação u = u natural - a(π - πe), o termo entre parênteses é o ___ de previsão.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "RIGIDOS",
+   "Na versão original, os salários nominais são ___ e por isso o salário real cai com a inflação.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "PETROLEO",
+   "Choque de oferta dos anos 1970: a OPEP elevou o preço do ___ em 1973 e 1979.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "OPEP",
+   "Organização que elevou o preço do petróleo em 1973 e 1979.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "NIXON",
+   "Rompeu com o padrão-ouro em 1971.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "DESINFLACAO",
+   "Redução da taxa de inflação; os preços seguem subindo, mais devagar.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "DEFLACAO",
+   "Queda do nível de preços (inflação negativa).",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "TEMPORARIO",
+   "Com a taxa natural, o custo da desinflação é apenas ___.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "CHICAGO",
+   "Escola de ___: monetaristas e novos clássicos questionaram o keynesianismo.",
+   "Macro - Curva de Phillips.md"
+  ],
+  [
+   "LUCAS",
+   "Robert ___: Nobel de 1995, criou a teoria das expectativas racionais em 1972.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "RACIONAIS",
+   "Expectativas ___: os agentes usam eficientemente todas as informações disponíveis.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "FORWARD",
+   "Expectativas racionais são ___-looking; as adaptativas são backward-looking.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "VOLCKER",
+   "Paul ___: assumiu o Fed em 1979 e combateu a inflação com juros altos.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "GREENSPAN",
+   "Era ___: período de grande moderação, com inflação entre 2% e 5%.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "MODERACAO",
+   "Grande ___: redução da volatilidade da inflação e do produto, de 1984 a 2004 (Bernanke).",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "BERNANKE",
+   "Ben ___: presidente do Fed de 2006 a 2014, definiu a grande moderação.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "CRISE",
+   "A ___ de 2008 encerrou a grande moderação; os preços das casas caíram cerca de 1/3.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "PLENO",
+   "Mercado de trabalho clássico: equilíbrio com ___ emprego e sem desemprego involuntário.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "PMGL",
+   "Demanda por trabalho: a empresa contrata até igualar a produtividade marginal do trabalho ao salário real.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "DESUTILIDADE",
+   "Oferta de trabalho: trabalhar envolve ___, custo de oportunidade em lazer.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "SINDICATOS",
+   "Para os clássicos, o desemprego existe por imperfeições, como ___ fixando salários altos.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "INVOLUNTARIO",
+   "Desemprego que não existe no modelo clássico.",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "SALARIO",
+   "Valor pago pelo trabalho: quando rígido em termos nominais, a inflação o corrói e o desemprego cai (curva de Phillips original).",
+   "Macro - Modelo Clássico.md"
+  ],
+  [
+   "CREDIBILIDADE",
+   "Quanto maior a ___ do BC, menor o custo da desinflação.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ]
+ ]
+}

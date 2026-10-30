@@ -1,0 +1,200 @@
+{
+ "chave": "ec2-5-teoria-da-moeda",
+ "materia": "Economia",
+ "item": "2.5",
+ "status": "parcial",
+ "titulo": "Item 2.5 · Teoria da moeda (parcial)",
+ "descricao": "Funções e tipos de moeda, agregados, Banco Central, multiplicador, teoria quantitativa e demanda por moeda.",
+ "notas": [
+  "Macro - Sistema Monetário.md",
+  "Macro - Modelo Clássico.md",
+  "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+ ],
+ "palavras": [
+  [
+   "MOEDA",
+   "Ativo que qualquer agente usa regularmente para comprar bens e serviços de outros.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "UNIDADE",
+   "___ de conta: função da moeda de medir preços e registrar dívidas.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "TROCA",
+   "Meio de ___: elimina a dupla coincidência de interesses do escambo.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "RESERVA",
+   "___ de valor: função de transferir poder de compra do presente ao futuro.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "ESCAMBO",
+   "Economia em que há dupla coincidência de interesses, sem moeda.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "MERCADORIA",
+   "Moeda ___: tem valor intrínseco, como ouro e prata.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "FIDUCIARIA",
+   "Moeda ___: sem valor intrínseco, aceita por confiança ou curso forçado.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "BASE",
+   "___ monetária: papel-moeda em circulação mais reservas bancárias.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "PMPP",
+   "Papel-moeda em poder do público.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "DEPOSITOS",
+   "M1 é papel-moeda em circulação mais ___ à vista.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "LIQUIDEZ",
+   "Facilidade de converter um ativo em moeda, em tempo e custo.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "AGREGADOS",
+   "M1, M2, M3 e M4 são ___ monetários.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "POUPANCA",
+   "M2 inclui depósitos de ___ e títulos emitidos por bancos.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "COMPROMISSADAS",
+   "Operações ___ registradas no Selic compõem o M3.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "BANQUEIRO",
+   "O BC é o ___ do governo: depositário da Conta Única.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "EMPRESTADOR",
+   "O BC é o ___ de última instância: socorre instituições com problema de liquidez.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "MONOPOLIO",
+   "O BC tem ___ da emissão de moeda.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "CMN",
+   "Conselho Monetário Nacional: define as metas, como a de inflação.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "COPOM",
+   "Comitê que decide a taxa Selic a cada 45 dias.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "MULTIPLICADOR",
+   "Quanto maior a razão de reservas, menor o ___ monetário.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "RESERVAS",
+   "Razão de ___ (R/D): pode superar o mínimo exigido, quando os bancos guardam parcela voluntária.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "ESCRITURAL",
+   "Moeda ___: depósitos bancários, que superam a base monetária.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "CORRIDA",
+   "___ aos bancos: tentativa simultânea de saque por perda de confiança.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "COMPULSORIO",
+   "Recolhimento ___: nível mínimo de reservas exigido pelo BC.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "PIX",
+   "Exemplo de inovação que reduziu o uso de cédulas e alterou a razão m = PMPP/D.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "NEUTRALIDADE",
+   "___ da moeda: variações em M afetam só variáveis nominais, não reais.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "DICOTOMIA",
+   "___ clássica: variáveis nominais e reais são independentes.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "VELOCIDADE",
+   "Variável V da equação quantitativa: ___ de circulação, suposta constante pelos clássicos.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "QUANTITATIVA",
+   "Teoria ___ da moeda: MV = PY.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "INFLACAO",
+   "Na teoria quantitativa, ___ = crescimento de M menos crescimento de Y.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "TRANSACIONAL",
+   "Demanda por moeda ___: aumenta com o produto; presente na teoria clássica.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "PRECAUCIONAL",
+   "Demanda por moeda guardada para pagamentos inesperados.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "ESPECULATIVA",
+   "Demanda por moeda que pressupõe dois ativos: moeda e títulos (Keynes).",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "ARMADILHA",
+   "___ de liquidez: LM horizontal; a política monetária é ineficaz.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "TITULOS",
+   "Expectativa de queda dos juros eleva o preço dos ___ e a demanda por eles.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "ABSTINENCIA",
+   "Para os clássicos, a taxa de juros é prêmio pela ___ de consumir; para Keynes, pela renúncia à liquidez.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "DEFLATOR",
+   "Nível de preços P da equação quantitativa, medido pelo ___ do PIB.",
+   "Macro - Sistema Monetário.md"
+  ]
+ ]
+}

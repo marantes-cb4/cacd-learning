@@ -1,0 +1,168 @@
+{
+ "chave": "ec3-3-politica-comercial-tarifas-quotas-e-subsidios",
+ "materia": "Economia",
+ "item": "3.3",
+ "status": "completo",
+ "titulo": "Item 3.3 · Instrumentos de política comercial",
+ "descricao": "Tributação, comércio internacional, tarifas, cotas, externalidades e bens públicos.",
+ "notas": [
+  "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+ ],
+ "palavras": [
+  [
+   "LAFFER",
+   "Curva de ___: em U invertido, mostra o imposto que maximiza a receita tributária.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "TARIFA",
+   "Imposto sobre produto importado: eleva o preço, o excedente do produtor e a receita do governo.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "COTA",
+   "Limite à quantidade importada; a renda vai para quem detém a licença de importação.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "EXPORTACAO",
+   "Diferença entre quantidade produzida e demandada internamente, quando o preço internacional é maior.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "IMPORTACAO",
+   "Só ocorre, em regra, quando a oferta nacional não supre a demanda interna.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "PESOMORTO",
+   "Tarifas e cotas reduzem o excedente total e criam ___.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "EMPREGOS",
+   "Argumento a favor de restrições ao comércio: preservar ___ internos.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "SEGURANCA",
+   "Argumento a favor de restrições: ___ nacional (ex.: produção de chips).",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "NASCENTE",
+   "Indústria ___: protegida até crescer e conseguir competir com preços internacionais.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "CEPALINO",
+   "Pensamento ___: associado à proteção da indústria nascente.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "DESLEAL",
+   "Competição ___: países que não seguem regras (trabalho infantil) vendem mais barato.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "BARGANHA",
+   "Proteção como instrumento de ___: forma de negociação política.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "EXTERNALIDADE",
+   "Impacto das ações de uma pessoa sobre outras que não participam da ação.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "INTERNALIZACAO",
+   "Fazer compradores e vendedores levarem em conta os efeitos de suas ações.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "COASE",
+   "Teorema de ___: com negociação sem custo, os agentes resolvem sozinhos a externalidade.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "PIGOU",
+   "Impostos e subsídios de ___ corrigem os efeitos de uma externalidade negativa.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "SUBSIDIOS",
+   "O governo estimula externalidades positivas, por exemplo com ___ (caso da educação).",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "RIVALIDADE",
+   "Propriedade do bem: uma pessoa não pode usá-lo se outra já o usa.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "EXCLUSAO",
+   "Propriedade do bem: pessoas podem ser impedidas de usá-lo.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "PRIVADOS",
+   "Bens ___: excludentes e rivais.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "COMUNS",
+   "Recursos ___: rivais, mas não excludentes (ex.: praia).",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "CARONA",
+   "Free riding: a questão da ___ nos bens públicos.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "TRAGEDIA",
+   "___ dos comuns: uso excessivo de recursos sem dono, com externalidade negativa.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "ELASTICIDADE",
+   "Quanto maior a ___, maior o peso morto do imposto.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "PRIVADO",
+   "O valor ___ é menor que o social na externalidade positiva.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "POLUICAO",
+   "Exemplo de externalidade negativa: ___ de uma fábrica que afeta pescadores.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "SOCIAL",
+   "Na externalidade positiva, o valor ___ atribuído é maior que o privado.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "REGULAMENTACAO",
+   "Política pública para externalidades, ao lado de impostos e subsídios.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "CONSUMIDOR",
+   "Com tarifa, cai o excedente do ___ e sobe o do produtor.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "DEFESA",
+   "Exemplo de bem público: ___ nacional.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ],
+  [
+   "EXCEDENTE",
+   "O governo ganha receita tarifária, que sai do ___ do consumidor.",
+   "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+  ]
+ ]
+}

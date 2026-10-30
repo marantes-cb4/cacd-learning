@@ -1,0 +1,275 @@
+{
+ "chave": "di29-conflitos-armados-dih-e-refugio",
+ "materia": "Direito Internacional",
+ "item": "29",
+ "status": "completo",
+ "titulo": "Item 29 · Conflitos armados, DIH e refúgio",
+ "descricao": "Uso da força, legítima defesa, operações de paz, Direito Humanitário, asilo e refúgio.",
+ "notas": [
+  "Asilo.md",
+  "Proibição do Uso da Força.md",
+  "Direito Internacional Humanitário.md"
+ ],
+ "palavras": [
+  [
+   "BRIAND",
+   "Pacto ___-Kellogg (1928): os Estados renunciaram à guerra como solução de controvérsias.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "LEGITIMA",
+   "___ defesa: uma das duas hipóteses em que a Carta da ONU admite o uso da força (art. 51).",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "CAROLINE",
+   "Caso de 1837, entre Canadá e EUA, marco do costume da legítima defesa.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "NECESSIDADE",
+   "Parâmetro da legítima defesa: resposta imediata a agressão ou tentativa de agressão.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "PROPORCIONALIDADE",
+   "Parâmetro da legítima defesa, orientado pelo direito humanitário.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "NICARAGUA",
+   "Caso da CIJ (1986) que exigiu ataque por grupos vinculados a Estados soberanos.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "PREVENTIVA",
+   "Legítima defesa ___: antecipa ataque que pode ou não se concretizar; rejeitada pela doutrina majoritária.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "PREEMPTIVA",
+   "Legítima defesa ___: antecipa ataque que certamente ocorrerá; também não admitida pelo art. 51.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "OTAN",
+   "Exemplo de sistema de legítima defesa coletiva, ao lado da OEA.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "CSNU",
+   "Conselho de Segurança: deve ser comunicado imediatamente por quem exerce a legítima defesa.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "TRINDADE",
+   "Cançado ___: defende que a proibição do uso da força é jus cogens e rechaça a legítima defesa preventiva.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "NUCLEARES",
+   "Opinião consultiva da CIJ (1996): armas ___ só em legítima defesa, com proporcionalidade.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "MURO",
+   "Opinião consultiva de 2004 da CIJ sobre o ___ no território palestino.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "CONGO",
+   "Caso de 1993 que reafirmou que ataques de grupos não estatais não autorizam legítima defesa.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "MANDATO",
+   "Operação de paz: cumprimento de ___ aprovado, em regra, pelo CSNU.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "CONSENTIMENTO",
+   "Fundamento das missões de paz, ao lado do não uso da força e da imparcialidade.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "IMPARCIALIDADE",
+   "Fundamento das missões de paz, ao lado do consentimento e do não uso da força.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "UNIDOS",
+   "Resolução ___ pela Paz (nº 377): a AG pode criar missões se o CSNU estiver paralisado.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "RETORSAO",
+   "Contramedida lícita em resposta a ato lícito do outro Estado que contraria interesses políticos ou econômicos.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "REPRESALIA",
+   "Contramedida em resposta a ato ilícito de outro Estado, sem uso da força.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "BOICOTE",
+   "Represália que interrompe relações comerciais e financeiras com outro Estado.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "EMBARGO",
+   "Represália que imobiliza navios de comércio estrangeiro nos portos ou águas do Estado.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "BLOQUEIO",
+   "___ pacífico: impedir, por meio da força armada, as comunicações com um porto ou as costas de um país.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "RUPTURA",
+   "___ de relações diplomáticas: ato inerente à soberania dos Estados.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "MINUSTAH",
+   "Missão de paz no Haiti, cuja participação brasileira exigiu aprovação do Congresso.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "LITORAL",
+   "Defesa e proteção do ___ brasileiro dispensa autorização do Congresso (Lei 2.953/1956).",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "INVASAO",
+   "Resposta a ___ ou agressão estrangeira dispensa autorização do Congresso para o emprego de forças no exterior.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "ALARGADO",
+   "O CSNU usa um conceito ___ de paz, que inclui direitos humanos.",
+   "Proibição do Uso da Força.md"
+  ],
+  [
+   "GENEBRA",
+   "Direito de ___: quatro convenções de 1949 que protegem quem está fora de combate e os civis.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "HAIA",
+   "Direito de ___ (1907): regula a condução das hostilidades entre combatentes ativos.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "MARTENS",
+   "Cláusula ___: na ausência de norma especializada, aplicam-se princípios gerais e da humanidade.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "CICV",
+   "Comitê que sistematizou as 4 Convenções de Genebra de 1949.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "PROTOCOLO",
+   "Em 1977, dois ___ Adicionais ampliaram o art. 3º comum às Convenções de Genebra.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "COMUM",
+   "Art. 3º ___ às quatro Convenções: protege pessoas em conflito armado não internacional.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "GUARDACHUVA",
+   "Direito Internacional dos Direitos Humanos: área ___, generalista e subsidiária.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "BELLUM",
+   "Jus ad ___: direito à guerra, hoje restrito às duas exceções da Carta da ONU.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "BELLO",
+   "Jus in ___: direito na guerra, aplicável a qualquer uso da força, lícito ou não.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "REFUGIADOS",
+   "Direito Internacional dos ___: protege quem deixa o Estado por perseguição.",
+   "Direito Internacional Humanitário.md"
+  ],
+  [
+   "CARTAGENA",
+   "Declaração de ___ (1984): soft law regional que amplia o conceito de refugiado.",
+   "Asilo.md"
+  ],
+  [
+   "ACNUR",
+   "Criado pela ONU em 1950; no CONARE tem voz, mas não voto.",
+   "Asilo.md"
+  ],
+  [
+   "CONARE",
+   "Comitê Nacional para os Refugiados: decide em 1ª instância (Lei 9.474/97, art. 12).",
+   "Asilo.md"
+  ],
+  [
+   "DECLARATORIO",
+   "No Brasil, o refúgio é ato ___: verificados os pressupostos, o status deve ser concedido.",
+   "Asilo.md"
+  ],
+  [
+   "CONSTITUTIVO",
+   "O asilo político é ato ___ e discricionário: o status só existe após o reconhecimento.",
+   "Asilo.md"
+  ],
+  [
+   "CRIME",
+   "Asilo exige ___ político e perseguição; um ilícito penal comum não o permite.",
+   "Asilo.md"
+  ],
+  [
+   "CARACAS",
+   "Convenções de ___ (1954) sobre asilo diplomático e territorial.",
+   "Asilo.md"
+  ],
+  [
+   "LEGACOES",
+   "Locais do asilo diplomático: ___ (embaixadas e residência do embaixador), navios e acampamentos militares; não consulados.",
+   "Asilo.md"
+  ],
+  [
+   "SALVOCONDUTO",
+   "Documento que assegura a saída do asilado diplomático em segurança.",
+   "Asilo.md"
+  ],
+  [
+   "RENUNCIA",
+   "Art. 29 da Lei de Migração: a saída sem comunicação ao governo é ___ tácita ao asilo.",
+   "Asilo.md"
+  ],
+  [
+   "REFOULEMENT",
+   "Non ___: proíbe enviar o indivíduo a Estado onde sua vida ou liberdade esteja ameaçada.",
+   "Asilo.md"
+  ],
+  [
+   "AGRESSAO",
+   "Crime que não está na lista de exclusão do art. 3º da Lei 9.474/97, por ser posterior à lei.",
+   "Asilo.md"
+  ],
+  [
+   "HAYA",
+   "Caso ___ de la Torre (CIJ, 1950): asilo diplomático exige crime político e perseguição imediata.",
+   "Asilo.md"
+  ],
+  [
+   "MIGRACAO",
+   "Lei de ___ (13.445/2017): o asilado não pode ser deportado nem extraditado enquanto vigente o asilo.",
+   "Asilo.md"
+  ]
+ ]
+}

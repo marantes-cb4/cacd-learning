@@ -1,0 +1,165 @@
+{
+ "chave": "ec1-2-oferta-do-produtor",
+ "materia": "Economia",
+ "item": "1.2",
+ "status": "completo",
+ "titulo": "Item 1.2 · Oferta do produtor",
+ "descricao": "Custos, função de produção, escala eficiente, isoquantas e elasticidade da oferta.",
+ "notas": [
+  "Micro - Teoria da Firma.md",
+  "Micro - Elasticidade.md",
+  "Micro - Intro Oferta e Demanda.md"
+ ],
+ "palavras": [
+  [
+   "LUCRO",
+   "Receita total menos custo total.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "RECEITA",
+   "___ total: preço vezes quantidade produzida.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "EXPLICITO",
+   "Custo ___: exige desembolso de dinheiro (salários, aluguel).",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "IMPLICITO",
+   "Custo ___: não exige desembolso, mas é custo de oportunidade (tempo do dono, capital próprio).",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "CONTABIL",
+   "Lucro ___: só considera custos explícitos e é sempre maior que o econômico.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "ECONOMICO",
+   "Lucro ___: considera custos explícitos e implícitos e é menor que o contábil.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "PRODUCAO",
+   "___: relação entre a quantidade de insumos usada e a produzida.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "MARGINAL",
+   "Produto ___ decrescente: cada trabalhador adicional contribui menos que o anterior.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "FIXO",
+   "Custo ___: não varia com a quantidade produzida.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "VARIAVEL",
+   "Custo ___: cresce com a quantidade produzida.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "ESCALA",
+   "Ponto mínimo do CTMe: ___ eficiente da empresa.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "ECONOMIAS",
+   "___ de escala: o CTMe de longo prazo é decrescente com a expansão.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "DESECONOMIAS",
+   "___ de escala: o CTMe de longo prazo é crescente (burocracia, coordenação).",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "ISOQUANTA",
+   "Curva de combinações de insumos que geram a mesma produção (análoga à curva de indiferença).",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "ISOCUSTO",
+   "Linha reta que mostra combinações de insumos com o mesmo custo.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "TANGENTE",
+   "O ponto ótimo de produção ocorre onde a isoquanta é ___ ao isocusto de menor nível.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "CMG",
+   "Custo marginal, que sempre cruza o CTMe no ponto mínimo deste.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "MINIMO",
+   "Quando CMg = CTMe, o CTMe está no ponto ___.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "CURTO",
+   "No ___ prazo, os custos fixos são constantes.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "LONGO",
+   "No ___ prazo, até os custos fixos podem mudar (ex.: nova fábrica).",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "CFME",
+   "Custo fixo médio: sempre decrescente, pois o fixo se dilui em mais unidades.",
+   "Micro - Teoria da Firma.md"
+  ],
+  [
+   "INSUMOS",
+   "Preço de ___: determinante da oferta; quanto maior, menor a quantidade ofertada.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "TECNOLOGIA",
+   "Determinante da oferta que aumenta a produtividade e a quantidade ofertada.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "ASCENDENTE",
+   "A curva de oferta é ___: maior preço, maior quantidade.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "ELASTICIDADE",
+   "Medida da reação da quantidade ofertada ou demandada às mudanças dos determinantes.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "ESPECIFICIDADE",
+   "Quanto menos ___ os fatores de produção, mais elástica é a oferta.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "PRAZO",
+   "Elasticidade da oferta maior quando o horizonte de análise (___) é maior.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "PAGAR",
+   "Quem tem curva mais inelástica ___ maior parte do imposto.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "CAPACIDADE",
+   "Pontos dentro da fronteira de possibilidades de produção indicam ___ ociosa.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "OFERTANTE",
+   "Quem coloca bens e serviços à venda no mercado.",
+   "Micro - Intro Oferta e Demanda.md"
+  ]
+ ]
+}

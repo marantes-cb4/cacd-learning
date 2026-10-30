@@ -1,0 +1,171 @@
+{
+ "chave": "ec2-6-politica-monetaria",
+ "materia": "Economia",
+ "item": "2.6",
+ "status": "parcial",
+ "titulo": "Item 2.6 · Política monetária (parcial)",
+ "descricao": "Instrumentos do BC, metas de juros, limite inferior zero, política não convencional, Taylor e metas de inflação.",
+ "notas": [
+  "Macro - Sistema Monetário.md",
+  "Macro - Modelo IS-LM (Keynesiano Generalizado).md",
+  "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md",
+  "Macro - Curva de Phillips - Parte 2.md"
+ ],
+ "palavras": [
+  [
+   "MERCADO",
+   "Operações de ___ aberto: o BC compra ou vende títulos e altera a oferta de moeda.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "REDESCONTO",
+   "Operação em que o BC empresta liquidez aos bancos comprando títulos com deságio.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "DESAGIO",
+   "No redesconto, o BC paga menos que o valor de face: a diferença é a taxa de redesconto, por ___.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "COMPULSORIO",
+   "Aumentar a alíquota do recolhimento ___ reduz o multiplicador e contrai M1.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "SELIC",
+   "Sistema em que o BC faz suas operações de mercado aberto; dá nome à taxa básica de juros.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "COMPRA",
+   "Quando o BC ___ títulos, expande a base monetária e o M1.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "VENDA",
+   "Quando o BC faz a ___ de títulos, recolhe dinheiro e contrai M1.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "EXPANSIONISTA",
+   "Política monetária ___: aumentar a oferta de moeda ou reduzir a taxa de juros.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "CONTRACIONISTA",
+   "Política monetária ___: elevar os juros ou reduzir a oferta de moeda.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "AGREGADOS",
+   "Antigas metas para ___ monetários foram substituídas por metas de juros, mais controláveis.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "SECUNDARIO",
+   "Mercado ___: onde bancos negociam títulos e onde o BC atua.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "INCLINACAO",
+   "A demanda agregada tem ___ negativa por causa dos efeitos riqueza, juros e câmbio.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "ZERO",
+   "Limite inferior ___ (‘lower bound’): os juros nominais não podem ser negativos.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "ARMADILHA",
+   "Com juros próximos de zero, há ___ de liquidez e a política convencional deixa de ser eficaz.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "SINALIZACAO",
+   "Forward guidance: ___ de juros futuros para elevar as expectativas e reduzir a incerteza.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "FLEXIBILIZACAO",
+   "___ quantitativa (QE): compra de títulos, inclusive privados, para reduzir spreads.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "TWIST",
+   "Operation ___ (Fed, 2011): vende títulos curtos e compra longos para reduzir os juros de longo prazo.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "CREDITO",
+   "Política de ___: o BC empresta diretamente a agentes, inclusive não bancários.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ],
+  [
+   "TAYLOR",
+   "Regra de ___: define os juros de curto prazo para fechar os hiatos de inflação e de produto.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "METAS",
+   "Regime de ___ de inflação, com a regra de Taylor, é a política monetária do novo consenso.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "AUTONOMIA",
+   "Na regra de Taylor, o BC deve ter ___ para conduzir os juros.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "CREDIBILIDADE",
+   "Quanto maior a ___ do BC, menor o custo da desinflação.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "HIATO",
+   "Diferença entre a inflação observada e a meta, ou entre o PIB e o de pleno emprego.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "MACROPRUDENCIAL",
+   "Regulação ___: limites à atuação dos bancos, tema de Blanchard após a crise de 2008.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "BASILEIA",
+   "___ 3 (2010): trata da regulação macroprudencial.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "BLANCHARD",
+   "Olivier ___: economista-chefe do FMI, autor de Rethinking Macroeconomic Policy.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "NEUTRA",
+   "No longo prazo a moeda é ___, segundo o novo consenso.",
+   "Macro - Curva de Phillips - Parte 2.md"
+  ],
+  [
+   "DEFASAGEM",
+   "A política monetária afeta a economia com grande ___ (bancos e agentes demoram a reagir).",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "QUANTITATIVA",
+   "Equação ___: MV = PY, base da neutralidade monetária clássica.",
+   "Macro - Sistema Monetário.md"
+  ],
+  [
+   "OFERTA",
+   "Maior ___ de moeda, menor taxa de juros e maior quantidade demandada.",
+   "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+  ],
+  [
+   "DEBENTURES",
+   "Exemplo de título privado que o BC compraria no QE brasileiro.",
+   "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+  ]
+ ]
+}

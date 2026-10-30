@@ -1,0 +1,203 @@
+{
+ "chave": "ec3-2-macroeconomia-aberta",
+ "materia": "Economia",
+ "item": "3.2",
+ "status": "completo",
+ "titulo": "Item 3.2 · Macroeconomia aberta",
+ "descricao": "Fluxos de bens e capitais, câmbio nominal e real, PPC, paridade de juros e regimes cambiais.",
+ "notas": [
+  "Macro - Conceitos Básicos de Economias Abertas.md"
+ ],
+ "palavras": [
+  [
+   "ABERTURA",
+   "Grau de ___: (exportações + importações) / PIB.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "EXPORTACOES",
+   "Bens produzidos internamente e vendidos no exterior.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "IMPORTACOES",
+   "Bens produzidos no exterior e vendidos internamente.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "SUPERAVIT",
+   "___ comercial: exportações maiores que importações.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "DEFICIT",
+   "___ comercial: importações maiores que exportações.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "IEL",
+   "Investimento externo líquido: compra de ativos estrangeiros por residentes menos compra de ativos internos por estrangeiros.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "IDENTIDADE",
+   "IEL = EL é uma ___ contábil.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "NOMINAL",
+   "Taxa de câmbio ___: taxa à qual uma moeda é trocada por outra.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "REAL",
+   "Taxa de câmbio ___: taxa à qual se trocam bens e serviços de um país pelos de outro.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "APRECIACAO",
+   "Aumento do valor de uma moeda, no câmbio flexível.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "DEPRECIACAO",
+   "Redução do valor de uma moeda, no câmbio flexível.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "VALORIZACAO",
+   "Termo do câmbio fixo equivalente à apreciação do câmbio flexível.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "PPC",
+   "Paridade do poder de compra: uma unidade de qualquer moeda compra a mesma quantidade de bens em todos os países.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "UNICO",
+   "Lei do preço ___: um bem deve ser vendido pelo mesmo preço em toda localidade.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "ARBITRAGEM",
+   "Tirar vantagem das diferenças de preço de um mesmo produto em mercados diferentes.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "COMMODITIES",
+   "A PPC se aplica melhor a ___ internacionais, como o petróleo.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "INFLACAO",
+   "Variação da taxa de câmbio nominal = ___ doméstica menos externa.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "DOLAR",
+   "Moeda em que as exportações elevam a oferta e as importações elevam a demanda.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "CARTEIRA",
+   "Fluxos de capital de curto prazo, como investimentos de ___, definem a taxa nominal no curto prazo.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "BOLSA",
+   "Queda da ___ eleva o dólar: estrangeiros vendem ações e compram dólares.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "DESCOBERTA",
+   "Paridade de juros ___: i = i*.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "COBERTA",
+   "Paridade de juros ___: i = i* + expectativa de depreciação + prêmio de risco.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "PREMIO",
+   "___ de risco: medo de calote na paridade de juros coberta.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "FIXO",
+   "Regime cambial determinado pelo governo, que não muda muito.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "FLEXIVEL",
+   "Regime cambial determinado diariamente pelo mercado.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "SUJA",
+   "Flutuação ___: o mercado define, mas o governo intervém se houver muita variação.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "BANDAS",
+   "Regime com limites mínimo e máximo para a moeda estrangeira.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "CRAWLING",
+   "___ peg: ajuste do câmbio nominal para manter a competitividade da balança comercial.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "CURRENCY",
+   "___ board: câmbio fixo previsto em lei doméstica.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "DOLARIZACAO",
+   "A economia doméstica passa a usar o dólar internamente.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "UNIAO",
+   "___ monetária: vários países adotam a mesma moeda.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "CESTA",
+   "Regime fixo em relação a uma ___ de moedas de outros países.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "POUPANCA",
+   "Renda nacional que sobra após o consumo e o gasto do governo: S = I + IEL.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "CAMBIO",
+   "Taxa de ___ à qual as pessoas usam a moeda interna para comprar moeda estrangeira.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "TRANSPORTE",
+   "Custo de ___ dos bens entre países: fator que influencia as exportações líquidas.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "JUROS",
+   "Taxas de ___ reais sobre ativos influenciam o investimento externo líquido.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "ENTRADA",
+   "Se i > i* + Ê + PR há ___ de capitais e apreciação cambial.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ],
+  [
+   "PRECOS",
+   "Lei do preço único: E × P* = P; P* é o índice de ___ estrangeiros.",
+   "Macro - Conceitos Básicos de Economias Abertas.md"
+  ]
+ ]
+}
