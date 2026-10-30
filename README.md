@@ -4,9 +4,56 @@ Personal learning workspace. Private and independent.
 
 ## Mapas mentais
 
-- [Direito Interno — abrir o mapa mental interativo](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/mapas%20mentais/direito-interno.html)
+- [Direito Interno — mapa mental interativo](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/mapas%20mentais/direito-interno.html)
 
-## Palavras cruzadas de Direito Interno
+## Palavras cruzadas
+
+Uma palavra cruzada por item do edital já completo, nos dois formatos (jogar no navegador e imprimir em A4 com gabarito). Dicas só das anotações de aula e do material do professor.
+
+- [Abrir a lista completa](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/index.html)
+
+### Direito Interno
+
+| Item | Palavras | Jogar | Imprimir |
+|---|---|---|---|
+| Item 2 · Personalidade jurídica | 21 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-02-personalidade-juridica.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-02-personalidade-juridica-impressao.html) |
+| Item 3 · Constituição, primado e controle de constitucionalidade | 29 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-03-constituicao-e-controle-de-constitucionalidade.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-03-constituicao-e-controle-de-constitucionalidade-impressao.html) |
+| Item 5 · Estado democrático de direito e divisão de poderes | 22 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-05-estado-democratico-de-direito-e-divisao-de-poderes.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-05-estado-democratico-de-direito-e-divisao-de-poderes-impressao.html) |
+| Item 6 · Organização e competências dos Poderes | 24 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-06-organizacao-e-competencias-dos-poderes.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-06-organizacao-e-competencias-dos-poderes-impressao.html) |
+| Item 7 · Processo legislativo brasileiro | 24 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-07-processo-legislativo-brasileiro.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-07-processo-legislativo-brasileiro-impressao.html) |
+| Item 11 · Responsabilidade civil do Estado | 24 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-11-responsabilidade-civil-do-estado.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-11-responsabilidade-civil-do-estado-impressao.html) |
+| Item 12 · Servidor público, improbidade e regime disciplinar | 22 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-12-servidor-publico-improbidade-e-pad.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-12-servidor-publico-improbidade-e-pad-impressao.html) |
+| Item 13 · Servidores do Serviço Exterior Brasileiro (Lei 11.440/2006) | 23 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-13-servidores-do-servico-exterior-brasileiro.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-13-servidores-do-servico-exterior-brasileiro-impressao.html) |
+| Item 14 · Finanças públicas e normas orçamentárias | 24 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-14-financas-publicas-e-normas-orcamentarias.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-interno/item-14-financas-publicas-e-normas-orcamentarias-impressao.html) |
+
+### Direito Internacional
+
+| Item | Palavras | Jogar | Imprimir |
+|---|---|---|---|
+| Item 16 · Princípios das relações internacionais | 23 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-16-principios-das-relacoes-internacionais.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-16-principios-das-relacoes-internacionais-impressao.html) |
+| Item 17 · DIP e direito internacional privado (LINDB) | 23 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-17-dip-e-direito-internacional-privado.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-17-dip-e-direito-internacional-privado-impressao.html) |
+| Item 19 · Território e formação do território brasileiro | 26 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-19-territorio-e-formacao-do-brasil.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-19-territorio-e-formacao-do-brasil-impressao.html) |
+| Item 22 · Sujeitos especiais do Direito Internacional | 25 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-22-sujeitos-especiais-do-dip.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-22-sujeitos-especiais-do-dip-impressao.html) |
+| Item 23 · Fontes do DIP | 24 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-23-fontes-do-dip.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-23-fontes-do-dip-impressao.html) |
+| Item 26 · Direito da integração regional: Mercosul | 28 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-26-mercosul-solucao-de-controversias.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-26-mercosul-solucao-de-controversias-impressao.html) |
+| Item 29 · Conflitos armados, DIH e refúgio | 28 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-29-conflitos-armados-dih-e-refugio.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-29-conflitos-armados-dih-e-refugio-impressao.html) |
+| Item 30 · Direito penal internacional e TPI | 27 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-30-direito-penal-internacional-e-tpi.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/direito-internacional/item-30-direito-penal-internacional-e-tpi-impressao.html) |
+
+### Economia
+
+| Item | Palavras | Jogar | Imprimir |
+|---|---|---|---|
+| Item 1.1 · Demanda do consumidor | 25 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-1-1-demanda-do-consumidor.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-1-1-demanda-do-consumidor-impressao.html) |
+| Item 1.2 · Oferta do produtor | 25 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-1-2-oferta-do-produtor.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-1-2-oferta-do-produtor-impressao.html) |
+| Item 1.3 · Tipos de mercados e de bens | 23 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-1-3-tipos-de-mercados-e-de-bens.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-1-3-tipos-de-mercados-e-de-bens-impressao.html) |
+| Item 2.1 · Contabilidade nacional | 31 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-2-1-contabilidade-nacional.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-2-1-contabilidade-nacional-impressao.html) |
+| Item 2.2 · Contas externas | 27 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-2-2-contas-externas.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-2-2-contas-externas-impressao.html) |
+| Item 2.4 · O modelo IS-LM-BP | 27 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-2-4-modelo-is-lm-bp.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-2-4-modelo-is-lm-bp-impressao.html) |
+| Item 2.7 · Crescimento e desenvolvimento econômico | 26 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-2-7-crescimento-e-desenvolvimento-economico.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-2-7-crescimento-e-desenvolvimento-economico-impressao.html) |
+| Item 3.2 · Macroeconomia aberta | 28 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-3-2-macroeconomia-aberta.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-3-2-macroeconomia-aberta-impressao.html) |
+| Item 3.3 · Instrumentos de política comercial | 24 | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-3-3-politica-comercial-tarifas-quotas-e-subsidios.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/economia/item-3-3-politica-comercial-tarifas-quotas-e-subsidios-impressao.html) |
+
+### Por tópico de Direito Interno (versões agrupadas)
 
 | Tópico | Jogar | Imprimir |
 |---|---|---|
@@ -16,5 +63,3 @@ Personal learning workspace. Private and independent.
 | Administração Pública e responsabilidade do Estado | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/palavras-cruzadas-administracao-publica.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/palavras-cruzadas-administracao-publica-impressao.html) |
 | Licitações e contratos | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/palavras-cruzadas-licitacoes.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/palavras-cruzadas-licitacoes-impressao.html) |
 | Servidores públicos e Serviço Exterior | [jogar](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/palavras-cruzadas-servidores-e-seb.html) | [imprimir](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/palavras-cruzadas-servidores-e-seb-impressao.html) |
-
-Todas as palavras cruzadas, uma por item do edital já completo (Direito Interno, Direito Internacional e Economia): [abrir a lista](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/jogos/index.html)
