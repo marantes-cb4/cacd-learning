@@ -77,8 +77,8 @@
 | 3.1 | Teorias de Comércio | 🟡 Parcial | Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md, Macro - Modelos de Crescimento.md | Só menção breve ao pensamento cepalino; faltam teorias clássicas/neoclássicas, comércio intrafirma/intrassetorial, economias de escala e deterioração dos termos de troca |
 | 3.2 | Macroeconomia aberta | ✅ Completo | Macro - Conceitos Básicos de Economias Abertas.md | Cobre fluxos internacionais de bens/capitais/serviços, regimes de câmbio, taxa de câmbio nominal e real, determinantes da política cambial (PPC, paridade de juros), relação poupança externa-crescimento (S=I+IEL) e relação câmbio-juros-inflação |
 | 3.3 | Efeitos de tarifas, quotas, subsídios e outros instrumentos de política comercial | ✅ Completo | Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md | — |
-| 4.1 | Economia brasileira no século XIX (economia cafeeira) | | | Sem anotação de aula ainda |
-| 4.2 | Primeira República | | | Sem anotação de aula ainda |
+| 4.1 | Economia brasileira no século XIX (economia cafeeira) | 🟡 Parcial | Economia Agroexportadora.md | Furtado: economia de trabalho assalariado (multiplicador, coeficiente de importações, desequilíbrio externo, padrão-ouro, defesa do nível de renda e socialização das perdas); faltam o ciclo cafeeiro em si, a abolição e a transição do escravismo em outras dimensões |
+| 4.2 | Primeira República | 🟡 Parcial | Economia Agroexportadora.md | Primeira década republicana (1889–1899): papelistas x metalistas, reformas monetárias, crise cambial de 1891, funding scheme e papel dos capitais externos; faltam as décadas seguintes (valorização do café, Convênio de Taubaté etc., se cobradas pelo edital) |
 | 4.3 | Industrialização 1930–1945 (ISI) | | | Sem anotação de aula ainda |
 | 4.4 | Década de 1950 (SALTE, Plano de Metas) | | | Sem anotação de aula ainda |
 | 4.5 | Período 1962–1967 (PAEG) | | | Sem anotação de aula ainda |
