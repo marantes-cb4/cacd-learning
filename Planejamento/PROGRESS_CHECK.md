@@ -53,7 +53,7 @@
 | 30 | Direito penal internacional. Tribunais internacionais penais. TPI | ✅ Completo | Tribunal Penal Internacional.md, Sujeitos Especiais do DIP.md, Organizações Internacionais.md | Cobre Nuremberg/Tóquio e tribunais ad hoc, natureza e complementaridade do TPI, crimes (arts. 5–8 e Emendas de Kampala), exercício da jurisdição (arts. 12–13, 16), arts. 26, 27, 29, 62–63, 77 e 110 |
 | 31 | Direito do comércio internacional. OMC. Acordos. Órgão de Solução de Controvérsias | 🟡 Parcial | Direito do Comércio Internacional e OMC.md | GATT/47 (NMF, tratamento nacional, exceções, art. 20), sucessão normativa GATT-OMC, estrutura da OMC e o sistema de solução de controvérsias (4 etapas, consenso negativo, Órgão de Apelação, implementação e retaliações) cobertos; faltam os acordos da OMC (ex.: TRIPS, GATS, SPS/TBT, subsídios, antidumping) e jurisprudência |
 | 32 | Direito Internacional do Meio Ambiente. Direito Internacional do Mar. TIDM | 🟡 Parcial | Direito Internacional do Mar.md, Tribunal Internacional do Mar.md | Direito do Mar e TIDM cobertos (espaços marítimos, passagem inocente, CLPC, AIFM, acordos complementares/BBNJ, sistema de solução de controvérsias da CNUDM, Câmara de Controvérsias dos Fundos Marinhos); falta Direito Internacional do Meio Ambiente |
-| 33 | Direito internacional do trabalho. OIT | | | Sem anotação de aula ainda |
+| 33 | Direito internacional do trabalho. OIT | ✅ Completo | Direito Internacional do Trabalho - OIT.md | Cobre enquadramento (agência especializada x órgão da ONU), histórico (Versalhes/Liga das Nações, 1946), fragmentação do DIP, os 3 órgãos permanentes (composição tripartite), convenções x recomendações (quórum, prazos, ratificação obrigatória, status supralegal, deveres procedimentais) e reclamação x queixa |
 | 34 | Áreas além dos limites da jurisdição exclusiva dos Estados | | | Sem anotação de aula ainda |
 | 35 | Cooperação Jurídica internacional. Matéria penal e cível | 🟡 Parcial | DIPrivado.md, Condição Jurídica do Estrangeiro.md, Extradição e Cooperação Penal.md | Matéria penal coberta (extradição, transferência de execução de pena e de pessoa condenada); falta cooperação em matéria cível (carta rogatória, auxílio direto, MLATs) |
 
@@ -95,5 +95,5 @@
 | Matéria | Completo | Parcial | Em branco | Total de itens |
 |---------|----------|---------|-----------|-----------------|
 | Direito Interno | 6 | 6 | 2 | 14 |
-| Direito Internacional | 8 | 9 | 4 | 21 |
+| Direito Internacional | 9 | 9 | 3 | 21 |
 | Economia | 9 | 5 | 9 | 23 |
