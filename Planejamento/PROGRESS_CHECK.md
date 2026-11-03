@@ -77,9 +77,9 @@
 | 3.1 | Teorias de Comércio | 🟡 Parcial | Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md, Macro - Modelos de Crescimento.md | Só menção breve ao pensamento cepalino; faltam teorias clássicas/neoclássicas, comércio intrafirma/intrassetorial, economias de escala e deterioração dos termos de troca |
 | 3.2 | Macroeconomia aberta | ✅ Completo | Macro - Conceitos Básicos de Economias Abertas.md | Cobre fluxos internacionais de bens/capitais/serviços, regimes de câmbio, taxa de câmbio nominal e real, determinantes da política cambial (PPC, paridade de juros), relação poupança externa-crescimento (S=I+IEL) e relação câmbio-juros-inflação |
 | 3.3 | Efeitos de tarifas, quotas, subsídios e outros instrumentos de política comercial | ✅ Completo | Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md | — |
-| 4.1 | Economia brasileira no século XIX (economia cafeeira) | 🟡 Parcial | Economia Agroexportadora.md | Furtado: economia de trabalho assalariado (multiplicador, coeficiente de importações, desequilíbrio externo, padrão-ouro, defesa do nível de renda e socialização das perdas); faltam o ciclo cafeeiro em si, a abolição e a transição do escravismo em outras dimensões |
-| 4.2 | Primeira República | 🟡 Parcial | Economia Agroexportadora.md | Primeira década republicana (1889–1899): papelistas x metalistas, reformas monetárias, crise cambial de 1891, funding scheme e papel dos capitais externos; faltam as décadas seguintes (valorização do café, Convênio de Taubaté etc., se cobradas pelo edital) |
-| 4.3 | Industrialização 1930–1945 (ISI) | | | Sem anotação de aula ainda |
+| 4.1 | Economia brasileira no século XIX (economia cafeeira) | 🟡 Parcial | Economia Agroexportadora.md, Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md | Furtado: economia de trabalho assalariado (multiplicador, coeficiente de importações, desequilíbrio externo, padrão-ouro, defesa do nível de renda e socialização das perdas); a nota de crise cobre o auge cafeeiro do fim do século XIX (Encilhamento, imigração, controle da oferta, desvalorização como defesa da renda); faltam a abolição e a transição do escravismo em outras dimensões |
+| 4.2 | Primeira República | ✅ Completo | Economia Agroexportadora.md, Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md | Primeira década republicana (1889–1899: papelistas x metalistas, reformas monetárias, crise cambial de 1891, funding scheme, capitais externos) e a política de defesa do café até 1930 (Convênio de Taubaté, valorizações, Instituto Paulista, conversibilidade, Grande Depressão e estoques) |
+| 4.3 | Industrialização 1930–1945 (ISI) | 🟡 Parcial | Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md | Cobre o deslocamento do centro dinâmico (política keynesiana de defesa da renda, restrição da capacidade de importar, recuperação industrial até 1933, bens de capital); faltam a ISI em si, o papel do Estado e a Segunda Guerra |
 | 4.4 | Década de 1950 (SALTE, Plano de Metas) | | | Sem anotação de aula ainda |
 | 4.5 | Período 1962–1967 (PAEG) | | | Sem anotação de aula ainda |
 | 4.6 | Retomada 1968–1973 (Milagre, I PND) | | | Sem anotação de aula ainda |
@@ -96,4 +96,4 @@
 |---------|----------|---------|-----------|-----------------|
 | Direito Interno | 6 | 6 | 2 | 14 |
 | Direito Internacional | 8 | 9 | 4 | 21 |
-| Economia | 8 | 5 | 10 | 23 |
+| Economia | 9 | 5 | 9 | 23 |
