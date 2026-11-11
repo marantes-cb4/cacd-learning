@@ -2,12 +2,13 @@
  "chave": "di10-licitacoes-e-contratos-administrativos",
  "materia": "Direito Interno",
  "item": "10",
- "status": "parcial",
- "titulo": "Item 10 · Licitações e contratos (parcial)",
- "descricao": "Lei 14.133/2021: princípios, modalidades, fases, inexigibilidade e dispensa.",
+ "status": "completo",
+ "titulo": "Item 10 · Licitações e contratos",
+ "descricao": "Lei 14.133/2021: princípios, modalidades, fases, inexigibilidade e dispensa, incluindo os contratos administrativos (cláusulas exorbitantes, alterações, matriz de risco, extinção e sanções).",
  "notas": [
   "Licitações e Contratos Administrativos.md",
-  "Licitações e Contratos Administrativos - Parte 2.md"
+  "Licitações e Contratos Administrativos - Parte 2.md",
+  "Contratos Administrativos.md"
  ],
  "palavras": [
   [
@@ -239,6 +240,101 @@
    "PRECO",
    "Art. 72, VII: justificativa de ___.",
    "Licitações e Contratos Administrativos.md"
+  ],
+  [
+   "EXORBITANTES",
+   "Cláusulas ___: prerrogativas do art. 104 que só a Administração pode exercer.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "COMUTATIVIDADE",
+   "Característica de proteção dos interesses de ambas as partes durante toda a execução.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "PERSONALISSIMO",
+   "Contrato que o licitante vencedor deve executar, sem cedê-lo a terceiro (intuitu personae).",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "INSTABILIDADE",
+   "Característica que permite à Administração alterar ou extinguir o contrato por decisão motivada.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "FORO",
+   "Cláusula necessária cuja regra geral é a sede da Administração, inclusive para contratado no exterior.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "VERBAL",
+   "Forma excepcional admitida em compras de pequeno valor e serviços de pronto pagamento.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "MATRIZ",
+   "___ de risco: aloca responsabilidades e, quando prevista, implica renúncia ao reequilíbrio.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "REEQUILIBRIO",
+   "Restabelecimento do equilíbrio econômico-financeiro, direito do contratado que exige acordo.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "PRINCIPE",
+   "Fato do ___: tributo criado após a assinatura do contrato, que exige reequilíbrio.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "SUBSIDIARIA",
+   "Responsabilidade pelos encargos trabalhistas, se comprovada falha na fiscalização.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "DEDICACAO",
+   "Serviço contínuo com regime de ___ exclusiva de mão de obra (terceirização).",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "ARBITRAGEM",
+   "Meio alternativo que depende de cláusula compromissória para extinguir contrato.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "MEDIACAO",
+   "Meio alternativo de resolução de controvérsias, ao lado da conciliação e do comitê de disputas.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "ADVERTENCIA",
+   "A mais branda das quatro sanções administrativas da Lei 14.133/2021.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "IMPEDIMENTO",
+   "Sanção que vale só no ente federado que a aplicou, por até 3 anos.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "INIDONEIDADE",
+   "Sanção mais grave, válida em todos os entes, de 3 a 6 anos.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "REPARACAO",
+   "Integral do dano, que a aplicação de sanção não exclui.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "OCUPACAO",
+   "Provisória de bens e pessoal, uma das cláusulas exorbitantes do art. 104.",
+   "Contratos Administrativos.md"
+  ],
+  [
+   "COMPROMISSORIA",
+   "Cláusula necessária para arbitragem como meio de extinguir o contrato.",
+   "Contratos Administrativos.md"
   ]
  ]
 }
