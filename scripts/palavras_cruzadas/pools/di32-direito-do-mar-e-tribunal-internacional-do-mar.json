@@ -2,10 +2,11 @@
  "chave": "di32-direito-do-mar-e-tribunal-internacional-do-mar",
  "materia": "Direito Internacional",
  "item": "32",
- "status": "parcial",
- "titulo": "Item 32 · Direito Internacional do Mar e TIDM (parcial)",
- "descricao": "Espaços marítimos da CNUDM, passagem inocente, CLPC, AIFM, BBNJ e solução de controvérsias.",
+ "status": "completo",
+ "titulo": "Item 32 · Meio Ambiente, Direito do Mar e TIDM",
+ "descricao": "Direito Internacional do Meio Ambiente (soft law, tratados-quadro e guarda-chuva, injustiça ambiental) e Direito do Mar: espaços marítimos, passagem inocente, CLPC, AIFM, BBNJ e solução de controvérsias.",
  "notas": [
+  "Direito Internacional do Meio Ambiente.md",
   "Direito Internacional do Mar.md",
   "Tribunal Internacional do Mar.md"
  ],
@@ -189,6 +190,96 @@
    "CONTRATO",
    "Pessoas físicas e empresas só acionam a Câmara em controvérsias de ___ sobre a Área.",
    "Tribunal Internacional do Mar.md"
+  ],
+  [
+   "TRAIL",
+   "Fundição ___ (1941): arbitragem EUA x Canadá, considerada a primeira manifestação solene do DIP ambiental",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "ESTOCOLMO",
+   "Conferência de 1972 que deu amplitude global ao tema e abriu o período da soft law",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "SOFTLAW",
+   "Norma internacional não vinculante, de que a Agenda 21 é exemplo; sua violação não gera ilícito",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "AGENDA",
+   "Plano de ação adotado na ECO-92 e citado como exemplo de soft law (Agenda ___)",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "QUADRO",
+   "Tipo de convenção, como a do Clima de 1992, que prevê COP e tratados regulamentadores com as mesmas partes",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "GUARDACHUVA",
+   "Tipo de tratado, como a CNUDM, sem COP e cujos anexos nem sempre vinculam todos os Estados-partes",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "COP",
+   "Sigla do órgão com representantes de todos os Estados-partes da convenção-quadro",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "FRACIONADO",
+   "Enfoque negocial que adia os pontos polêmicos para tratado posterior",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "QUIOTO",
+   "Protocolo de 1997 que fixou as metas de redução de emissões da Convenção-Quadro do Clima",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "PRECAUCAO",
+   "Princípio aplicado quando há dúvida científica sobre o dano ambiental",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "PREVENCAO",
+   "Princípio aplicado quando há certeza científica do dano ambiental",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "NEOCOLONIALISMO",
+   "Forma de injustiça ambiental no plano interestatal, em que indústrias poluentes migram para Estados não desenvolvidos",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "RACISMO",
+   "Forma de injustiça ambiental de dimensão social, que atinge os vulneráveis além de aspectos fenotípicos",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "ONGS",
+   "Atores não estatais que atuam como observadoras e grupos de pressão, sem personalidade internacional",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "INTERGERACIONAL",
+   "Qualificação do direito humano ao meio ambiente, que protege presentes e futuras gerações",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "FRATERNIDADE",
+   "Lema da 3ª geração de direitos humanos, à qual pertence o meio ambiente equilibrado",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "BERNADOTTE",
+   "Caso de 1949 em que a CIJ reconheceu a personalidade jurídica das organizações internacionais",
+   "Direito Internacional do Meio Ambiente.md"
+  ],
+  [
+   "TRANSFRONTEIRICO",
+   "Tipo de dano que, segundo o princípio geral reconhecido em 1941, nenhum Estado pode causar a outro",
+   "Direito Internacional do Meio Ambiente.md"
   ]
  ]
 }
