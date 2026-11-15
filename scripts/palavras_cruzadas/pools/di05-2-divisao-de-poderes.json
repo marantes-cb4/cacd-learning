@@ -1,0 +1,185 @@
+{
+ "chave": "di05-2-divisao-de-poderes",
+ "materia": "Direito Interno",
+ "item": "5.2",
+ "status": "completo",
+ "titulo": "Divisão de poderes",
+ "descricao": "Separação dos Poderes, funções típicas e atípicas, decretos e responsabilização do Presidente.",
+ "notas": [
+  "Organização dos Poderes - Executivo.md",
+  "Organização dos Poderes - Legislativo.md",
+  "Poder Judiciário.md"
+ ],
+ "palavras": [
+  [
+   "SEPARACAO",
+   "Art. 2º: ___ dos Poderes, cláusula pétrea.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "FREIOS",
+   "Mecanismo de ___ e contrapesos: controle recíproco entre os Poderes.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "TIPICAS",
+   "Funções ___ de cada Poder: as desempenhadas de modo preponderante.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "ATIPICAS",
+   "Funções ___: as desempenhadas de modo secundário, sem preponderância.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "ADMINISTRATIVA",
+   "Função típica do Poder Executivo.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "UNIPESSOAL",
+   "O Poder Executivo é ___: os ministros auxiliam, mas não dividem a chefia.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "PRESIDENCIALISMO",
+   "Sistema de governo que concentra no Presidente as funções de Chefe de Estado e de Governo.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "INDULTO",
+   "Competência delegável do Presidente (art. 84, XII), junto com a comutação de penas.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "AUTONOMO",
+   "Decreto ___ do art. 84, VI: ato normativo primário.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "REGULAMENTAR",
+   "Decreto que garante a fiel execução da lei e pode ser sustado pelo CN (art. 49, V).",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "VACANCIA",
+   "Obstáculo definitivo ao exercício do mandato, que gera sucessão.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "IMPEDIMENTO",
+   "Obstáculo temporário ao exercício do mandato, que gera substituição.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "IMPEACHMENT",
+   "Julgamento do Presidente pelo Senado nos crimes de responsabilidade.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "PRISAO",
+   "Art. 86, §3º: sem sentença condenatória, o Presidente não está sujeito a ___.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "TAMPAO",
+   "Mandato-___: o eleito completa o período do antecessor (art. 81, §2º).",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "LEGISLATIVA",
+   "Função atípica do Executivo: medidas provisórias e leis delegadas.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "JURISDICIONAL",
+   "Função atípica do Executivo: julgar recursos administrativos, como o recurso contra decisão do CONARE.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "FISCALIZATORIA",
+   "Função típica do Legislativo, ao lado de legislar: a ___ (CPIs e Tribunais de Contas).",
+   "Organização dos Poderes - Legislativo.md"
+  ],
+  [
+   "REGIMENTO",
+   "Função atípica legislativa do Judiciário: elaborar o próprio ___ interno.",
+   "Poder Judiciário.md"
+  ],
+  [
+   "RESERVA",
+   "Atos sob ___ de jurisdição: só o Judiciário pode determinar (busca domiciliar e interceptação telefônica).",
+   "Poder Judiciário.md"
+  ],
+  [
+   "SOBERANIA",
+   "Chefe de Estado: o Presidente exerce a ___ no plano internacional.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "AUTONOMIA",
+   "Chefe de Governo: o Presidente exerce a ___ no plano nacional.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "MINISTROS",
+   "Auxiliam o Presidente, mas não compartilham a chefia do Executivo.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "DECRETO",
+   "Regulamentar ou autônomo: duas espécies de ___ presidencial.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "SECUNDARIO",
+   "Decreto regulamentar: ato normativo ___, com fundamento na lei.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "PRIMARIO",
+   "Decreto autônomo: ato normativo ___, com fundamento na CF.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "SUSTAR",
+   "Art. 49, V: o Congresso pode ___ o decreto que exorbite o poder regulamentar.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "DELEGAVEIS",
+   "Competências privativas ___ do Presidente: só três (decreto autônomo, indulto e prover cargos).",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "PROVER",
+   "Art. 84, XXV, 1ª parte: ___ cargos públicos, delegável.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "AFASTADO",
+   "O Presidente fica ___ por até 180 dias; passado o prazo, retorna ao cargo.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "SENADO",
+   "Julga o Presidente nos crimes de responsabilidade.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "STF",
+   "Julga o Presidente nas infrações penais comuns.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "BIFASICO",
+   "Processo ___: exige autorização de 2/3 da Câmara e julgamento no STF ou no Senado.",
+   "Organização dos Poderes - Executivo.md"
+  ],
+  [
+   "CRIMES",
+   "O Presidente responde por ___ comuns no STF e de responsabilidade no Senado.",
+   "Organização dos Poderes - Executivo.md"
+  ]
+ ]
+}
