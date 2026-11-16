@@ -61,7 +61,10 @@
      "ADPF",
      "ADO"
     ],
-    "fonte": "Controle de Constitucionalidade.md"
+    "fonte": [
+     "Controle de Constitucionalidade.md",
+     "Controle de Constitucionalidade - Parte 4.md"
+    ]
    },
    {
     "tema": "Espécies de inconstitucionalidade",
@@ -81,7 +84,10 @@
      "Subjetivo",
      "Reserva de plenário"
     ],
-    "fonte": "Controle de Constitucionalidade.md"
+    "fonte": [
+     "Controle de Constitucionalidade - Parte 2.md",
+     "Controle de Constitucionalidade - Parte 3.md"
+    ]
    },
    {
     "tema": "Controle abstrato (concentrado)",
@@ -91,7 +97,7 @@
      "Pertinência temática",
      "Indisponíveis"
     ],
-    "fonte": "Controle de Constitucionalidade.md"
+    "fonte": "Controle de Constitucionalidade - Parte 4.md"
    }
   ]
  },
@@ -205,7 +211,10 @@
      "Concurso",
      "Leilão"
     ],
-    "fonte": "Licitações e Contratos Administrativos.md"
+    "fonte": [
+     "Licitações e Contratos Administrativos.md",
+     "Licitações e Contratos Administrativos - Parte 2.md"
+    ]
    },
    {
     "tema": "Contratação direta",
@@ -215,7 +224,7 @@
      "Notória especialização",
      "Emergência"
     ],
-    "fonte": "Licitações e Contratos Administrativos.md"
+    "fonte": "Licitações e Contratos Administrativos - Parte 2.md"
    },
    {
     "tema": "Fases do art. 17",
@@ -321,7 +330,10 @@
      "Inquérito",
      "Relatório"
     ],
-    "fonte": "Processo Administrativo Disciplinar.md"
+    "fonte": [
+     "Direitos, Deveres e Responsabilidades dos Servidores.md",
+     "Processo Administrativo Disciplinar.md"
+    ]
    },
    {
     "tema": "Ampla defesa no PAD",

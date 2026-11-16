@@ -3,7 +3,7 @@
 'use strict';
 const KEY = 'cacd-games-v1';
 const $app = document.getElementById('app'), $toast = document.getElementById('toast');
-let JOGOS = [], CONEXOES = [], GERADO = '';
+let JOGOS = [], CONEXOES = [], QDECKS = [], GERADO = '';
 
 /* ---------- utilidades ---------- */
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -21,7 +21,7 @@ function carrega() {
   if (mem) return mem;
   try { mem = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { mem = null; }
   if (!mem || typeof mem !== 'object') mem = {};
-  mem.cw = mem.cw || {}; mem.cx = mem.cx || {}; mem.dias = mem.dias || {};
+  mem.cw = mem.cw || {}; mem.cx = mem.cx || {}; mem.qd = mem.qd || {}; mem.dias = mem.dias || {};
   return mem;
 }
 function salva() { try { localStorage.setItem(KEY, JSON.stringify(mem)); } catch (e) { } }
@@ -52,6 +52,7 @@ function rota() {
   const h = location.hash.replace(/^#\/?/, '');
   if (h.startsWith('cruzada/')) return jogoTela(h.slice(8));
   if (h.startsWith('conexoes/')) return conexoesTela(h.slice(9));
+  if (h.startsWith('quem/')) return quemTela(h.slice(5));
   if (h === 'stats') return statsTela();
   homeTela();
 }
@@ -92,9 +93,22 @@ function homeTela() {
       h += '</details>';
     });
   }
-  h += '<h2 class="sec">Em breve</h2><div class="soon"><div><b>Quem disse?</b>autor, teoria e artigo</div><div><b>Linha do tempo</b>ordene eventos</div></div></div>' + tabs('home');
+  if (QDECKS.length) {
+    h += '<h2 class="sec">Quem disse?</h2>';
+    [...new Set(QDECKS.map(d => d.materia))].forEach(m => {
+      const ds = QDECKS.filter(d => d.materia === m);
+      h += '<details class="mat" data-m="qd-' + esc(m) + '"' + (aberto.has('qd-' + m) ? ' open' : '') + '><summary>' + esc(m) + ' <span class="cnt">' + ds.length + (ds.length === 1 ? ' baralho' : ' baralhos') + '</span></summary>';
+      ds.forEach(d => {
+        const q = carrega().qd[d.id];
+        h += '<button class="row" data-qd="' + d.id + '"><div class="t"><b>' + esc(d.titulo) + '</b><span>' + d.cartas.length + ' perguntas</span></div>' + (q ? '<span class="tag ' + (q.melhor === d.cartas.length ? 'ok' : 'part') + '">melhor ' + q.melhor + '/' + d.cartas.length + '</span>' : '') + '</button>';
+      });
+      h += '</details>';
+    });
+  }
+  h += '<h2 class="sec">Em breve</h2><div class="soon"><div><b>Linha do tempo</b>ordene eventos</div></div></div>' + tabs('home');
   $app.innerHTML = h;
   $app.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { location.hash = '#/cruzada/' + b.dataset.go; });
+  $app.querySelectorAll('[data-qd]').forEach(b => b.onclick = () => { location.hash = '#/quem/' + b.dataset.qd; });
   $app.querySelectorAll('[data-cx]').forEach(b => b.onclick = () => { location.hash = '#/conexoes/' + b.dataset.cx; });
   $app.querySelectorAll('details.mat').forEach(el => el.addEventListener('toggle', () => {
     const ab = [...$app.querySelectorAll('details.mat[open]')].map(x => x.dataset.m);
@@ -106,17 +120,18 @@ function homeTela() {
 function statsTela() {
   document.title = 'Progresso · CACD Games';
   const m = carrega(), st = streaks();
-  const feitos = JOGOS.filter(j => concluidoEm(j.id)), semAjuda = feitos.filter(j => !prog(j.id).assist), cxFeitos = CONEXOES.filter(j => (carrega().cx[j.id] || {}).ok);
+  const feitos = JOGOS.filter(j => concluidoEm(j.id)), semAjuda = feitos.filter(j => !prog(j.id).assist), cxFeitos = CONEXOES.filter(j => (carrega().cx[j.id] || {}).ok), qdFeitos = QDECKS.filter(d => carrega().qd[d.id]);
   let h = '<div class="screen"><div class="top"><h1>Progresso</h1></div><div class="cards">' +
     '<div class="card"><b>' + st.cur + '</b><span>' + (st.cur === 1 ? 'dia seguido' : 'dias seguidos') + '</span></div><div class="card"><b>' + st.best + '</b><span>melhor sequência</span></div>' +
     '<div class="card"><b>' + feitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + JOGOS.length + '</small></b><span>cruzadas concluídas</span></div>' +
     '<div class="card"><b>' + semAjuda.length + '</b><span>cruzadas sem ajuda</span></div>' +
-    '<div class="card"><b>' + cxFeitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + CONEXOES.length + '</small></b><span>conexões concluídas</span></div></div>';
+    '<div class="card"><b>' + cxFeitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + CONEXOES.length + '</small></b><span>conexões concluídas</span></div>' +
+    '<div class="card"><b>' + qdFeitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + QDECKS.length + '</small></b><span>baralhos de Quem disse</span></div></div>';
   const t = diaNum(hoje()); let cal = '';
   for (let i = 27; i >= 0; i--) { const k = keyDeNum(t - i); cal += '<i class="' + ((m.dias[k] || []).length ? 'on' : '') + '" title="' + k + '"></i>'; }
   h += '<h2 class="sec">Últimos 28 dias</h2><div class="cal">' + cal + '</div><h2 class="sec">Por matéria</h2>';
   [...new Set(JOGOS.map(j => j.materia))].forEach(mt => {
-    const js = JOGOS.filter(j => j.materia === mt), cs = CONEXOES.filter(j => j.materia === mt), ok = js.filter(j => concluidoEm(j.id)).length + cs.filter(j => (carrega().cx[j.id] || {}).ok).length, tot = js.length + cs.length;
+    const js = JOGOS.filter(j => j.materia === mt), cs = CONEXOES.filter(j => j.materia === mt), qs = QDECKS.filter(d => d.materia === mt), ok = js.filter(j => concluidoEm(j.id)).length + cs.filter(j => (carrega().cx[j.id] || {}).ok).length + qs.filter(d => carrega().qd[d.id]).length, tot = js.length + cs.length + qs.length;
     h += '<div><b>' + esc(mt) + '</b> <span class="cnt">' + ok + ' de ' + tot + ' jogos</span><div class="bar"><i style="width:' + Math.round(100 * ok / tot) + '%"></i></div></div>';
   });
   h += '<h2 class="sec">Backup do progresso</h2><div class="box"><p>Seu progresso fica só neste aparelho e neste navegador. Para levar para outro celular (ou guardar antes de limpar os dados do navegador), exporte o código e importe lá.</p>' +
@@ -134,11 +149,11 @@ function statsTela() {
     ta.hidden = false; cb.hidden = false; ta.value = ''; ta.readOnly = false; ta.placeholder = 'Cole aqui o código exportado';
     cb.innerHTML = '<button class="btn primary" id="bGo">Importar (substitui o progresso atual)</button>';
     document.getElementById('bGo').onclick = () => {
-      try { const o = JSON.parse(decodeURIComponent(escape(atob(ta.value.trim())))); if (!o || typeof o.cw !== 'object' || typeof o.dias !== 'object') throw 0; o.cx = o.cx || {}; mem = o; salva(); toast('Progresso importado.'); statsTela(); } catch (e) { toast('Código inválido.'); }
+      try { const o = JSON.parse(decodeURIComponent(escape(atob(ta.value.trim())))); if (!o || typeof o.cw !== 'object' || typeof o.dias !== 'object') throw 0; o.cx = o.cx || {}; o.qd = o.qd || {}; mem = o; salva(); toast('Progresso importado.'); statsTela(); } catch (e) { toast('Código inválido.'); }
     };
   };
   document.getElementById('bZero').onclick = e => {
-    if (e.target.dataset.s) { mem = { cw: {}, cx: {}, dias: {} }; salva(); toast('Progresso apagado.'); statsTela(); return; }
+    if (e.target.dataset.s) { mem = { cw: {}, cx: {}, qd: {}, dias: {} }; salva(); toast('Progresso apagado.'); statsTela(); return; }
     e.target.dataset.s = 1; e.target.textContent = 'Toque de novo para confirmar'; setTimeout(() => { e.target.dataset.s = ''; e.target.textContent = 'Apagar todo o meu progresso'; }, 3500);
   };
 }
@@ -308,7 +323,7 @@ function conexoesTela(id) {
     const ordem = P.lost ? [...P.solved, ...[0, 1, 2, 3].filter(i => !P.solved.includes(i))] : P.solved;
     let h = '<div class="game"><header class="gbar"><button class="icon" id="xBack" aria-label="Voltar">‹</button><div class="gt"><strong>' + esc(j.titulo) + '</strong><span>Conexões · Item ' + esc(j.item) + '</span></div><button class="icon" id="xMenu" aria-label="Menu">⋯</button></header>' +
       '<div class="cxmain"><p class="cxhint">Agrupe os 16 termos em 4 grupos de 4 que tenham algo em comum.</p><div class="cxgroups">';
-    ordem.forEach((gi, n) => { const g = j.grupos[gi]; const perdeu = P.lost && !P.solved.includes(gi); h += '<div class="cxg ' + CORES[gi] + (perdeu ? ' miss' : '') + '"><b>' + esc(g.tema) + '</b><span>' + g.termos.map(esc).join(' · ') + '</span><small>Fonte: ' + esc(g.fonte) + '</small></div>'; });
+    ordem.forEach((gi, n) => { const g = j.grupos[gi]; const perdeu = P.lost && !P.solved.includes(gi); h += '<div class="cxg ' + CORES[gi] + (perdeu ? ' miss' : '') + '"><b>' + esc(g.tema) + '</b><span>' + g.termos.map(esc).join(' · ') + '</span><small>Fonte: ' + esc([].concat(g.fonte).join(', ')) + '</small></div>'; });
     h += '</div>';
     if (!fim()) {
       h += '<div class="cxtiles">' + tiles.map(t => '<button class="tile' + (sel.includes(t) ? ' on' : '') + '" data-t="' + esc(t) + '">' + esc(t) + '</button>').join('') + '</div>' +
@@ -356,10 +371,45 @@ function conexoesTela(id) {
   draw();
 }
 
+/* ---------- jogo: quem disse? ---------- */
+function quemTela(id) {
+  const d = QDECKS.find(x => x.id === id);
+  if (!d) { location.hash = '#/'; return; }
+  document.title = d.titulo + ' · CACD Games';
+  const rnd = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const k = Math.floor(Math.random() * (i + 1)); [a[i], a[k]] = [a[k], a[i]]; } return a; };
+  const cartas = rnd(d.cartas).map(c => ({ c, opts: rnd([c.r, ...rnd(d.cartas.filter(x => x.r !== c.r).map(x => x.r)).slice(0, 3)]) }));
+  let i = 0, acertos = 0, resp = null;
+  function sair() { location.hash = '#/'; }
+  function draw() {
+    if (i >= cartas.length) return fim();
+    const { c, opts } = cartas[i];
+    let h = '<div class="game"><header class="gbar"><button class="icon" id="qBack" aria-label="Voltar">‹</button><div class="gt"><strong>' + esc(d.titulo) + '</strong><span>Quem disse? · ' + (i + 1) + ' de ' + cartas.length + ' · ' + acertos + ' certas</span></div></header>' +
+      '<div class="cxmain"><div class="qcard"><small>QUEM DISSE, FEZ OU FORMULOU?</small><p>' + esc(c.q) + '</p></div><div class="qopts">';
+    opts.forEach(o => { const cls = resp === null ? '' : o === c.r ? ' certo' : o === resp ? ' errado' : ' apagado'; h += '<button class="qopt' + cls + '" data-o="' + esc(o) + '"' + (resp !== null ? ' disabled' : '') + '>' + esc(o) + '</button>'; });
+    h += '</div>';
+    if (resp !== null) h += '<div class="qexp"><b>' + (resp === c.r ? 'Certo!' : 'Era ' + esc(c.r) + '.') + '</b> ' + esc(c.exp) + '<small>Fonte: ' + esc(c.fonte) + '</small></div><div class="btns" style="justify-content:center"><button class="btn primary" id="qNext">' + (i + 1 === cartas.length ? 'Ver resultado' : 'Próxima') + '</button></div>';
+    h += '</div></div>';
+    $app.innerHTML = h;
+    document.getElementById('qBack').onclick = sair;
+    $app.querySelectorAll('.qopt').forEach(b => b.onclick = () => { resp = b.dataset.o; if (resp === c.r) acertos++; draw(); });
+    const n = document.getElementById('qNext'); if (n) n.onclick = () => { i++; resp = null; draw(); };
+  }
+  function fim() {
+    const m = carrega(), q = m.qd[id] || (m.qd[id] = { melhor: 0, vezes: 0 });
+    q.vezes++; q.melhor = Math.max(q.melhor, acertos);
+    const dk = hoje(); (m.dias[dk] = m.dias[dk] || []); if (!m.dias[dk].includes(id)) m.dias[dk].push(id); salva();
+    const st = streaks();
+    $app.innerHTML = '<div class="game"><header class="gbar"><button class="icon" id="qBack" aria-label="Voltar">‹</button><div class="gt"><strong>' + esc(d.titulo) + '</strong><span>Quem disse? · resultado</span></div></header><div class="cxmain win"><div class="big">' + (acertos === cartas.length ? '🏆' : '🎯') + '</div><h3>' + acertos + ' de ' + cartas.length + ' certas</h3><p style="color:var(--muted)">Melhor resultado: ' + q.melhor + '/' + cartas.length + ' · 🔥 ' + st.cur + (st.cur === 1 ? ' dia seguido' : ' dias seguidos') + '</p><div class="btns" style="justify-content:center"><button class="btn primary" id="qAgain">Jogar de novo</button><button class="btn" id="qHome">Voltar aos jogos</button></div></div></div>';
+    document.getElementById('qBack').onclick = sair; document.getElementById('qHome').onclick = sair;
+    document.getElementById('qAgain').onclick = () => quemTela(id);
+  }
+  draw();
+}
+
 /* ---------- início ---------- */
 function iniciar() {
   window.addEventListener('hashchange', () => { if (stopGame) stopGame(); rota(); });
-  Promise.all([fetch('data/jogos.json', { cache: 'no-cache' }).then(r => r.json()), fetch('data/conexoes.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ jogos: [] }))]).then(([d, c]) => { JOGOS = d.jogos; CONEXOES = c.jogos; GERADO = d.gerado; rota(); })
+  Promise.all([fetch('data/jogos.json', { cache: 'no-cache' }).then(r => r.json()), fetch('data/conexoes.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ jogos: [] })), fetch('data/quem-disse.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ decks: [] }))]).then(([d, c, q]) => { JOGOS = d.jogos; CONEXOES = c.jogos; QDECKS = q.decks; GERADO = d.gerado; rota(); })
     .catch(() => { $app.innerHTML = '<div class="screen"><p style="padding:40px 0">Não consegui carregar os jogos. Abra o app uma vez com internet.</p></div>'; });
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(() => { });
 }

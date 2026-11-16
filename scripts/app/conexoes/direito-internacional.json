@@ -23,7 +23,10 @@
      "Equidade",
      "Soft law"
     ],
-    "fonte": "Fontes do DIP.md"
+    "fonte": [
+     "Fontes do DIP.md",
+     "Fontes Extraconvencionais do DIP.md"
+    ]
    },
    {
     "tema": "Costume internacional",
@@ -61,7 +64,7 @@
      "Voluntarismo",
      "Objetivismo"
     ],
-    "fonte": "Tratados Internacionais e Incorporação no Brasil.md"
+    "fonte": "Fundamentos DIP.md"
    },
    {
     "tema": "Hierarquia e controle dos tratados",
@@ -225,7 +228,10 @@
      "Nódulos",
      "Empresa"
     ],
-    "fonte": "Direito Internacional do Mar.md"
+    "fonte": [
+     "Direito Internacional do Mar.md",
+     "Tribunal Internacional do Mar.md"
+    ]
    },
    {
     "tema": "Solução de controvérsias na CNUDM",

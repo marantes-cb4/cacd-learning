@@ -127,3 +127,17 @@ textarea{width:100%;min-height:96px;border:1px solid var(--line);border-radius:1
 .tile.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .cxerr{text-align:center;margin:14px 0 10px;color:var(--muted);font-size:14px;letter-spacing:.05em}
 .btn:disabled{opacity:.45;cursor:default}
+
+/* quem disse */
+.qcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;margin:10px 0 14px}
+.qcard small{color:var(--muted);letter-spacing:.09em;font-size:11px}
+.qcard p{margin:8px 0 0;font-size:17px;line-height:1.4}
+.qopts{display:grid;gap:8px}
+.qopt{text-align:left;padding:14px;border-radius:12px;border:1px solid var(--line);background:var(--panel);font-size:15.5px;font-weight:600}
+.qopt:not(:disabled):hover{border-color:var(--accent)}
+.qopt.certo{background:var(--ok);border-color:var(--ok);color:var(--accent-ink)}
+.qopt.errado{background:var(--bad);border-color:var(--bad);color:var(--accent-ink)}
+.qopt.apagado{opacity:.5}
+.qexp{margin:14px 0;padding:12px 14px;border-left:4px solid var(--accent);background:var(--panel);border-radius:6px;font-size:14.5px}
+.qexp small{display:block;color:var(--muted);margin-top:6px;font-size:12px}
+.cxmain.win{text-align:center;padding-top:40px}.cxmain.win .big{font-size:56px}

@@ -1,0 +1,51 @@
+[
+ {
+  "id": "qd-dint-doutrina",
+  "materia": "Direito Internacional",
+  "titulo": "Autores e doutrina do Direito Internacional",
+  "cartas": [
+   {
+    "q": "Propôs, na Conferência da Paz de Haia de 1899, a cláusula que manda aplicar princípios gerais na ausência de norma especial.",
+    "r": "Fiódor Martens",
+    "chave": "Martens",
+    "fonte": "Direito Internacional Humanitário.md",
+    "exp": "A Cláusula Martens foi incorporada ao preâmbulo da II Convenção de Haia."
+   },
+   {
+    "q": "Dá nome à cláusula facultativa de jurisdição obrigatória da CIJ (art. 36, §2º do Estatuto).",
+    "r": "Raul Fernandes",
+    "chave": "Raul Fernandes",
+    "fonte": "Meios Jurisdicionais - CIJ e Arbitragem.md",
+    "exp": "É a declaração unilateral de aceitação da jurisdição da Corte em relação a outros Estados que a aceitem."
+   },
+   {
+    "q": "Autor que destaca a importância do soft law para o DIP ambiental: as normas de meio ambiente surgiram, em escala global, sob essa forma.",
+    "r": "Guido Soares",
+    "chave": "Guido Soares",
+    "fonte": "Direito Internacional do Meio Ambiente.md",
+    "exp": "Para o autor, o soft law tem dois propósitos importantes no DIP ambiental."
+   },
+   {
+    "q": "Define duas formas de injustiça ambiental e liga a violação de normas ambientais ao direito à igualdade.",
+    "r": "André de Carvalho Ramos",
+    "chave": "Carvalho Ramos",
+    "fonte": "Direito Internacional do Meio Ambiente.md",
+    "exp": "As duas formas: a de dimensão interestatal (neocolonialismo) e a de dimensão social."
+   },
+   {
+    "q": "Defende que a proibição do uso da força é jus cogens e rechaça a legítima defesa preventiva.",
+    "r": "Antônio Augusto Cançado Trindade",
+    "chave": "Cançado Trindade",
+    "fonte": "Proibição do Uso da Força.md",
+    "exp": "Posição que contraria a tese que admite antecipação de ataque com base no art. 51 da Carta."
+   },
+   {
+    "q": "Sustenta que a manutenção da paz e da ordem internacional exige respeitar a proibição do uso da força e os direitos humanos.",
+    "r": "Alberto do Amaral Junior",
+    "chave": "Amaral Junior",
+    "fonte": "Proibição do Uso da Força.md",
+    "exp": "Une a proibição do uso da força ao respeito aos direitos humanos."
+   }
+  ]
+ }
+]

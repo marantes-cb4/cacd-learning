@@ -13,7 +13,10 @@
      "Fraca",
      "Nula"
     ],
-    "fonte": "Macro - Modelo IS-LM-BP.md"
+    "fonte": [
+     "Macro - Modelo IS-LM-BP.md",
+     "Macro - Modelo IS-LM-BP - Parte 2.md"
+    ]
    },
    {
     "tema": "Câmbio fixo com mobilidade perfeita",
@@ -23,7 +26,10 @@
      "Perda de reservas",
      "Sem crowding out"
     ],
-    "fonte": "Macro - Modelo IS-LM-BP - Parte 2.md"
+    "fonte": [
+     "Macro - Modelo IS-LM-BP.md",
+     "Macro - Modelo IS-LM-BP - Parte 2.md"
+    ]
    },
    {
     "tema": "Câmbio flutuante com mobilidade perfeita",
@@ -33,7 +39,10 @@
      "Monetária eficaz",
      "Depreciação"
     ],
-    "fonte": "Macro - Modelo IS-LM-BP - Parte 2.md"
+    "fonte": [
+     "Macro - Modelo IS-LM-BP - Parte 2.md",
+     "Macro - Modelo IS-LM-BP.md"
+    ]
    },
    {
     "tema": "Modelo e paridade de juros",
@@ -119,7 +128,10 @@
      "Serzedelo Correia",
      "Joaquim Murtinho"
     ],
-    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+    "fonte": [
+     "A Política Econômica na República Velha (1889-1930).md",
+     "Economia Agroexportadora.md"
+    ]
    },
    {
     "tema": "Defesa do café",
@@ -129,7 +141,10 @@
      "Supersafra",
      "Queima"
     ],
-    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+    "fonte": [
+     "A Política Econômica na República Velha (1889-1930).md",
+     "Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md"
+    ]
    },
    {
     "tema": "Instituições e operações monetárias",
@@ -139,7 +154,10 @@
      "Feriado bancário",
      "Funding scheme"
     ],
-    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+    "fonte": [
+     "A Política Econômica na República Velha (1889-1930).md",
+     "Economia Agroexportadora.md"
+    ]
    }
   ]
  },

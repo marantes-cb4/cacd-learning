@@ -1,0 +1,51 @@
+[
+ {
+  "id": "qd-di-doutrina",
+  "materia": "Direito Interno",
+  "titulo": "Doutrina e teoria do Direito Interno",
+  "cartas": [
+   {
+    "q": "Autor da obra “Que é o Terceiro Estado?”, que atribui ao povo a titularidade do poder constituinte.",
+    "r": "Emmanuel de Sieyès",
+    "chave": "Sieyès",
+    "fonte": "Normas Jurídicas.md",
+    "exp": "Teoria do poder constituinte, criada na França do século 18, antes da Revolução Francesa."
+   },
+   {
+    "q": "Autor da teoria das normas constitucionais inconstitucionais, rechaçada pelo STF e pelo Brasil.",
+    "r": "Otto Bachof",
+    "chave": "Bachof",
+    "fonte": "Controle de Constitucionalidade.md",
+    "exp": "No Brasil as normas constitucionais originárias não se sujeitam ao controle de constitucionalidade."
+   },
+   {
+    "q": "Idealizador do controle abstrato de constitucionalidade, adotado na Constituição austríaca de 1920.",
+    "r": "Hans Kelsen",
+    "chave": "Kelsen",
+    "fonte": "Controle de Constitucionalidade - Parte 4.md",
+    "exp": "É o modelo europeu, austríaco ou kelseniano, no qual o Judiciário atua como legislador negativo."
+   },
+   {
+    "q": "Para este autor, o Estado democrático de direito é conceito inovador da CF/88, que supera a soma dos conceitos de democracia e legalidade.",
+    "r": "José Afonso da Silva",
+    "chave": "Afonso da Silva",
+    "fonte": "Estado Democrático de Direito.md",
+    "exp": "Estado democrático de direito não é a mera soma de Estado de direito e democracia."
+   },
+   {
+    "q": "Os princípios se aplicam por juízo de ponderação (sopesamento), podendo ser combinados.",
+    "r": "Robert Alexy",
+    "chave": "Alexy",
+    "fonte": "Princípios da Administração Pública.md",
+    "exp": "Alexy trata os princípios como mandamentos de otimização."
+   },
+   {
+    "q": "Os princípios se aplicam no modelo “tudo ou nada”, ao contrário do que sustenta Alexy.",
+    "r": "Ronald Dworkin",
+    "chave": "Dworkin",
+    "fonte": "Princípios da Administração Pública.md",
+    "exp": "Segundo Dworkin, a regra se aplica ou não se aplica; no choque entre normas, uma prevalece sobre a outra."
+   }
+  ]
+ }
+]
