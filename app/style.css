@@ -169,3 +169,8 @@ mark{background:var(--cur);color:var(--cur-ink);border-radius:3px;padding:0 1px}
 .empty{color:var(--muted);text-align:center;padding:30px 10px}
 nav.tabs a.on{color:var(--orange)}
 .tag.ok{color:var(--ok);border-color:var(--ok)}
+
+.acts{padding:0 14px 12px}.acts .btn{width:100%;font-size:14px;color:var(--accent);font-weight:650}
+.nsec{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+.nsec.alvo{border-color:var(--orange);box-shadow:0 0 0 2px var(--orange) inset}
+.nsec h3{margin:0 0 6px;font-size:16px;color:var(--accent)}

@@ -70,6 +70,7 @@ function rota() {
   if (h.startsWith('conexoes/')) return conexoesTela(h.slice(9));
   if (h.startsWith('quem/')) return quemTela(h.slice(5));
   if (h.startsWith('checagem')) { const m = h.match(/[?&]q=([^&]*)/); return checagemTela(m ? decodeURIComponent(m[1]) : ''); }
+  if (h.startsWith('nota')) { const p = new URLSearchParams(h.split('?')[1] || ''); return notaTela(p.get('m') || '', p.get('a') || '', p.get('q') || '', +(p.get('s') || -1)); }
   if (h === 'stats') return statsTela();
   homeTela();
 }
@@ -129,7 +130,7 @@ function marca(raw, toks) {
   return o + esc(raw.slice(p));
 }
 const md = h => h.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
-function secaoHtml(x, toks) {
+function secaoHtml(x, toks, semRodape) {
   let o = '';
   x.x.split('\n').forEach(l => {
     if (!l.trim() || /^\s*-{3,}\s*$/.test(l)) return;
@@ -137,6 +138,7 @@ function secaoHtml(x, toks) {
     if (/^\s*\|/.test(l)) { o += '<div class="tab">' + md(marca(l.trim(), toks)) + '</div>'; return; }
     o += '<div style="padding-left:' + Math.min(ind, 16) * 6 + 'px">' + (bul ? '• ' : '') + md(marca(txt, toks)) + '</div>';
   });
+  if (semRodape) return o;
   return o + '<div class="dim">' + esc(x.m) + ' · ' + esc(x.a) + '</div>';
 }
 function snippet(x, toks) {
@@ -173,9 +175,10 @@ function checagemTela(q0) {
       if (!rs.length) { out.innerHTML = '<div class="empty">Nada encontrado nas anotações para “' + esc(q) + '”.<br>Tente menos palavras, ou outra grafia.</div>'; return; }
       const top = rs.slice(0, 40);
       out.innerHTML = '<p class="lead">' + rs.length + (rs.length === 1 ? ' trecho encontrado' : ' trechos encontrados') + (rs.length > 40 ? ' (mostrando os 40 mais relevantes)' : '') + '</p>' +
-        top.map(([s, i]) => { const d = docs[i]; return '<div class="res" data-i="' + i + '"><button><div class="meta">' + esc(d.m) + ' · ' + esc(d.a) + '</div><div class="tt">' + marca(d.t, toks) + '</div><div class="sn">' + snippet(d, toks) + '</div></button><div class="full" hidden></div></div>'; }).join('');
+        top.map(([s, i]) => { const d = docs[i]; return '<div class="res" data-i="' + i + '"><button><div class="meta">' + esc(d.m) + ' · ' + esc(d.a) + '</div><div class="tt">' + marca(d.t, toks) + '</div><div class="sn">' + snippet(d, toks) + '</div></button><div class="full" hidden></div><div class="acts"><button class="btn nota">Ver anotação completa de ' + esc(d.a) + ' →</button></div></div>'; }).join('');
       out.querySelectorAll('.res').forEach(r => {
         const d = docs[+r.dataset.i], full = r.querySelector('.full');
+        r.querySelector('.nota').onclick = () => { const sec = docs.filter(x => x.m === d.m && x.a === d.a).indexOf(d); location.hash = '#/nota?m=' + encodeURIComponent(d.m) + '&a=' + encodeURIComponent(d.a) + '&q=' + encodeURIComponent(q) + '&s=' + sec; };
         const abre = () => { full.innerHTML = secaoHtml(d, toks); full.hidden = false; r.querySelector('.sn').style.display = 'none'; };
         r.querySelector('button').onclick = () => { if (full.hidden) { abre(); abertos.add(r.dataset.i); } else { full.hidden = true; r.querySelector('.sn').style.display = ''; abertos.delete(r.dataset.i); } };
         if (abertos.has(r.dataset.i)) abre();
@@ -185,6 +188,20 @@ function checagemTela(q0) {
   inp.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => { abertos = new Set(); busca(); }, 180); });
   busca();
   if (!q0) setTimeout(() => { try { inp.focus(); } catch (e) { } }, 50);
+}
+
+/* ---------- anotação completa ---------- */
+function notaTela(m, a, q, alvo) {
+  document.title = a + ' · CACD Games';
+  $app.innerHTML = '<div class="screen"><div class="top"><button class="icon" id="nBack" aria-label="Voltar">‹</button><h1 style="font-size:18px">' + esc(a) + '</h1></div><p class="lead">' + esc(m) + ' · anotação completa' + (q ? ' · destacando “' + esc(q) + '”' : '') + '</p><div id="nbody"><div class="empty">Carregando…</div></div></div>' + tabs('check');
+  document.getElementById('nBack').onclick = () => { if (history.length > 1) history.back(); else location.hash = '#/checagem' + (q ? '?q=' + encodeURIComponent(q) : ''); };
+  carregaAnotacoes().then(docs => {
+    const secs = docs.filter(x => x.m === m && x.a === a), body = document.getElementById('nbody');
+    if (!secs.length) { body.innerHTML = '<div class="empty">Anotação não encontrada.</div>'; return; }
+    const toks = nn(q).split(/\s+/).filter(t => t.length >= 2);
+    body.innerHTML = secs.map((x, i) => '<section class="nsec' + (i === alvo ? ' alvo' : '') + '" id="sec-' + i + '"><h3>' + marca(x.t, toks) + '</h3><div class="full" style="border:0;padding:0">' + secaoHtml(x, toks, true) + '</div></section>').join('');
+    const el = document.getElementById('sec-' + alvo); if (el) setTimeout(() => el.scrollIntoView({ block: 'start' }), 60);
+  });
 }
 
 /* ---------- estatísticas e backup ---------- */
