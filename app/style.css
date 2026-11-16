@@ -174,3 +174,14 @@ nav.tabs a.on{color:var(--orange)}
 .nsec{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
 .nsec.alvo{border-color:var(--orange);box-shadow:0 0 0 2px var(--orange) inset}
 .nsec h3{margin:0 0 6px;font-size:16px;color:var(--accent)}
+
+/* linha do tempo */
+.tl{display:flex;flex-direction:column;gap:8px}
+.tev{display:flex;align-items:center;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 10px 10px 12px}
+.tev.ok{border-color:var(--ok);box-shadow:0 0 0 1px var(--ok) inset}.tev.bad{border-color:var(--bad);box-shadow:0 0 0 1px var(--bad) inset}
+.tn{width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex:none}
+.tt2{flex:1;font-size:14.5px;line-height:1.35}.tt2 small{display:block;color:var(--muted);font-size:11.5px;margin-top:3px}
+.td{color:var(--orange);margin-right:4px}
+.tb{display:flex;flex-direction:column;gap:4px}
+.tb button{width:38px;height:30px;border:1px solid var(--line);border-radius:8px;background:var(--bg);font-size:13px}
+.tb button:disabled{opacity:.3}.tb button:active{background:var(--word)}

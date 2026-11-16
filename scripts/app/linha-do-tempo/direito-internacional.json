@@ -1,0 +1,261 @@
+[
+ {
+  "id": "lt-dint-dih-uso-da-forca",
+  "materia": "Direito Internacional",
+  "titulo": "DIH e proibição do uso da força",
+  "eventos": [
+   {
+    "ano": 1864,
+    "d": "1864",
+    "t": "Primeiro registro do DIH: Convenção de Genebra para feridos e enfermos",
+    "chave": "Convenção de Genebra",
+    "fonte": "Direito Internacional Humanitário.md"
+   },
+   {
+    "ano": 1899,
+    "d": "1899",
+    "t": "Cláusula Martens, proposta na Conferência da Paz de Haia",
+    "chave": "Martens",
+    "fonte": "Direito Internacional Humanitário.md"
+   },
+   {
+    "ano": 1907,
+    "d": "1907",
+    "t": "Direito de Haia: regras sobre o uso da força, sem proibir a guerra",
+    "chave": "Direito de Haia",
+    "fonte": "Direito Internacional Humanitário.md"
+   },
+   {
+    "ano": 1928,
+    "d": "1928",
+    "t": "Pacto Briand-Kellogg: renúncia à guerra",
+    "chave": "Briand-Kellogg",
+    "fonte": "Direito Internacional Humanitário.md"
+   },
+   {
+    "ano": 1945,
+    "d": "1945",
+    "t": "Carta de São Francisco reforça a proibição, com duas exceções",
+    "chave": "Carta de São Francisco",
+    "fonte": "Direito Internacional Humanitário.md"
+   },
+   {
+    "ano": 1949,
+    "d": "1949",
+    "t": "Sistematização das quatro Convenções de Genebra pelo CICV",
+    "chave": "Convenções de Genebra",
+    "fonte": "Direito Internacional Humanitário.md"
+   },
+   {
+    "ano": 1977,
+    "d": "1977",
+    "t": "Protocolos Adicionais ampliam o art. 3º comum",
+    "chave": "Protocolos Adicionais",
+    "fonte": "Direito Internacional Humanitário.md"
+   }
+  ]
+ },
+ {
+  "id": "lt-dint-direitos-humanos",
+  "materia": "Direito Internacional",
+  "titulo": "Sistemas de proteção dos direitos humanos",
+  "eventos": [
+   {
+    "ano": 1919,
+    "d": "1919",
+    "t": "Criação da OIT como órgão da Liga das Nações",
+    "chave": "OIT",
+    "fonte": "Direito Internacional do Trabalho - OIT.md"
+   },
+   {
+    "ano": 1948,
+    "d": "1948",
+    "t": "Declaração Universal dos Direitos Humanos, adotada por resolução da AGNU",
+    "chave": "Declaração Universal",
+    "fonte": "Sistema Global de Proteção dos Direitos Humanos.md"
+   },
+   {
+    "ano": 1951,
+    "d": "1951",
+    "t": "Convenção sobre o Estatuto dos Refugiados",
+    "chave": "Convenção de 1951",
+    "fonte": "Asilo.md"
+   },
+   {
+    "ano": 1959,
+    "d": "1959",
+    "t": "Criação da Comissão Interamericana de Direitos Humanos",
+    "chave": "Criada em 1959",
+    "fonte": "Sistema Interamericano de Direitos Humanos.md"
+   },
+   {
+    "ano": 1966,
+    "d": "1966",
+    "t": "Pactos de Direitos Civis e Políticos e de Direitos Econômicos, Sociais e Culturais",
+    "chave": "Pacto",
+    "fonte": "Sistema Global de Proteção dos Direitos Humanos.md"
+   },
+   {
+    "ano": 1969,
+    "d": "1969",
+    "t": "Pacto de São José da Costa Rica",
+    "chave": "Costa Rica",
+    "fonte": "Sistema Interamericano de Direitos Humanos.md"
+   },
+   {
+    "ano": 1992,
+    "d": "1992",
+    "t": "Brasil ratifica o Pacto de São José",
+    "chave": "ratificou",
+    "fonte": "Sistema Interamericano de Direitos Humanos.md"
+   },
+   {
+    "ano": 1998,
+    "d": "1998",
+    "t": "Brasil reconhece a jurisdição obrigatória da Corte Interamericana",
+    "chave": "jurisdição obrigatória",
+    "fonte": "Sistema Interamericano de Direitos Humanos.md"
+   }
+  ]
+ },
+ {
+  "id": "lt-dint-ambiente-mar-comercio",
+  "materia": "Direito Internacional",
+  "titulo": "Meio ambiente, mar e comércio",
+  "eventos": [
+   {
+    "ano": 1941,
+    "d": "1941",
+    "t": "Caso da Fundição Trail, entre EUA e Canadá",
+    "chave": "Fundição Trail",
+    "fonte": "Direito Internacional do Meio Ambiente.md"
+   },
+   {
+    "ano": 1947,
+    "d": "1947",
+    "t": "GATT: Acordo Geral de Tarifas e Comércio",
+    "chave": "GATT",
+    "fonte": "Direito do Comércio Internacional e OMC.md"
+   },
+   {
+    "ano": 1972,
+    "d": "1972",
+    "t": "Conferência de Estocolmo dá amplitude global ao DIP ambiental",
+    "chave": "Estocolmo",
+    "fonte": "Direito Internacional do Meio Ambiente.md"
+   },
+   {
+    "ano": 1982,
+    "d": "1982",
+    "t": "CNUDM (Montego Bay), tratado-guarda-chuva do mar",
+    "chave": "CNUDM",
+    "fonte": "Direito Internacional do Meio Ambiente.md"
+   },
+   {
+    "ano": 1992,
+    "d": "1992",
+    "t": "ECO-92 e Convenção-Quadro sobre mudanças climáticas",
+    "chave": "ECO-92",
+    "fonte": "Direito Internacional do Meio Ambiente.md"
+   },
+   {
+    "ano": 1994,
+    "d": "1994",
+    "t": "Acordo de Marraquexe cria a OMC",
+    "chave": "Marraquexe",
+    "fonte": "Direito do Comércio Internacional e OMC.md"
+   }
+  ]
+ },
+ {
+  "id": "lt-dint-cij",
+  "materia": "Direito Internacional",
+  "titulo": "Casos e pareceres da CIJ",
+  "eventos": [
+   {
+    "ano": 1949,
+    "d": "1949",
+    "t": "Parecer sobre o Caso Bernadotte reconhece a personalidade das organizações internacionais",
+    "chave": "Bernadotte",
+    "fonte": "Organizações Internacionais.md"
+   },
+   {
+    "ano": 1950,
+    "d": "1950",
+    "t": "Caso Haya de la Torre: requisitos do asilo diplomático",
+    "chave": "Haya de la Torre",
+    "fonte": "Asilo.md"
+   },
+   {
+    "ano": 1986,
+    "d": "1986",
+    "t": "Caso Nicarágua: legítima defesa exige ataque de grupos vinculados a Estados",
+    "chave": "Nicarágua",
+    "fonte": "Proibição do Uso da Força.md"
+   },
+   {
+    "ano": 1993,
+    "d": "1993",
+    "t": "Caso do Congo: ataques de grupos não estatais não autorizam legítima defesa",
+    "chave": "Congo",
+    "fonte": "Proibição do Uso da Força.md"
+   },
+   {
+    "ano": 1996,
+    "d": "1996",
+    "t": "Parecer consultivo sobre a legalidade das armas nucleares",
+    "chave": "armas nucleares",
+    "fonte": "Proibição do Uso da Força.md"
+   },
+   {
+    "ano": 2004,
+    "d": "2004",
+    "t": "Parecer consultivo sobre o Muro no território palestino",
+    "chave": "Muro",
+    "fonte": "Proibição do Uso da Força.md"
+   }
+  ]
+ },
+ {
+  "id": "lt-dint-territorio",
+  "materia": "Direito Internacional",
+  "titulo": "Território e Estado",
+  "eventos": [
+   {
+    "ano": 1750,
+    "d": "1750",
+    "t": "Tratado de Madrid define o limite entre a América Portuguesa e a Espanhola",
+    "chave": "Tratado de Madrid",
+    "fonte": "Território e Formação BR.md"
+   },
+   {
+    "ano": 1928,
+    "d": "1928",
+    "t": "Caso da Ilha das Palmas no Tribunal Permanente de Arbitragem",
+    "chave": "Ilha das Palmas",
+    "fonte": "Território e Formação BR.md"
+   },
+   {
+    "ano": 1933,
+    "d": "1933",
+    "t": "Convenção de Montevidéu sobre os elementos do Estado",
+    "chave": "Montevid",
+    "fonte": "Território e Formação BR.md"
+   },
+   {
+    "ano": 1978,
+    "d": "1978",
+    "t": "Convenção de Viena sobre sucessão de Estados em matéria de tratados",
+    "chave": "sucessão de Estados",
+    "fonte": "Território e Formação BR.md"
+   },
+   {
+    "ano": 1990,
+    "d": "1990",
+    "t": "Desmembramento da União Soviética e da Iugoslávia",
+    "chave": "União Soviética",
+    "fonte": "Território e Formação BR.md"
+   }
+  ]
+ }
+]

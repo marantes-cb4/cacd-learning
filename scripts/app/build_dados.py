@@ -11,6 +11,8 @@ SAIDA_CX = os.path.join(RAIZ, 'app', 'data', 'conexoes.json')
 QUEM = os.path.join(RAIZ, 'scripts', 'app', 'quem-disse')
 SAIDA_QD = os.path.join(RAIZ, 'app', 'data', 'quem-disse.json')
 SAIDA_AN = os.path.join(RAIZ, 'app', 'data', 'anotacoes.json')
+LINHA = os.path.join(RAIZ, 'scripts', 'app', 'linha-do-tempo')
+SAIDA_LT = os.path.join(RAIZ, 'app', 'data', 'linha-do-tempo.json')
 NOTAS = os.path.join(RAIZ, 'anotações')
 
 def chave_ordem(p):
@@ -133,8 +135,39 @@ def anotacoes():
     json.dump(dict(gerado=time.strftime('%Y-%m-%d'), docs=docs), open(SAIDA_AN, 'w'), ensure_ascii=False, separators=(',', ':'))
     print('app: %d seções de anotações em %s (%d KB)' % (len(docs), os.path.relpath(SAIDA_AN, RAIZ), os.path.getsize(SAIDA_AN) // 1024))
 
+def linha_do_tempo():
+    """Valida e junta os jogos Linha do tempo (scripts/app/linha-do-tempo/*.json) em app/data/linha-do-tempo.json.
+    Cada jogo: >= 5 eventos {ano, d, t, chave, fonte} em ordem cronológica estrita; o ano e a chave devem estar na anotação `fonte`;
+    o texto do evento não pode conter o ano."""
+    decks, erros, avisos, ids = [], [], [], set()
+    for f in sorted(glob.glob(os.path.join(LINHA, '*.json'))):
+        for d in json.load(open(f)):
+            tag = d.get('id', '?')
+            if tag in ids: erros.append('%s: id repetido' % tag)
+            ids.add(tag)
+            es = d.get('eventos', [])
+            if len(es) < 5: erros.append('%s: precisa de pelo menos 5 eventos' % tag)
+            anos = [e['ano'] for e in es]
+            if anos != sorted(set(anos)): erros.append('%s: anos fora de ordem ou repetidos: %s' % (tag, anos))
+            for e in es:
+                arq = os.path.join(NOTAS, d['materia'], e['fonte'])
+                if not os.path.exists(arq): erros.append('%s: fonte inexistente: %s' % (tag, e['fonte'])); continue
+                tx = norm(open(arq).read())
+                if str(e['ano']) not in tx: avisos.append('%s: ano %s não aparece em "%s"' % (tag, e['ano'], e['fonte']))
+                if norm(e['chave']) not in tx: avisos.append('%s: "%s" não aparece em "%s"' % (tag, e['chave'], e['fonte']))
+                if re.search(r'\b(1[0-9]{3}|20[0-9]{2})\b', e['t']): erros.append('%s: o texto do evento entrega a data: %s' % (tag, e['t']))
+            decks.append(d)
+    ordem = {'Direito Interno': 0, 'Direito Internacional': 1, 'Economia': 2}
+    decks.sort(key=lambda d: (ordem.get(d['materia'], 9), d['id']))
+    for a in avisos: print('AVISO', a)
+    for e in erros: print('ERRO', e)
+    if erros: sys.exit(1)
+    json.dump(dict(gerado=time.strftime('%Y-%m-%d'), decks=decks), open(SAIDA_LT, 'w'), ensure_ascii=False, separators=(',', ':'))
+    print('app: %d linhas do tempo em %s' % (len(decks), os.path.relpath(SAIDA_LT, RAIZ)))
+
 if __name__ == '__main__':
     main()
     conexoes()
     quem_disse()
     anotacoes()
+    linha_do_tempo()

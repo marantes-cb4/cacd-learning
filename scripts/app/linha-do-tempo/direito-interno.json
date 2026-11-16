@@ -1,0 +1,44 @@
+[
+ {
+  "id": "lt-di-constituicoes",
+  "materia": "Direito Interno",
+  "titulo": "Constituições e controle de constitucionalidade",
+  "eventos": [
+   {
+    "ano": 1787,
+    "d": "1787",
+    "t": "Constituição dos EUA, de conteúdo material e sintética",
+    "chave": "Constituição de 1787",
+    "fonte": "Conceito e Classificação da Constituição.md"
+   },
+   {
+    "ano": 1791,
+    "d": "1791",
+    "t": "Constituição da França, após a Revolução Francesa",
+    "chave": "Constituição da França",
+    "fonte": "Conceito e Classificação da Constituição.md"
+   },
+   {
+    "ano": 1803,
+    "d": "1803",
+    "t": "Caso Marbury v. Madison, que originou o controle difuso",
+    "chave": "Marbury",
+    "fonte": "Controle de Constitucionalidade - Parte 3.md"
+   },
+   {
+    "ano": 1824,
+    "d": "1824",
+    "t": "Constituição do Império, semirrígida",
+    "chave": "império",
+    "fonte": "Conceito e Classificação da Constituição.md"
+   },
+   {
+    "ano": 1920,
+    "d": "1920",
+    "t": "Constituição austríaca, que adotou o controle abstrato de Kelsen",
+    "chave": "austríaca",
+    "fonte": "Controle de Constitucionalidade - Parte 4.md"
+   }
+  ]
+ }
+]

@@ -3,7 +3,7 @@
 'use strict';
 const KEY = 'cacd-games-v1';
 const $app = document.getElementById('app'), $toast = document.getElementById('toast');
-let JOGOS = [], CONEXOES = [], QDECKS = [], GERADO = '';
+let JOGOS = [], CONEXOES = [], QDECKS = [], LDECKS = [], GERADO = '';
 
 /* ---------- utilidades ---------- */
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -21,7 +21,7 @@ function carrega() {
   if (mem) return mem;
   try { mem = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { mem = null; }
   if (!mem || typeof mem !== 'object') mem = {};
-  mem.cw = mem.cw || {}; mem.cx = mem.cx || {}; mem.qd = mem.qd || {}; mem.dias = mem.dias || {};
+  mem.cw = mem.cw || {}; mem.cx = mem.cx || {}; mem.qd = mem.qd || {}; mem.lt = mem.lt || {}; mem.dias = mem.dias || {};
   return mem;
 }
 function salva() { try { localStorage.setItem(KEY, JSON.stringify(mem)); } catch (e) { } }
@@ -46,13 +46,14 @@ const TIPOS = [
   { k: 'cruzada', nome: 'Palavras cruzadas', ic: '▦', desc: 'Preencha a grade com as dicas' },
   { k: 'conexoes', nome: 'Conexões', ic: '◫', desc: 'Agrupe 16 termos em 4 grupos' },
   { k: 'quem', nome: 'Quem disse?', ic: '❝', desc: 'Descubra o autor ou a figura' },
-  { k: 'tempo', nome: 'Linha do tempo', ic: '⌛', soon: true }
+  { k: 'tempo', nome: 'Linha do tempo', ic: '⌛', desc: 'Ordene os eventos do mais antigo ao mais recente' }
 ];
 function itensDe(k) {
   const m = carrega();
   if (k === 'cruzada') return JOGOS.map(j => ({ id: j.id, titulo: j.titulo, materia: j.materia, sub: 'Item ' + j.item + ' · ' + j.palavras.length + ' palavras' + (j.status === 'parcial' ? ' · matéria parcial' : ''), hash: '#/cruzada/' + j.id, ok: concluidoEm(j.id), pct: pct(j) }));
   if (k === 'conexoes') return CONEXOES.map(j => { const c = m.cx[j.id] || {}; return { id: j.id, titulo: j.titulo, materia: j.materia, sub: 'Item ' + j.item + ' · 4 grupos', hash: '#/conexoes/' + j.id, ok: !!c.ok, pct: c.ok ? 100 : 25 * (c.solved || []).length, lost: !!c.lost }; });
   if (k === 'quem') return QDECKS.map(d => { const q = m.qd[d.id]; return { id: d.id, titulo: d.titulo, materia: d.materia, sub: d.cartas.length + ' perguntas', hash: '#/quem/' + d.id, ok: !!q && q.melhor === d.cartas.length, nota: q ? 'melhor ' + q.melhor + '/' + d.cartas.length : '' }; });
+  if (k === 'tempo') return LDECKS.map(d => { const q = m.lt[d.id] || {}; return { id: d.id, titulo: d.titulo, materia: d.materia, sub: d.eventos.length + ' eventos', hash: '#/tempo/' + d.id, ok: !!q.ok, nota: !q.ok && q.tent ? q.tent + (q.tent === 1 ? ' tentativa' : ' tentativas') : '' }; });
   return [];
 }
 function jogoDoDia() {
@@ -69,6 +70,7 @@ function rota() {
   if (h.startsWith('cruzada/')) return jogoTela(h.slice(8));
   if (h.startsWith('conexoes/')) return conexoesTela(h.slice(9));
   if (h.startsWith('quem/')) return quemTela(h.slice(5));
+  if (h.startsWith('tempo/')) return tempoTela(h.slice(6));
   if (h.startsWith('checagem')) { const m = h.match(/[?&]q=([^&]*)/); return checagemTela(m ? decodeURIComponent(m[1]) : ''); }
   if (h.startsWith('nota')) { const p = new URLSearchParams(h.split('?')[1] || ''); return notaTela(p.get('m') || '', p.get('a') || '', p.get('q') || '', +(p.get('s') || -1)); }
   if (h === 'stats') return statsTela();
@@ -190,6 +192,50 @@ function checagemTela(q0) {
   if (!q0) setTimeout(() => { try { inp.focus(); } catch (e) { } }, 50);
 }
 
+/* ---------- jogo: linha do tempo ---------- */
+function tempoTela(id) {
+  const d = LDECKS.find(x => x.id === id);
+  if (!d) { location.hash = '#/'; return; }
+  document.title = d.titulo + ' · CACD Games';
+  const m = carrega(), P = m.lt[id] || (m.lt[id] = { ok: false, tent: 0 });
+  const rnd = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const k = Math.floor(Math.random() * (i + 1)); [a[i], a[k]] = [a[k], a[i]]; } return a; };
+  const certa = d.eventos.map((_, i) => i);
+  let ordem, marcas = null, fim = false;
+  do { ordem = rnd(certa); } while (ordem.every((v, i) => v === i));
+  function draw() {
+    let h = '<div class="game"><header class="gbar"><button class="icon" id="tBack" aria-label="Voltar">‹</button><div class="gt"><strong>' + esc(d.titulo) + '</strong><span>Linha do tempo · ' + d.eventos.length + ' eventos · ' + P.tent + (P.tent === 1 ? ' tentativa' : ' tentativas') + '</span></div><button class="icon" id="tMenu" aria-label="Menu">⋯</button></header>' +
+      '<div class="cxmain"><p class="cxhint">' + (fim ? 'Ordem correta, do mais antigo ao mais recente.' : 'Do <b>mais antigo</b> (em cima) ao <b>mais recente</b> (embaixo). Use as setas para mover.') + '</p><div class="tl">';
+    ordem.forEach((ix, pos) => {
+      const e = d.eventos[ix], cls = fim ? ' ok' : marcas ? (marcas[pos] ? ' ok' : ' bad') : '';
+      h += '<div class="tev' + cls + '"><div class="tn">' + (pos + 1) + '</div><div class="tt2">' + (fim ? '<b class="td">' + esc(e.d) + '</b> ' : '') + esc(e.t) + (fim ? '<small>Fonte: ' + esc(e.fonte) + '</small>' : '') + '</div>' +
+        (fim ? '' : '<div class="tb"><button data-m="' + pos + ',-1" aria-label="Subir"' + (pos === 0 ? ' disabled' : '') + '>▲</button><button data-m="' + pos + ',1" aria-label="Descer"' + (pos === ordem.length - 1 ? ' disabled' : '') + '>▼</button></div>') + '</div>';
+    });
+    h += '</div>';
+    if (!fim) h += '<p class="cxerr" id="tInfo">' + (marcas ? marcas.filter(Boolean).length + ' de ' + marcas.length + ' na posição certa' : '') + '</p><div class="btns" style="justify-content:center"><button class="btn primary" id="tChk">Verificar</button></div>';
+    else h += '<div class="btns" style="justify-content:center;margin-top:14px"><button class="btn primary" id="tHome">Voltar aos jogos</button><button class="btn" id="tAgain">Jogar de novo</button></div>';
+    h += '</div></div>';
+    $app.innerHTML = h;
+    document.getElementById('tBack').onclick = () => { location.hash = '#/'; };
+    document.getElementById('tMenu').onclick = menu;
+    $app.querySelectorAll('.tb button').forEach(b => b.onclick = () => { const [p, dl] = b.dataset.m.split(',').map(Number); const q = p + dl; [ordem[p], ordem[q]] = [ordem[q], ordem[p]]; marcas = null; draw(); });
+    const c = document.getElementById('tChk'); if (c) c.onclick = verifica;
+    const hh = document.getElementById('tHome'); if (hh) hh.onclick = () => { location.hash = '#/'; };
+    const ag = document.getElementById('tAgain'); if (ag) ag.onclick = () => { P.ok = false; tempoTela(id); };
+  }
+  function verifica() {
+    P.tent++; marcas = ordem.map((ix, pos) => ix === pos);
+    if (marcas.every(Boolean)) { fim = true; P.ok = true; const dk = hoje(), mm = carrega(); (mm.dias[dk] = mm.dias[dk] || []); if (!mm.dias[dk].includes(id)) mm.dias[dk].push(id); salva(); draw(); const st = streaks(); toast('Ordem correta em ' + P.tent + (P.tent === 1 ? ' tentativa' : ' tentativas') + ' · 🔥 ' + st.cur, 4000); return; }
+    salva(); draw(); toast(marcas.filter(Boolean).length + ' de ' + marcas.length + ' na posição certa. Ajuste as que estão em vermelho.');
+  }
+  function menu() {
+    const s = document.createElement('div'); s.className = 'scrim'; s.innerHTML = '<div class="sheet"><h3>Opções</h3><button class="opt" id="oCh">Consultar anotações<small>Abre a Checagem para rever o tema</small></button><button class="opt" id="oRev">Mostrar a ordem correta<small>Encerra a rodada sem concluir</small></button></div>'; document.body.appendChild(s);
+    const f = () => s.remove(); s.addEventListener('click', e => { if (e.target === s) f(); });
+    s.querySelector('#oCh').onclick = () => { f(); location.hash = '#/checagem?q=' + encodeURIComponent(d.titulo); };
+    s.querySelector('#oRev').onclick = () => { f(); fim = true; draw(); ordem = certa.slice(); marcas = null; draw(); };
+  }
+  draw();
+}
+
 /* ---------- anotação completa ---------- */
 function notaTela(m, a, q, alvo) {
   document.title = a + ' · CACD Games';
@@ -208,18 +254,19 @@ function notaTela(m, a, q, alvo) {
 function statsTela() {
   document.title = 'Progresso · CACD Games';
   const m = carrega(), st = streaks();
-  const feitos = JOGOS.filter(j => concluidoEm(j.id)), semAjuda = feitos.filter(j => !prog(j.id).assist), cxFeitos = CONEXOES.filter(j => (carrega().cx[j.id] || {}).ok), qdFeitos = QDECKS.filter(d => carrega().qd[d.id]);
+  const feitos = JOGOS.filter(j => concluidoEm(j.id)), semAjuda = feitos.filter(j => !prog(j.id).assist), cxFeitos = CONEXOES.filter(j => (carrega().cx[j.id] || {}).ok), qdFeitos = QDECKS.filter(d => carrega().qd[d.id]), ltFeitos = LDECKS.filter(d => (carrega().lt[d.id] || {}).ok);
   let h = '<div class="screen"><div class="top"><h1>Progresso</h1></div><div class="cards">' +
     '<div class="card"><b>' + st.cur + '</b><span>' + (st.cur === 1 ? 'dia seguido' : 'dias seguidos') + '</span></div><div class="card"><b>' + st.best + '</b><span>melhor sequência</span></div>' +
     '<div class="card"><b>' + feitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + JOGOS.length + '</small></b><span>cruzadas concluídas</span></div>' +
     '<div class="card"><b>' + semAjuda.length + '</b><span>cruzadas sem ajuda</span></div>' +
     '<div class="card"><b>' + cxFeitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + CONEXOES.length + '</small></b><span>conexões concluídas</span></div>' +
-    '<div class="card"><b>' + qdFeitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + QDECKS.length + '</small></b><span>baralhos de Quem disse</span></div></div>';
+    '<div class="card"><b>' + qdFeitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + QDECKS.length + '</small></b><span>baralhos de Quem disse</span></div>' +
+    '<div class="card"><b>' + ltFeitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + LDECKS.length + '</small></b><span>linhas do tempo</span></div></div>';
   const t = diaNum(hoje()); let cal = '';
   for (let i = 27; i >= 0; i--) { const k = keyDeNum(t - i); cal += '<i class="' + ((m.dias[k] || []).length ? 'on' : '') + '" title="' + k + '"></i>'; }
   h += '<h2 class="sec">Últimos 28 dias</h2><div class="cal">' + cal + '</div><h2 class="sec">Por matéria</h2>';
   [...new Set(JOGOS.map(j => j.materia))].forEach(mt => {
-    const js = JOGOS.filter(j => j.materia === mt), cs = CONEXOES.filter(j => j.materia === mt), qs = QDECKS.filter(d => d.materia === mt), ok = js.filter(j => concluidoEm(j.id)).length + cs.filter(j => (carrega().cx[j.id] || {}).ok).length + qs.filter(d => carrega().qd[d.id]).length, tot = js.length + cs.length + qs.length;
+    const js = JOGOS.filter(j => j.materia === mt), cs = CONEXOES.filter(j => j.materia === mt), qs = QDECKS.filter(d => d.materia === mt), ls = LDECKS.filter(d => d.materia === mt), ok = js.filter(j => concluidoEm(j.id)).length + cs.filter(j => (carrega().cx[j.id] || {}).ok).length + qs.filter(d => carrega().qd[d.id]).length + ls.filter(d => (carrega().lt[d.id] || {}).ok).length, tot = js.length + cs.length + qs.length + ls.length;
     h += '<div><b>' + esc(mt) + '</b> <span class="cnt">' + ok + ' de ' + tot + ' jogos</span><div class="bar"><i style="width:' + Math.round(100 * ok / tot) + '%"></i></div></div>';
   });
   h += '<h2 class="sec">Backup do progresso</h2><div class="box"><p>Seu progresso fica só neste aparelho e neste navegador. Para levar para outro celular (ou guardar antes de limpar os dados do navegador), exporte o código e importe lá.</p>' +
@@ -237,11 +284,11 @@ function statsTela() {
     ta.hidden = false; cb.hidden = false; ta.value = ''; ta.readOnly = false; ta.placeholder = 'Cole aqui o código exportado';
     cb.innerHTML = '<button class="btn primary" id="bGo">Importar (substitui o progresso atual)</button>';
     document.getElementById('bGo').onclick = () => {
-      try { const o = JSON.parse(decodeURIComponent(escape(atob(ta.value.trim())))); if (!o || typeof o.cw !== 'object' || typeof o.dias !== 'object') throw 0; o.cx = o.cx || {}; o.qd = o.qd || {}; mem = o; salva(); toast('Progresso importado.'); statsTela(); } catch (e) { toast('Código inválido.'); }
+      try { const o = JSON.parse(decodeURIComponent(escape(atob(ta.value.trim())))); if (!o || typeof o.cw !== 'object' || typeof o.dias !== 'object') throw 0; o.cx = o.cx || {}; o.qd = o.qd || {}; o.lt = o.lt || {}; mem = o; salva(); toast('Progresso importado.'); statsTela(); } catch (e) { toast('Código inválido.'); }
     };
   };
   document.getElementById('bZero').onclick = e => {
-    if (e.target.dataset.s) { mem = { cw: {}, cx: {}, qd: {}, dias: {} }; salva(); toast('Progresso apagado.'); statsTela(); return; }
+    if (e.target.dataset.s) { mem = { cw: {}, cx: {}, qd: {}, lt: {}, dias: {} }; salva(); toast('Progresso apagado.'); statsTela(); return; }
     e.target.dataset.s = 1; e.target.textContent = 'Toque de novo para confirmar'; setTimeout(() => { e.target.dataset.s = ''; e.target.textContent = 'Apagar todo o meu progresso'; }, 3500);
   };
 }
@@ -499,7 +546,7 @@ function quemTela(id) {
 /* ---------- início ---------- */
 function iniciar() {
   window.addEventListener('hashchange', () => { if (stopGame) stopGame(); rota(); });
-  Promise.all([fetch('data/jogos.json', { cache: 'no-cache' }).then(r => r.json()), fetch('data/conexoes.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ jogos: [] })), fetch('data/quem-disse.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ decks: [] }))]).then(([d, c, q]) => { JOGOS = d.jogos; CONEXOES = c.jogos; QDECKS = q.decks; GERADO = d.gerado; rota(); })
+  Promise.all([fetch('data/jogos.json', { cache: 'no-cache' }).then(r => r.json()), fetch('data/conexoes.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ jogos: [] })), fetch('data/quem-disse.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ decks: [] })), fetch('data/linha-do-tempo.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ decks: [] }))]).then(([d, c, q, l]) => { JOGOS = d.jogos; CONEXOES = c.jogos; QDECKS = q.decks; LDECKS = l.decks; GERADO = d.gerado; rota(); })
     .catch(() => { $app.innerHTML = '<div class="screen"><p style="padding:40px 0">Não consegui carregar os jogos. Abra o app uma vez com internet.</p></div>'; });
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(() => { });
 }

@@ -1,0 +1,212 @@
+[
+ {
+  "id": "lt-ec-republica-velha",
+  "materia": "Economia",
+  "titulo": "Política monetária da República Velha",
+  "eventos": [
+   {
+    "ano": 1889,
+    "d": "1889",
+    "t": "Criação do Banco Nacional do Brasil, banco de emissão",
+    "chave": "Banco Nacional do Brasil",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1890,
+    "d": "1890",
+    "t": "Lei bancária de Rui Barbosa e início do Encilhamento",
+    "chave": "Rui Barbosa",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1895,
+    "d": "1895",
+    "t": "Empréstimo de 7,5 milhões de libras com os Rothschild",
+    "chave": "Rothschild",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1898,
+    "d": "1898",
+    "t": "Moratória e plano conservador de saneamento monetário e fiscal",
+    "chave": "moratória",
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "ano": 1906,
+    "d": "1906",
+    "t": "Convênio de Taubaté e criação da Caixa de Conversão",
+    "chave": "Caixa de Conversão",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1914,
+    "d": "1914",
+    "t": "Fechamento da Caixa de Conversão e feriado bancário",
+    "chave": "feriado bancário",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1926,
+    "d": "1926",
+    "t": "Caixa de Estabilização, no governo Washington Luís",
+    "chave": "Caixa de Estabilização",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1930,
+    "d": "1930",
+    "t": "Vitória de Vargas e extinção da Caixa de Estabilização",
+    "chave": "Vargas",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   }
+  ]
+ },
+ {
+  "id": "lt-ec-cafe",
+  "materia": "Economia",
+  "titulo": "Defesa do café: de Taubaté à Depressão",
+  "eventos": [
+   {
+    "ano": 1906,
+    "d": "1906",
+    "t": "Convênio de Taubaté: o governo compra e estoca os excedentes de café",
+    "chave": "Taubaté",
+    "fonte": "Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md"
+   },
+   {
+    "ano": 1917,
+    "d": "1917–20",
+    "t": "Nova defesa do café, com emissão de moeda e estocagem em Santos e no Rio",
+    "chave": "1917",
+    "fonte": "Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md"
+   },
+   {
+    "ano": 1921,
+    "d": "1921",
+    "t": "Supersafra e nova operação de defesa",
+    "chave": "supersafra",
+    "fonte": "Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md"
+   },
+   {
+    "ano": 1927,
+    "d": "1927",
+    "t": "Nova supersafra e defesa financiada com empréstimos",
+    "chave": "empréstimos",
+    "fonte": "Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md"
+   },
+   {
+    "ano": 1929,
+    "d": "1929",
+    "t": "Grande Depressão: acaba o Instituto Paulista e a defesa passa ao governo federal",
+    "chave": "Grande Depressão",
+    "fonte": "Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md"
+   },
+   {
+    "ano": 1931,
+    "d": "1931",
+    "t": "Início da destruição do café estocado",
+    "chave": "Café destruído",
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   }
+  ]
+ },
+ {
+  "id": "lt-ec-vargas",
+  "materia": "Economia",
+  "titulo": "Primeiro governo Vargas",
+  "eventos": [
+   {
+    "ano": 1930,
+    "d": "1930",
+    "t": "Abandono do padrão-ouro e desvalorização do mil-réis",
+    "chave": "padrão-ouro",
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   },
+   {
+    "ano": 1931,
+    "d": "1931",
+    "t": "Funding loan e suspensão do pagamento da dívida pública externa",
+    "chave": "funding loan",
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   },
+   {
+    "ano": 1934,
+    "d": "1934",
+    "t": "Criação do Conselho Federal de Comércio Exterior",
+    "chave": "Conselho Federal de Comércio Exterior",
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   },
+   {
+    "ano": 1935,
+    "d": "1935",
+    "t": "Acordo comercial com os EUA reduz tarifas de produtos americanos",
+    "chave": "acordo comercial",
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   },
+   {
+    "ano": 1937,
+    "d": "1937",
+    "t": "Escassez de divisas, desvalorização e controles cambiais no Estado Novo",
+    "chave": "escassez de divisas",
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   },
+   {
+    "ano": 1942,
+    "d": "1942",
+    "t": "Reforma monetária que aumenta a liquidez e o crédito",
+    "chave": "reforma monetária",
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   }
+  ]
+ },
+ {
+  "id": "lt-ec-pos-guerra",
+  "materia": "Economia",
+  "titulo": "Pós-guerra: de Bretton Woods a Café Filho",
+  "eventos": [
+   {
+    "ano": 1944,
+    "d": "1944",
+    "t": "Acordo de Bretton Woods substitui o padrão-ouro",
+    "chave": "Bretton Woods",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1946,
+    "d": "1946",
+    "t": "Nova Constituição e relaxamento dos controles cambiais",
+    "chave": "relaxamento dos controles cambiais",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1947,
+    "d": "1947",
+    "t": "Reversão da política: controles cambiais e de importações",
+    "chave": "controles cambiais",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1952,
+    "d": "1952",
+    "t": "Crise cambial, com queda de 20% nas exportações",
+    "chave": "crise cambial",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1953,
+    "d": "1953",
+    "t": "Reforma ministerial: Plano Aranha e Instrução 70 da SUMOC",
+    "chave": "Plano Aranha",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1955,
+    "d": "1955",
+    "t": "Instrução 113 da SUMOC facilita a entrada de capital estrangeiro",
+    "chave": "Instrução 113",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   }
+  ]
+ }
+]
