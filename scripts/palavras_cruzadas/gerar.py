@@ -10,7 +10,7 @@ Uso:
 Cada palavra cruzada vem de pools/<chave>.json (resposta, dica, fonte). A dica só pode vir das
 anotações em /anotações/<materia>/ ou do material do professor — nunca de conteúdo externo.
 """
-import json, glob, os, re, sys, random, multiprocessing as mp
+import subprocess, json, glob, os, re, sys, random, multiprocessing as mp
 from html import escape
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -196,7 +196,7 @@ def main(args):
     if '--so-paginas' in args:
         chaves = [a for a in args if not a.startswith('--')] or [os.path.basename(f)[:-5] for f in glob.glob(os.path.join(GRADES, '*.json'))]
         for c in chaves: escreve_paginas(c)
-        indice_e_readme(); print('ok'); return
+        indice_e_readme(); subprocess.run([sys.executable, os.path.join(RAIZ, 'scripts', 'app', 'build_dados.py')], check=False); print('ok'); return
     todas = sorted(os.path.basename(f)[:-5] for f in glob.glob(os.path.join(POOLS, '*.json')))
     if '--todas' in args: alvo = todas
     elif args: alvo = [a for a in args if a in todas]; faltam = [a for a in args if a not in todas]; \
@@ -209,6 +209,7 @@ def main(args):
     for chave in (todas if '--todas' in args or not args else alvo):
         if os.path.exists(os.path.join(GRADES, chave + '.json')): escreve_paginas(chave)
     indice_e_readme()
+    subprocess.run([sys.executable, os.path.join(RAIZ, 'scripts', 'app', 'build_dados.py')], check=False)
     print('ok')
 
 if __name__ == '__main__':

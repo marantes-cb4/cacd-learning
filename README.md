@@ -2,6 +2,10 @@
 
 Personal learning workspace. Private and independent.
 
+## App CACD Games
+
+Jogos de estudo para o celular (palavras cruzadas e mais, em breve): [abrir o app](https://marantes-cb4.github.io/cacd-learning/app/) — instale na tela inicial pelo navegador. Requer o GitHub Pages ativado (Settings → Pages → `main` / root). Código em `app/`.
+
 ## Mapas mentais
 
 - [Direito Interno — mapa mental interativo](https://htmlpreview.github.io/?https://github.com/marantes-cb4/cacd-learning/blob/main/mapas%20mentais/direito-interno.html)

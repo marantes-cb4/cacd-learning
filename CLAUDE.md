@@ -189,3 +189,11 @@ Uma palavra cruzada (jogar no navegador + versão para imprimir) para cada item 
 - Nunca commitar PDFs ou arquivos acima de 10MB
 - Sempre fazer push após cada tarefa concluída
 - Em caso de dúvida sobre o macro tema, perguntar antes de commitar
+
+## App CACD Games (/app/) — PWA de jogos de estudo
+App estático instalável (celular e navegador), publicado pelo GitHub Pages em https://marantes-cb4.github.io/cacd-learning/app/ (Settings → Pages → Deploy from branch → `main` / root). Sem servidor: o progresso (streak, jogos concluídos) fica no `localStorage` de cada pessoa; há exportar/importar código na aba Progresso.
+- **Arquivos:** `app/index.html`, `app/app.js`, `app/style.css`, `app/sw.js` (service worker: rede primeiro, cache offline), `app/manifest.webmanifest`, `app/icons/` (gerados por `scripts/app/icones.py`) e `app/data/jogos.json`
+- **Dados:** `app/data/jogos.json` é GERADO por `scripts/app/build_dados.py` a partir dos pools e grades das palavras cruzadas — nunca editar à mão. `gerar.py` já chama o build ao final, então **refazer um jogo de palavras cruzadas atualiza o app**; commitar `app/data/jogos.json` junto
+- **Fontes dos jogos: SOMENTE anotações e materiais do professor.** Nunca conteúdo externo
+- **Jogos planejados** (cada um com seu JSON em `app/data/`, gerado dos mesmos materiais): Conexões (grupos de termos por tema), Quem disse? (autor ↔ teoria/artigo), Linha do tempo (ordenar eventos; essencial para História do Brasil e Política Internacional). Ao processar uma aula (TAREFA 1), gerar/atualizar também o conteúdo desses jogos quando existirem
+- **Aviso obrigatório:** se a aula não tiver conteúdo suficiente para um jogo (ex.: poucas datas para a Linha do tempo, sem autores para Quem disse), NÃO inventar nem buscar fora: terminar a tarefa com um aviso bem visível, no formato `⚠️ ATENÇÃO – CONTEÚDO FALTANTE: <aula> → <jogo>: preciso de <o que falta>`, para eu pesquisar e mandar o conteúdo, que entra no jogo e na anotação juntos
