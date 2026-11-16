@@ -3,7 +3,7 @@
 import os, struct, zlib
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(RAIZ, 'app', 'icons')
-BG = (31, 95, 107); FG = (255, 255, 255); BLOCK = (23, 70, 79); ACC = (242, 199, 92)
+BG = (91, 63, 160); FG = (255, 255, 255); BLOCK = (52, 36, 98); ACC = (255, 154, 77)
 # mini palavra cruzada 5x5 (1 = casa branca, 0 = bloco, 2 = casa destacada)
 G = ["11111", "10101", "12221", "10101", "11111"]
 

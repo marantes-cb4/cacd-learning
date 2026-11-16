@@ -10,6 +10,7 @@ CONEXOES = os.path.join(RAIZ, 'scripts', 'app', 'conexoes')
 SAIDA_CX = os.path.join(RAIZ, 'app', 'data', 'conexoes.json')
 QUEM = os.path.join(RAIZ, 'scripts', 'app', 'quem-disse')
 SAIDA_QD = os.path.join(RAIZ, 'app', 'data', 'quem-disse.json')
+SAIDA_AN = os.path.join(RAIZ, 'app', 'data', 'anotacoes.json')
 NOTAS = os.path.join(RAIZ, 'anotações')
 
 def chave_ordem(p):
@@ -101,7 +102,39 @@ def quem_disse():
     json.dump(dict(gerado=time.strftime('%Y-%m-%d'), decks=decks), open(SAIDA_QD, 'w'), ensure_ascii=False, separators=(',', ':'))
     print('app: %d decks Quem disse em %s' % (len(decks), os.path.relpath(SAIDA_QD, RAIZ)))
 
+def secoes(texto, arquivo):
+    """Divide uma anotação em seções (por título # ou linha toda em **negrito**), com teto de ~2500 caracteres por seção."""
+    out, tit, buf = [], arquivo, []
+    def flush():
+        txt = '\n'.join(buf).strip('\n')
+        if txt.strip(): out.append((tit, txt))
+    for l in texto.split('\n'):
+        st = l.strip()
+        titulo = st.startswith('#') or (re.fullmatch(r'\*\*[^*].*[^*]\*\*:?', st) and not l.startswith((' ', '\t', '-')))
+        if titulo:
+            flush(); buf.clear(); tit = re.sub(r'^#+\s*|\*\*|:$', '', st).strip() or arquivo
+        else:
+            if sum(len(x) for x in buf) > 2500 and l.startswith('- '):
+                flush(); buf.clear()
+            buf.append(l)
+    flush()
+    return out
+
+def anotacoes():
+    """Índice de busca da aba Checagem: app/data/anotacoes.json (só as anotações do repositório)."""
+    docs = []
+    for mat in sorted(os.listdir(NOTAS)):
+        pasta = os.path.join(NOTAS, mat)
+        if not os.path.isdir(pasta): continue
+        for f in sorted(glob.glob(os.path.join(pasta, '*.md'))):
+            nome = os.path.basename(f)[:-3]
+            for tit, txt in secoes(open(f).read(), nome):
+                docs.append(dict(m=mat, a=nome, t=tit, x=txt))
+    json.dump(dict(gerado=time.strftime('%Y-%m-%d'), docs=docs), open(SAIDA_AN, 'w'), ensure_ascii=False, separators=(',', ':'))
+    print('app: %d seções de anotações em %s (%d KB)' % (len(docs), os.path.relpath(SAIDA_AN, RAIZ), os.path.getsize(SAIDA_AN) // 1024))
+
 if __name__ == '__main__':
     main()
     conexoes()
     quem_disse()
+    anotacoes()

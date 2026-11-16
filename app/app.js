@@ -42,9 +42,25 @@ function streaks() {
 
 /* ---------- jogo do dia ---------- */
 function hashStr(s) { let h = 5381; for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0; return h; }
+const TIPOS = [
+  { k: 'cruzada', nome: 'Palavras cruzadas', ic: '▦', desc: 'Preencha a grade com as dicas' },
+  { k: 'conexoes', nome: 'Conexões', ic: '◫', desc: 'Agrupe 16 termos em 4 grupos' },
+  { k: 'quem', nome: 'Quem disse?', ic: '❝', desc: 'Descubra o autor ou a figura' },
+  { k: 'tempo', nome: 'Linha do tempo', ic: '⌛', soon: true }
+];
+function itensDe(k) {
+  const m = carrega();
+  if (k === 'cruzada') return JOGOS.map(j => ({ id: j.id, titulo: j.titulo, materia: j.materia, sub: 'Item ' + j.item + ' · ' + j.palavras.length + ' palavras' + (j.status === 'parcial' ? ' · matéria parcial' : ''), hash: '#/cruzada/' + j.id, ok: concluidoEm(j.id), pct: pct(j) }));
+  if (k === 'conexoes') return CONEXOES.map(j => { const c = m.cx[j.id] || {}; return { id: j.id, titulo: j.titulo, materia: j.materia, sub: 'Item ' + j.item + ' · 4 grupos', hash: '#/conexoes/' + j.id, ok: !!c.ok, pct: c.ok ? 100 : 25 * (c.solved || []).length, lost: !!c.lost }; });
+  if (k === 'quem') return QDECKS.map(d => { const q = m.qd[d.id]; return { id: d.id, titulo: d.titulo, materia: d.materia, sub: d.cartas.length + ' perguntas', hash: '#/quem/' + d.id, ok: !!q && q.melhor === d.cartas.length, nota: q ? 'melhor ' + q.melhor + '/' + d.cartas.length : '' }; });
+  return [];
+}
 function jogoDoDia() {
-  const ord = JOGOS.slice().sort((a, b) => hashStr(a.id) - hashStr(b.id));
-  return ord[diaNum(hoje()) % ord.length];
+  const ativos = TIPOS.filter(t => !t.soon && itensDe(t.k).length), dn = diaNum(hoje());
+  const t = ativos[dn % ativos.length], its = itensDe(t.k).sort((a, b) => hashStr(a.id) - hashStr(b.id));
+  const it = its[Math.floor(dn / ativos.length) % its.length];
+  const feito = it.ok || (carrega().dias[hoje()] || []).includes(it.id);
+  return { tipo: t, item: it, feito };
 }
 
 /* ---------- roteamento ---------- */
@@ -53,67 +69,122 @@ function rota() {
   if (h.startsWith('cruzada/')) return jogoTela(h.slice(8));
   if (h.startsWith('conexoes/')) return conexoesTela(h.slice(9));
   if (h.startsWith('quem/')) return quemTela(h.slice(5));
+  if (h.startsWith('checagem')) { const m = h.match(/[?&]q=([^&]*)/); return checagemTela(m ? decodeURIComponent(m[1]) : ''); }
   if (h === 'stats') return statsTela();
   homeTela();
 }
 
 /* ---------- navegação inferior ---------- */
-const tabs = on => '<nav class="tabs"><a href="#/" class="' + (on === 'home' ? 'on' : '') + '"><b>▦</b>Jogos</a><a href="#/stats" class="' + (on === 'stats' ? 'on' : '') + '"><b>▤</b>Progresso</a></nav>';
+const tabs = on => '<nav class="tabs"><a href="#/" class="' + (on === 'home' ? 'on' : '') + '"><b>▦</b>Jogos</a><a href="#/checagem" class="' + (on === 'check' ? 'on' : '') + '"><b>⌕</b>Checagem</a><a href="#/stats" class="' + (on === 'stats' ? 'on' : '') + '"><b>▤</b>Progresso</a></nav>';
 
 /* ---------- home ---------- */
 function homeTela() {
   document.title = 'CACD Games';
-  const st = streaks(), d = jogoDoDia(), dp = prog(d.id);
-  const mats = [...new Set(JOGOS.map(j => j.materia))];
+  const st = streaks(), d = jogoDoDia();
+  let sel = ''; try { sel = sessionStorage.getItem('tipo') || ''; } catch (e) { }
   const aberto = new Set(); try { JSON.parse(sessionStorage.getItem('abertas') || '[]').forEach(m => aberto.add(m)); } catch (e) { }
   let h = '<div class="screen"><div class="top"><h1>CACD Games</h1><div class="streak ' + (st.cur ? 'on' : '') + '" title="Dias seguidos com pelo menos um jogo concluído">🔥 ' + st.cur + '</div></div>' +
-    '<p class="lead">Jogos de estudo feitos só com as suas anotações e os materiais do professor.</p>' +
-    '<button class="daily" data-go="' + d.id + '"><small>Jogo do dia' + (dp && dp.ok ? ' · concluído ✓' : '') + '</small><strong>' + esc(d.titulo) + '</strong><span>' + esc(d.materia) + ' · ' + d.palavras.length + ' palavras' + (dp && !dp.ok && pct(d) ? ' · ' + pct(d) + '% feito' : '') + '</span></button>' +
-    '<h2 class="sec">Palavras cruzadas</h2>';
-  mats.forEach(m => {
-    const js = JOGOS.filter(j => j.materia === m), ok = js.filter(j => concluidoEm(j.id)).length;
-    h += '<details class="mat" data-m="' + esc(m) + '"' + (aberto.has(m) ? ' open' : '') + '><summary>' + esc(m) + ' <span class="cnt">' + ok + ' de ' + js.length + '</span></summary>';
-    js.forEach(j => {
-      const p = pct(j), done = concluidoEm(j.id);
-      h += '<button class="row" data-go="' + j.id + '"><div class="t"><b>' + esc(j.titulo) + '</b><span>Item ' + esc(j.item) + ' · ' + j.palavras.length + ' palavras' + (j.status === 'parcial' ? ' · matéria parcial' : '') + '</span></div>' +
-        (done ? '<span class="tag ok">✓ completo</span>' : p ? '<span class="tag part">' + p + '%</span>' : '') + '</button>';
-    });
-    h += '</details>';
-  });
-  if (CONEXOES.length) {
-    h += '<h2 class="sec">Conexões</h2>';
-    [...new Set(CONEXOES.map(j => j.materia))].forEach(m => {
-      const js = CONEXOES.filter(j => j.materia === m), ok = js.filter(j => (carrega().cx[j.id] || {}).ok).length;
-      h += '<details class="mat" data-m="cx-' + esc(m) + '"' + (aberto.has('cx-' + m) ? ' open' : '') + '><summary>' + esc(m) + ' <span class="cnt">' + ok + ' de ' + js.length + '</span></summary>';
-      js.forEach(j => {
-        const c = carrega().cx[j.id] || {}, n = (c.solved || []).length;
-        h += '<button class="row" data-cx="' + j.id + '"><div class="t"><b>' + esc(j.titulo) + '</b><span>Item ' + esc(j.item) + ' · 4 grupos</span></div>' +
-          (c.ok ? '<span class="tag ok">✓ completo</span>' : c.lost ? '<span class="tag">tente de novo</span>' : n ? '<span class="tag part">' + n + '/4</span>' : '') + '</button>';
+    '<button class="daily" data-go="' + esc(d.item.hash) + '"><small>Jogo do dia · ' + esc(d.tipo.nome) + (d.feito ? ' · concluído ✓' : '') + '</small><strong>' + esc(d.item.titulo) + '</strong><span>' + esc(d.item.materia) + ' · ' + esc(d.item.sub) + '</span></button>' +
+    '<h2 class="sec">Outros jogos</h2><div class="chips">';
+  TIPOS.forEach(t => { h += '<button class="chip' + (sel === t.k ? ' on' : '') + '" data-tipo="' + t.k + '"' + (t.soon ? ' disabled' : '') + '><b>' + t.ic + '</b>' + esc(t.nome) + (t.soon ? '<small>em breve</small>' : '') + '</button>'; });
+  h += '</div>';
+  const tp = TIPOS.find(t => t.k === sel && !t.soon);
+  if (tp) {
+    const its = itensDe(tp.k);
+    h += '<div class="gamehead"><b>' + esc(tp.nome) + '</b><span>' + esc(tp.desc) + '</span></div>';
+    [...new Set(its.map(i => i.materia))].forEach(mt => {
+      const ls = its.filter(i => i.materia === mt), ok = ls.filter(i => i.ok).length, key = tp.k + '-' + mt;
+      h += '<details class="mat" data-m="' + esc(key) + '"' + (aberto.has(key) ? ' open' : '') + '><summary>' + esc(mt) + ' <span class="cnt">' + ok + ' de ' + ls.length + '</span></summary>';
+      ls.forEach(i => {
+        h += '<button class="row" data-go="' + esc(i.hash) + '"><div class="t"><b>' + esc(i.titulo) + '</b><span>' + esc(i.sub) + '</span></div>' +
+          (i.ok ? '<span class="tag ok">✓ completo</span>' : i.lost ? '<span class="tag">tente de novo</span>' : i.nota ? '<span class="tag part">' + esc(i.nota) + '</span>' : i.pct ? '<span class="tag part">' + i.pct + '%</span>' : '') + '</button>';
       });
       h += '</details>';
     });
   }
-  if (QDECKS.length) {
-    h += '<h2 class="sec">Quem disse?</h2>';
-    [...new Set(QDECKS.map(d => d.materia))].forEach(m => {
-      const ds = QDECKS.filter(d => d.materia === m);
-      h += '<details class="mat" data-m="qd-' + esc(m) + '"' + (aberto.has('qd-' + m) ? ' open' : '') + '><summary>' + esc(m) + ' <span class="cnt">' + ds.length + (ds.length === 1 ? ' baralho' : ' baralhos') + '</span></summary>';
-      ds.forEach(d => {
-        const q = carrega().qd[d.id];
-        h += '<button class="row" data-qd="' + d.id + '"><div class="t"><b>' + esc(d.titulo) + '</b><span>' + d.cartas.length + ' perguntas</span></div>' + (q ? '<span class="tag ' + (q.melhor === d.cartas.length ? 'ok' : 'part') + '">melhor ' + q.melhor + '/' + d.cartas.length + '</span>' : '') + '</button>';
-      });
-      h += '</details>';
-    });
-  }
-  h += '<h2 class="sec">Em breve</h2><div class="soon"><div><b>Linha do tempo</b>ordene eventos</div></div></div>' + tabs('home');
+  h += '</div>' + tabs('home');
   $app.innerHTML = h;
-  $app.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { location.hash = '#/cruzada/' + b.dataset.go; });
-  $app.querySelectorAll('[data-qd]').forEach(b => b.onclick = () => { location.hash = '#/quem/' + b.dataset.qd; });
-  $app.querySelectorAll('[data-cx]').forEach(b => b.onclick = () => { location.hash = '#/conexoes/' + b.dataset.cx; });
+  $app.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { location.hash = b.dataset.go; });
+  $app.querySelectorAll('.chip').forEach(b => b.onclick = () => { try { sessionStorage.setItem('tipo', sel === b.dataset.tipo ? '' : b.dataset.tipo); } catch (e) { } homeTela(); });
   $app.querySelectorAll('details.mat').forEach(el => el.addEventListener('toggle', () => {
     const ab = [...$app.querySelectorAll('details.mat[open]')].map(x => x.dataset.m);
     try { sessionStorage.setItem('abertas', JSON.stringify(ab)); } catch (e) { }
   }));
+}
+
+/* ---------- checagem: busca nas anotações ---------- */
+let ANOT = null, ANOT_PROMISE = null;
+const nn = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+function carregaAnotacoes() {
+  if (ANOT) return Promise.resolve(ANOT);
+  if (!ANOT_PROMISE) ANOT_PROMISE = fetch('data/anotacoes.json').then(r => r.json()).then(d => { d.docs.forEach(x => { x._n = nn(x.t + ' \n' + x.x); x._t = nn(x.t); }); ANOT = d.docs; return ANOT; });
+  return ANOT_PROMISE;
+}
+function marca(raw, toks) {
+  const n = nn(raw), rg = [];
+  toks.forEach(t => { let i = n.indexOf(t); while (i >= 0) { rg.push([i, i + t.length]); i = n.indexOf(t, i + t.length); } });
+  rg.sort((a, b) => a[0] - b[0]);
+  const m = []; rg.forEach(r => { if (m.length && r[0] <= m[m.length - 1][1]) m[m.length - 1][1] = Math.max(m[m.length - 1][1], r[1]); else m.push(r.slice()); });
+  let o = '', p = 0; m.forEach(([a, b]) => { o += esc(raw.slice(p, a)) + '<mark>' + esc(raw.slice(a, b)) + '</mark>'; p = b; });
+  return o + esc(raw.slice(p));
+}
+const md = h => h.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
+function secaoHtml(x, toks) {
+  let o = '';
+  x.x.split('\n').forEach(l => {
+    if (!l.trim() || /^\s*-{3,}\s*$/.test(l)) return;
+    const ind = l.match(/^[ \t]*/)[0].replace(/\t/g, '  ').length, bul = /^\s*[-*]\s+/.test(l), txt = l.replace(/^\s*[-*]\s+/, '');
+    if (/^\s*\|/.test(l)) { o += '<div class="tab">' + md(marca(l.trim(), toks)) + '</div>'; return; }
+    o += '<div style="padding-left:' + Math.min(ind, 16) * 6 + 'px">' + (bul ? '• ' : '') + md(marca(txt, toks)) + '</div>';
+  });
+  return o + '<div class="dim">' + esc(x.m) + ' · ' + esc(x.a) + '</div>';
+}
+function snippet(x, toks) {
+  const plain = x.x.replace(/\*\*|\*|^\s*[-|]\s*/gm, '').replace(/\s+/g, ' ');
+  const n = nn(plain); let pos = -1;
+  toks.forEach(t => { const i = n.indexOf(t); if (i >= 0 && (pos < 0 || i < pos)) pos = i; });
+  const a = Math.max(0, (pos < 0 ? 0 : pos) - 70), seg = plain.slice(a, a + 240);
+  return (a > 0 ? '… ' : '') + marca(seg, toks) + (a + 240 < plain.length ? ' …' : '');
+}
+function checagemTela(q0) {
+  document.title = 'Checagem · CACD Games';
+  let filtro = 'Todas', q = q0 || '', abertos = new Set();
+  $app.innerHTML = '<div class="screen"><div class="top"><h1>Checagem</h1></div><p class="lead">Busque uma palavra nas suas anotações e releia o trecho. Ex.: garantias fundamentais, funding scheme, legítima defesa.</p>' +
+    '<input id="q" class="search" type="search" placeholder="Digite uma palavra ou tema…" autocomplete="off" autocapitalize="off" spellcheck="false" value="' + esc(q) + '"><div class="fchips" id="fc"></div><div id="out"><div class="empty">Carregando anotações…</div></div></div>' + tabs('check');
+  const inp = document.getElementById('q'), out = document.getElementById('out'), fc = document.getElementById('fc');
+  let timer;
+  function lista(docs) {
+    const mats = ['Todas', ...new Set(docs.map(d => d.m))];
+    fc.innerHTML = mats.map(m => '<button class="fc' + (m === filtro ? ' on' : '') + '" data-m="' + esc(m) + '">' + esc(m) + '</button>').join('');
+    fc.querySelectorAll('.fc').forEach(b => b.onclick = () => { filtro = b.dataset.m; busca(); });
+  }
+  function busca() {
+    carregaAnotacoes().then(docs => {
+      lista(docs); fc.querySelectorAll('.fc').forEach(b => b.classList.toggle('on', b.dataset.m === filtro));
+      q = inp.value; const toks = nn(q).split(/\s+/).filter(t => t.length >= 2);
+      if (!toks.length) { out.innerHTML = '<div class="empty">Digite ao menos 2 letras para buscar.<br>A busca ignora acentos e maiúsculas e exige todas as palavras.</div>'; return; }
+      const rs = [];
+      docs.forEach((d, i) => {
+        if (filtro !== 'Todas' && d.m !== filtro) return;
+        let sc = 0; for (const t of toks) { if (!d._n.includes(t)) return; sc += (d._t.includes(t) ? 8 : 0) + Math.min(5, d._n.split(t).length - 1); }
+        rs.push([sc, i]);
+      });
+      rs.sort((a, b) => b[0] - a[0]);
+      if (!rs.length) { out.innerHTML = '<div class="empty">Nada encontrado nas anotações para “' + esc(q) + '”.<br>Tente menos palavras, ou outra grafia.</div>'; return; }
+      const top = rs.slice(0, 40);
+      out.innerHTML = '<p class="lead">' + rs.length + (rs.length === 1 ? ' trecho encontrado' : ' trechos encontrados') + (rs.length > 40 ? ' (mostrando os 40 mais relevantes)' : '') + '</p>' +
+        top.map(([s, i]) => { const d = docs[i]; return '<div class="res" data-i="' + i + '"><button><div class="meta">' + esc(d.m) + ' · ' + esc(d.a) + '</div><div class="tt">' + marca(d.t, toks) + '</div><div class="sn">' + snippet(d, toks) + '</div></button><div class="full" hidden></div></div>'; }).join('');
+      out.querySelectorAll('.res').forEach(r => {
+        const d = docs[+r.dataset.i], full = r.querySelector('.full');
+        const abre = () => { full.innerHTML = secaoHtml(d, toks); full.hidden = false; r.querySelector('.sn').style.display = 'none'; };
+        r.querySelector('button').onclick = () => { if (full.hidden) { abre(); abertos.add(r.dataset.i); } else { full.hidden = true; r.querySelector('.sn').style.display = ''; abertos.delete(r.dataset.i); } };
+        if (abertos.has(r.dataset.i)) abre();
+      });
+    }).catch(() => { out.innerHTML = '<div class="empty">Não consegui carregar as anotações. Abra o app com internet uma vez.</div>'; });
+  }
+  inp.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => { abertos = new Set(); busca(); }, 180); });
+  busca();
+  if (!q0) setTimeout(() => { try { inp.focus(); } catch (e) { } }, 50);
 }
 
 /* ---------- estatísticas e backup ---------- */
@@ -291,9 +362,10 @@ function jogoTela(id) {
     '<h3>Opções</h3><button class="opt" data-a="chk">Verificar<small>Marca em vermelho as letras erradas</small></button>' +
     '<button class="opt" data-a="let">Revelar letra<small>Conta como “com ajuda”</small></button>' +
     '<button class="opt" data-a="wrd">Revelar palavra<small>Conta como “com ajuda”</small></button>' +
-    '<button class="opt" data-a="rst" style="color:var(--bad)">Recomeçar<small>Apaga as letras e o tempo desta grade</small></button>',
+    '<button class="opt" data-a="chk2">Consultar anotações<small>Abre a Checagem para rever o tema</small></button>' + '<button class="opt" data-a="rst" style="color:var(--bad)">Recomeçar<small>Apaga as letras e o tempo desta grade</small></button>',
     (s, fechar) => s.querySelectorAll('.opt').forEach(b => b.onclick = () => {
       const a = b.dataset.a;
+      if (a === 'chk2') { location.hash = '#/checagem?q=' + encodeURIComponent(j.titulo); return; }
       if (a === 'chk') { wrong = new Set(); let n = 0; cells.forEach(o => { if (o.val && o.val !== o.ans) { wrong.add(o); n++; } }); render(); toast(n ? n + (n > 1 ? ' letras erradas marcadas.' : ' letra errada marcada.') : 'Nenhuma letra errada até agora.'); }
       else if (a === 'let') { if (!cur) cur = firstEmpty(act); if (!fim) { cur.val = cur.ans; P.assist = true; wrong.delete(cur); save(); render(); } }
       else if (a === 'wrd') { if (!fim) { cellsOf(act).forEach(o => { o.val = o.ans; wrong.delete(o); }); P.assist = true; save(); render(); } }
@@ -334,7 +406,7 @@ function conexoesTela(id) {
     h += '</div></div>';
     $app.innerHTML = h;
     document.getElementById('xBack').onclick = () => { location.hash = '#/'; };
-    document.getElementById('xMenu').onclick = () => sheet('<h3>Opções</h3><button class="opt" id="oRe" style="color:var(--bad)">Recomeçar<small>Apaga o progresso desta conexão</small></button>', (s, f) => { s.querySelector('#oRe').onclick = () => { reset(); f(); }; });
+    document.getElementById('xMenu').onclick = () => sheet('<h3>Opções</h3><button class="opt" id="oCh">Consultar anotações<small>Abre a Checagem para rever o tema</small></button><button class="opt" id="oRe" style="color:var(--bad)">Recomeçar<small>Apaga o progresso desta conexão</small></button>', (s, f) => { s.querySelector('#oRe').onclick = () => { reset(); f(); }; s.querySelector('#oCh').onclick = () => { f(); location.hash = '#/checagem?q=' + encodeURIComponent(j.titulo); }; });
     $app.querySelectorAll('.tile').forEach(b => b.onclick = () => { const t = b.dataset.t; sel = sel.includes(t) ? sel.filter(x => x !== t) : sel.length < 4 ? [...sel, t] : sel; draw(); });
     const q = id => document.getElementById(id);
     if (q('xShuf')) q('xShuf').onclick = () => { embaralha(); draw(); };
@@ -387,12 +459,13 @@ function quemTela(id) {
       '<div class="cxmain"><div class="qcard"><small>QUEM DISSE, FEZ OU FORMULOU?</small><p>' + esc(c.q) + '</p></div><div class="qopts">';
     opts.forEach(o => { const cls = resp === null ? '' : o === c.r ? ' certo' : o === resp ? ' errado' : ' apagado'; h += '<button class="qopt' + cls + '" data-o="' + esc(o) + '"' + (resp !== null ? ' disabled' : '') + '>' + esc(o) + '</button>'; });
     h += '</div>';
-    if (resp !== null) h += '<div class="qexp"><b>' + (resp === c.r ? 'Certo!' : 'Era ' + esc(c.r) + '.') + '</b> ' + esc(c.exp) + '<small>Fonte: ' + esc(c.fonte) + '</small></div><div class="btns" style="justify-content:center"><button class="btn primary" id="qNext">' + (i + 1 === cartas.length ? 'Ver resultado' : 'Próxima') + '</button></div>';
+    if (resp !== null) h += '<div class="qexp"><b>' + (resp === c.r ? 'Certo!' : 'Era ' + esc(c.r) + '.') + '</b> ' + esc(c.exp) + '<small>Fonte: ' + esc(c.fonte) + '</small></div><div class="btns" style="justify-content:center"><button class="btn" id="qCheck">Rever nas anotações</button><button class="btn primary" id="qNext">' + (i + 1 === cartas.length ? 'Ver resultado' : 'Próxima') + '</button></div>';
     h += '</div></div>';
     $app.innerHTML = h;
     document.getElementById('qBack').onclick = sair;
     $app.querySelectorAll('.qopt').forEach(b => b.onclick = () => { resp = b.dataset.o; if (resp === c.r) acertos++; draw(); });
     const n = document.getElementById('qNext'); if (n) n.onclick = () => { i++; resp = null; draw(); };
+    const ck = document.getElementById('qCheck'); if (ck) ck.onclick = () => { location.hash = '#/checagem?q=' + encodeURIComponent(c.chave); };
   }
   function fim() {
     const m = carrega(), q = m.qd[id] || (m.qd[id] = { melhor: 0, vezes: 0 });
