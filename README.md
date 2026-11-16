@@ -4,7 +4,7 @@ Personal learning workspace. Private and independent.
 
 ## App CACD Games
 
-Jogos de estudo para o celular (palavras cruzadas e mais, em breve): [abrir o app](https://marantes-cb4.github.io/cacd-learning/app/) — instale na tela inicial pelo navegador. Requer o GitHub Pages ativado (Settings → Pages → `main` / root). Código em `app/`.
+Jogos de estudo para o celular (palavras cruzadas e Conexões; Quem disse e Linha do tempo em breve): [abrir o app](https://marantes-cb4.github.io/cacd-learning/app/) — instale na tela inicial pelo navegador. Requer o GitHub Pages ativado (Settings → Pages → `main` / root). Código em `app/`.
 
 ## Mapas mentais
 

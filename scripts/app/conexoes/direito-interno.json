@@ -1,0 +1,386 @@
+[
+ {
+  "id": "di-classificacoes-da-constituicao",
+  "materia": "Direito Interno",
+  "item": "3.1",
+  "titulo": "Classificações da Constituição",
+  "grupos": [
+   {
+    "tema": "Quanto à origem",
+    "termos": [
+     "Promulgada",
+     "Outorgada",
+     "Cesarista",
+     "Democrática"
+    ],
+    "fonte": "Conceito e Classificação da Constituição.md"
+   },
+   {
+    "tema": "Quanto à alterabilidade",
+    "termos": [
+     "Rígida",
+     "Flexível",
+     "Semirrígida",
+     "Semiflexível"
+    ],
+    "fonte": "Conceito e Classificação da Constituição.md"
+   },
+   {
+    "tema": "Quanto à forma",
+    "termos": [
+     "Escrita",
+     "Costumeira",
+     "Codificada",
+     "Instrumental"
+    ],
+    "fonte": "Conceito e Classificação da Constituição.md"
+   },
+   {
+    "tema": "Como a CF/88 é classificada nos demais critérios",
+    "termos": [
+     "Dogmática",
+     "Formal",
+     "Analítica",
+     "Dirigente"
+    ],
+    "fonte": "Conceito e Classificação da Constituição.md"
+   }
+  ]
+ },
+ {
+  "id": "di-controle-de-constitucionalidade",
+  "materia": "Direito Interno",
+  "item": "3.3",
+  "titulo": "Controle de constitucionalidade",
+  "grupos": [
+   {
+    "tema": "Ações do controle concentrado",
+    "termos": [
+     "ADI",
+     "ADC",
+     "ADPF",
+     "ADO"
+    ],
+    "fonte": "Controle de Constitucionalidade.md"
+   },
+   {
+    "tema": "Espécies de inconstitucionalidade",
+    "termos": [
+     "Formal",
+     "Material",
+     "Orgânica",
+     "Omissão"
+    ],
+    "fonte": "Controle de Constitucionalidade.md"
+   },
+   {
+    "tema": "Controle difuso",
+    "termos": [
+     "Marbury",
+     "Incidental",
+     "Subjetivo",
+     "Reserva de plenário"
+    ],
+    "fonte": "Controle de Constitucionalidade.md"
+   },
+   {
+    "tema": "Controle abstrato (concentrado)",
+    "termos": [
+     "Kelsen",
+     "Legislador negativo",
+     "Pertinência temática",
+     "Indisponíveis"
+    ],
+    "fonte": "Controle de Constitucionalidade.md"
+   }
+  ]
+ },
+ {
+  "id": "di-estrutura-da-administracao-federal",
+  "materia": "Direito Interno",
+  "item": "9.2",
+  "titulo": "Estrutura da Administração Federal",
+  "grupos": [
+   {
+    "tema": "Entidades da administração indireta",
+    "termos": [
+     "Autarquia",
+     "Fundação",
+     "Empresa pública",
+     "Sociedade de economia mista"
+    ],
+    "fonte": "Estrutura da Administração Pública Federal.md"
+   },
+   {
+    "tema": "Exemplos de entidades (um de cada tipo)",
+    "termos": [
+     "Correios",
+     "Petrobras",
+     "INSS",
+     "IBGE"
+    ],
+    "fonte": "Estrutura da Administração Pública Federal.md"
+   },
+   {
+    "tema": "Desconcentração x descentralização",
+    "termos": [
+     "Desconcentração",
+     "Descentralização",
+     "Hierárquico",
+     "Finalístico"
+    ],
+    "fonte": "Estrutura da Administração Pública Federal.md"
+   },
+   {
+    "tema": "Administração direta",
+    "termos": [
+     "Presidência da República",
+     "Ministérios",
+     "Secretarias",
+     "Embaixada"
+    ],
+    "fonte": "Estrutura da Administração Pública Federal.md"
+   }
+  ]
+ },
+ {
+  "id": "di-atos-administrativos",
+  "materia": "Direito Interno",
+  "item": "9.3",
+  "titulo": "Atos administrativos",
+  "grupos": [
+   {
+    "tema": "Formas de rever o ato",
+    "termos": [
+     "Anulação",
+     "Revogação",
+     "Convalidação",
+     "Autotutela"
+    ],
+    "fonte": "Atos Administrativos.md"
+   },
+   {
+    "tema": "Efeitos e prazo",
+    "termos": [
+     "Decadência",
+     "Ex tunc",
+     "Ex nunc",
+     "5 anos"
+    ],
+    "fonte": "Atos Administrativos.md"
+   },
+   {
+    "tema": "Controle judicial do ato",
+    "termos": [
+     "Forma",
+     "Mérito",
+     "Desvio de finalidade",
+     "Motivos determinantes"
+    ],
+    "fonte": "Atos Administrativos.md"
+   },
+   {
+    "tema": "Discricionariedade x vinculação",
+    "termos": [
+     "Discricionário",
+     "Vinculado",
+     "Conveniência",
+     "Oportunidade"
+    ],
+    "fonte": "Atos Administrativos.md"
+   }
+  ]
+ },
+ {
+  "id": "di-licitacoes",
+  "materia": "Direito Interno",
+  "item": "10.1",
+  "titulo": "Licitações (Lei 14.133)",
+  "grupos": [
+   {
+    "tema": "Modalidades",
+    "termos": [
+     "Pregão",
+     "Concorrência",
+     "Concurso",
+     "Leilão"
+    ],
+    "fonte": "Licitações e Contratos Administrativos.md"
+   },
+   {
+    "tema": "Contratação direta",
+    "termos": [
+     "Inexigibilidade",
+     "Dispensa",
+     "Notória especialização",
+     "Emergência"
+    ],
+    "fonte": "Licitações e Contratos Administrativos.md"
+   },
+   {
+    "tema": "Fases do art. 17",
+    "termos": [
+     "Propostas",
+     "Julgamento",
+     "Habilitação",
+     "Homologação"
+    ],
+    "fonte": "Licitações e Contratos Administrativos.md"
+   },
+   {
+    "tema": "Princípios do art. 5º",
+    "termos": [
+     "Planejamento",
+     "Transparência",
+     "Economicidade",
+     "Probidade"
+    ],
+    "fonte": "Licitações e Contratos Administrativos.md"
+   }
+  ]
+ },
+ {
+  "id": "di-contratos-administrativos",
+  "materia": "Direito Interno",
+  "item": "10.2",
+  "titulo": "Contratos administrativos",
+  "grupos": [
+   {
+    "tema": "Características do contrato",
+    "termos": [
+     "Bilateralidade",
+     "Comutatividade",
+     "Personalíssimo",
+     "Instabilidade"
+    ],
+    "fonte": "Contratos Administrativos.md"
+   },
+   {
+    "tema": "Cláusulas exorbitantes (art. 104)",
+    "termos": [
+     "Modificar",
+     "Fiscalizar",
+     "Aplicar sanções",
+     "Ocupar"
+    ],
+    "fonte": "Contratos Administrativos.md"
+   },
+   {
+    "tema": "Meios alternativos de solução de conflitos",
+    "termos": [
+     "Mediação",
+     "Conciliação",
+     "Comitê de resolução",
+     "Arbitragem"
+    ],
+    "fonte": "Contratos Administrativos.md"
+   },
+   {
+    "tema": "Sanções (art. 156)",
+    "termos": [
+     "Advertência",
+     "Multa",
+     "Impedimento",
+     "Inidoneidade"
+    ],
+    "fonte": "Contratos Administrativos.md"
+   }
+  ]
+ },
+ {
+  "id": "di-servidor-e-pad",
+  "materia": "Direito Interno",
+  "item": "12.3",
+  "titulo": "Servidor público e PAD",
+  "grupos": [
+   {
+    "tema": "Penalidades (art. 127)",
+    "termos": [
+     "Advertência",
+     "Suspensão",
+     "Demissão",
+     "Cassação"
+    ],
+    "fonte": "Direitos, Deveres e Responsabilidades dos Servidores.md"
+   },
+   {
+    "tema": "Esferas de responsabilização",
+    "termos": [
+     "Civil",
+     "Administrativa",
+     "Penal",
+     "Cumuláveis"
+    ],
+    "fonte": "Direitos, Deveres e Responsabilidades dos Servidores.md"
+   },
+   {
+    "tema": "Apuração disciplinar",
+    "termos": [
+     "Sindicância",
+     "Comissão processante",
+     "Inquérito",
+     "Relatório"
+    ],
+    "fonte": "Processo Administrativo Disciplinar.md"
+   },
+   {
+    "tema": "Ampla defesa no PAD",
+    "termos": [
+     "Autodefesa",
+     "Defesa técnica",
+     "Contraditório",
+     "Súmula Vinculante 5"
+    ],
+    "fonte": "Direitos, Deveres e Responsabilidades dos Servidores.md"
+   }
+  ]
+ },
+ {
+  "id": "di-normas-orcamentarias",
+  "materia": "Direito Interno",
+  "item": "14.2",
+  "titulo": "Normas orçamentárias",
+  "grupos": [
+   {
+    "tema": "Normas do ciclo orçamentário",
+    "termos": [
+     "PPA",
+     "LDO",
+     "LOA",
+     "LC 101/2000"
+    ],
+    "fonte": "Finanças Públicas e Normas Orçamentárias.md"
+   },
+   {
+    "tema": "Princípio da exclusividade",
+    "termos": [
+     "Exclusividade",
+     "Jabuti",
+     "Rabilongo",
+     "Cauda orçamentária"
+    ],
+    "fonte": "Finanças Públicas e Normas Orçamentárias.md"
+   },
+   {
+    "tema": "Crédito extraordinário",
+    "termos": [
+     "Guerra",
+     "Comoção interna",
+     "Calamidade pública",
+     "Imprevisíveis"
+    ],
+    "fonte": "Finanças Públicas e Normas Orçamentárias.md"
+   },
+   {
+    "tema": "Vedações do art. 167",
+    "termos": [
+     "Remanejamento",
+     "Fundos",
+     "Programas",
+     "Voluntárias"
+    ],
+    "fonte": "Finanças Públicas e Normas Orçamentárias.md"
+   }
+  ]
+ }
+]

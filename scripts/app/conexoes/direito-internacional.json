@@ -1,0 +1,290 @@
+[
+ {
+  "id": "dint-fontes-do-dip",
+  "materia": "Direito Internacional",
+  "item": "23",
+  "titulo": "Fontes do DIP",
+  "grupos": [
+   {
+    "tema": "Fontes primárias",
+    "termos": [
+     "Tratados",
+     "Costumes",
+     "Princípios gerais",
+     "Atos unilaterais"
+    ],
+    "fonte": "Fontes do DIP.md"
+   },
+   {
+    "tema": "Doutrina, equidade e normas não vinculantes",
+    "termos": [
+     "Doutrina",
+     "Jurisprudência",
+     "Equidade",
+     "Soft law"
+    ],
+    "fonte": "Fontes do DIP.md"
+   },
+   {
+    "tema": "Costume internacional",
+    "termos": [
+     "Opinio juris",
+     "Inveterata consuetudo",
+     "Objetor persistente",
+     "Cortesia"
+    ],
+    "fonte": "Fontes Extraconvencionais do DIP.md"
+   },
+   {
+    "tema": "Jus cogens",
+    "termos": [
+     "Genocídio",
+     "Escravidão",
+     "Nulidade",
+     "Art. 53"
+    ],
+    "fonte": "Fontes do DIP.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-incorporacao-de-tratados",
+  "materia": "Direito Internacional",
+  "item": "25",
+  "titulo": "Incorporação de tratados no Brasil",
+  "grupos": [
+   {
+    "tema": "Teorias sobre a relação entre ordens jurídicas",
+    "termos": [
+     "Monismo",
+     "Dualismo",
+     "Voluntarismo",
+     "Objetivismo"
+    ],
+    "fonte": "Tratados Internacionais e Incorporação no Brasil.md"
+   },
+   {
+    "tema": "Hierarquia e controle dos tratados",
+    "termos": [
+     "Supralegal",
+     "Emenda constitucional",
+     "Lei ordinária",
+     "Convencionalidade"
+    ],
+    "fonte": "Tratados Internacionais e Incorporação no Brasil.md"
+   },
+   {
+    "tema": "Etapas da incorporação",
+    "termos": [
+     "Plenipotenciários",
+     "Ratificação",
+     "Decreto legislativo",
+     "Promulgação"
+    ],
+    "fonte": "Tratados Internacionais e Incorporação no Brasil.md"
+   },
+   {
+    "tema": "Exceções e jurisprudência",
+    "termos": [
+     "Acordos executivos",
+     "Marraqueche",
+     "Depositário infiel",
+     "ADI 1480"
+    ],
+    "fonte": "Tratados Internacionais e Incorporação no Brasil.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-uso-da-forca",
+  "materia": "Direito Internacional",
+  "item": "27",
+  "titulo": "Uso da força e segurança coletiva",
+  "grupos": [
+   {
+    "tema": "Legítima defesa",
+    "termos": [
+     "Necessidade",
+     "Proporcionalidade",
+     "Caroline",
+     "Art. 51"
+    ],
+    "fonte": "Proibição do Uso da Força.md"
+   },
+   {
+    "tema": "CIJ e o uso da força",
+    "termos": [
+     "Nicarágua",
+     "Congo",
+     "Muro",
+     "Armas nucleares"
+    ],
+    "fonte": "Proibição do Uso da Força.md"
+   },
+   {
+    "tema": "Contramedidas",
+    "termos": [
+     "Retorsão",
+     "Represália",
+     "Boicote",
+     "Embargo"
+    ],
+    "fonte": "Proibição do Uso da Força.md"
+   },
+   {
+    "tema": "Operações de paz",
+    "termos": [
+     "Consentimento",
+     "Imparcialidade",
+     "Não uso da força",
+     "Mandato"
+    ],
+    "fonte": "Proibição do Uso da Força.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-dih-refugio-e-asilo",
+  "materia": "Direito Internacional",
+  "item": "29",
+  "titulo": "DIH, refúgio e asilo",
+  "grupos": [
+   {
+    "tema": "Termos do DIH",
+    "termos": [
+     "Genebra",
+     "Haia",
+     "Martens",
+     "CICV"
+    ],
+    "fonte": "Direito Internacional Humanitário.md"
+   },
+   {
+    "tema": "Refúgio",
+    "termos": [
+     "CONARE",
+     "ACNUR",
+     "Cartagena",
+     "Declaratório"
+    ],
+    "fonte": "Asilo.md"
+   },
+   {
+    "tema": "Asilo",
+    "termos": [
+     "Constitutivo",
+     "Caracas",
+     "Salvo-conduto",
+     "Legações"
+    ],
+    "fonte": "Asilo.md"
+   },
+   {
+    "tema": "Princípios e expressões centrais",
+    "termos": [
+     "Non-refoulement",
+     "Jus ad bellum",
+     "Jus in bello",
+     "Art. 3º comum"
+    ],
+    "fonte": "Direito Internacional Humanitário.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-direito-do-mar",
+  "materia": "Direito Internacional",
+  "item": "32",
+  "titulo": "Direito do Mar",
+  "grupos": [
+   {
+    "tema": "Espaços marítimos",
+    "termos": [
+     "Mar territorial",
+     "Zona contígua",
+     "ZEE",
+     "Plataforma continental"
+    ],
+    "fonte": "Direito Internacional do Mar.md"
+   },
+   {
+    "tema": "Meios jurisdicionais do art. 287",
+    "termos": [
+     "TIDM",
+     "CIJ",
+     "Tribunal arbitral",
+     "Tribunal arbitral especializado"
+    ],
+    "fonte": "Tribunal Internacional do Mar.md"
+   },
+   {
+    "tema": "A Área",
+    "termos": [
+     "Patrimônio comum",
+     "AIFM",
+     "Nódulos",
+     "Empresa"
+    ],
+    "fonte": "Direito Internacional do Mar.md"
+   },
+   {
+    "tema": "Solução de controvérsias na CNUDM",
+    "termos": [
+     "Consultas",
+     "Conciliação",
+     "Subsidiariedade",
+     "Declaração"
+    ],
+    "fonte": "Tribunal Internacional do Mar.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-imunidades-e-relacoes-diplomaticas",
+  "materia": "Direito Internacional",
+  "item": "21",
+  "titulo": "Imunidades e relações diplomáticas",
+  "grupos": [
+   {
+    "tema": "Imunidade de jurisdição do Estado (relativa)",
+    "termos": [
+     "Atos de gestão",
+     "Atos de império",
+     "Par in parem",
+     "Geny de Oliveira"
+    ],
+    "fonte": "Jurisdição e Imunidade.md"
+   },
+   {
+    "tema": "Imunidade de execução (absoluta)",
+    "termos": [
+     "Absoluta",
+     "Penhora",
+     "Viena",
+     "Execução"
+    ],
+    "fonte": "Jurisdição e Imunidade.md"
+   },
+   {
+    "tema": "Figuras das relações diplomáticas e consulares",
+    "termos": [
+     "Agrément",
+     "Exequatur",
+     "Persona non grata",
+     "Estado acreditante"
+    ],
+    "fonte": "Relações Diplomáticas e Relações Consulares.md"
+   },
+   {
+    "tema": "Exceções à imunidade do agente diplomático",
+    "termos": [
+     "Ação real",
+     "Sucessão",
+     "Reconvenção",
+     "Profissão liberal"
+    ],
+    "fonte": "Relações Diplomáticas e Relações Consulares.md"
+   }
+  ]
+ }
+]

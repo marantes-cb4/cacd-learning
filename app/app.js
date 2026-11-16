@@ -3,7 +3,7 @@
 'use strict';
 const KEY = 'cacd-games-v1';
 const $app = document.getElementById('app'), $toast = document.getElementById('toast');
-let JOGOS = [], GERADO = '';
+let JOGOS = [], CONEXOES = [], GERADO = '';
 
 /* ---------- utilidades ---------- */
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -21,7 +21,7 @@ function carrega() {
   if (mem) return mem;
   try { mem = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { mem = null; }
   if (!mem || typeof mem !== 'object') mem = {};
-  mem.cw = mem.cw || {}; mem.dias = mem.dias || {};
+  mem.cw = mem.cw || {}; mem.cx = mem.cx || {}; mem.dias = mem.dias || {};
   return mem;
 }
 function salva() { try { localStorage.setItem(KEY, JSON.stringify(mem)); } catch (e) { } }
@@ -51,6 +51,7 @@ function jogoDoDia() {
 function rota() {
   const h = location.hash.replace(/^#\/?/, '');
   if (h.startsWith('cruzada/')) return jogoTela(h.slice(8));
+  if (h.startsWith('conexoes/')) return conexoesTela(h.slice(9));
   if (h === 'stats') return statsTela();
   homeTela();
 }
@@ -64,7 +65,7 @@ function homeTela() {
   const st = streaks(), d = jogoDoDia(), dp = prog(d.id);
   const mats = [...new Set(JOGOS.map(j => j.materia))];
   const aberto = new Set(); try { JSON.parse(sessionStorage.getItem('abertas') || '[]').forEach(m => aberto.add(m)); } catch (e) { }
-  let h = '<div class="screen"><div class="top"><h1>CACD Games</h1><div class="streak ' + (st.cur ? 'on' : '') + '" title="Dias seguidos com pelo menos uma palavra cruzada concluída">🔥 ' + st.cur + '</div></div>' +
+  let h = '<div class="screen"><div class="top"><h1>CACD Games</h1><div class="streak ' + (st.cur ? 'on' : '') + '" title="Dias seguidos com pelo menos um jogo concluído">🔥 ' + st.cur + '</div></div>' +
     '<p class="lead">Jogos de estudo feitos só com as suas anotações e os materiais do professor.</p>' +
     '<button class="daily" data-go="' + d.id + '"><small>Jogo do dia' + (dp && dp.ok ? ' · concluído ✓' : '') + '</small><strong>' + esc(d.titulo) + '</strong><span>' + esc(d.materia) + ' · ' + d.palavras.length + ' palavras' + (dp && !dp.ok && pct(d) ? ' · ' + pct(d) + '% feito' : '') + '</span></button>' +
     '<h2 class="sec">Palavras cruzadas</h2>';
@@ -78,9 +79,23 @@ function homeTela() {
     });
     h += '</details>';
   });
-  h += '<h2 class="sec">Em breve</h2><div class="soon"><div><b>Conexões</b>agrupe termos por tema</div><div><b>Quem disse?</b>autor, teoria e artigo</div><div><b>Linha do tempo</b>ordene eventos</div></div></div>' + tabs('home');
+  if (CONEXOES.length) {
+    h += '<h2 class="sec">Conexões</h2>';
+    [...new Set(CONEXOES.map(j => j.materia))].forEach(m => {
+      const js = CONEXOES.filter(j => j.materia === m), ok = js.filter(j => (carrega().cx[j.id] || {}).ok).length;
+      h += '<details class="mat" data-m="cx-' + esc(m) + '"' + (aberto.has('cx-' + m) ? ' open' : '') + '><summary>' + esc(m) + ' <span class="cnt">' + ok + ' de ' + js.length + '</span></summary>';
+      js.forEach(j => {
+        const c = carrega().cx[j.id] || {}, n = (c.solved || []).length;
+        h += '<button class="row" data-cx="' + j.id + '"><div class="t"><b>' + esc(j.titulo) + '</b><span>Item ' + esc(j.item) + ' · 4 grupos</span></div>' +
+          (c.ok ? '<span class="tag ok">✓ completo</span>' : c.lost ? '<span class="tag">tente de novo</span>' : n ? '<span class="tag part">' + n + '/4</span>' : '') + '</button>';
+      });
+      h += '</details>';
+    });
+  }
+  h += '<h2 class="sec">Em breve</h2><div class="soon"><div><b>Quem disse?</b>autor, teoria e artigo</div><div><b>Linha do tempo</b>ordene eventos</div></div></div>' + tabs('home');
   $app.innerHTML = h;
   $app.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { location.hash = '#/cruzada/' + b.dataset.go; });
+  $app.querySelectorAll('[data-cx]').forEach(b => b.onclick = () => { location.hash = '#/conexoes/' + b.dataset.cx; });
   $app.querySelectorAll('details.mat').forEach(el => el.addEventListener('toggle', () => {
     const ab = [...$app.querySelectorAll('details.mat[open]')].map(x => x.dataset.m);
     try { sessionStorage.setItem('abertas', JSON.stringify(ab)); } catch (e) { }
@@ -91,17 +106,18 @@ function homeTela() {
 function statsTela() {
   document.title = 'Progresso · CACD Games';
   const m = carrega(), st = streaks();
-  const feitos = JOGOS.filter(j => concluidoEm(j.id)), semAjuda = feitos.filter(j => !prog(j.id).assist);
+  const feitos = JOGOS.filter(j => concluidoEm(j.id)), semAjuda = feitos.filter(j => !prog(j.id).assist), cxFeitos = CONEXOES.filter(j => (carrega().cx[j.id] || {}).ok);
   let h = '<div class="screen"><div class="top"><h1>Progresso</h1></div><div class="cards">' +
     '<div class="card"><b>' + st.cur + '</b><span>' + (st.cur === 1 ? 'dia seguido' : 'dias seguidos') + '</span></div><div class="card"><b>' + st.best + '</b><span>melhor sequência</span></div>' +
     '<div class="card"><b>' + feitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + JOGOS.length + '</small></b><span>cruzadas concluídas</span></div>' +
-    '<div class="card"><b>' + semAjuda.length + '</b><span>sem ajuda</span></div></div>';
+    '<div class="card"><b>' + semAjuda.length + '</b><span>cruzadas sem ajuda</span></div>' +
+    '<div class="card"><b>' + cxFeitos.length + '<small style="font-size:14px;color:var(--muted)"> / ' + CONEXOES.length + '</small></b><span>conexões concluídas</span></div></div>';
   const t = diaNum(hoje()); let cal = '';
   for (let i = 27; i >= 0; i--) { const k = keyDeNum(t - i); cal += '<i class="' + ((m.dias[k] || []).length ? 'on' : '') + '" title="' + k + '"></i>'; }
   h += '<h2 class="sec">Últimos 28 dias</h2><div class="cal">' + cal + '</div><h2 class="sec">Por matéria</h2>';
   [...new Set(JOGOS.map(j => j.materia))].forEach(mt => {
-    const js = JOGOS.filter(j => j.materia === mt), ok = js.filter(j => concluidoEm(j.id)).length;
-    h += '<div><b>' + esc(mt) + '</b> <span class="cnt">' + ok + ' de ' + js.length + '</span><div class="bar"><i style="width:' + Math.round(100 * ok / js.length) + '%"></i></div></div>';
+    const js = JOGOS.filter(j => j.materia === mt), cs = CONEXOES.filter(j => j.materia === mt), ok = js.filter(j => concluidoEm(j.id)).length + cs.filter(j => (carrega().cx[j.id] || {}).ok).length, tot = js.length + cs.length;
+    h += '<div><b>' + esc(mt) + '</b> <span class="cnt">' + ok + ' de ' + tot + ' jogos</span><div class="bar"><i style="width:' + Math.round(100 * ok / tot) + '%"></i></div></div>';
   });
   h += '<h2 class="sec">Backup do progresso</h2><div class="box"><p>Seu progresso fica só neste aparelho e neste navegador. Para levar para outro celular (ou guardar antes de limpar os dados do navegador), exporte o código e importe lá.</p>' +
     '<div class="btns"><button class="btn" id="bExp">Exportar código</button><button class="btn" id="bImp">Importar código</button></div><textarea id="code" hidden spellcheck="false" aria-label="Código do progresso"></textarea><div class="btns" id="codeBtns" hidden></div></div>' +
@@ -118,11 +134,11 @@ function statsTela() {
     ta.hidden = false; cb.hidden = false; ta.value = ''; ta.readOnly = false; ta.placeholder = 'Cole aqui o código exportado';
     cb.innerHTML = '<button class="btn primary" id="bGo">Importar (substitui o progresso atual)</button>';
     document.getElementById('bGo').onclick = () => {
-      try { const o = JSON.parse(decodeURIComponent(escape(atob(ta.value.trim())))); if (!o || typeof o.cw !== 'object' || typeof o.dias !== 'object') throw 0; mem = o; salva(); toast('Progresso importado.'); statsTela(); } catch (e) { toast('Código inválido.'); }
+      try { const o = JSON.parse(decodeURIComponent(escape(atob(ta.value.trim())))); if (!o || typeof o.cw !== 'object' || typeof o.dias !== 'object') throw 0; o.cx = o.cx || {}; mem = o; salva(); toast('Progresso importado.'); statsTela(); } catch (e) { toast('Código inválido.'); }
     };
   };
   document.getElementById('bZero').onclick = e => {
-    if (e.target.dataset.s) { mem = { cw: {}, dias: {} }; salva(); toast('Progresso apagado.'); statsTela(); return; }
+    if (e.target.dataset.s) { mem = { cw: {}, cx: {}, dias: {} }; salva(); toast('Progresso apagado.'); statsTela(); return; }
     e.target.dataset.s = 1; e.target.textContent = 'Toque de novo para confirmar'; setTimeout(() => { e.target.dataset.s = ''; e.target.textContent = 'Apagar todo o meu progresso'; }, 3500);
   };
 }
@@ -274,10 +290,76 @@ function jogoTela(id) {
   act = order.find(i => words[i].d === 'A') ?? order[0]; cur = firstEmpty(act); render();
 }
 
+/* ---------- jogo: conexões ---------- */
+function conexoesTela(id) {
+  const j = CONEXOES.find(x => x.id === id);
+  if (!j) { location.hash = '#/'; return; }
+  document.title = j.titulo + ' · CACD Games';
+  const CORES = ['c0', 'c1', 'c2', 'c3'], MAXERR = 4;
+  const m = carrega(), P = m.cx[id] || (m.cx[id] = { solved: [], erros: 0, ok: false, lost: false, tent: [] });
+  const gidx = {}; j.grupos.forEach((g, i) => g.termos.forEach(t => gidx[t] = i));
+  let sel = [], tiles = null;
+  const rnd = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const k = Math.floor(Math.random() * (i + 1)); [a[i], a[k]] = [a[k], a[i]]; } return a; };
+  const restantes = () => Object.keys(gidx).filter(t => !P.solved.includes(gidx[t]));
+  function embaralha() { tiles = rnd(restantes()); }
+  embaralha();
+  const fim = () => P.ok || P.lost;
+  function draw() {
+    const ordem = P.lost ? [...P.solved, ...[0, 1, 2, 3].filter(i => !P.solved.includes(i))] : P.solved;
+    let h = '<div class="game"><header class="gbar"><button class="icon" id="xBack" aria-label="Voltar">‹</button><div class="gt"><strong>' + esc(j.titulo) + '</strong><span>Conexões · Item ' + esc(j.item) + '</span></div><button class="icon" id="xMenu" aria-label="Menu">⋯</button></header>' +
+      '<div class="cxmain"><p class="cxhint">Agrupe os 16 termos em 4 grupos de 4 que tenham algo em comum.</p><div class="cxgroups">';
+    ordem.forEach((gi, n) => { const g = j.grupos[gi]; const perdeu = P.lost && !P.solved.includes(gi); h += '<div class="cxg ' + CORES[gi] + (perdeu ? ' miss' : '') + '"><b>' + esc(g.tema) + '</b><span>' + g.termos.map(esc).join(' · ') + '</span><small>Fonte: ' + esc(g.fonte) + '</small></div>'; });
+    h += '</div>';
+    if (!fim()) {
+      h += '<div class="cxtiles">' + tiles.map(t => '<button class="tile' + (sel.includes(t) ? ' on' : '') + '" data-t="' + esc(t) + '">' + esc(t) + '</button>').join('') + '</div>' +
+        '<p class="cxerr" aria-live="polite">Erros restantes: ' + '●'.repeat(MAXERR - P.erros) + '<span style="opacity:.3">' + '●'.repeat(P.erros) + '</span></p>' +
+        '<div class="btns" style="justify-content:center"><button class="btn" id="xShuf">Embaralhar</button><button class="btn" id="xClr"' + (sel.length ? '' : ' disabled') + '>Limpar</button><button class="btn primary" id="xGo"' + (sel.length === 4 ? '' : ' disabled') + '>Enviar</button></div>';
+    } else if (P.ok) h += '<p class="cxerr">Completo com ' + P.erros + (P.erros === 1 ? ' erro' : ' erros') + '.</p>';
+    else h += '<p class="cxerr">Acabaram as tentativas. Os grupos que faltavam estão marcados.</p><div class="btns" style="justify-content:center"><button class="btn primary" id="xRe">Tentar de novo</button></div>';
+    h += '</div></div>';
+    $app.innerHTML = h;
+    document.getElementById('xBack').onclick = () => { location.hash = '#/'; };
+    document.getElementById('xMenu').onclick = () => sheet('<h3>Opções</h3><button class="opt" id="oRe" style="color:var(--bad)">Recomeçar<small>Apaga o progresso desta conexão</small></button>', (s, f) => { s.querySelector('#oRe').onclick = () => { reset(); f(); }; });
+    $app.querySelectorAll('.tile').forEach(b => b.onclick = () => { const t = b.dataset.t; sel = sel.includes(t) ? sel.filter(x => x !== t) : sel.length < 4 ? [...sel, t] : sel; draw(); });
+    const q = id => document.getElementById(id);
+    if (q('xShuf')) q('xShuf').onclick = () => { embaralha(); draw(); };
+    if (q('xClr')) q('xClr').onclick = () => { sel = []; draw(); };
+    if (q('xGo')) q('xGo').onclick = envia;
+    if (q('xRe')) q('xRe').onclick = reset;
+  }
+  function reset() { Object.assign(P, { solved: [], erros: 0, ok: false, lost: false, tent: [] }); const mm = carrega(); Object.keys(mm.dias).forEach(d => { mm.dias[d] = mm.dias[d].filter(x => x !== id); }); sel = []; salva(); embaralha(); draw(); }
+  function envia() {
+    if (sel.length !== 4) return;
+    const k = sel.slice().sort().join('|');
+    if (P.tent.includes(k)) { toast('Você já tentou essa combinação.'); return; }
+    P.tent.push(k);
+    const cont = [0, 0, 0, 0]; sel.forEach(t => cont[gidx[t]]++);
+    const gi = cont.indexOf(4);
+    if (gi >= 0) { P.solved.push(gi); sel = []; embaralha(); if (P.solved.length === 4) { P.ok = true; vitoria(); } salva(); draw(); return; }
+    P.erros++; toast(cont.some(c => c === 3) ? 'Falta só um!' : 'Esses termos não formam um grupo.');
+    if (P.erros >= MAXERR) { P.lost = true; sel = []; salva(); draw(); $toast.style.display = 'none'; setTimeout(() => sheet('<div class="win"><div class="big">😕</div><h3>Acabaram as tentativas</h3><p style="color:var(--muted);margin:0 0 14px">Veja os grupos que faltavam e tente de novo, com calma.</p><div class="btns" style="justify-content:center"><button class="btn primary" id="wStay">Ver respostas</button></div></div>'), 300); return; }
+    salva(); draw();
+  }
+  function vitoria() {
+    const dk = hoje(), mm = carrega(); (mm.dias[dk] = mm.dias[dk] || []); if (!mm.dias[dk].includes(id)) mm.dias[dk].push(id); salva();
+    const st = streaks();
+    setTimeout(() => sheet('<div class="win"><div class="big">🎉</div><h3>Você achou os 4 grupos!</h3><p style="color:var(--muted);margin:0">' + esc(j.titulo) + ' · ' + P.erros + (P.erros === 1 ? ' erro' : ' erros') + '</p><div class="stats"><div><b>🔥 ' + st.cur + '</b><span>' + (st.cur === 1 ? 'dia seguido' : 'dias seguidos') + '</span></div></div><div class="btns" style="justify-content:center"><button class="btn primary" id="wHome">Voltar aos jogos</button><button class="btn" id="wStay">Ver grupos</button></div></div>'), 350);
+  }
+  function sheet(html, bind) {
+    $toast.style.display = 'none';
+    const s = document.createElement('div'); s.className = 'scrim'; s.innerHTML = '<div class="sheet">' + html + '</div>'; document.body.appendChild(s);
+    const f = () => s.remove(); s.addEventListener('click', e => { if (e.target === s) f(); });
+    const wh = s.querySelector('#wHome'); if (wh) wh.onclick = () => { f(); location.hash = '#/'; };
+    const ws = s.querySelector('#wStay'); if (ws) ws.onclick = f;
+    if (bind) bind(s, f);
+  }
+  draw();
+}
+
 /* ---------- início ---------- */
 function iniciar() {
   window.addEventListener('hashchange', () => { if (stopGame) stopGame(); rota(); });
-  fetch('data/jogos.json', { cache: 'no-cache' }).then(r => r.json()).then(d => { JOGOS = d.jogos; GERADO = d.gerado; rota(); })
+  Promise.all([fetch('data/jogos.json', { cache: 'no-cache' }).then(r => r.json()), fetch('data/conexoes.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ jogos: [] }))]).then(([d, c]) => { JOGOS = d.jogos; CONEXOES = c.jogos; GERADO = d.gerado; rota(); })
     .catch(() => { $app.innerHTML = '<div class="screen"><p style="padding:40px 0">Não consegui carregar os jogos. Abra o app uma vez com internet.</p></div>'; });
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(() => { });
 }

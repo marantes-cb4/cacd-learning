@@ -1,0 +1,194 @@
+[
+ {
+  "id": "ec-is-lm-bp",
+  "materia": "Economia",
+  "item": "2.4",
+  "titulo": "Modelo IS-LM-BP",
+  "grupos": [
+   {
+    "tema": "Grau de mobilidade de capitais",
+    "termos": [
+     "Perfeita",
+     "Forte",
+     "Fraca",
+     "Nula"
+    ],
+    "fonte": "Macro - Modelo IS-LM-BP.md"
+   },
+   {
+    "tema": "Câmbio fixo com mobilidade perfeita",
+    "termos": [
+     "Endógena",
+     "Fiscal eficaz",
+     "Perda de reservas",
+     "Sem crowding out"
+    ],
+    "fonte": "Macro - Modelo IS-LM-BP - Parte 2.md"
+   },
+   {
+    "tema": "Câmbio flutuante com mobilidade perfeita",
+    "termos": [
+     "Amortecedor",
+     "Fiscal ineficaz",
+     "Monetária eficaz",
+     "Depreciação"
+    ],
+    "fonte": "Macro - Modelo IS-LM-BP - Parte 2.md"
+   },
+   {
+    "tema": "Modelo e paridade de juros",
+    "termos": [
+     "Mundell-Fleming",
+     "Paridade coberta",
+     "Prêmio de risco",
+     "Trindade impossível"
+    ],
+    "fonte": "Macro - Modelo IS-LM-BP.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-modelos-de-crescimento",
+  "materia": "Economia",
+  "item": "2.7",
+  "titulo": "Modelos de crescimento",
+  "grupos": [
+   {
+    "tema": "Modelo de Solow",
+    "termos": [
+     "Retornos constantes",
+     "Produtividade marginal decrescente",
+     "Estado estacionário",
+     "Exógeno"
+    ],
+    "fonte": "Macro - Modelo de Solow.md"
+   },
+   {
+    "tema": "Harrod-Domar",
+    "termos": [
+     "Fio de navalha",
+     "Instável",
+     "Produto marginal do capital",
+     "Keynes"
+    ],
+    "fonte": "Macro - Modelos de Crescimento.md"
+   },
+   {
+    "tema": "Romer (crescimento endógeno)",
+    "termos": [
+     "Ideias",
+     "Patentes",
+     "Retornos crescentes",
+     "Competição imperfeita"
+    ],
+    "fonte": "Macro - Modelos de Crescimento.md"
+   },
+   {
+    "tema": "Schumpeter",
+    "termos": [
+     "Empresário inovador",
+     "Destruição criadora",
+     "Crédito bancário",
+     "Inovações"
+    ],
+    "fonte": "Macro - Modelos de Crescimento.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-republica-velha",
+  "materia": "Economia",
+  "item": "4.2",
+  "titulo": "Política econômica na República Velha",
+  "grupos": [
+   {
+    "tema": "Política monetária inicial (1889-91)",
+    "termos": [
+     "Rui Barbosa",
+     "Papelistas",
+     "Encilhamento",
+     "Inconversíveis"
+    ],
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "tema": "Ministros da Fazenda",
+    "termos": [
+     "Alencar Araripe",
+     "Barão de Lucena",
+     "Serzedelo Correia",
+     "Joaquim Murtinho"
+    ],
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "tema": "Defesa do café",
+    "termos": [
+     "Convênio de Taubaté",
+     "Estocagem",
+     "Supersafra",
+     "Queima"
+    ],
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "tema": "Instituições e operações monetárias",
+    "termos": [
+     "Caixa de Conversão",
+     "Caixa de Estabilização",
+     "Feriado bancário",
+     "Funding scheme"
+    ],
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   }
+  ]
+ },
+ {
+  "id": "ec-comercio-externalidades-e-bens-publicos",
+  "materia": "Economia",
+  "item": "3.3",
+  "titulo": "Comércio, externalidades e bens públicos",
+  "grupos": [
+   {
+    "tema": "Argumentos pró-restrição ao comércio",
+    "termos": [
+     "Empregos",
+     "Segurança nacional",
+     "Indústria nascente",
+     "Competição desleal"
+    ],
+    "fonte": "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+   },
+   {
+    "tema": "Bens e suas propriedades",
+    "termos": [
+     "Privados",
+     "Comuns",
+     "Públicos",
+     "Exclusão"
+    ],
+    "fonte": "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+   },
+   {
+    "tema": "Soluções para externalidades",
+    "termos": [
+     "Coase",
+     "Pigou",
+     "Subsídios",
+     "Regulamentação"
+    ],
+    "fonte": "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+   },
+   {
+    "tema": "Custos da tributação",
+    "termos": [
+     "Curva de Laffer",
+     "Elasticidade",
+     "Peso morto",
+     "Excedente do consumidor"
+    ],
+    "fonte": "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
+   }
+  ]
+ }
+]
