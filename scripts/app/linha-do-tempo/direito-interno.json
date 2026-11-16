@@ -40,5 +40,89 @@
     "fonte": "Controle de Constitucionalidade - Parte 4.md"
    }
   ]
+ },
+ {
+  "id": "lt-di-leis",
+  "materia": "Direito Interno",
+  "titulo": "Leis e emendas de Direito Interno",
+  "eventos": [
+   {
+    "ano": 1990,
+    "d": "1990",
+    "t": "Estatuto dos Servidores Públicos Civis da União",
+    "chave": "8.112",
+    "fonte": "Direitos, Deveres e Responsabilidades dos Servidores.md"
+   },
+   {
+    "ano": 1992,
+    "d": "1992",
+    "t": "Lei de Improbidade Administrativa, que regulamenta o art. 37, §4º",
+    "chave": "8.429",
+    "fonte": "Improbidade Administrativa.md"
+   },
+   {
+    "ano": 2004,
+    "d": "2004",
+    "t": "Emenda que criou o CNJ",
+    "chave": "45",
+    "fonte": "Poder Judiciário.md"
+   },
+   {
+    "ano": 2016,
+    "d": "2016",
+    "t": "Lei do Mandado de Injunção",
+    "chave": "13.300",
+    "fonte": "Direitos e Garantias Fundamentais.md"
+   },
+   {
+    "ano": 2021,
+    "d": "2021",
+    "t": "Nova Lei de Licitações e Contratos",
+    "chave": "14.133",
+    "fonte": "Licitações e Contratos Administrativos.md"
+   }
+  ]
+ },
+ {
+  "id": "lt-di-estado-e-constituicao",
+  "materia": "Direito Interno",
+  "titulo": "Estado e Constituição no Brasil",
+  "eventos": [
+   {
+    "ano": 1824,
+    "d": "1824",
+    "t": "Constituição do Império, criada pelo poder constituinte histórico",
+    "chave": "1824",
+    "fonte": "Normas Jurídicas.md"
+   },
+   {
+    "ano": 1891,
+    "d": "1891",
+    "t": "Constituição republicana adota a federação e as províncias viram Estados",
+    "chave": "1891",
+    "fonte": "Estado - Conceito e Formas.md"
+   },
+   {
+    "ano": 1988,
+    "d": "1988",
+    "t": "Fernando de Noronha deixa de ser Território Federal",
+    "chave": "Noronha",
+    "fonte": "Estado - Conceito e Formas.md"
+   },
+   {
+    "ano": 1998,
+    "d": "1998",
+    "t": "Emenda 19: princípio da eficiência e fim do regime jurídico único obrigatório",
+    "chave": "EC 19",
+    "fonte": "Processo Administrativo Disciplinar.md"
+   },
+   {
+    "ano": 2004,
+    "d": "2004",
+    "t": "Emenda 45: criação do CNJ",
+    "chave": "45",
+    "fonte": "Poder Judiciário.md"
+   }
+  ]
  }
 ]

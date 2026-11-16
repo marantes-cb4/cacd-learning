@@ -52,7 +52,7 @@ function itensDe(k) {
   const m = carrega();
   if (k === 'cruzada') return JOGOS.map(j => ({ id: j.id, titulo: j.titulo, materia: j.materia, sub: 'Item ' + j.item + ' · ' + j.palavras.length + ' palavras' + (j.status === 'parcial' ? ' · matéria parcial' : ''), hash: '#/cruzada/' + j.id, ok: concluidoEm(j.id), pct: pct(j) }));
   if (k === 'conexoes') return CONEXOES.map(j => { const c = m.cx[j.id] || {}; return { id: j.id, titulo: j.titulo, materia: j.materia, sub: 'Item ' + j.item + ' · 4 grupos', hash: '#/conexoes/' + j.id, ok: !!c.ok, pct: c.ok ? 100 : 25 * (c.solved || []).length, lost: !!c.lost }; });
-  if (k === 'quem') return QDECKS.map(d => { const q = m.qd[d.id]; return { id: d.id, titulo: d.titulo, materia: d.materia, sub: d.cartas.length + ' perguntas', hash: '#/quem/' + d.id, ok: !!q && q.melhor === d.cartas.length, nota: q ? 'melhor ' + q.melhor + '/' + d.cartas.length : '' }; });
+  if (k === 'quem') return QDECKS.map(d => { const q = m.qd[d.id]; return { id: d.id, titulo: d.titulo, materia: d.materia, sub: (d.cartas.length > 12 ? '10 de ' + d.cartas.length : d.cartas.length) + ' perguntas por rodada', hash: '#/quem/' + d.id, ok: !!q && q.melhor === (q.n || d.cartas.length), nota: q ? 'melhor ' + q.melhor + '/' + (q.n || d.cartas.length) : '' }; });
   if (k === 'tempo') return LDECKS.map(d => { const q = m.lt[d.id] || {}; return { id: d.id, titulo: d.titulo, materia: d.materia, sub: d.eventos.length + ' eventos', hash: '#/tempo/' + d.id, ok: !!q.ok, nota: !q.ok && q.tent ? q.tent + (q.tent === 1 ? ' tentativa' : ' tentativas') : '' }; });
   return [];
 }
@@ -513,14 +513,14 @@ function quemTela(id) {
   if (!d) { location.hash = '#/'; return; }
   document.title = d.titulo + ' · CACD Games';
   const rnd = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const k = Math.floor(Math.random() * (i + 1)); [a[i], a[k]] = [a[k], a[i]]; } return a; };
-  const cartas = rnd(d.cartas).map(c => ({ c, opts: rnd([c.r, ...rnd(d.cartas.filter(x => x.r !== c.r).map(x => x.r)).slice(0, 3)]) }));
+  const cartas = rnd(d.cartas).slice(0, d.cartas.length > 12 ? 10 : d.cartas.length).map(c => ({ c, opts: rnd([c.r, ...rnd(d.cartas.filter(x => x.r !== c.r).map(x => x.r)).slice(0, 3)]) }));
   let i = 0, acertos = 0, resp = null;
   function sair() { location.hash = '#/'; }
   function draw() {
     if (i >= cartas.length) return fim();
     const { c, opts } = cartas[i];
     let h = '<div class="game"><header class="gbar"><button class="icon" id="qBack" aria-label="Voltar">‹</button><div class="gt"><strong>' + esc(d.titulo) + '</strong><span>Quem disse? · ' + (i + 1) + ' de ' + cartas.length + ' · ' + acertos + ' certas</span></div></header>' +
-      '<div class="cxmain"><div class="qcard"><small>QUEM DISSE, FEZ OU FORMULOU?</small><p>' + esc(c.q) + '</p></div><div class="qopts">';
+      '<div class="cxmain"><div class="qcard"><small>' + esc(d.rotulo || 'QUEM DISSE, FEZ OU FORMULOU?') + '</small><p>' + esc(c.q) + '</p></div><div class="qopts">';
     opts.forEach(o => { const cls = resp === null ? '' : o === c.r ? ' certo' : o === resp ? ' errado' : ' apagado'; h += '<button class="qopt' + cls + '" data-o="' + esc(o) + '"' + (resp !== null ? ' disabled' : '') + '>' + esc(o) + '</button>'; });
     h += '</div>';
     if (resp !== null) h += '<div class="qexp"><b>' + (resp === c.r ? 'Certo!' : 'Era ' + esc(c.r) + '.') + '</b> ' + esc(c.exp) + '<small>Fonte: ' + esc(c.fonte) + '</small></div><div class="btns" style="justify-content:center"><button class="btn" id="qCheck">Rever nas anotações</button><button class="btn primary" id="qNext">' + (i + 1 === cartas.length ? 'Ver resultado' : 'Próxima') + '</button></div>';
@@ -533,7 +533,7 @@ function quemTela(id) {
   }
   function fim() {
     const m = carrega(), q = m.qd[id] || (m.qd[id] = { melhor: 0, vezes: 0 });
-    q.vezes++; q.melhor = Math.max(q.melhor, acertos);
+    q.vezes++; q.melhor = Math.max(q.melhor, acertos); q.n = cartas.length;
     const dk = hoje(); (m.dias[dk] = m.dias[dk] || []); if (!m.dias[dk].includes(id)) m.dias[dk].push(id); salva();
     const st = streaks();
     $app.innerHTML = '<div class="game"><header class="gbar"><button class="icon" id="qBack" aria-label="Voltar">‹</button><div class="gt"><strong>' + esc(d.titulo) + '</strong><span>Quem disse? · resultado</span></div></header><div class="cxmain win"><div class="big">' + (acertos === cartas.length ? '🏆' : '🎯') + '</div><h3>' + acertos + ' de ' + cartas.length + ' certas</h3><p style="color:var(--muted)">Melhor resultado: ' + q.melhor + '/' + cartas.length + ' · 🔥 ' + st.cur + (st.cur === 1 ? ' dia seguido' : ' dias seguidos') + '</p><div class="btns" style="justify-content:center"><button class="btn primary" id="qAgain">Jogar de novo</button><button class="btn" id="qHome">Voltar aos jogos</button></div></div></div>';

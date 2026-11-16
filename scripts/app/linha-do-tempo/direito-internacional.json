@@ -257,5 +257,159 @@
     "fonte": "Território e Formação BR.md"
    }
   ]
+ },
+ {
+  "id": "lt-dint-refugio-e-asilo",
+  "materia": "Direito Internacional",
+  "titulo": "Asilo e refúgio",
+  "eventos": [
+   {
+    "ano": 1948,
+    "d": "1948",
+    "t": "Declaração Universal dos Direitos Humanos, que proíbe asilar quem violou os princípios da ONU",
+    "chave": "Declaração Universal",
+    "fonte": "Asilo.md"
+   },
+   {
+    "ano": 1950,
+    "d": "1950",
+    "t": "Criação do ACNUR pela ONU",
+    "chave": "ACNUR",
+    "fonte": "Asilo.md"
+   },
+   {
+    "ano": 1951,
+    "d": "1951",
+    "t": "Convenção sobre o Estatuto dos Refugiados, com limites temporal e geográfico",
+    "chave": "Convenção de 1951",
+    "fonte": "Asilo.md"
+   },
+   {
+    "ano": 1954,
+    "d": "1954",
+    "t": "Convenções de Caracas sobre asilo diplomático e territorial",
+    "chave": "Caracas",
+    "fonte": "Asilo.md"
+   },
+   {
+    "ano": 1967,
+    "d": "1967",
+    "t": "Protocolo que extingue os limites temporal e geográfico da Convenção sobre refugiados",
+    "chave": "Protocolo de 1967",
+    "fonte": "Asilo.md"
+   },
+   {
+    "ano": 1984,
+    "d": "1984",
+    "t": "Declaração de Cartagena amplia o conceito de refugiado",
+    "chave": "Cartagena",
+    "fonte": "Asilo.md"
+   },
+   {
+    "ano": 1997,
+    "d": "1997",
+    "t": "Estatuto dos Refugiados do Brasil, com o conceito ampliado",
+    "chave": "9.474",
+    "fonte": "Asilo.md"
+   },
+   {
+    "ano": 2017,
+    "d": "2017",
+    "t": "Lei de Migração, que trata do asilo político",
+    "chave": "13.445",
+    "fonte": "Asilo.md"
+   }
+  ]
+ },
+ {
+  "id": "lt-dint-organizacoes",
+  "materia": "Direito Internacional",
+  "titulo": "Organizações internacionais",
+  "eventos": [
+   {
+    "ano": 1919,
+    "d": "1919",
+    "t": "OIT criada no Tratado de Versalhes como órgão da Liga das Nações",
+    "chave": "Versalhes",
+    "fonte": "Direito Internacional do Trabalho - OIT.md"
+   },
+   {
+    "ano": 1946,
+    "d": "1946",
+    "t": "OIT passa a organização internacional e agência da ONU",
+    "chave": "Acordo Constitutivo",
+    "fonte": "Direito Internacional do Trabalho - OIT.md"
+   },
+   {
+    "ano": 1949,
+    "d": "1949",
+    "t": "Parecer sobre o Caso Bernadotte reconhece a personalidade das organizações",
+    "chave": "Bernadotte",
+    "fonte": "Direito Internacional do Meio Ambiente.md"
+   },
+   {
+    "ano": 1950,
+    "d": "1950",
+    "t": "Resolução Uniting for Peace dá à Assembleia Geral poder de agir se o Conselho de Segurança estiver bloqueado",
+    "chave": "Uniting",
+    "fonte": "Organizações Internacionais.md"
+   },
+   {
+    "ano": 1962,
+    "d": "1962",
+    "t": "Parecer sobre Certas Despesas da ONU aplica os poderes inerentes",
+    "chave": "Certas Despesas",
+    "fonte": "Organizações Internacionais.md"
+   }
+  ]
+ },
+ {
+  "id": "lt-dint-instrumentos",
+  "materia": "Direito Internacional",
+  "titulo": "Tratados de comércio, Mercosul e TPI",
+  "eventos": [
+   {
+    "ano": 1947,
+    "d": "1947",
+    "t": "GATT: Acordo Geral de Tarifas e Comércio",
+    "chave": "GATT",
+    "fonte": "Direito do Comércio Internacional e OMC.md"
+   },
+   {
+    "ano": 1991,
+    "d": "1991",
+    "t": "Protocolo de Brasília, primeiro sistema de solução de controvérsias do Mercosul",
+    "chave": "Brasília",
+    "fonte": "Mercosul - Sistema de Solução de Controvérsias.md"
+   },
+   {
+    "ano": 1994,
+    "d": "1994",
+    "t": "Acordo de Marraquexe cria a OMC",
+    "chave": "Marraquexe",
+    "fonte": "Direito do Comércio Internacional e OMC.md"
+   },
+   {
+    "ano": 1998,
+    "d": "1998",
+    "t": "Estatuto de Roma cria o Tribunal Penal Internacional",
+    "chave": "Roma",
+    "fonte": "Tribunal Penal Internacional.md"
+   },
+   {
+    "ano": 2002,
+    "d": "2002",
+    "t": "Protocolo de Olivos, fonte principal do sistema do Mercosul",
+    "chave": "Olivos",
+    "fonte": "Mercosul - Sistema de Solução de Controvérsias.md"
+   },
+   {
+    "ano": 2010,
+    "d": "2010",
+    "t": "Emendas de Kampala definem o crime de agressão",
+    "chave": "Kampala",
+    "fonte": "Tribunal Penal Internacional.md"
+   }
+  ]
  }
 ]

@@ -47,5 +47,281 @@
     "exp": "Une a proibição do uso da força ao respeito aos direitos humanos."
    }
   ]
+ },
+ {
+  "id": "qd-dint-casos",
+  "materia": "Direito Internacional",
+  "titulo": "Casos e pareceres do DIP",
+  "rotulo": "QUAL CASO OU PARECER?",
+  "cartas": [
+   {
+    "q": "Caso da CIJ (1986) que exigiu, para a legítima defesa, ataque de grupos vinculados a Estados soberanos.",
+    "r": "Caso Nicarágua",
+    "chave": "Nicarágua",
+    "fonte": "Proibição do Uso da Força.md",
+    "exp": "Foi o caso dos paramilitares."
+   },
+   {
+    "q": "Litígio de 1837 entre Canadá e EUA, marco do costume da legítima defesa.",
+    "r": "Caso Caroline",
+    "chave": "Caroline",
+    "fonte": "Proibição do Uso da Força.md",
+    "exp": "Origem dos parâmetros de necessidade e proporcionalidade."
+   },
+   {
+    "q": "Caso de 1926 na CIJ, marco do conceito de controvérsia internacional.",
+    "r": "Caso Lotus",
+    "chave": "Lotus",
+    "fonte": "Resolução Pacífica de Controvérsias.md",
+    "exp": "Controvérsia: discussão jurídica sobre a aplicação de normas em caso concreto."
+   },
+   {
+    "q": "Caso paradigmático de forum prorrogatum: consentimento tácito à jurisdição da CIJ.",
+    "r": "Caso do Estreito de Corfu",
+    "chave": "Corfu",
+    "fonte": "Meios Jurisdicionais - CIJ e Arbitragem.md",
+    "exp": "O consentimento decorre de contestar o mérito."
+   },
+   {
+    "q": "Caso de 1872 entre EUA e Reino Unido, marco da arbitragem moderna.",
+    "r": "Caso Alabama",
+    "chave": "Alabama",
+    "fonte": "Meios Jurisdicionais - CIJ e Arbitragem.md",
+    "exp": "O laudo arbitral é obrigatório e irrecorrível."
+   },
+   {
+    "q": "Caso da CIJ, marco das obrigações erga omnes, também sobre proteção diplomática de pessoas jurídicas.",
+    "r": "Barcelona Traction",
+    "chave": "Barcelona Traction",
+    "fonte": "Fontes do DIP.md",
+    "exp": "Obrigação erga omnes: exigível por qualquer sujeito."
+   },
+   {
+    "q": "Caso da CIJ que exige vínculo efetivo de nacionalidade para fins de proteção diplomática.",
+    "r": "Caso Nottebohm",
+    "chave": "Nottebohm",
+    "fonte": "Nacionalidade.md",
+    "exp": "Princípio da efetividade do vínculo."
+   },
+   {
+    "q": "Caso da CIJ (1950) que fixou dois requisitos cumulativos para o asilo diplomático.",
+    "r": "Haya de la Torre",
+    "chave": "Haya de la Torre",
+    "fonte": "Asilo.md",
+    "exp": "Crime político e perseguição imediata."
+   },
+   {
+    "q": "Parecer de 1949 que reconheceu a personalidade jurídica das organizações internacionais, após o assassinato de um mediador da ONU.",
+    "r": "Caso Bernadotte",
+    "chave": "Bernadotte",
+    "fonte": "Organizações Internacionais.md",
+    "exp": "Fundou o princípio da efetividade."
+   },
+   {
+    "q": "Parecer de 1962 que aplicou à ONU a teoria dos poderes inerentes.",
+    "r": "Caso Certas Despesas",
+    "chave": "Certas Despesas",
+    "fonte": "Organizações Internacionais.md",
+    "exp": "A teoria dos poderes implícitos é a majoritária."
+   },
+   {
+    "q": "Caso da CIJ em que as resoluções do Conselho de Segurança prevalecem sobre outros tratados.",
+    "r": "Lockerbie",
+    "chave": "Lockerbie",
+    "fonte": "Fontes do DIP.md",
+    "exp": "Hierarquia fática das resoluções do CSNU."
+   },
+   {
+    "q": "Caso de 1928 no Tribunal Permanente de Arbitragem decidido pelo controle efetivo; venceu quem exercia os atos de soberania.",
+    "r": "Ilha das Palmas",
+    "chave": "Ilha das Palmas",
+    "fonte": "Território e Formação BR.md",
+    "exp": "Os EUA tinham tratado com a Espanha; a Holanda tinha o controle efetivo."
+   },
+   {
+    "q": "Arbitragem de 1941 entre EUA e Canadá, marco do DIP ambiental.",
+    "r": "Fundição Trail",
+    "chave": "Fundição Trail",
+    "fonte": "Direito Internacional do Meio Ambiente.md",
+    "exp": "Nenhum Estado pode causar dano transfronteiriço a outro."
+   },
+   {
+    "q": "Caso do STF em que a embaixada da Alemanha foi condenada a pagar verbas trabalhistas.",
+    "r": "Geny de Oliveira",
+    "chave": "Geny de Oliveira",
+    "fonte": "Jurisdição e Imunidade.md",
+    "exp": "Atos de gestão não gozam de imunidade de jurisdição."
+   },
+   {
+    "q": "Caso da Guerrilha do Araguaia, em que o Brasil foi condenado em 2010 pela Corte Interamericana.",
+    "r": "Caso Gomes Lund",
+    "chave": "Gomes Lund",
+    "fonte": "Sistema Interamericano de Direitos Humanos.md",
+    "exp": "Os ilícitos tinham caráter continuado."
+   },
+   {
+    "q": "Caso de solução amistosa na Comissão Interamericana que resultou em lei, sem chegar à Corte.",
+    "r": "Caso Maria da Penha",
+    "chave": "Maria da Penha",
+    "fonte": "Sistema Interamericano de Direitos Humanos.md",
+    "exp": "A solução amistosa é proposta pela Comissão."
+   }
+  ]
+ },
+ {
+  "id": "qd-dint-instrumentos",
+  "materia": "Direito Internacional",
+  "titulo": "Tratados e documentos do DIP",
+  "rotulo": "QUAL TRATADO OU DOCUMENTO?",
+  "cartas": [
+   {
+    "q": "Tratado de 1928 em que os Estados renunciaram à guerra como solução de controvérsias.",
+    "r": "Pacto Briand-Kellogg",
+    "chave": "Briand",
+    "fonte": "Proibição do Uso da Força.md",
+    "exp": "Marco histórico inicial da proibição do uso da força."
+   },
+   {
+    "q": "Convenção de 1933 que lista os elementos constitutivos do Estado.",
+    "r": "Convenção de Montevidéu",
+    "chave": "Montevid",
+    "fonte": "Reconhecimento de Estado e Governo.md",
+    "exp": "População, território, governo e capacidade de relacionar-se."
+   },
+   {
+    "q": "Tratado de 1929 que criou o Estado da Cidade do Vaticano.",
+    "r": "Tratado de Latrão",
+    "chave": "Latrão",
+    "fonte": "Sujeitos Especiais do DIP.md",
+    "exp": "O Vaticano é Estado soberano; a Santa Sé é sujeito secundário."
+   },
+   {
+    "q": "Principal instrumento jurídico do sistema interamericano de direitos humanos, de 1969.",
+    "r": "Pacto de São José da Costa Rica",
+    "chave": "Pacto de São José",
+    "fonte": "Sistema Interamericano de Direitos Humanos.md",
+    "exp": "Criou a Corte e ampliou as competências da Comissão."
+   },
+   {
+    "q": "Documento de 1945 que reforça a proibição do uso da força, com duas exceções.",
+    "r": "Carta de São Francisco",
+    "chave": "Carta de São Francisco",
+    "fonte": "Direito Internacional Humanitário.md",
+    "exp": "Exceções: legítima defesa e autorização do Conselho de Segurança."
+   },
+   {
+    "q": "Documento de 1948 adotado como resolução da Assembleia Geral, e não como tratado.",
+    "r": "Declaração Universal dos Direitos Humanos",
+    "chave": "Declaração Universal",
+    "fonte": "Sistema Global de Proteção dos Direitos Humanos.md",
+    "exp": "Não é norma convencional, mas é materialmente vinculante."
+   },
+   {
+    "q": "Declaração de 1984, soft law regional que amplia o conceito de refugiado.",
+    "r": "Declaração de Cartagena",
+    "chave": "Cartagena",
+    "fonte": "Asilo.md",
+    "exp": "Inclui a violação reiterada e sistemática dos direitos humanos."
+   },
+   {
+    "q": "Protocolo de 2002 que é a fonte principal do sistema de solução de controvérsias do Mercosul.",
+    "r": "Protocolo de Olivos",
+    "chave": "Olivos",
+    "fonte": "Mercosul - Sistema de Solução de Controvérsias.md",
+    "exp": "Revogou o Protocolo de Brasília."
+   },
+   {
+    "q": "Protocolo de 1994 que fixa regras de decisão do GMC e não criou o Tribunal Permanente de Revisão.",
+    "r": "Protocolo de Ouro Preto",
+    "chave": "Ouro Preto",
+    "fonte": "Mercosul - Sistema de Solução de Controvérsias.md",
+    "exp": "Decisões do órgão político: consenso."
+   },
+   {
+    "q": "Acordo de 1994 que criou a OMC e traz anexo sobre solução de controvérsias.",
+    "r": "Acordo de Marraquexe",
+    "chave": "Marraquexe",
+    "fonte": "Direito do Comércio Internacional e OMC.md",
+    "exp": "Sucedeu normativamente o GATT/1947."
+   },
+   {
+    "q": "Tratado de 1998 que criou o Tribunal Penal Internacional.",
+    "r": "Estatuto de Roma",
+    "chave": "Estatuto de Roma",
+    "fonte": "Tribunal Penal Internacional.md",
+    "exp": "O art. 4º dá ao TPI personalidade jurídica."
+   },
+   {
+    "q": "Convenções de 1954 sobre o asilo diplomático e o asilo territorial.",
+    "r": "Convenções de Caracas",
+    "chave": "Caracas",
+    "fonte": "Asilo.md",
+    "exp": "Disciplinam o asilo político nas Américas."
+   },
+   {
+    "q": "Convenção de 1982 sobre o direito do mar, tratado-guarda-chuva.",
+    "r": "CNUDM (Montego Bay)",
+    "chave": "Montego",
+    "fonte": "Direito Internacional do Meio Ambiente.md",
+    "exp": "Anexos nem sempre vinculam todos os Estados-partes."
+   },
+   {
+    "q": "Tratado de 1750 que define o limite entre a América Portuguesa e a Espanhola.",
+    "r": "Tratado de Madrid",
+    "chave": "Tratado de Madrid",
+    "fonte": "Território e Formação BR.md",
+    "exp": "Primeira aparição do uti possidetis no direito internacional."
+   },
+   {
+    "q": "Convenção de 1978 pela qual o novo Estado respeita os tratados de fronteira.",
+    "r": "Convenção de Viena de 1978",
+    "chave": "Viena sobre sucessão",
+    "fonte": "Território e Formação BR.md",
+    "exp": "O Estado sucessor respeita os tratados de fronteira."
+   }
+  ]
+ },
+ {
+  "id": "qd-dint-reconhecimento-de-governo",
+  "materia": "Direito Internacional",
+  "titulo": "Doutrinas de reconhecimento de governo",
+  "rotulo": "QUAL DOUTRINA?",
+  "cartas": [
+   {
+    "q": "Doutrina dos EUA, do século 18: só se reconhecem governos com apoio popular.",
+    "r": "Doutrina Jefferson",
+    "chave": "Jefferson",
+    "fonte": "Reconhecimento de Estado e Governo.md",
+    "exp": "Primeira doutrina da lista."
+   },
+   {
+    "q": "Doutrina do Equador, de 1907: reconhecimento condicionado aos postulados constitucionais.",
+    "r": "Doutrina Tobar",
+    "chave": "Tobar",
+    "fonte": "Reconhecimento de Estado e Governo.md",
+    "exp": "Reconhecimento condicionado."
+   },
+   {
+    "q": "Doutrina dos EUA, de 1913: não reconhecer governos criados por golpes.",
+    "r": "Doutrina Wilson",
+    "chave": "Wilson",
+    "fonte": "Reconhecimento de Estado e Governo.md",
+    "exp": "Fundada na legitimidade constitucional."
+   },
+   {
+    "q": "Doutrina do México, de 1930: reconhecimento tácito pela manutenção das relações diplomáticas.",
+    "r": "Doutrina Estrada",
+    "chave": "Estrada",
+    "fonte": "Reconhecimento de Estado e Governo.md",
+    "exp": "Contrária a condicionar o reconhecimento."
+   },
+   {
+    "q": "Doutrina da Venezuela, de 1959: não reconhecer governos que rompem a ordem constitucional.",
+    "r": "Doutrina Betancourt",
+    "chave": "Betancourt",
+    "fonte": "Reconhecimento de Estado e Governo.md",
+    "exp": "Voltada à defesa da democracia."
+   }
+  ]
  }
 ]

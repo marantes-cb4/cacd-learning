@@ -1,0 +1,89 @@
+{
+ "chave": "ec2-7-crescimento-e-desenvolvimento-economico-parte-2",
+ "materia": "Economia",
+ "item": "2.7",
+ "status": "completo",
+ "titulo": "Item 2.7 · Crescimento e desenvolvimento econômico · parte 2",
+ "descricao": "Solow, regra de ouro, convergência, Harrod-Domar, crescimento endógeno e Schumpeter.",
+ "notas": [
+  "Macro - Modelo de Solow.md",
+  "Macro - Modelos de Crescimento.md"
+ ],
+ "palavras": [
+  [
+   "TEMPORARIO",
+   "Aumento da taxa de poupança acelera o crescimento apenas de forma ___.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "SUBACUMULACAO",
+   "Quando k* é menor que o k da regra de ouro, elevar s aumenta o consumo: ___.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "ABSOLUTA",
+   "Convergência ___: países iguais convergem para a mesma renda per capita.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "CONDICIONAL",
+   "Convergência ___: cada país converge ao seu próprio steady state; a evidência empírica a favorece.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "EXOGENO",
+   "Solow é modelo de crescimento ___: g não é explicado pelo modelo.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "DENNISON",
+   "Edward ___ chamou o resíduo de ‘medida da nossa ignorância’.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "NAVALHA",
+   "Equilíbrio de fio de ___: instável, sem mecanismo de autocorreção.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "INSTAVEL",
+   "Em Harrod-Domar o equilíbrio de longo prazo é ___.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "ESTAVEL",
+   "Em Solow o steady state é ___.",
+   "Macro - Modelo de Solow.md"
+  ],
+  [
+   "PATENTES",
+   "Direitos de propriedade intelectual que dão competição imperfeita no modelo de Romer.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "SCHUMPETER",
+   "Autor da Teoria do Desenvolvimento Econômico (1912).",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "INOVACOES",
+   "Cinco tipos: novo produto, novo método, novo mercado, nova matéria-prima e reorganização da indústria.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "DESTRUICAO",
+   "___ criadora: velhas empresas vão à falência antes que as inovações produzam seus efeitos plenos.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "QUALITATIVA",
+   "Para Schumpeter, o desenvolvimento envolve mudança ___, não só quantitativa.",
+   "Macro - Modelos de Crescimento.md"
+  ],
+  [
+   "CEPAL",
+   "Conceito de ‘subdesenvolvimento’ surgiu na ___ na América Latina.",
+   "Macro - Modelos de Crescimento.md"
+  ]
+ ]
+}

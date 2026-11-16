@@ -208,5 +208,986 @@
     "fonte": "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md"
    }
   ]
+ },
+ {
+  "id": "ec-oferta-e-demanda",
+  "materia": "Economia",
+  "item": "1.1",
+  "titulo": "Oferta e demanda",
+  "grupos": [
+   {
+    "tema": "Determinantes da demanda",
+    "termos": [
+     "Renda",
+     "Gostos",
+     "Expectativas",
+     "Complementares"
+    ],
+    "fonte": "Micro - Intro Oferta e Demanda.md"
+   },
+   {
+    "tema": "Desequilíbrios de mercado",
+    "termos": [
+     "Escassez",
+     "Excedente",
+     "Equilíbrio",
+     "Preço máximo"
+    ],
+    "fonte": "Micro - Intro Oferta e Demanda.md"
+   },
+   {
+    "tema": "Princípios da economia",
+    "termos": [
+     "Tradeoffs",
+     "Custo de oportunidade",
+     "Margem",
+     "Incentivos"
+    ],
+    "fonte": "Micro - Intro Oferta e Demanda.md"
+   },
+   {
+    "tema": "Conceitos centrais",
+    "termos": [
+     "Eficiência",
+     "Equidade",
+     "Mão invisível",
+     "Externalidade"
+    ],
+    "fonte": "Micro - Intro Oferta e Demanda.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-elasticidade",
+  "materia": "Economia",
+  "item": "1.1",
+  "titulo": "Elasticidade",
+  "grupos": [
+   {
+    "tema": "Tipos de bem",
+    "termos": [
+     "Inferior",
+     "Luxo",
+     "Giffen",
+     "Substitutos"
+    ],
+    "fonte": "Micro - Elasticidade.md"
+   },
+   {
+    "tema": "Elasticidade-preço da demanda",
+    "termos": [
+     "Elástica",
+     "Inelástica",
+     "Unitária",
+     "Cruzada"
+    ],
+    "fonte": "Micro - Elasticidade.md"
+   },
+   {
+    "tema": "Fatores da elasticidade",
+    "termos": [
+     "Horizonte",
+     "Elasticidade-renda",
+     "Prazo",
+     "Capacidade"
+    ],
+    "fonte": [
+     "Macro - Modelos de Crescimento.md",
+     "Micro - Elasticidade.md"
+    ]
+   },
+   {
+    "tema": "Tributação",
+    "termos": [
+     "Incidência",
+     "Peso morto",
+     "Excedente",
+     "Elasticidade"
+    ],
+    "fonte": "Micro - Teoria do Consumidor e Política Econômica.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-teoria-do-consumidor",
+  "materia": "Economia",
+  "item": "1.1",
+  "titulo": "Teoria do consumidor",
+  "grupos": [
+   {
+    "tema": "Curvas de indiferença",
+    "termos": [
+     "Convexa",
+     "Monótonas",
+     "Preferível",
+     "Indiferença"
+    ],
+    "fonte": "Micro - Teoria do Consumidor e Política Econômica.md"
+   },
+   {
+    "tema": "Escolha ótima",
+    "termos": [
+     "Restrição orçamentária",
+     "Tangência",
+     "Substituição",
+     "Utilidade"
+    ],
+    "fonte": "Micro - Teoria do Consumidor e Política Econômica.md"
+   },
+   {
+    "tema": "Política econômica",
+    "termos": [
+     "Preço máximo",
+     "Peso morto",
+     "Incidência",
+     "Liberal"
+    ],
+    "fonte": "Micro - Teoria do Consumidor e Política Econômica.md"
+   },
+   {
+    "tema": "Bem-estar",
+    "termos": [
+     "Disposição para pagar",
+     "Excedente",
+     "Bem-estar",
+     "Equidade"
+    ],
+    "fonte": [
+     "Micro - Intro Oferta e Demanda.md",
+     "Micro - Teoria do Consumidor e Política Econômica.md"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ec-teoria-da-firma",
+  "materia": "Economia",
+  "item": "1.2",
+  "titulo": "Teoria da firma",
+  "grupos": [
+   {
+    "tema": "Tipos de custo",
+    "termos": [
+     "Explícito",
+     "Implícito",
+     "Fixo",
+     "Variável"
+    ],
+    "fonte": "Micro - Teoria da Firma.md"
+   },
+   {
+    "tema": "Tipos de lucro",
+    "termos": [
+     "Contábil",
+     "Econômico",
+     "Receita",
+     "Custo de oportunidade"
+    ],
+    "fonte": "Micro - Teoria da Firma.md"
+   },
+   {
+    "tema": "Escala e prazos",
+    "termos": [
+     "Economias de escala",
+     "Deseconomias",
+     "Curto",
+     "Longo"
+    ],
+    "fonte": "Micro - Teoria da Firma.md"
+   },
+   {
+    "tema": "Produção e insumos",
+    "termos": [
+     "Isoquanta",
+     "Isocusto",
+     "Produto marginal",
+     "Tangente"
+    ],
+    "fonte": "Micro - Teoria da Firma.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-concorrencia-perfeita-e-monopolio",
+  "materia": "Economia",
+  "item": "1.3",
+  "titulo": "Concorrência perfeita e monopólio",
+  "grupos": [
+   {
+    "tema": "Concorrência perfeita",
+    "termos": [
+     "Tomador",
+     "Homogêneos",
+     "Receita marginal",
+     "Entrada"
+    ],
+    "fonte": [
+     "Micro - Oligopólio e Concorrência Monopolística.md",
+     "Micro - Mercados Perfeitamente Competitivos.md"
+    ]
+   },
+   {
+    "tema": "Decisões da firma competitiva",
+    "termos": [
+     "Paralisação",
+     "Saída",
+     "Curto",
+     "Longo"
+    ],
+    "fonte": "Micro - Mercados Perfeitamente Competitivos.md"
+   },
+   {
+    "tema": "Monopólio",
+    "termos": [
+     "Barreiras",
+     "Patentes",
+     "Natural",
+     "Discriminação"
+    ],
+    "fonte": "Micro - Monopólio.md"
+   },
+   {
+    "tema": "Respostas públicas ao monopólio",
+    "termos": [
+     "Antitruste",
+     "Estatização",
+     "Metrô",
+     "Formador"
+    ],
+    "fonte": "Micro - Monopólio.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-oligopolio",
+  "materia": "Economia",
+  "item": "1.3",
+  "titulo": "Oligopólio e concorrência monopolística",
+  "grupos": [
+   {
+    "tema": "Modelos de oligopólio",
+    "termos": [
+     "Cournot",
+     "Stackelberg",
+     "Nash",
+     "Dilema"
+    ],
+    "fonte": "Micro - Oligopólio e Concorrência Monopolística.md"
+   },
+   {
+    "tema": "Cartel e conluio",
+    "termos": [
+     "Cartel",
+     "Conluio",
+     "OPEP",
+     "Dominante"
+    ],
+    "fonte": "Micro - Oligopólio e Concorrência Monopolística.md"
+   },
+   {
+    "tema": "Concorrência monopolística",
+    "termos": [
+     "Diferenciação",
+     "Ociosa",
+     "Mark-up",
+     "Lucro econômico zero"
+    ],
+    "fonte": "Micro - Oligopólio e Concorrência Monopolística.md"
+   },
+   {
+    "tema": "Mercados contestáveis",
+    "termos": [
+     "Baumol",
+     "Irrecuperáveis",
+     "Contestáveis",
+     "Estratégica"
+    ],
+    "fonte": "Micro - Oligopólio e Concorrência Monopolística.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-contabilidade-nacional",
+  "materia": "Economia",
+  "item": "2.1",
+  "titulo": "Contabilidade nacional",
+  "grupos": [
+   {
+    "tema": "Óticas do PIB",
+    "termos": [
+     "Produto",
+     "Renda",
+     "Despesa",
+     "Fluxo"
+    ],
+    "fonte": "Macro - Contas Nacionais.md"
+   },
+   {
+    "tema": "Impostos e preços",
+    "termos": [
+     "Diretos",
+     "Indiretos",
+     "Subsídios",
+     "Custo de fatores"
+    ],
+    "fonte": "Macro - Contabilidade Nacional, Renda e Produto.md"
+   },
+   {
+    "tema": "Medidas de produto e renda",
+    "termos": [
+     "Interno",
+     "Nacional",
+     "RNB",
+     "RDB"
+    ],
+    "fonte": "Macro - Contas Nacionais.md"
+   },
+   {
+    "tema": "Identidades",
+    "termos": [
+     "Poupança",
+     "Investimento",
+     "Depreciação",
+     "Déficit"
+    ],
+    "fonte": "Macro - Conceitos Básicos de Economias Abertas.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-balanca-de-pagamentos",
+  "materia": "Economia",
+  "item": "2.2",
+  "titulo": "Balança de pagamentos",
+  "grupos": [
+   {
+    "tema": "Grupos da balança",
+    "termos": [
+     "Correntes",
+     "Capital",
+     "Financeira",
+     "Erros e omissões"
+    ],
+    "fonte": "Macro - Balança de Pagamentos.md"
+   },
+   {
+    "tema": "Balança comercial e serviços",
+    "termos": [
+     "FOB",
+     "CIF",
+     "Serviços",
+     "Royalties"
+    ],
+    "fonte": "Macro - Balança de Pagamentos.md"
+   },
+   {
+    "tema": "Conta financeira",
+    "termos": [
+     "Diretos",
+     "Carteira",
+     "Derivativos",
+     "Reserva"
+    ],
+    "fonte": "Macro - Balança de Pagamentos.md"
+   },
+   {
+    "tema": "Rendas",
+    "termos": [
+     "Primárias",
+     "Secundárias",
+     "Dividendos",
+     "Unilaterais"
+    ],
+    "fonte": "Macro - Balança de Pagamentos.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-economia-aberta",
+  "materia": "Economia",
+  "item": "3.2",
+  "titulo": "Conceitos de economia aberta",
+  "grupos": [
+   {
+    "tema": "Taxa de câmbio",
+    "termos": [
+     "Nominal",
+     "Real",
+     "Apreciação",
+     "Depreciação"
+    ],
+    "fonte": "Macro - Conceitos Básicos de Economias Abertas.md"
+   },
+   {
+    "tema": "Regimes cambiais",
+    "termos": [
+     "Flutuação suja",
+     "Bandas",
+     "Crawling peg",
+     "Currency board"
+    ],
+    "fonte": "Macro - Conceitos Básicos de Economias Abertas.md"
+   },
+   {
+    "tema": "Paridade do poder de compra",
+    "termos": [
+     "Preço único",
+     "Arbitragem",
+     "Commodities",
+     "PPC"
+    ],
+    "fonte": "Macro - Conceitos Básicos de Economias Abertas.md"
+   },
+   {
+    "tema": "Paridade de juros",
+    "termos": [
+     "Descoberta",
+     "Coberta",
+     "Prêmio",
+     "Entrada"
+    ],
+    "fonte": "Macro - Conceitos Básicos de Economias Abertas.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-modelo-classico",
+  "materia": "Economia",
+  "item": "2.1",
+  "titulo": "Modelo clássico",
+  "grupos": [
+   {
+    "tema": "Moeda no modelo clássico",
+    "termos": [
+     "Neutralidade",
+     "Dicotomia",
+     "Quantitativa",
+     "Velocidade"
+    ],
+    "fonte": "Macro - Sistema Monetário.md"
+   },
+   {
+    "tema": "Mercado de trabalho clássico",
+    "termos": [
+     "PMgL",
+     "Desutilidade",
+     "Pleno emprego",
+     "Involuntário"
+    ],
+    "fonte": [
+     "Macro - Modelo Clássico.md",
+     "Macro - Contabilidade Nacional, Renda e Produto.md"
+    ]
+   },
+   {
+    "tema": "Autores",
+    "termos": [
+     "Say",
+     "Keynes",
+     "Smith",
+     "Ricardo"
+    ],
+    "fonte": "Macro - Modelo Clássico.md"
+   },
+   {
+    "tema": "Fundos e juros",
+    "termos": [
+     "Crowding out",
+     "Fundos emprestáveis",
+     "Poupança",
+     "Taxa de juros"
+    ],
+    "fonte": "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+   }
+  ]
+ },
+ {
+  "id": "ec-is-lm-keynesiano",
+  "materia": "Economia",
+  "item": "2.4",
+  "titulo": "IS-LM keynesiano",
+  "grupos": [
+   {
+    "tema": "Demanda por moeda",
+    "termos": [
+     "Transacional",
+     "Precaucional",
+     "Especulativa",
+     "Armadilha de liquidez"
+    ],
+    "fonte": "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+   },
+   {
+    "tema": "Origem do IS-LM",
+    "termos": [
+     "Hicks",
+     "Hansen",
+     "Keynes",
+     "Síntese neoclássica"
+    ],
+    "fonte": "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+   },
+   {
+    "tema": "Ideias keynesianas",
+    "termos": [
+     "Demanda efetiva",
+     "Multiplicador",
+     "Títulos",
+     "Prêmio de liquidez"
+    ],
+    "fonte": "Macro - Modelo IS-LM (Keynesiano Generalizado).md"
+   },
+   {
+    "tema": "Efeitos e limites",
+    "termos": [
+     "Crowding out",
+     "Recessão",
+     "Depressão",
+     "Pessimismo"
+    ],
+    "fonte": [
+     "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md",
+     "Macro - Curva de Phillips - Parte 2.md"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ec-oferta-e-demanda-agregada",
+  "materia": "Economia",
+  "item": "2.4",
+  "titulo": "Oferta e demanda agregada",
+  "grupos": [
+   {
+    "tema": "Inclinação da demanda agregada",
+    "termos": [
+     "Efeito riqueza",
+     "Efeito taxa de juros",
+     "Efeito taxa de câmbio",
+     "Inclinação negativa"
+    ],
+    "fonte": "Macro - Modelo de Oferta e Demanda Agregada.md"
+   },
+   {
+    "tema": "Oferta agregada de curto prazo",
+    "termos": [
+     "Salários rígidos",
+     "Percepções equivocadas",
+     "Menu costs",
+     "Estagflação"
+    ],
+    "fonte": "Macro - Modelo de Oferta e Demanda Agregada.md"
+   },
+   {
+    "tema": "Choques",
+    "termos": [
+     "Petróleo",
+     "Choque de oferta",
+     "Recessão",
+     "Depressão"
+    ],
+    "fonte": "Macro - Modelo de Oferta e Demanda Agregada.md"
+   },
+   {
+    "tema": "Longo prazo",
+    "termos": [
+     "Taxa natural",
+     "Friedman",
+     "Vertical",
+     "Potencial"
+    ],
+    "fonte": "Macro - Curva de Phillips.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-politica-fiscal-e-monetaria",
+  "materia": "Economia",
+  "item": "2.3",
+  "titulo": "Políticas fiscal e monetária",
+  "grupos": [
+   {
+    "tema": "Instrumentos monetários",
+    "termos": [
+     "Mercado aberto",
+     "Redesconto",
+     "Compulsório",
+     "Selic"
+    ],
+    "fonte": "Macro - Sistema Monetário.md"
+   },
+   {
+    "tema": "Política não convencional",
+    "termos": [
+     "Forward guidance",
+     "Flexibilização quantitativa",
+     "Operation Twist",
+     "Política de crédito"
+    ],
+    "fonte": [
+     "Macro - Modelo IS-LM (Keynesiano Generalizado).md",
+     "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+    ]
+   },
+   {
+    "tema": "Regra e regime",
+    "termos": [
+     "Regra de Taylor",
+     "Metas de inflação",
+     "Autonomia",
+     "Credibilidade"
+    ],
+    "fonte": "Macro - Curva de Phillips - Parte 2.md"
+   },
+   {
+    "tema": "Política fiscal",
+    "termos": [
+     "Multiplicador",
+     "Estabilizadores automáticos",
+     "Ricardiana",
+     "Orçamento equilibrado"
+    ],
+    "fonte": "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-curva-de-phillips",
+  "materia": "Economia",
+  "item": "2.8",
+  "titulo": "Curva de Phillips",
+  "grupos": [
+   {
+    "tema": "Origem da curva",
+    "termos": [
+     "Phillips",
+     "Samuelson",
+     "Solow",
+     "Okun"
+    ],
+    "fonte": "Macro - Curva de Phillips.md"
+   },
+   {
+    "tema": "Expectativas",
+    "termos": [
+     "Adaptativas",
+     "Racionais",
+     "Friedman",
+     "Phelps"
+    ],
+    "fonte": "Macro - Curva de Phillips - Parte 2.md"
+   },
+   {
+    "tema": "Conceitos",
+    "termos": [
+     "NAIRU",
+     "Taxa natural",
+     "Hiato do produto",
+     "Taxa de sacrifício"
+    ],
+    "fonte": "Macro - Curva de Phillips.md"
+   },
+   {
+    "tema": "Fed e inflação",
+    "termos": [
+     "Volcker",
+     "Greenspan",
+     "Bernanke",
+     "Grande moderação"
+    ],
+    "fonte": "Macro - Curva de Phillips - Parte 2.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-poupanca-e-sistema-financeiro",
+  "materia": "Economia",
+  "item": "2.3",
+  "titulo": "Poupança, investimento e sistema financeiro",
+  "grupos": [
+   {
+    "tema": "Fundos emprestáveis",
+    "termos": [
+     "Poupadores",
+     "Tomadores",
+     "Spread",
+     "Taxa de juros"
+    ],
+    "fonte": "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+   },
+   {
+    "tema": "Mercados financeiros",
+    "termos": [
+     "Títulos",
+     "Ações",
+     "Dividendos",
+     "Bolsa"
+    ],
+    "fonte": "Macro - Balança de Pagamentos.md"
+   },
+   {
+    "tema": "Déficit e juros",
+    "termos": [
+     "Déficit",
+     "Crowding out",
+     "Incentivo fiscal",
+     "Tabelamento"
+    ],
+    "fonte": "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+   },
+   {
+    "tema": "Tipos de poupança",
+    "termos": [
+     "Poupança privada",
+     "Poupança do governo",
+     "Poupança nacional",
+     "Fundos"
+    ],
+    "fonte": "Macro - Poupança, Investimento e o Sistema Financeiro.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-sistema-monetario",
+  "materia": "Economia",
+  "item": "2.5",
+  "titulo": "Sistema monetário",
+  "grupos": [
+   {
+    "tema": "Funções da moeda",
+    "termos": [
+     "Unidade de conta",
+     "Meio de troca",
+     "Reserva de valor",
+     "Liquidez"
+    ],
+    "fonte": "Macro - Sistema Monetário.md"
+   },
+   {
+    "tema": "Agregados monetários",
+    "termos": [
+     "M1",
+     "M2",
+     "M3",
+     "Base monetária"
+    ],
+    "fonte": "Macro - Sistema Monetário.md"
+   },
+   {
+    "tema": "Papel do Banco Central",
+    "termos": [
+     "Banqueiro",
+     "Emprestador de última instância",
+     "Monopólio",
+     "CMN"
+    ],
+    "fonte": "Macro - Sistema Monetário.md"
+   },
+   {
+    "tema": "Multiplicador monetário",
+    "termos": [
+     "Razão de reservas",
+     "Compulsório",
+     "Moeda escritural",
+     "Corrida"
+    ],
+    "fonte": "Macro - Sistema Monetário.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-modelo-de-solow",
+  "materia": "Economia",
+  "item": "2.7",
+  "titulo": "Modelo de Solow em detalhe",
+  "grupos": [
+   {
+    "tema": "Pressupostos",
+    "termos": [
+     "Retornos constantes",
+     "Produtividade marginal decrescente",
+     "Propensão a poupar",
+     "Função de produção per capita"
+    ],
+    "fonte": "Macro - Modelo de Solow.md"
+   },
+   {
+    "tema": "Estado estacionário",
+    "termos": [
+     "Estado estacionário",
+     "Crescimento balanceado",
+     "Regra de ouro",
+     "Ineficiência dinâmica"
+    ],
+    "fonte": "Macro - Modelo de Solow.md"
+   },
+   {
+    "tema": "Convergência",
+    "termos": [
+     "Absoluta",
+     "Condicional",
+     "Taxa de poupança",
+     "Crescimento populacional"
+    ],
+    "fonte": "Macro - Modelo de Solow.md"
+   },
+   {
+    "tema": "Progresso tecnológico",
+    "termos": [
+     "Trabalho efetivo",
+     "Resíduo",
+     "PTF",
+     "Bem público"
+    ],
+    "fonte": "Macro - Modelo de Solow.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-historia-agroexportadora",
+  "materia": "Economia",
+  "item": "4.1",
+  "titulo": "Economia agroexportadora",
+  "grupos": [
+   {
+    "tema": "Mecanismo de Furtado",
+    "termos": [
+     "Desvalorização",
+     "Socialização",
+     "Padrão-ouro",
+     "Multiplicador"
+    ],
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "tema": "Café",
+    "termos": [
+     "Monopólio",
+     "Superprodução",
+     "Imigração",
+     "Encilhamento"
+    ],
+    "fonte": "Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md"
+   },
+   {
+    "tema": "Trabalho",
+    "termos": [
+     "Escravidão",
+     "Assalariado",
+     "Subsistência",
+     "Estrutural"
+    ],
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "tema": "Anos 1890",
+    "termos": [
+     "Rui Barbosa",
+     "Floriano",
+     "Funding scheme",
+     "Moratória"
+    ],
+    "fonte": "Economia Agroexportadora.md"
+   }
+  ]
+ },
+ {
+  "id": "ec-vargas-e-industrializacao",
+  "materia": "Economia",
+  "item": "4.3",
+  "titulo": "Vargas e industrialização",
+  "grupos": [
+   {
+    "tema": "Dívida e câmbio",
+    "termos": [
+     "Moratórias",
+     "Funding loan",
+     "Monopólio cambial",
+     "Desvalorização"
+    ],
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   },
+   {
+    "tema": "Teorias da industrialização",
+    "termos": [
+     "Choques adversos",
+     "Centro dinâmico",
+     "Furtado",
+     "Pelaez"
+    ],
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   },
+   {
+    "tema": "Estado empresário",
+    "termos": [
+     "DASP",
+     "Siderúrgica",
+     "Conselho Federal de Comércio Exterior",
+     "Preponderância"
+    ],
+    "fonte": [
+     "O Primeiro Governo Vargas (1930-1945).md",
+     "Crise da Economia Cafeeira e Deslocamento do Centro Dinâmico.md"
+    ]
+   },
+   {
+    "tema": "Comércio exterior",
+    "termos": [
+     "Compensação",
+     "Alemanha",
+     "Algodão",
+     "Importar"
+    ],
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md"
+   }
+  ]
+ },
+ {
+  "id": "ec-pos-guerra-e-plano-de-metas",
+  "materia": "Economia",
+  "item": "4.4",
+  "titulo": "Pós-guerra: planos e instrumentos",
+  "grupos": [
+   {
+    "tema": "Planos",
+    "termos": [
+     "SALTE",
+     "Plano Lafer",
+     "Plano Aranha",
+     "Comissão Mista"
+    ],
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "tema": "Instrumentos cambiais",
+    "termos": [
+     "Instrução 70",
+     "Leilões",
+     "Bonificações",
+     "Instrução 113"
+    ],
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "tema": "Instituições",
+    "termos": [
+     "BNDE",
+     "Petrobras",
+     "SUMOC",
+     "CACEX"
+    ],
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "tema": "Ministros e crédito",
+    "termos": [
+     "Gudin",
+     "Whitaker",
+     "Jafet",
+     "Lafer"
+    ],
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   }
+  ]
  }
 ]

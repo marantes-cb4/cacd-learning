@@ -208,5 +208,215 @@
     "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
    }
   ]
+ },
+ {
+  "id": "lt-ec-macro-marcos",
+  "materia": "Economia",
+  "titulo": "Macroeconomia: marcos do século XX",
+  "eventos": [
+   {
+    "ano": 1944,
+    "d": "1944",
+    "t": "Acordo de Bretton Woods substitui o padrão-ouro",
+    "chave": "Bretton Woods",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1960,
+    "d": "1960",
+    "t": "Samuelson e Solow batizam a curva de Phillips",
+    "chave": "Samuelson",
+    "fonte": "Macro - Curva de Phillips.md"
+   },
+   {
+    "ano": 1962,
+    "d": "1962",
+    "t": "Lei de Okun relaciona desemprego e PIB",
+    "chave": "Okun",
+    "fonte": "Macro - Curva de Phillips.md"
+   },
+   {
+    "ano": 1971,
+    "d": "1971",
+    "t": "Nixon rompe com o padrão-ouro",
+    "chave": "Nixon",
+    "fonte": "Macro - Curva de Phillips.md"
+   },
+   {
+    "ano": 1973,
+    "d": "1973",
+    "t": "Primeiro choque do petróleo, com a OPEP elevando o preço",
+    "chave": "OPEP",
+    "fonte": "Macro - Curva de Phillips.md"
+   },
+   {
+    "ano": 1979,
+    "d": "1979",
+    "t": "Volcker assume o Fed e combate a inflação com juros altos",
+    "chave": "Volcker",
+    "fonte": "Macro - Curva de Phillips - Parte 2.md"
+   },
+   {
+    "ano": 2008,
+    "d": "2008",
+    "t": "Crise que encerra a grande moderação",
+    "chave": "crise",
+    "fonte": "Macro - Curva de Phillips - Parte 2.md"
+   }
+  ]
+ },
+ {
+  "id": "lt-ec-instituicoes-pos-guerra",
+  "materia": "Economia",
+  "titulo": "Instituições e planos do pós-guerra",
+  "eventos": [
+   {
+    "ano": 1942,
+    "d": "1942",
+    "t": "Cruzeiro substitui o mil-réis",
+    "chave": "Cruzeiro",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1945,
+    "d": "1945",
+    "t": "Instituição da SUMOC, para preparar o Banco Central",
+    "chave": "SUMOC",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1949,
+    "d": "1949",
+    "t": "Discurso de posse de Truman, com o Ponto 4",
+    "chave": "Truman",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1950,
+    "d": "1950",
+    "t": "Plano SALTE aprovado",
+    "chave": "Plano Salte",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1952,
+    "d": "1952",
+    "t": "Criação do BNDE",
+    "chave": "BNDE",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1953,
+    "d": "1953",
+    "t": "Criação da Petrobras",
+    "chave": "Petrobras",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   }
+  ]
+ },
+ {
+  "id": "lt-ec-primeira-decada-republicana",
+  "materia": "Economia",
+  "titulo": "Primeira década republicana",
+  "eventos": [
+   {
+    "ano": 1887,
+    "d": "1887",
+    "t": "Primeiro grande projeto de reforma monetária, apresentado ao Senado",
+    "chave": "reforma monetária",
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "ano": 1890,
+    "d": "1890",
+    "t": "Lei bancária de Rui Barbosa e surgimento do BEUB",
+    "chave": "BEUB",
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "ano": 1891,
+    "d": "1891",
+    "t": "Ascensão de Floriano Peixoto e grande depressão cambial",
+    "chave": "Floriano",
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "ano": 1892,
+    "d": "1892",
+    "t": "Plano deflacionista de Rodrigues Alves, sem respaldo do Congresso",
+    "chave": "Rodrigues Alves",
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "ano": 1893,
+    "d": "1893",
+    "t": "Revolta da Armada e desfecho da especulação na bolsa",
+    "chave": "Revolta da Armada",
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "ano": 1895,
+    "d": "1895",
+    "t": "Grande empréstimo baseado na crença dos banqueiros em um governo conservador",
+    "chave": "grande empréstimo",
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "ano": 1898,
+    "d": "1898",
+    "t": "Moratória e plano conservador de saneamento monetário e fiscal",
+    "chave": "moratória",
+    "fonte": "Economia Agroexportadora.md"
+   },
+   {
+    "ano": 1900,
+    "d": "1900",
+    "t": "Avalanche de falências bancárias, consequência do funding scheme",
+    "chave": "falências bancárias",
+    "fonte": "Economia Agroexportadora.md"
+   }
+  ]
+ },
+ {
+  "id": "lt-ec-caixa-de-conversao",
+  "materia": "Economia",
+  "titulo": "A Caixa de Conversão",
+  "eventos": [
+   {
+    "ano": 1906,
+    "d": "1906",
+    "t": "Criação da Caixa de Conversão, com notas conversíveis em ouro a paridade fixa",
+    "chave": "Caixa de Conversão",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1910,
+    "d": "1910",
+    "t": "Atingido o limite de emissões da Caixa, de 320 mil contos",
+    "chave": "320 mil contos",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1912,
+    "d": "1912",
+    "t": "Primeiros problemas: dificuldade de novos empréstimos e ação antitruste contra o café",
+    "chave": "antitruste",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1913,
+    "d": "1913",
+    "t": "Dificuldades crescentes no balanço de pagamentos e contração monetária",
+    "chave": "contração monetária",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   },
+   {
+    "ano": 1914,
+    "d": "1914",
+    "t": "Fechamento da Caixa, feriado bancário e novo funding loan",
+    "chave": "feriado bancário",
+    "fonte": "A Política Econômica na República Velha (1889-1930).md"
+   }
+  ]
  }
 ]

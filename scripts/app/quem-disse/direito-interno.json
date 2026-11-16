@@ -45,6 +45,84 @@
     "chave": "Dworkin",
     "fonte": "Princípios da Administração Pública.md",
     "exp": "Segundo Dworkin, a regra se aplica ou não se aplica; no choque entre normas, uma prevalece sobre a outra."
+   },
+   {
+    "q": "Distinguiu direitos, como disposições declaratórias, de garantias, como disposições assecuratórias.",
+    "r": "Ruy Barbosa",
+    "chave": "Ruy Barbosa",
+    "fonte": "Direitos e Garantias Fundamentais.md",
+    "exp": "Direito = liberdade de locomoção; garantia = habeas corpus."
+   },
+   {
+    "q": "Brasileiro nato, ex-presidente, nomeado embaixador: exemplo de que o chefe de missão não precisa integrar a carreira diplomática.",
+    "r": "Itamar Franco",
+    "chave": "Itamar Franco",
+    "fonte": "Lei do Serviço Exterior Brasileiro.md",
+    "exp": "O art. 41, parágrafo único, permite nomear brasileiro nato maior de 35 anos, de reconhecido mérito."
+   }
+  ]
+ },
+ {
+  "id": "qd-di-sumulas",
+  "materia": "Direito Interno",
+  "titulo": "Súmulas e casos de Direito Interno",
+  "rotulo": "QUAL SÚMULA OU CASO?",
+  "cartas": [
+   {
+    "q": "A falta de defesa técnica por advogado no PAD não ofende a Constituição.",
+    "r": "Súmula Vinculante 5",
+    "chave": "Súmula Vinculante 5",
+    "fonte": "Direitos, Deveres e Responsabilidades dos Servidores.md",
+    "exp": "A autodefesa sozinha basta, também na sindicância sumária."
+   },
+   {
+    "q": "É possível instaurar PAD com base em denúncia anônima, desde que motivada.",
+    "r": "Súmula 611 do STJ",
+    "chave": "Súmula 611",
+    "fonte": "Direitos, Deveres e Responsabilidades dos Servidores.md",
+    "exp": "Exige sindicância ou investigação para apurar os fatos."
+   },
+   {
+    "q": "Viola a reserva de plenário afastar a lei sem declarar a sua inconstitucionalidade.",
+    "r": "Súmula Vinculante 10",
+    "chave": "Súmula Vinculante 10",
+    "fonte": "Controle de Constitucionalidade - Parte 3.md",
+    "exp": "É a súmula da reserva de plenário (art. 97)."
+   },
+   {
+    "q": "Os Tribunais de Contas podem apreciar a constitucionalidade de leis no caso concreto.",
+    "r": "Súmula 347 do STF",
+    "chave": "Súmula 347",
+    "fonte": "Controle de Constitucionalidade - Parte 2.md",
+    "exp": "Controle incidental feito por órgão que não é do Judiciário."
+   },
+   {
+    "q": "Caso de 1803 nos EUA que originou o controle difuso de constitucionalidade.",
+    "r": "Marbury v. Madison",
+    "chave": "Marbury",
+    "fonte": "Controle de Constitucionalidade - Parte 3.md",
+    "exp": "Origem do controle norte-americano."
+   },
+   {
+    "q": "Caso francês que inaugurou a teoria publicista da responsabilidade civil do Estado.",
+    "r": "Caso Blanco",
+    "chave": "Blanco",
+    "fonte": "Responsabilidade Civil do Estado.md",
+    "exp": "Marco que exigiu uma disciplina jurídica própria para a responsabilidade do Estado."
+   },
+   {
+    "q": "Aplica a moralidade e a impessoalidade para vedar o nepotismo.",
+    "r": "Súmula Vinculante 13",
+    "chave": "Súmula Vinculante 13",
+    "fonte": "Princípios da Administração Pública.md",
+    "exp": "Princípios da moralidade e da impessoalidade."
+   },
+   {
+    "q": "Ação em que o STF validou a EC 19/1998 e o fim da obrigatoriedade do regime jurídico único.",
+    "r": "ADI 2135",
+    "chave": "ADI 2135",
+    "fonte": "Processo Administrativo Disciplinar.md",
+    "exp": "Permite contratar servidores estatutários ou empregados públicos."
    }
   ]
  }

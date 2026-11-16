@@ -394,5 +394,785 @@
     "fonte": "Finanças Públicas e Normas Orçamentárias.md"
    }
   ]
+ },
+ {
+  "id": "di-remedios-constitucionais",
+  "materia": "Direito Interno",
+  "item": "8",
+  "titulo": "Remédios constitucionais",
+  "grupos": [
+   {
+    "tema": "Habeas corpus",
+    "termos": [
+     "Preventivo",
+     "Repressivo",
+     "Salvo-conduto",
+     "Locomoção"
+    ],
+    "fonte": "Direitos e Garantias Fundamentais.md"
+   },
+   {
+    "tema": "Habeas data",
+    "termos": [
+     "Retificar",
+     "Personalíssimo",
+     "Prévia negativa",
+     "Serasa"
+    ],
+    "fonte": "Direitos e Garantias Fundamentais.md"
+   },
+   {
+    "tema": "Mandado de injunção",
+    "termos": [
+     "Omissão",
+     "Inter partes",
+     "Ultra partes",
+     "Greve"
+    ],
+    "fonte": "Direitos e Garantias Fundamentais.md"
+   },
+   {
+    "tema": "Ação popular",
+    "termos": [
+     "Cidadão",
+     "Eleitor",
+     "Moralidade",
+     "Abandono"
+    ],
+    "fonte": "Direitos e Garantias Fundamentais.md"
+   }
+  ]
+ },
+ {
+  "id": "di-federacao-e-entes",
+  "materia": "Direito Interno",
+  "item": "4.1",
+  "titulo": "Federação e entes federados",
+  "grupos": [
+   {
+    "tema": "Tipos de federalismo",
+    "termos": [
+     "Centrífugo",
+     "Centrípeto",
+     "Segregação",
+     "Agregação"
+    ],
+    "fonte": "Estado - Conceito e Formas.md"
+   },
+   {
+    "tema": "Capacidades políticas dos entes",
+    "termos": [
+     "Autolegislação",
+     "Autogoverno",
+     "Autoadministração",
+     "Auto-organização"
+    ],
+    "fonte": "Estado - Conceito e Formas.md"
+   },
+   {
+    "tema": "Marcas da confederação",
+    "termos": [
+     "Tratado",
+     "Secessão",
+     "Soberania",
+     "Nacionalidade"
+    ],
+    "fonte": "Estado - Conceito e Formas.md"
+   },
+   {
+    "tema": "Figuras do art. 18",
+    "termos": [
+     "Distrito Federal",
+     "Municípios",
+     "Territórios",
+     "Brasília"
+    ],
+    "fonte": "Estado - Conceito e Formas.md"
+   }
+  ]
+ },
+ {
+  "id": "di-criacao-de-entes-e-df",
+  "materia": "Direito Interno",
+  "item": "4.2",
+  "titulo": "Criação de entes, DF e Territórios",
+  "grupos": [
+   {
+    "tema": "Criação de Município (art. 18, §4º)",
+    "termos": [
+     "Estudo de viabilidade",
+     "Plebiscito",
+     "Lei estadual",
+     "Lei complementar"
+    ],
+    "fonte": "Estado - Conceito e Formas.md"
+   },
+   {
+    "tema": "O que a União organiza e mantém no DF",
+    "termos": [
+     "Judiciário",
+     "Ministério Público",
+     "Polícia",
+     "Bombeiros"
+    ],
+    "fonte": "Estado - Conceito e Formas.md"
+   },
+   {
+    "tema": "Territórios",
+    "termos": [
+     "Fernando de Noronha",
+     "Autarquia",
+     "Partes da União",
+     "Não têm autonomia"
+    ],
+    "fonte": "Estado - Conceito e Formas.md"
+   },
+   {
+    "tema": "Princípios federativos",
+    "termos": [
+     "Indissolubilidade",
+     "Prevalência de interesses",
+     "Intervenção",
+     "Cláusula pétrea"
+    ],
+    "fonte": "Estado - Conceito e Formas.md"
+   }
+  ]
+ },
+ {
+  "id": "di-estado-democratico-de-direito",
+  "materia": "Direito Interno",
+  "item": "5.1",
+  "titulo": "Estado democrático de direito",
+  "grupos": [
+   {
+    "tema": "Fundamentos do art. 1º",
+    "termos": [
+     "Soberania",
+     "Cidadania",
+     "Dignidade",
+     "Pluralismo"
+    ],
+    "fonte": "Estado Democrático de Direito.md"
+   },
+   {
+    "tema": "Verbos dos objetivos do art. 3º",
+    "termos": [
+     "Construir",
+     "Erradicar",
+     "Reduzir",
+     "Promover"
+    ],
+    "fonte": "Estado Democrático de Direito.md"
+   },
+   {
+    "tema": "Participação popular",
+    "termos": [
+     "Plebiscito",
+     "Referendo",
+     "Iniciativa popular",
+     "Ação popular"
+    ],
+    "fonte": "Estado Democrático de Direito.md"
+   },
+   {
+    "tema": "Relações internacionais (art. 4º)",
+    "termos": [
+     "Asilo",
+     "Defesa da paz",
+     "Terrorismo",
+     "América Latina"
+    ],
+    "fonte": "Estado Democrático de Direito.md"
+   }
+  ]
+ },
+ {
+  "id": "di-poder-executivo",
+  "materia": "Direito Interno",
+  "item": "6",
+  "titulo": "Poder Executivo",
+  "grupos": [
+   {
+    "tema": "Competências delegáveis do Presidente",
+    "termos": [
+     "Decreto autônomo",
+     "Indulto",
+     "Comutar penas",
+     "Prover cargos"
+    ],
+    "fonte": "Organização dos Poderes - Executivo.md"
+   },
+   {
+    "tema": "Obstáculos ao mandato",
+    "termos": [
+     "Vacância",
+     "Impedimento",
+     "Sucessão",
+     "Substituição"
+    ],
+    "fonte": "Organização dos Poderes - Executivo.md"
+   },
+   {
+    "tema": "Julgamento do Presidente",
+    "termos": [
+     "Senado",
+     "STF",
+     "Impeachment",
+     "Dois terços"
+    ],
+    "fonte": "Organização dos Poderes - Executivo.md"
+   },
+   {
+    "tema": "Chefia do Presidente",
+    "termos": [
+     "Soberania",
+     "Autonomia",
+     "Presidencialismo",
+     "Unipessoal"
+    ],
+    "fonte": "Organização dos Poderes - Executivo.md"
+   }
+  ]
+ },
+ {
+  "id": "di-legislativo-e-judiciario",
+  "materia": "Direito Interno",
+  "item": "6",
+  "titulo": "Legislativo e Judiciário",
+  "grupos": [
+   {
+    "tema": "Congresso Nacional",
+    "termos": [
+     "Bicameral",
+     "Suplentes",
+     "Câmara dos Deputados",
+     "Senado Federal"
+    ],
+    "fonte": "Organização dos Poderes - Legislativo.md"
+   },
+   {
+    "tema": "CPI",
+    "termos": [
+     "Fato determinado",
+     "Prazo certo",
+     "Sigilo",
+     "Flagrante"
+    ],
+    "fonte": "Organização dos Poderes - Legislativo.md"
+   },
+   {
+    "tema": "Eleição e tempo no Legislativo",
+    "termos": [
+     "Proporcional",
+     "Majoritário",
+     "Legislatura",
+     "Sessão legislativa"
+    ],
+    "fonte": "Organização dos Poderes - Legislativo.md"
+   },
+   {
+    "tema": "Judiciário",
+    "termos": [
+     "CNJ",
+     "Súmula vinculante",
+     "Reclamação",
+     "Deslocamento de competência"
+    ],
+    "fonte": "Poder Judiciário.md"
+   }
+  ]
+ },
+ {
+  "id": "di-processo-legislativo",
+  "materia": "Direito Interno",
+  "item": "7",
+  "titulo": "Processo legislativo",
+  "grupos": [
+   {
+    "tema": "Espécies normativas",
+    "termos": [
+     "Lei complementar",
+     "Lei ordinária",
+     "Lei delegada",
+     "Medida provisória"
+    ],
+    "fonte": [
+     "Processo Legislativo.md",
+     "Processo Legislativo - Parte 2.md"
+    ]
+   },
+   {
+    "tema": "Medida provisória",
+    "termos": [
+     "60 dias",
+     "Reedição",
+     "Sobrestamento",
+     "Comissão mista"
+    ],
+    "fonte": [
+     "Processo Legislativo.md",
+     "Processo Legislativo - Parte 2.md"
+    ]
+   },
+   {
+    "tema": "Fases do processo legislativo",
+    "termos": [
+     "Iniciativa",
+     "Deliberação",
+     "Sanção",
+     "Promulgação"
+    ],
+    "fonte": [
+     "Processo Legislativo.md",
+     "Processo Legislativo - Parte 2.md"
+    ]
+   },
+   {
+    "tema": "Quórum e Casas",
+    "termos": [
+     "Maioria absoluta",
+     "Maioria simples",
+     "Sessão conjunta",
+     "Casa revisora"
+    ],
+    "fonte": [
+     "Processo Legislativo.md",
+     "Processo Legislativo - Parte 2.md"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "di-responsabilidade-civil-do-estado",
+  "materia": "Direito Interno",
+  "item": "11",
+  "titulo": "Responsabilidade civil do Estado",
+  "grupos": [
+   {
+    "tema": "Teorias",
+    "termos": [
+     "Irresponsabilidade",
+     "Civilista",
+     "Publicista",
+     "Risco administrativo"
+    ],
+    "fonte": "Responsabilidade Civil do Estado.md"
+   },
+   {
+    "tema": "Excludentes de responsabilidade",
+    "termos": [
+     "Caso fortuito",
+     "Força maior",
+     "Culpa exclusiva da vítima",
+     "Culpa de terceiro"
+    ],
+    "fonte": "Responsabilidade Civil do Estado.md"
+   },
+   {
+    "tema": "Responsabilidade subjetiva",
+    "termos": [
+     "Omissão",
+     "Multidão",
+     "Atos legislativos",
+     "Ação de regresso"
+    ],
+    "fonte": "Responsabilidade Civil do Estado.md"
+   },
+   {
+    "tema": "Elementos da responsabilidade objetiva",
+    "termos": [
+     "Nexo causal",
+     "Dano",
+     "Agente",
+     "Concessionária"
+    ],
+    "fonte": "Responsabilidade Civil do Estado.md"
+   }
+  ]
+ },
+ {
+  "id": "di-personalidade-juridica",
+  "materia": "Direito Interno",
+  "item": "2",
+  "titulo": "Personalidade jurídica",
+  "grupos": [
+   {
+    "tema": "Capacidade civil",
+    "termos": [
+     "Absolutamente incapazes",
+     "Relativamente incapazes",
+     "Representação",
+     "Assistência"
+    ],
+    "fonte": "Personalidade Jurídica.md"
+   },
+   {
+    "tema": "Pessoas jurídicas de direito público interno",
+    "termos": [
+     "União",
+     "Estados",
+     "Municípios",
+     "Autarquias"
+    ],
+    "fonte": "Personalidade Jurídica.md"
+   },
+   {
+    "tema": "Pessoas jurídicas de direito privado",
+    "termos": [
+     "Associações",
+     "Sociedades",
+     "Fundações",
+     "Partidos políticos"
+    ],
+    "fonte": "Personalidade Jurídica.md"
+   },
+   {
+    "tema": "Pessoa natural",
+    "termos": [
+     "Natalista",
+     "Nascituro",
+     "Morte presumida",
+     "Ausentes"
+    ],
+    "fonte": "Personalidade Jurídica.md"
+   }
+  ]
+ },
+ {
+  "id": "di-servico-exterior-brasileiro",
+  "materia": "Direito Interno",
+  "item": "13",
+  "titulo": "Serviço Exterior Brasileiro",
+  "grupos": [
+   {
+    "tema": "Carreiras e pessoal",
+    "termos": [
+     "Diplomata",
+     "Oficial de Chancelaria",
+     "Assistente de Chancelaria",
+     "Auxiliar local"
+    ],
+    "fonte": "Lei do Serviço Exterior Brasileiro.md"
+   },
+   {
+    "tema": "Prerrogativas dos servidores",
+    "termos": [
+     "Matrícula",
+     "Citação",
+     "Passaporte diplomático",
+     "Títulos"
+    ],
+    "fonte": "Lei do Serviço Exterior Brasileiro.md"
+   },
+   {
+    "tema": "PAD no SEB",
+    "termos": [
+     "Corregedoria",
+     "Comissão",
+     "Afastamento",
+     "Vencimentos"
+    ],
+    "fonte": "Lei do Serviço Exterior Brasileiro.md"
+   },
+   {
+    "tema": "Leis aplicáveis",
+    "termos": [
+     "Lei 11.440",
+     "Lei 8.112",
+     "Lei especial",
+     "Lei geral"
+    ],
+    "fonte": "Lei do Serviço Exterior Brasileiro.md"
+   }
+  ]
+ },
+ {
+  "id": "di-improbidade-administrativa",
+  "materia": "Direito Interno",
+  "item": "12.2",
+  "titulo": "Improbidade administrativa",
+  "grupos": [
+   {
+    "tema": "Sanções do art. 37, §4º, CF",
+    "termos": [
+     "Suspensão de direitos políticos",
+     "Perda da função pública",
+     "Indisponibilidade de bens",
+     "Ressarcimento ao erário"
+    ],
+    "fonte": "Improbidade Administrativa.md"
+   },
+   {
+    "tema": "Dolo na Lei 8.429",
+    "termos": [
+     "Dolo específico",
+     "Culposa",
+     "Voluntariedade",
+     "Dolo"
+    ],
+    "fonte": "Improbidade Administrativa.md"
+   },
+   {
+    "tema": "Quem pode ser réu",
+    "termos": [
+     "Agente público",
+     "Particular",
+     "Sucessor",
+     "Entidade privada"
+    ],
+    "fonte": "Improbidade Administrativa.md"
+   },
+   {
+    "tema": "Novidades da Lei 14.230 e do STF",
+    "termos": [
+     "Acordo de não persecução civil",
+     "Irretroatividade",
+     "Fazenda Pública",
+     "Imprescritíveis"
+    ],
+    "fonte": "Improbidade Administrativa.md"
+   }
+  ]
+ },
+ {
+  "id": "di-poder-constituinte-1",
+  "materia": "Direito Interno",
+  "item": "1",
+  "titulo": "Poder constituinte: características e limites",
+  "grupos": [
+   {
+    "tema": "Originário",
+    "termos": [
+     "Inicial",
+     "Ilimitado",
+     "Autônomo",
+     "Incondicionado"
+    ],
+    "fonte": "Normas Jurídicas.md"
+   },
+   {
+    "tema": "Derivado",
+    "termos": [
+     "Jurídico",
+     "Limitado",
+     "Condicionado",
+     "Não inicial"
+    ],
+    "fonte": "Normas Jurídicas.md"
+   },
+   {
+    "tema": "Limitações ao reformador",
+    "termos": [
+     "Circunstanciais",
+     "Formais",
+     "Materiais",
+     "Cláusulas pétreas"
+    ],
+    "fonte": "Normas Jurídicas.md"
+   },
+   {
+    "tema": "Cláusulas pétreas explícitas",
+    "termos": [
+     "Forma federativa",
+     "Separação dos poderes",
+     "Voto direto",
+     "Direitos e garantias individuais"
+    ],
+    "fonte": "Normas Jurídicas.md"
+   }
+  ]
+ },
+ {
+  "id": "di-poder-constituinte-2",
+  "materia": "Direito Interno",
+  "item": "1",
+  "titulo": "Reforma, revisão e mutação",
+  "grupos": [
+   {
+    "tema": "Regra 2-2-3/5 (emenda)",
+    "termos": [
+     "2 turnos",
+     "Duas casas",
+     "Emenda",
+     "Art. 60"
+    ],
+    "fonte": "Normas Jurídicas.md"
+   },
+   {
+    "tema": "Regra 1-1-1/2 (revisão)",
+    "termos": [
+     "1 câmara",
+     "1 turno",
+     "Maioria absoluta",
+     "Art. 3º"
+    ],
+    "fonte": "Normas Jurídicas.md"
+   },
+   {
+    "tema": "Mutação constitucional",
+    "termos": [
+     "Estrangeiros",
+     "Quarto de hotel",
+     "Homoafetiva",
+     "Informal"
+    ],
+    "fonte": "Normas Jurídicas.md"
+   },
+   {
+    "tema": "Teoria de Sieyès",
+    "termos": [
+     "Terceiro Estado",
+     "Alto clero",
+     "Nobreza",
+     "Revolução francesa"
+    ],
+    "fonte": "Normas Jurídicas.md"
+   }
+  ]
+ },
+ {
+  "id": "di-principios-da-administracao",
+  "materia": "Direito Interno",
+  "item": "9.1",
+  "titulo": "Princípios da Administração Pública",
+  "grupos": [
+   {
+    "tema": "LIMPE",
+    "termos": [
+     "Legalidade",
+     "Impessoalidade",
+     "Moralidade",
+     "Publicidade"
+    ],
+    "fonte": "Princípios da Administração Pública.md"
+   },
+   {
+    "tema": "Princípios implícitos",
+    "termos": [
+     "Autotutela",
+     "Supremacia do interesse público",
+     "Razoabilidade",
+     "Proporcionalidade"
+    ],
+    "fonte": "Princípios da Administração Pública.md"
+   },
+   {
+    "tema": "Princípio x regra",
+    "termos": [
+     "Ponderação",
+     "Tudo ou nada",
+     "Alexy",
+     "Dworkin"
+    ],
+    "fonte": "Princípios da Administração Pública.md"
+   },
+   {
+    "tema": "Detalhes do art. 37",
+    "termos": [
+     "Eficiência",
+     "EC 19/98",
+     "Súmula Vinculante 13",
+     "Autopromoção"
+    ],
+    "fonte": "Princípios da Administração Pública.md"
+   }
+  ]
+ },
+ {
+  "id": "di-estabilidade-e-pad",
+  "materia": "Direito Interno",
+  "item": "12.3",
+  "titulo": "Estabilidade e PAD",
+  "grupos": [
+   {
+    "tema": "Estabilidade (art. 41)",
+    "termos": [
+     "3 anos",
+     "Estágio probatório",
+     "Avaliação especial",
+     "Efetivo exercício"
+    ],
+    "fonte": "Processo Administrativo Disciplinar.md"
+   },
+   {
+    "tema": "Reintegração e disponibilidade",
+    "termos": [
+     "Reintegração",
+     "Recondução",
+     "Disponibilidade",
+     "Aproveitamento"
+    ],
+    "fonte": "Processo Administrativo Disciplinar.md"
+   },
+   {
+    "tema": "Despesas com pessoal (art. 169)",
+    "termos": [
+     "LC 101/2000",
+     "20%",
+     "Cargos em comissão",
+     "Não estáveis"
+    ],
+    "fonte": "Processo Administrativo Disciplinar.md"
+   },
+   {
+    "tema": "PAD",
+    "termos": [
+     "Contraditório",
+     "Ampla defesa",
+     "Sindicância",
+     "Denúncia anônima"
+    ],
+    "fonte": "Processo Administrativo Disciplinar.md"
+   }
+  ]
+ },
+ {
+  "id": "di-atos-e-controle",
+  "materia": "Direito Interno",
+  "item": "9.3",
+  "titulo": "Atos administrativos: revogação e controle",
+  "grupos": [
+   {
+    "tema": "Atos que não admitem revogação",
+    "termos": [
+     "Atos vinculados",
+     "Atos exauridos",
+     "Direito adquirido",
+     "Rotina administrativa"
+    ],
+    "fonte": "Atos Administrativos.md"
+   },
+   {
+    "tema": "Exceções ao controle reduzido",
+    "termos": [
+     "Desvio de finalidade",
+     "Motivos determinantes",
+     "Boa-fé",
+     "Veracidade"
+    ],
+    "fonte": "Atos Administrativos.md"
+   },
+   {
+    "tema": "Amplitude do controle judicial",
+    "termos": [
+     "Controle amplo",
+     "Controle reduzido",
+     "Vinculados",
+     "Discricionários"
+    ],
+    "fonte": "Atos Administrativos.md"
+   },
+   {
+    "tema": "Exemplos do professor",
+    "termos": [
+     "Refúgio",
+     "Asilo político",
+     "Retaliação",
+     "Carência de pessoal"
+    ],
+    "fonte": "Atos Administrativos.md"
+   }
+  ]
  }
 ]

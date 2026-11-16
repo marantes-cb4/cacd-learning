@@ -292,5 +292,1022 @@
     "fonte": "Relações Diplomáticas e Relações Consulares.md"
    }
   ]
+ },
+ {
+  "id": "dint-fundamentos-do-dip",
+  "materia": "Direito Internacional",
+  "item": "15",
+  "titulo": "Fundamentos do DIP",
+  "grupos": [
+   {
+    "tema": "Voluntarismo",
+    "termos": [
+     "Consentimento",
+     "Expresso",
+     "Tácito",
+     "Dispositivas"
+    ],
+    "fonte": "Fundamentos DIP.md"
+   },
+   {
+    "tema": "Objetivismo",
+    "termos": [
+     "Jus cogens",
+     "Imperativas",
+     "Escravidão",
+     "Ordem pública"
+    ],
+    "fonte": "Fundamentos DIP.md"
+   },
+   {
+    "tema": "Espécies de monismo",
+    "termos": [
+     "Nacionalista",
+     "Internacionalista",
+     "Dialógico",
+     "Antinomias"
+    ],
+    "fonte": "Fundamentos DIP.md"
+   },
+   {
+    "tema": "Dualismo",
+    "termos": [
+     "Radical",
+     "Moderado",
+     "Lei formal",
+     "Decreto"
+    ],
+    "fonte": "Fundamentos DIP.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-principios-das-relacoes-internacionais",
+  "materia": "Direito Internacional",
+  "item": "16",
+  "titulo": "Princípios das relações internacionais",
+  "grupos": [
+   {
+    "tema": "Princípios do art. 4º",
+    "termos": [
+     "Autodeterminação",
+     "Independência nacional",
+     "Cooperação",
+     "Prevalência dos direitos humanos"
+    ],
+    "fonte": "Principios das Relações Internacionais.md"
+   },
+   {
+    "tema": "Repúdio e proteção (art. 4º)",
+    "termos": [
+     "Paz",
+     "Asilo",
+     "Terrorismo",
+     "Racismo"
+    ],
+    "fonte": "Principios das Relações Internacionais.md"
+   },
+   {
+    "tema": "Parágrafo único do art. 4º",
+    "termos": [
+     "América Latina",
+     "Comunidade latino-americana",
+     "Integração",
+     "Povos"
+    ],
+    "fonte": "Principios das Relações Internacionais.md"
+   },
+   {
+    "tema": "Tratados e controle",
+    "termos": [
+     "Supralegalidade",
+     "Convencionalidade",
+     "Efeito paralisante",
+     "Denúncia"
+    ],
+    "fonte": "Principios das Relações Internacionais.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-direito-internacional-privado",
+  "materia": "Direito Internacional",
+  "item": "17",
+  "titulo": "Direito internacional privado (LINDB)",
+  "grupos": [
+   {
+    "tema": "Lei do domicílio",
+    "termos": [
+     "Família",
+     "Capacidade",
+     "Personalidade",
+     "Sucessão"
+    ],
+    "fonte": "DIPrivado.md"
+   },
+   {
+    "tema": "Contratos",
+    "termos": [
+     "Contratos",
+     "Proponente",
+     "Ausentes",
+     "Obrigações"
+    ],
+    "fonte": "DIPrivado.md"
+   },
+   {
+    "tema": "Limites à lei estrangeira",
+    "termos": [
+     "Soberania",
+     "Ordem pública",
+     "Bons costumes",
+     "Juiz"
+    ],
+    "fonte": "DIPrivado.md"
+   },
+   {
+    "tema": "Sentença e bens de Estados estrangeiros",
+    "termos": [
+     "Homologação",
+     "STJ",
+     "Imóveis",
+     "Consulares"
+    ],
+    "fonte": "DIPrivado.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-reconhecimento-de-estado-e-governo",
+  "materia": "Direito Internacional",
+  "item": "18",
+  "titulo": "Reconhecimento de Estado e de governo",
+  "grupos": [
+   {
+    "tema": "Elementos do Estado (Montevidéu)",
+    "termos": [
+     "População",
+     "Território",
+     "Governo",
+     "Montevidéu"
+    ],
+    "fonte": "Reconhecimento de Estado e Governo.md"
+   },
+   {
+    "tema": "Reconhecimento de Estado",
+    "termos": [
+     "Declaratória",
+     "Discricionário",
+     "Irrevogável",
+     "Incondicional"
+    ],
+    "fonte": "Reconhecimento de Estado e Governo.md"
+   },
+   {
+    "tema": "Doutrinas de reconhecimento de governo",
+    "termos": [
+     "Tobar",
+     "Wilson",
+     "Estrada",
+     "Betancourt"
+    ],
+    "fonte": "Reconhecimento de Estado e Governo.md"
+   },
+   {
+    "tema": "Sujeitos do DIP",
+    "termos": [
+     "Sujeito primário",
+     "Sujeitos secundários",
+     "Santa Sé",
+     "Vaticano"
+    ],
+    "fonte": "Reconhecimento de Estado e Governo.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-sujeitos-especiais",
+  "materia": "Direito Internacional",
+  "item": "22",
+  "titulo": "Sujeitos especiais do DIP",
+  "grupos": [
+   {
+    "tema": "Sujeitos secundários",
+    "termos": [
+     "Santa Sé",
+     "Ordem de Malta",
+     "CICV",
+     "Organizações internacionais"
+    ],
+    "fonte": "Sujeitos Especiais do DIP.md"
+   },
+   {
+    "tema": "Grupos que podem ser reconhecidos",
+    "termos": [
+     "Beligerantes",
+     "Insurgentes",
+     "Libertação nacional",
+     "Reconhecimento"
+    ],
+    "fonte": "Sujeitos Especiais do DIP.md"
+   },
+   {
+    "tema": "Atores sem personalidade",
+    "termos": [
+     "ONGs",
+     "Multinacionais",
+     "FIFA",
+     "Itaipu"
+    ],
+    "fonte": "Sujeitos Especiais do DIP.md"
+   },
+   {
+    "tema": "Marcos e instrumentos",
+    "termos": [
+     "Bernadotte",
+     "Latrão",
+     "Concordatas",
+     "Estatuto de Roma"
+    ],
+    "fonte": "Sujeitos Especiais do DIP.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-territorio-e-fronteiras",
+  "materia": "Direito Internacional",
+  "item": "19",
+  "titulo": "Território e fronteiras",
+  "grupos": [
+   {
+    "tema": "Critérios de linha de fronteira",
+    "termos": [
+     "Talvegue",
+     "Cumeeiras",
+     "Divisor de águas",
+     "Meridiana"
+    ],
+    "fonte": "Território e Formação BR.md"
+   },
+   {
+    "tema": "Uti possidetis",
+    "termos": [
+     "Juris",
+     "De facto",
+     "Metrópole",
+     "Gusmão"
+    ],
+    "fonte": "Território e Formação BR.md"
+   },
+   {
+    "tema": "Instrumentos e casos",
+    "termos": [
+     "Ilha das Palmas",
+     "Tratado de Madrid",
+     "Montevidéu",
+     "Viena"
+    ],
+    "fonte": "Território e Formação BR.md"
+   },
+   {
+    "tema": "Quando o uti possidetis não basta",
+    "termos": [
+     "Tratado",
+     "Controle efetivo",
+     "Equidade",
+     "Arbitragem"
+    ],
+    "fonte": "Território e Formação BR.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-nacionalidade",
+  "materia": "Direito Internacional",
+  "item": "20",
+  "titulo": "Nacionalidade",
+  "grupos": [
+   {
+    "tema": "Critérios de aquisição",
+    "termos": [
+     "Jus soli",
+     "Jus sanguinis",
+     "Potestativa",
+     "Registro consular"
+    ],
+    "fonte": "Nacionalidade.md"
+   },
+   {
+    "tema": "Naturalização",
+    "termos": [
+     "Extraordinária",
+     "Ordinária",
+     "Provisória",
+     "Reaquisição"
+    ],
+    "fonte": "Nacionalidade.md"
+   },
+   {
+    "tema": "Situações e casos",
+    "termos": [
+     "Apatridia",
+     "Polipatria",
+     "Nottebohm",
+     "Prevalência"
+    ],
+    "fonte": "Nacionalidade.md"
+   },
+   {
+    "tema": "Categorias de pessoas",
+    "termos": [
+     "Imigrante",
+     "Visitante",
+     "Residente fronteiriço",
+     "Emigrante"
+    ],
+    "fonte": [
+     "Nacionalidade.md",
+     "Condição Jurídica do Estrangeiro.md"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dint-estrangeiro-e-extradicao",
+  "materia": "Direito Internacional",
+  "item": "20",
+  "titulo": "Estrangeiro, extradição e cooperação penal",
+  "grupos": [
+   {
+    "tema": "Retirada compulsória",
+    "termos": [
+     "Repatriação",
+     "Deportação",
+     "Expulsão",
+     "Banimento"
+    ],
+    "fonte": "Condição Jurídica do Estrangeiro.md"
+   },
+   {
+    "tema": "Extradição",
+    "termos": [
+     "Instrutória",
+     "Executória",
+     "Delibação",
+     "Reciprocidade"
+    ],
+    "fonte": "Extradição e Cooperação Penal.md"
+   },
+   {
+    "tema": "Limites à extradição",
+    "termos": [
+     "Brasileiro nato",
+     "Crime político",
+     "Crime de opinião",
+     "Naturalizado"
+    ],
+    "fonte": "Extradição e Cooperação Penal.md"
+   },
+   {
+    "tema": "Cooperação penal",
+    "termos": [
+     "Surrender",
+     "Transferência",
+     "Humanitário",
+     "Robinho"
+    ],
+    "fonte": "Extradição e Cooperação Penal.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-asilo-e-refugio",
+  "materia": "Direito Internacional",
+  "item": "20",
+  "titulo": "Asilo e refúgio",
+  "grupos": [
+   {
+    "tema": "Asilo",
+    "termos": [
+     "Constitutivo",
+     "Discricionário",
+     "Caracas",
+     "Salvo-conduto"
+    ],
+    "fonte": "Asilo.md"
+   },
+   {
+    "tema": "Refúgio",
+    "termos": [
+     "Declaratório",
+     "Vinculado",
+     "CONARE",
+     "ACNUR"
+    ],
+    "fonte": "Asilo.md"
+   },
+   {
+    "tema": "Documentos do refúgio",
+    "termos": [
+     "Convenção de 1951",
+     "Protocolo de 1967",
+     "Cartagena",
+     "Lei 9.474"
+    ],
+    "fonte": "Asilo.md"
+   },
+   {
+    "tema": "Caso Haya de la Torre",
+    "termos": [
+     "Crime político",
+     "Perseguição",
+     "Asilo diplomático",
+     "CIJ"
+    ],
+    "fonte": "Asilo.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-oit",
+  "materia": "Direito Internacional",
+  "item": "33",
+  "titulo": "Organização Internacional do Trabalho",
+  "grupos": [
+   {
+    "tema": "Órgãos da OIT",
+    "termos": [
+     "Conferência",
+     "Conselho de Administração",
+     "Repartição Internacional do Trabalho",
+     "Diretor-Geral"
+    ],
+    "fonte": "Direito Internacional do Trabalho - OIT.md"
+   },
+   {
+    "tema": "Normas da OIT",
+    "termos": [
+     "Convenções",
+     "Recomendações",
+     "Hard law",
+     "Soft law"
+    ],
+    "fonte": "Direito Internacional do Trabalho - OIT.md"
+   },
+   {
+    "tema": "Controle",
+    "termos": [
+     "Reclamação",
+     "Queixa",
+     "Art. 24",
+     "Art. 26"
+    ],
+    "fonte": "Direito Internacional do Trabalho - OIT.md"
+   },
+   {
+    "tema": "Composição tripartite",
+    "termos": [
+     "Governo",
+     "Empregados",
+     "Empregadores",
+     "Delegados"
+    ],
+    "fonte": "Direito Internacional do Trabalho - OIT.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-comercio-e-omc",
+  "materia": "Direito Internacional",
+  "item": "31",
+  "titulo": "Comércio internacional e OMC",
+  "grupos": [
+   {
+    "tema": "Cláusulas do GATT",
+    "termos": [
+     "Nação mais favorecida",
+     "Cláusula regional",
+     "Habilitação",
+     "Tarifas"
+    ],
+    "fonte": "Direito do Comércio Internacional e OMC.md"
+   },
+   {
+    "tema": "Exceções do art. 20",
+    "termos": [
+     "Moralidade",
+     "Tesouros nacionais",
+     "Recursos naturais",
+     "Fitossanitárias"
+    ],
+    "fonte": "Direito do Comércio Internacional e OMC.md"
+   },
+   {
+    "tema": "Etapas da solução de controvérsias",
+    "termos": [
+     "Consultas",
+     "Painel",
+     "Órgão de Apelação",
+     "Implementação"
+    ],
+    "fonte": "Direito do Comércio Internacional e OMC.md"
+   },
+   {
+    "tema": "Descumprimento e consenso",
+    "termos": [
+     "Retaliação cruzada",
+     "Arbitragem",
+     "Consenso negativo",
+     "OSC"
+    ],
+    "fonte": "Direito do Comércio Internacional e OMC.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-solucao-pacifica-de-controversias",
+  "materia": "Direito Internacional",
+  "item": "24",
+  "titulo": "Solução pacífica de controvérsias",
+  "grupos": [
+   {
+    "tema": "Meios diplomáticos",
+    "termos": [
+     "Negociação",
+     "Consultas",
+     "Bons ofícios",
+     "Mediação"
+    ],
+    "fonte": "Resolução Pacífica de Controvérsias.md"
+   },
+   {
+    "tema": "Competências da CIJ",
+    "termos": [
+     "Litigiosa",
+     "Consultiva",
+     "Facultativa",
+     "Raul Fernandes"
+    ],
+    "fonte": "Meios Jurisdicionais - CIJ e Arbitragem.md"
+   },
+   {
+    "tema": "Arbitragem",
+    "termos": [
+     "Compromisso",
+     "Cláusula compromissória",
+     "Laudo",
+     "Excesso de poder"
+    ],
+    "fonte": "Meios Jurisdicionais - CIJ e Arbitragem.md"
+   },
+   {
+    "tema": "Casos clássicos",
+    "termos": [
+     "Lotus",
+     "Corfu",
+     "Beagle",
+     "Alabama"
+    ],
+    "fonte": [
+     "Resolução Pacífica de Controvérsias.md",
+     "Meios Jurisdicionais - CIJ e Arbitragem.md"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dint-organizacoes-internacionais",
+  "materia": "Direito Internacional",
+  "item": "25",
+  "titulo": "Organizações internacionais e ONU",
+  "grupos": [
+   {
+    "tema": "Poderes das organizações",
+    "termos": [
+     "Implícitos",
+     "Inerentes",
+     "Bernadotte",
+     "Certas Despesas"
+    ],
+    "fonte": "Organizações Internacionais.md"
+   },
+   {
+    "tema": "Conselho de Segurança",
+    "termos": [
+     "Veto",
+     "Permanentes",
+     "Capítulo VII",
+     "Uniting for Peace"
+    ],
+    "fonte": "Organizações Internacionais.md"
+   },
+   {
+    "tema": "Órgãos da ONU",
+    "termos": [
+     "Assembleia",
+     "ECOSOC",
+     "Secretário-Geral",
+     "Agências"
+    ],
+    "fonte": "Organizações Internacionais.md"
+   },
+   {
+    "tema": "Agências especializadas",
+    "termos": [
+     "UNESCO",
+     "FMI",
+     "Banco Mundial",
+     "FAO"
+    ],
+    "fonte": "Organizações Internacionais.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-mercosul",
+  "materia": "Direito Internacional",
+  "item": "26",
+  "titulo": "Mercosul: solução de controvérsias",
+  "grupos": [
+   {
+    "tema": "Protocolos",
+    "termos": [
+     "Olivos",
+     "Brasília",
+     "Ouro Preto",
+     "Assunção"
+    ],
+    "fonte": "Mercosul - Sistema de Solução de Controvérsias.md"
+   },
+   {
+    "tema": "Etapas políticas",
+    "termos": [
+     "Negociações diretas",
+     "GMC",
+     "Recomendação",
+     "Flexível"
+    ],
+    "fonte": "Mercosul - Sistema de Solução de Controvérsias.md"
+   },
+   {
+    "tema": "Tribunal arbitral ad hoc",
+    "termos": [
+     "3 árbitros",
+     "Laudo",
+     "Medidas provisórias",
+     "60 dias"
+    ],
+    "fonte": "Mercosul - Sistema de Solução de Controvérsias.md"
+   },
+   {
+    "tema": "Tribunal Permanente de Revisão",
+    "termos": [
+     "5 árbitros",
+     "Revisão",
+     "Consultiva",
+     "Instância única"
+    ],
+    "fonte": "Mercosul - Sistema de Solução de Controvérsias.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-uso-da-forca-2",
+  "materia": "Direito Internacional",
+  "item": "27",
+  "titulo": "Uso da força: antecedentes e Brasil",
+  "grupos": [
+   {
+    "tema": "Antecedentes da proibição",
+    "termos": [
+     "Haia",
+     "Liga das Nações",
+     "Briand-Kellogg",
+     "Carta da ONU"
+    ],
+    "fonte": "Proibição do Uso da Força.md"
+   },
+   {
+    "tema": "Legítima defesa contestada",
+    "termos": [
+     "Preventiva",
+     "Preemptiva",
+     "Interestatais",
+     "Art. 51"
+    ],
+    "fonte": "Proibição do Uso da Força.md"
+   },
+   {
+    "tema": "Medidas antes da força",
+    "termos": [
+     "Sanções",
+     "Interrupção",
+     "Ruptura",
+     "Capítulo VII"
+    ],
+    "fonte": "Proibição do Uso da Força.md"
+   },
+   {
+    "tema": "Brasil e emprego de forças",
+    "termos": [
+     "Minustah",
+     "Congresso",
+     "Litoral",
+     "Invasão"
+    ],
+    "fonte": "Proibição do Uso da Força.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-sistema-global-dh",
+  "materia": "Direito Internacional",
+  "item": "28",
+  "titulo": "Sistema global de direitos humanos",
+  "grupos": [
+   {
+    "tema": "Carta Internacional dos Direitos Humanos",
+    "termos": [
+     "DUDH",
+     "Pacto Civil",
+     "Pacto DESC",
+     "Resolução da Assembleia Geral"
+    ],
+    "fonte": "Sistema Global de Proteção dos Direitos Humanos.md"
+   },
+   {
+    "tema": "Mecanismos dos comitês",
+    "termos": [
+     "Relatórios",
+     "Quase judicial",
+     "Protocolo facultativo",
+     "Treaty body"
+    ],
+    "fonte": "Sistema Global de Proteção dos Direitos Humanos.md"
+   },
+   {
+    "tema": "Conselho de Direitos Humanos",
+    "termos": [
+     "Revisão periódica universal",
+     "Procedimento 1503",
+     "Procedimento 1235",
+     "Resolução 60/251"
+    ],
+    "fonte": "Sistema Global de Proteção dos Direitos Humanos.md"
+   },
+   {
+    "tema": "Gerações de direitos",
+    "termos": [
+     "Negativos",
+     "Positivos",
+     "1ª geração",
+     "2ª geração"
+    ],
+    "fonte": "Sistema Global de Proteção dos Direitos Humanos.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-sistema-interamericano",
+  "materia": "Direito Internacional",
+  "item": "28",
+  "titulo": "Sistema interamericano de direitos humanos",
+  "grupos": [
+   {
+    "tema": "Órgãos e tratado",
+    "termos": [
+     "Comissão",
+     "Corte",
+     "OEA",
+     "Pacto de São José"
+    ],
+    "fonte": "Sistema Interamericano de Direitos Humanos.md"
+   },
+   {
+    "tema": "Competências da Corte",
+    "termos": [
+     "Consultiva",
+     "Contenciosa",
+     "Cláusula facultativa",
+     "Inapeláveis"
+    ],
+    "fonte": "Sistema Interamericano de Direitos Humanos.md"
+   },
+   {
+    "tema": "Casos e opiniões",
+    "termos": [
+     "Maria da Penha",
+     "Gomes Lund",
+     "Opinião Consultiva nº 16",
+     "Litígios estratégicos"
+    ],
+    "fonte": "Sistema Interamericano de Direitos Humanos.md"
+   },
+   {
+    "tema": "Acesso e admissibilidade",
+    "termos": [
+     "Petições",
+     "Subsidiariedade",
+     "Solução amistosa",
+     "Estoppel"
+    ],
+    "fonte": "Sistema Interamericano de Direitos Humanos.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-tpi",
+  "materia": "Direito Internacional",
+  "item": "30",
+  "titulo": "Tribunal Penal Internacional",
+  "grupos": [
+   {
+    "tema": "Tribunais anteriores",
+    "termos": [
+     "Nuremberg",
+     "Tóquio",
+     "Iugoslávia",
+     "Ruanda"
+    ],
+    "fonte": "Tribunal Penal Internacional.md"
+   },
+   {
+    "tema": "Crimes do Estatuto de Roma",
+    "termos": [
+     "Genocídio",
+     "Humanidade",
+     "Guerra",
+     "Agressão"
+    ],
+    "fonte": "Tribunal Penal Internacional.md"
+   },
+   {
+    "tema": "Regras do Estatuto",
+    "termos": [
+     "Complementaridade",
+     "Imprescritíveis",
+     "Imunidade",
+     "18 anos"
+    ],
+    "fonte": "Tribunal Penal Internacional.md"
+   },
+   {
+    "tema": "Penas",
+    "termos": [
+     "Perpétua",
+     "30 anos",
+     "Reexame",
+     "Presença do réu"
+    ],
+    "fonte": "Tribunal Penal Internacional.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-meio-ambiente",
+  "materia": "Direito Internacional",
+  "item": "32",
+  "titulo": "Direito internacional do meio ambiente",
+  "grupos": [
+   {
+    "tema": "Princípios",
+    "termos": [
+     "Precaução",
+     "Prevenção",
+     "Intergeracional",
+     "Fraternidade"
+    ],
+    "fonte": "Direito Internacional do Meio Ambiente.md"
+   },
+   {
+    "tema": "Injustiça ambiental",
+    "termos": [
+     "Neocolonialismo",
+     "Racismo",
+     "Interestatal",
+     "Social"
+    ],
+    "fonte": "Direito Internacional do Meio Ambiente.md"
+   },
+   {
+    "tema": "Tipos de tratado",
+    "termos": [
+     "Convenção-quadro",
+     "Guarda-chuva",
+     "COP",
+     "Fracionado"
+    ],
+    "fonte": "Direito Internacional do Meio Ambiente.md"
+   },
+   {
+    "tema": "Soft law ambiental",
+    "termos": [
+     "Agenda 21",
+     "Guido Soares",
+     "Estocolmo",
+     "ECO-92"
+    ],
+    "fonte": "Direito Internacional do Meio Ambiente.md"
+   }
+  ]
+ },
+ {
+  "id": "dint-direito-do-mar-2",
+  "materia": "Direito Internacional",
+  "item": "32",
+  "titulo": "Direito do Mar: zonas e passagem",
+  "grupos": [
+   {
+    "tema": "Passagem inocente",
+    "termos": [
+     "Superfície",
+     "Bandeira",
+     "Jurisdição penal",
+     "Jurisdição civil"
+    ],
+    "fonte": "Direito Internacional do Mar.md"
+   },
+   {
+    "tema": "Plataforma continental",
+    "termos": [
+     "Sedentários",
+     "200 milhas",
+     "350 milhas",
+     "Comissão de Limites"
+    ],
+    "fonte": "Direito Internacional do Mar.md"
+   },
+   {
+    "tema": "Zona econômica exclusiva",
+    "termos": [
+     "Cabos",
+     "Dutos",
+     "Perseguição",
+     "Estado costeiro"
+    ],
+    "fonte": "Direito Internacional do Mar.md"
+   },
+   {
+    "tema": "Autoridade e Área",
+    "termos": [
+     "Recursos genéticos",
+     "BBNJ",
+     "Jamaica",
+     "Nódulos"
+    ],
+    "fonte": [
+     "Direito Internacional do Mar.md",
+     "Tribunal Internacional do Mar.md"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dint-relacoes-diplomaticas-e-consulares",
+  "materia": "Direito Internacional",
+  "item": "21",
+  "titulo": "Relações diplomáticas e consulares",
+  "grupos": [
+   {
+    "tema": "Locais",
+    "termos": [
+     "Embaixada",
+     "Consulados",
+     "Residência",
+     "Arquivos"
+    ],
+    "fonte": "Relações Diplomáticas e Relações Consulares.md"
+   },
+   {
+    "tema": "Imunidade diplomática",
+    "termos": [
+     "Familiares",
+     "Depoimento",
+     "Atos oficiais",
+     "Persona non grata"
+    ],
+    "fonte": "Relações Diplomáticas e Relações Consulares.md"
+   },
+   {
+    "tema": "Convenções e aceitação",
+    "termos": [
+     "CVRD",
+     "CVRC",
+     "Agrément",
+     "Exequatur"
+    ],
+    "fonte": "Relações Diplomáticas e Relações Consulares.md"
+   },
+   {
+    "tema": "Estados envolvidos",
+    "termos": [
+     "Acreditante",
+     "Acreditado",
+     "Protetor",
+     "Receptor"
+    ],
+    "fonte": "Relações Diplomáticas e Relações Consulares.md"
+   }
+  ]
  }
 ]

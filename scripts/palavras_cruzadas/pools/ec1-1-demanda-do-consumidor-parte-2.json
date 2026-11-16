@@ -1,0 +1,110 @@
+{
+ "chave": "ec1-1-demanda-do-consumidor-parte-2",
+ "materia": "Economia",
+ "item": "1.1",
+ "status": "completo",
+ "titulo": "Item 1.1 · Demanda do consumidor · parte 2",
+ "descricao": "Oferta e demanda, equilíbrio, elasticidades, excedentes e teoria do consumidor.",
+ "notas": [
+  "Micro - Teoria do Consumidor e Política Econômica.md",
+  "Micro - Intro Oferta e Demanda.md",
+  "Micro - Elasticidade.md"
+ ],
+ "palavras": [
+  [
+   "DEMANDA",
+   "Quanto maior o preço, menor a quantidade ___ (relação inversa).",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EQUILIBRIO",
+   "Ponto em que a quantidade demandada é igual à quantidade produzida.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "ESCASSEZ",
+   "Se o preço fica abaixo do equilíbrio, a quantidade demandada excede a produzida e há ___.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EXCEDENTE",
+   "Se o preço está acima do equilíbrio, há ___: a quantidade produzida supera a demandada.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "GOSTOS",
+   "Determinante da demanda ligado às preferências pessoais (ex.: moda do whey).",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "TRADEOFFS",
+   "Escolhas em que não se pode ter tudo e é preciso trocar uma coisa por outra.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "INCENTIVOS",
+   "As pessoas reagem a ___ (um dos princípios da economia).",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "INVISIVEL",
+   "Mão ___ de Adam Smith: atores descentralizados organizam o mercado.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EQUIDADE",
+   "Distribuir a prosperidade econômica de maneira justa.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "EXTERNALIDADE",
+   "Impacto das ações de uma pessoa sobre o bem-estar de outra que não participou da ação.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "INFLACAO",
+   "Aumento do nível geral de preços da economia.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "PRODUTIVIDADE",
+   "Quantidade de bens e serviços que um trabalhador produz por hora de trabalho.",
+   "Micro - Intro Oferta e Demanda.md"
+  ],
+  [
+   "INELASTICA",
+   "Demanda ___: pouca resposta ao preço (ex.: insulina).",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "SUBSTITUTOS",
+   "Quanto mais ___ próximos, mais elástica a demanda (ex.: manteiga e margarina).",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "UNITARIA",
+   "Elasticidade igual a 1: a receita total não muda com o preço.",
+   "Micro - Elasticidade.md"
+  ],
+  [
+   "CONVEXA",
+   "As curvas de indiferença são ___ em relação à origem.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "SUBSTITUICAO",
+   "Taxa marginal de ___: quanto de um bem equivale a outro.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "INCIDENCIA",
+   "Impostos sobre um bem recaem sobre ofertantes e consumidores; a ___ depende das elasticidades.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ],
+  [
+   "MONOTONAS",
+   "As curvas de indiferença não se cruzam porque são ___.",
+   "Micro - Teoria do Consumidor e Política Econômica.md"
+  ]
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "chave": "ec2-2-contas-externas-parte-2",
+ "materia": "Economia",
+ "item": "2.2",
+ "status": "completo",
+ "titulo": "Item 2.2 · Contas externas · parte 2",
+ "descricao": "Balança de pagamentos: transações correntes, conta capital, conta financeira e ativos de reserva.",
+ "notas": [
+  "Macro - Balança de Pagamentos.md",
+  "Macro - Contas Nacionais.md",
+  "Macro - Conceitos Básicos de Economias Abertas.md"
+ ],
+ "palavras": [
+  [
+   "BALANCA",
+   "Peça contábil que registra todas as transações com o exterior (de pagamentos).",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "PARTIDAS",
+   "Princípio das ___ dobradas: toda operação tem duplo registro.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "CORRENTES",
+   "Grupo 1 da balança de pagamentos: transações ___.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "CIF",
+   "Cost, insurance and freight: inclui frete e seguro, que na BP vão para a balança de serviços.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "SECUNDARIAS",
+   "Rendas ___: transferências unilaterais, sem contrapartida.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "CAPITAL",
+   "Conta ___: grupo 2; transações que mexem com estoques de riqueza e direitos de propriedade.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "FINANCEIRA",
+   "Conta ___: grupo 3, de ativos e passivos (investimentos diretos, carteira, derivativos...).",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "LIQUIDACOES",
+   "A BP registra apenas as ___ dos derivativos, como o ganho do contrato futuro.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "SUPERAVITARIA",
+   "Balança de pagamentos com ativos de reserva positivos.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "DEFICITARIA",
+   "Balança de pagamentos com ativos de reserva negativos.",
+   "Macro - Balança de Pagamentos.md"
+  ],
+  [
+   "TUC",
+   "Transações unilaterais correntes: correspondem à renda secundária na BP.",
+   "Macro - Balança de Pagamentos.md"
+  ]
+ ]
+}

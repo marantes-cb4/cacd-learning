@@ -87,6 +87,41 @@
     "chave": "Furtado",
     "fonte": "O Primeiro Governo Vargas (1930-1945).md",
     "exp": "Evidências posteriores atenuam as conclusões da tese, mas não as refutam."
+   },
+   {
+    "q": "Teorema segundo o qual, com negociação sem custo, os agentes resolvem sozinhos o problema da externalidade.",
+    "r": "Coase",
+    "chave": "Coase",
+    "fonte": "Custos da Tributação, Comércio Internacional, Externalidades e Bens Públicos.md",
+    "exp": "Teorema de Coase."
+   },
+   {
+    "q": "Autor revisionista (1968) para quem a política econômica de Vargas teria sido ortodoxa, e não expansionista.",
+    "r": "Pelaez",
+    "chave": "Pelaez",
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md",
+    "exp": "Contrapõe-se à tese de Furtado."
+   },
+   {
+    "q": "Autor revisionista (1971) para quem não houve favorecimento da indústria na política dos anos 1930.",
+    "r": "Dean",
+    "chave": "Dean",
+    "fonte": "O Primeiro Governo Vargas (1930-1945).md",
+    "exp": "Teses revisionistas atenuam, sem refutar, a tese de Furtado."
+   },
+   {
+    "q": "Presidente americano cujo discurso de posse (1949) trouxe o Ponto 4, origem da Comissão Mista Brasil-EUA.",
+    "r": "Truman",
+    "chave": "Truman",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md",
+    "exp": "Doutrina Truman, ponto 4."
+   },
+   {
+    "q": "Presidente americano eleito em 1953 que abandonou as promessas de financiar os projetos da Comissão Mista.",
+    "r": "Eisenhower",
+    "chave": "Eisenhower",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md",
+    "exp": "Agravou a ilusão de divisas do período."
    }
   ]
  },
@@ -171,6 +206,111 @@
     "chave": "Whitaker",
     "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md",
     "exp": "Seu projeto de unificação cambial foi sepultado na Câmara."
+   }
+  ]
+ },
+ {
+  "id": "qd-ec-macro",
+  "materia": "Economia",
+  "titulo": "Macroeconomia: autores e episódios",
+  "cartas": [
+   {
+    "q": "Autor da curva que relaciona inflação e desemprego, incluída no IS-LM nos anos 1960.",
+    "r": "Phillips",
+    "chave": "Phillips",
+    "fonte": "Macro - Curva de Phillips.md",
+    "exp": "Curva de Phillips: trade-off entre inflação e desemprego."
+   },
+   {
+    "q": "Autor da lei de 1962 que relaciona inversamente desemprego e PIB.",
+    "r": "Okun",
+    "chave": "Okun",
+    "fonte": "Macro - Curva de Phillips.md",
+    "exp": "Lei de Okun."
+   },
+   {
+    "q": "Economistas que, em 1960, batizaram a curva de Phillips a partir de dados.",
+    "r": "Samuelson e Solow",
+    "chave": "Samuelson",
+    "fonte": "Macro - Curva de Phillips.md",
+    "exp": "Foram eles que difundiram a relação."
+   },
+   {
+    "q": "Críticos da curva de Phillips original, que introduziram a taxa natural e as expectativas adaptativas.",
+    "r": "Friedman e Phelps",
+    "chave": "Phelps",
+    "fonte": "Macro - Curva de Phillips.md",
+    "exp": "Na versão de longo prazo a curva é vertical na taxa natural."
+   },
+   {
+    "q": "Nobel de 1995, criador da teoria das expectativas racionais.",
+    "r": "Robert Lucas",
+    "chave": "Lucas",
+    "fonte": "Macro - Curva de Phillips - Parte 2.md",
+    "exp": "As expectativas racionais são forward-looking."
+   },
+   {
+    "q": "Presidente do Fed que, a partir de 1979, combateu a inflação com juros altos.",
+    "r": "Paul Volcker",
+    "chave": "Volcker",
+    "fonte": "Macro - Curva de Phillips - Parte 2.md",
+    "exp": "Custo da desinflação: temporário se houver credibilidade."
+   },
+   {
+    "q": "Dá nome à era de grande moderação, com inflação entre 2% e 5%.",
+    "r": "Greenspan",
+    "chave": "Greenspan",
+    "fonte": "Macro - Curva de Phillips - Parte 2.md",
+    "exp": "Antecedeu a crise de 2008."
+   },
+   {
+    "q": "Presidente do Fed de 2006 a 2014 que definiu a grande moderação.",
+    "r": "Ben Bernanke",
+    "chave": "Bernanke",
+    "fonte": "Macro - Curva de Phillips - Parte 2.md",
+    "exp": "A crise de 2008 encerrou a grande moderação."
+   },
+   {
+    "q": "Criou o IS-LM para sintetizar as ideias de Keynes.",
+    "r": "John Hicks",
+    "chave": "Hicks",
+    "fonte": "Macro - Modelo IS-LM (Keynesiano Generalizado).md",
+    "exp": "O modelo ganhou o nome do outro autor que o ampliou."
+   },
+   {
+    "q": "Ampliou o IS-LM de Hicks, e o modelo leva o nome dos dois.",
+    "r": "Alvin Hansen",
+    "chave": "Hansen",
+    "fonte": "Macro - Modelo IS-LM (Keynesiano Generalizado).md",
+    "exp": "Síntese neoclássica."
+   },
+   {
+    "q": "Autor da lei segundo a qual a oferta cria sua própria demanda.",
+    "r": "Say",
+    "chave": "Say",
+    "fonte": "Macro - Modelo Clássico.md",
+    "exp": "Lei de Say."
+   },
+   {
+    "q": "Economista-chefe do FMI, autor de Rethinking Macroeconomic Policy, sobre regulação macroprudencial.",
+    "r": "Olivier Blanchard",
+    "chave": "Blanchard",
+    "fonte": "Macro - Curva de Phillips - Parte 2.md",
+    "exp": "Basileia 3 trata da regulação macroprudencial."
+   },
+   {
+    "q": "Dá nome à regra que define os juros de curto prazo para fechar os hiatos de inflação e produto.",
+    "r": "Taylor",
+    "chave": "Taylor",
+    "fonte": "Macro - Modelo IS-LM (Keynesiano Generalizado).md",
+    "exp": "Regime de metas de inflação com a regra de Taylor."
+   },
+   {
+    "q": "Dá nome à curva em U invertido do imposto que maximiza a arrecadação.",
+    "r": "Laffer",
+    "chave": "Laffer",
+    "fonte": "Macro - Políticas Fiscal e Monetária e a Demanda Agregada.md",
+    "exp": "Depois de certo ponto, mais imposto reduz a arrecadação."
    }
   ]
  }
