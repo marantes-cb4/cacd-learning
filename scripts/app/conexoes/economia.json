@@ -1189,5 +1189,101 @@
     "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
    }
   ]
+ },
+ {
+  "id": "ec-plano-de-metas-estrutura",
+  "materia": "Economia",
+  "item": "4.4",
+  "titulo": "Plano de Metas: áreas, conceitos e instrumentos",
+  "grupos": [
+   {
+    "tema": "Áreas principais",
+    "termos": [
+     "Energia",
+     "Transporte",
+     "Alimentação",
+     "Educação"
+    ],
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   },
+   {
+    "tema": "Conceitos do plano",
+    "termos": [
+     "Ponto de estrangulamento",
+     "Ponto de germinação",
+     "Estágios superiores",
+     "50 em 5"
+    ],
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   },
+   {
+    "tema": "Estatais siderúrgicas e de energia",
+    "termos": [
+     "CSN",
+     "Usiminas",
+     "Cosipa",
+     "Furnas"
+    ],
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   },
+   {
+    "tema": "Instrumentos monetários travados",
+    "termos": [
+     "Open market",
+     "Compulsório",
+     "Redesconto",
+     "Lei da Usura"
+    ],
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   }
+  ]
+ },
+ {
+  "id": "ec-plano-de-metas-politica-e-problemas",
+  "materia": "Economia",
+  "item": "4.4",
+  "titulo": "Plano de Metas: política econômica e problemas",
+  "grupos": [
+   {
+    "tema": "Autoridade monetária",
+    "termos": [
+     "SUMOC",
+     "Tesouro",
+     "Caixa de Amortização",
+     "BB"
+    ],
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   },
+   {
+    "tema": "Reforma cambial de 1957",
+    "termos": [
+     "Categoria geral",
+     "Categoria específica",
+     "Câmbio de custo",
+     "Instrução 167"
+    ],
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   },
+   {
+    "tema": "Programa de Estabilização",
+    "termos": [
+     "Lucas Lopes",
+     "Alckmin",
+     "Roberto Campos",
+     "Lúcio Meira"
+    ],
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   },
+   {
+    "tema": "Problemas do plano",
+    "termos": [
+     "Sobre-investimento",
+     "Capacidade ociosa",
+     "Endividamento externo",
+     "Termos de troca"
+    ],
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   }
+  ]
  }
 ]

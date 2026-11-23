@@ -418,5 +418,47 @@
     "fonte": "A Política Econômica na República Velha (1889-1930).md"
    }
   ]
+ },
+ {
+  "id": "lt-ec-plano-de-metas",
+  "materia": "Economia",
+  "titulo": "Do diagnóstico ao Plano de Metas",
+  "eventos": [
+   {
+    "ano": 1953,
+    "d": "1953",
+    "t": "Diagnóstico CEPAL-BNDE, uma das bases do futuro Plano de Metas",
+    "chave": "CEPAL-BNDE (1953)",
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   },
+   {
+    "ano": 1955,
+    "d": "1955",
+    "t": "Instrução 113 da SUMOC, ainda no governo Café Filho, autoriza importar equipamentos sem cobertura cambial",
+    "chave": "Instrução 113",
+    "fonte": "Pós-Guerra - Dutra, Vargas e Café Filho (1946-1955).md"
+   },
+   {
+    "ano": 1956,
+    "d": "1956",
+    "t": "JK cria o Conselho de Desenvolvimento, que elabora o Plano de Metas",
+    "chave": "Início de 1956",
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   },
+   {
+    "ano": 1957,
+    "d": "1957",
+    "t": "Reforma cambial simplifica a Instrução 70 e entra em vigor a lei do similar nacional (3.244)",
+    "chave": "3.244/1957",
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   },
+   {
+    "ano": 1958,
+    "d": "1958",
+    "t": "Inflação dispara a 24%, e Lucas Lopes assume a Fazenda com o Programa de Estabilização Monetária",
+    "chave": "24% (1958",
+    "fonte": "Governo JK e Plano de Metas (1956-1960).md"
+   }
+  ]
  }
 ]
