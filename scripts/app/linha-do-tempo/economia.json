@@ -460,5 +460,61 @@
     "fonte": "Governo JK e Plano de Metas (1956-1960).md"
    }
   ]
+ },
+ {
+  "id": "lt-ec-jango",
+  "materia": "Economia",
+  "titulo": "De Jânio ao golpe e às teorias da crise",
+  "eventos": [
+   {
+    "ano": 1961,
+    "d": "1961",
+    "t": "Instrução 204 da SUMOC tenta desvalorizar e unificar o câmbio, com letras de importação",
+    "chave": "Instrução 204 da SUMOC (1961)",
+    "fonte": "Governo Jânio Quadros e João Goulart - Estagnação, inflação e ruptura (1961-1964).md"
+   },
+   {
+    "ano": 1962,
+    "d": "1962",
+    "t": "Gabinete provisório de Hermes Lima vê o 13º salário frustrar o controle da inflação",
+    "chave": "13º salário",
+    "fonte": "Governo Jânio Quadros e João Goulart - Estagnação, inflação e ruptura (1961-1964).md"
+   },
+   {
+    "ano": 1963,
+    "d": "1963",
+    "t": "Plebiscito devolve o presidencialismo e Jango volta a ser Chefe de Governo",
+    "chave": "6 de janeiro de 1963",
+    "fonte": "Governo Jânio Quadros e João Goulart - Estagnação, inflação e ruptura (1961-1964).md"
+   },
+   {
+    "ano": 1964,
+    "d": "1964",
+    "t": "Lei de remessa de lucros é regulamentada com limite de 10% e o golpe militar põe fim à Terceira República",
+    "chave": "Janeiro de 1964",
+    "fonte": "Governo Jânio Quadros e João Goulart - Estagnação, inflação e ruptura (1961-1964).md"
+   },
+   {
+    "ano": 1968,
+    "d": "1968",
+    "t": "Furtado publica texto sobre subdesenvolvimento e estagnação da América Latina, base da tese estagnacionista",
+    "chave": "Furtado (1968",
+    "fonte": "Governo Jânio Quadros e João Goulart - Estagnação, inflação e ruptura (1961-1964).md"
+   },
+   {
+    "ano": 1972,
+    "d": "1972",
+    "t": "Tavares publica o texto sobre a substituição de importações ao capitalismo financeiro",
+    "chave": "Tavares (1972)",
+    "fonte": "Governo Jânio Quadros e João Goulart - Estagnação, inflação e ruptura (1961-1964).md"
+   },
+   {
+    "ano": 1982,
+    "d": "1982",
+    "t": "Tavares revisa suas teses e vê a crise dos anos 60 como crise cíclica endógena",
+    "chave": "Tavares (1982",
+    "fonte": "Governo Jânio Quadros e João Goulart - Estagnação, inflação e ruptura (1961-1964).md"
+   }
+  ]
  }
 ]
